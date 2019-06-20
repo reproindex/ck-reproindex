@@ -1,0 +1,19 @@
+{
+  "misc": {
+    "date": "20191117",
+    "date_print": "November 17, 2019",
+    "images": [
+      {
+        "file_url": "https://sc19.supercomputing.org/app/uploads/2018/11/ogimage_1200.png",
+        "width": 150
+      }
+    ],
+    "title": "Reproducibility initiative at SuperComputing'19",
+    "url": "https://sc19.supercomputing.org/submit/reproducibility-initiative/"
+  },
+  "tags": [
+    "events",
+    "events-conferences",
+    "events-upcoming"
+  ]
+}

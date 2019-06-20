@@ -7,7 +7,8 @@
     "images": [
       {
         "file": "results.png",
-        "url": "https://cknowledge.org/dashboard/request.asplos18"
+        "url": "https://cknowledge.org/dashboard/request.asplos18",
+        "width":300
       }
     ],
     "report_url": "https://portalparts.acm.org/3230000/3229762/fm/frontmatter.pdf",

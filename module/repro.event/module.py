@@ -157,6 +157,10 @@ def html(i):
     muid=d.get('module_uid','')
     muoa=d.get('module_uoa','')
 
+    url0=i.get('url','')
+    # ugly -> improve url clean up
+    urlc=url0.replace('events','components').replace('index.php','c.php') # Needed for components
+
     #Main
     title=llmisc.get('title','')
 
@@ -208,15 +212,15 @@ def html(i):
              x='<a href="'+event_url+'">Link</a>'
           h+='<b>Website:</b> '+x+'<br>\n'
 
-       x=deadline_p
-       if x=='': x=deadline
-       if x!='':
-          h+='<b>Deadline:</b> <span style="color:#7f0000";>'+x+'</span><br>\n'
-
        x=date_p
        if x=='': x=date
        if x!='':
           h+='<b>Date:</b> '+x+'<br>\n'
+
+       x=deadline_p
+       if x=='': x=deadline
+       if x!='':
+          h+='<b>Deadline:</b> <span style="color:#7f0000";>'+x+'</span><br>\n'
 
 #       x=llm.get('tags',[])
 #       if len(x)!='':
@@ -234,9 +238,24 @@ def html(i):
        if x!='':
           h+='<b>Report:</b> <a href="'+x+'">Link</a><br>\n'
 
+       x=llmisc.get('workflows',[])
+       if len(x)>0:
+          h+='<b>Workflows:</b><br>\n'
+          h+='<ul>\n'
+          for y in x:
+              yn=y.get('name','')
+              yc=y.get('cid','')
+
+              prfx=''
+              if not bscp: prfx='cid='
+              z=urlc+prfx+yc
+              h+='<li><a href="'+z+'">'+yn+'</a>\n'
+          h+='</ul>\n'
+
        x=llmisc.get('dashboard_url','')
        if x!='':
-          h+='<b>Live dashboard:</b> <a href="'+x+'">Link</a><br>\n'
+          y=llmisc.get('dashboard_note','')
+          h+='<b>Dashboard'+y+':</b> <a href="'+x+'">Link</a><br>\n'
 
        x=llmisc.get('notes','')
        if x!='':
@@ -328,7 +347,7 @@ def add(i):
 
     # Ask questions
     ##########################################################
-    r=ck.inp({'text':'Enter event tags without spaces and separated by comma (example: events,events-challenge): '})
+    r=ck.inp({'text':'Enter event tags without spaces and separated by comma (example: events,events-challenges): '})
     if r['return']>0: return r
     s=r['string'].strip().lower()
 
@@ -343,7 +362,7 @@ def add(i):
     ##########################################################
     r=ck.inp({'text':'Enter event URL: '})
     if r['return']>0: return r
-    misc['where_url']=r['string'].strip()
+    misc['url']=r['string'].strip()
 
     ##########################################################
     r=ck.inp({'text':'Enter date: '})

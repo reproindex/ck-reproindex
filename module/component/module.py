@@ -319,9 +319,17 @@ def get(i):
            for img in images:
                ifile=img.get('file','')
                iurl=img.get('url','')
+               iwidth=img.get('width','')
+               siwidth=''
+               if iwidth!='' and iwidth!=0:
+                  siwidth=' width="'+str(iwidth)+'")'
 
-               z=cfg['repo_url']+'/'+muoa+'/'+duoa+'/'+ifile
-               x='<img src="'+z+'" width="300">'
+               if ifile=='':
+                  z=img.get('file_url','')
+               else:
+                  z=cfg['repo_url']+'/'+muoa+'/'+duoa+'/'+ifile
+
+               x='<img src="'+z+'" '+siwidth+'>'
                y=x
                if iurl!='':
                   y='<a href="'+iurl+'">'+x+'</a>\n'

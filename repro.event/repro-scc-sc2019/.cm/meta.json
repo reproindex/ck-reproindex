@@ -1,0 +1,20 @@
+{
+  "misc": {
+    "dashboard_url": "http://cknowledge.org/dashboard/scc.sc19",
+    "dashboard_note": " (prototype)",
+    "date": "20191117",
+    "date_print": "November 17, 2019",
+    "title": "Student Cluster Competition at SuperComputing'19",
+    "images": [
+      {
+        "file_url": "http://www.studentclustercompetition.us/Images/cup.png"
+      }
+    ],
+    "url": "http://www.studentclustercompetition.us"
+  },
+  "tags": [
+    "events",
+    "events-competitions",
+    "events-upcoming"
+  ]
+}

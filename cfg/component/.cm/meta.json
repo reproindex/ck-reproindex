@@ -26,9 +26,11 @@
   "index_events": [
     {"name":"All", "id":"-"},
     {"name":"Upcoming", "id":"events-upcoming"},
-    {"name":"Challenges", "id":"events-challenges"},
-    {"name":"Tournaments", "id":"events-tournaments"},
     {"name":"Conferences", "id":"events-conferences"},
+    {"name":"Tournaments", "id":"events-tournaments"},
+    {"name":"Competitions", "id":"events-tournaments"},
+    {"name":"Benchmarking", "id":"events-benchmarking"},
+    {"name":"Challenges", "id":"events-challenges"},
     {"name":"Journals", "id":"events-journals"},
     {"name":"Workshops", "id":"events-workshops"}
   ]
