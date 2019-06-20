@@ -135,6 +135,8 @@ def html(i):
     scp=i.get('skip_cid_prefix','')
     bscp=(scp=="yes")
 
+    short=i.get('short','')
+
     single_entry=(i.get('number_of_entries','')==1)
 
     llm=d.get('meta',{})

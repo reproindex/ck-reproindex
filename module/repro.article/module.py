@@ -132,6 +132,8 @@ def html(i):
     scp=i.get('skip_cid_prefix','')
     bscp=(scp=="yes")
 
+    short=i.get('short','')
+
     llm=d.get('meta',{})
 
     llmisc=llm.get('misc',{})
@@ -196,123 +198,125 @@ def html(i):
        h+='<div id="ck_entries_space4"></div>\n'
        h+='<center>'+badges+'</center>\n'
 
-    h+='<div style="background-color:#efefef;margin:5px;padding:5px;">\n'
+    h1=''
+    if short!='yes':
+       h+='<div style="background-color:#efefef;margin:5px;padding:5px;">\n'
 
-    url0=i.get('url','')
-    urlc=url0.replace('index.php','c.php') # Needed for components
-#    x1=''
-#    x2=''
-#    if url0!='' and ruid!='':
-#       prfx=''
-#       if not bscp: prfx='cid='
-#       x1='<a href="'+url0+prfx+cfg['module_deps']['component.repo']+':'+ruid+'" target="_blank">'
-#       x2='</a>'
-#    h+='<b>Repo name:</b> '+x1+ruoa+x2+'<br>\n'
+       url0=i.get('url','')
+       urlc=url0.replace('index.php','c.php') # Needed for components
+#       x1=''
+#       x2=''
+#       if url0!='' and ruid!='':
+#          prfx=''
+#          if not bscp: prfx='cid='
+#          x1='<a href="'+url0+prfx+cfg['module_deps']['component.repo']+':'+ruid+'" target="_blank">'
+#          x2='</a>'
+#       h+='<b>Repo name:</b> '+x1+ruoa+x2+'<br>\n'
 
-    where_url=llmisc.get('where_url','')
-    if where!='':
-       x1=''
-       x2=''
-       if where_url!='':
-          x1='<a href="'+where_url+'">'
-          x2='</a>'
-       h+='<b>Where published:</b> '+x1+where+x2+'<br>\n'
+       where_url=llmisc.get('where_url','')
+       if where!='':
+          x1=''
+          x2=''
+          if where_url!='':
+             x1='<a href="'+where_url+'">'
+             x2='</a>'
+          h+='<b>Where published:</b> '+x1+where+x2+'<br>\n'
 
-    if paper_doi_url!='':
-       x=paper_doi_url
-       j=paper_doi_url.find('doi.org/')
-       if j>0: x=paper_doi_url[j+8:]
-       h+='<b>Article DOI:</b> <a href="'+paper_doi_url+'">'+x+'</a><br>\n'
+       if paper_doi_url!='':
+          x=paper_doi_url
+          j=paper_doi_url.find('doi.org/')
+          if j>0: x=paper_doi_url[j+8:]
+          h+='<b>Article DOI:</b> <a href="'+paper_doi_url+'">'+x+'</a><br>\n'
 
-    if paper_pdf_url!='':
-       h+='<b>Article:</b> <a href="'+paper_pdf_url+'">PDF</a><br>\n'
+       if paper_pdf_url!='':
+          h+='<b>Article:</b> <a href="'+paper_pdf_url+'">PDF</a><br>\n'
 
-    if artifact_doi_url!='':
-       x=artifact_doi_url
-       j=artifact_doi_url.find('doi.org/')
-       if j>0: x=artifact_doi_url[j+8:]
-       h+='<b>Artifact DOI:</b> <a href="'+artifact_doi_url+'">'+x+'</a><br>\n'
+       if artifact_doi_url!='':
+          x=artifact_doi_url
+          j=artifact_doi_url.find('doi.org/')
+          if j>0: x=artifact_doi_url[j+8:]
+          h+='<b>Artifact DOI:</b> <a href="'+artifact_doi_url+'">'+x+'</a><br>\n'
 
-    arts=llmisc.get('artifact_sources','')
-    arts_url=llmisc.get('artifact_sources_url','')
+       arts=llmisc.get('artifact_sources','')
+       arts_url=llmisc.get('artifact_sources_url','')
 
-    if arts_url!='':
-       x=arts_url
-       if arts!='': x=arts
-       h+='<b>Artifact Sources:</b> <a href="'+arts_url+'">'+x+'</a><br>\n'
+       if arts_url!='':
+          x=arts_url
+          if arts!='': x=arts
+          h+='<b>Artifact Sources:</b> <a href="'+arts_url+'">'+x+'</a><br>\n'
 
-    uaa=llmisc.get('unified_artifact_appendix','')
-    if uaa!='':
-       h+='<b>Unified artifact appendix:</b> <a href="'+uaa+'">Link</a><br>\n'
+       uaa=llmisc.get('unified_artifact_appendix','')
+       if uaa!='':
+          h+='<b>Unified artifact appendix:</b> <a href="'+uaa+'">Link</a><br>\n'
 
-    if workflow_url!='':
-       x=workflow_url
-       if workflow!='': 
-          x=workflow
-          if x=='CK': x='Link (CK)'
-       h+='<b>Automated workflow:</b> <a href="'+workflow_url+'">'+x+'</a><br>\n'
+       if workflow_url!='':
+          x=workflow_url
+          if workflow!='': 
+             x=workflow
+             if x=='CK': x='Link (CK)'
+          h+='<b>Automated workflow:</b> <a href="'+workflow_url+'">'+x+'</a><br>\n'
 
-    ck_repo_uid=llmisc.get('ck_repo_uid','')
-    if ck_repo_uid!='':
-       prfx=''
-       if not bscp: prfx='cid='
-       x=urlc+prfx+cfg['module_deps']['component.repo']+':'+ck_repo_uid
-       h+='<b>CK repository:</b> <a href="'+x+'">Index</a><br>\n'
+       ck_repo_uid=llmisc.get('ck_repo_uid','')
+       if ck_repo_uid!='':
+          prfx=''
+          if not bscp: prfx='cid='
+          x=urlc+prfx+cfg['module_deps']['component.repo']+':'+ck_repo_uid
+          h+='<b>CK repository:</b> <a href="'+x+'">Index</a><br>\n'
 
-    tasks=llmisc.get('tasks',{})
-    if len(tasks)>0:
-       h+='<b>Tasks (program workflows):</b><br>\n'
-       h+='<div style="margin-left:20px;">\n'
-       h+=' <ul>\n'
-       for tuid in tasks:
-           tt=tasks[tuid]
-           tuoa=tt.get('data_uoa','')
-           if tuoa!='':
-              prfx=''
-              if not bscp: prfx='cid='
-              x='<a href="'+urlc+prfx+cfg['module_deps']['component.program']+':'+tuid+'" target="_blank">'+tuoa+'</a>'
-              h+='  <li><span style="color:#2f0000;">'+x+'</li>\n'
+       tasks=llmisc.get('tasks',{})
+       if len(tasks)>0:
+          h+='<b>Tasks (program workflows):</b><br>\n'
+          h+='<div style="margin-left:20px;">\n'
+          h+=' <ul>\n'
+          for tuid in tasks:
+              tt=tasks[tuid]
+              tuoa=tt.get('data_uoa','')
+              if tuoa!='':
+                 prfx=''
+                 if not bscp: prfx='cid='
+                 x='<a href="'+urlc+prfx+cfg['module_deps']['component.program']+':'+tuid+'" target="_blank">'+tuoa+'</a>'
+                 h+='  <li><span style="color:#2f0000;">'+x+'</li>\n'
 
-       h+=' </ul>\n'
+          h+=' </ul>\n'
+          h+='</div>\n'
+
+       results=llmisc.get('results','')
+       results_url=llmisc.get('results_url','')
+       if results_url!='':
+          x=results_url
+          if results!='': x=results
+          h+='<b>Reproducible results:</b> <a href="'+results_url+'">'+x+'</a><br>\n'
+
+       some_results_replicated=llmisc.get('some_results_replicated','')
+       if some_results_replicated=='yes':
+          h+='<b>Some results replicated:</b> &#10004;<br>\n'
+
+       rurl=llmisc.get('reproducibility_url','')
+       if rurl!='':
+          h+='<b>Reproducibility (methodology):</b> yes (<a href="'+rurl+'">link</a>)<br>\n'
+
+       results_dashboard_url=llmisc.get('results_dashboard_url','')
+       if results_dashboard_url!='':
+          x=results_dashboard_url
+          j=x.find('://')
+          if j>=0:
+             x=x[j+3:]
+          h+='<b>Dashboard with results:</b> <a href="'+results_dashboard_url+'">'+x+'</a><br>\n'
+
        h+='</div>\n'
 
-    results=llmisc.get('results','')
-    results_url=llmisc.get('results_url','')
-    if results_url!='':
-       x=results_url
-       if results!='': x=results
-       h+='<b>Reproducible results:</b> <a href="'+results_url+'">'+x+'</a><br>\n'
+       # Extras
+       h1=''
 
-    some_results_replicated=llmisc.get('some_results_replicated','')
-    if some_results_replicated=='yes':
-       h+='<b>Some results replicated:</b> &#10004;<br>\n'
+       if paper_doi_url!='':
+          h1+='[&nbsp;<a href="'+paper_doi_url+'" target="_blank">paper</a>&nbsp;] \n'
 
-    rurl=llmisc.get('reproducibility_url','')
-    if rurl!='':
-       h+='<b>Reproducibility (methodology):</b> yes (<a href="'+rurl+'">link</a>)<br>\n'
-
-    results_dashboard_url=llmisc.get('results_dashboard_url','')
-    if results_dashboard_url!='':
-       x=results_dashboard_url
-       j=x.find('://')
-       if j>=0:
-          x=x[j+3:]
-       h+='<b>Dashboard with results:</b> <a href="'+results_dashboard_url+'">'+x+'</a><br>\n'
-
-    h+='</div>\n'
-
-    # Extras
-    h1=''
-
-    if paper_doi_url!='':
-       h1+='[&nbsp;<a href="'+paper_doi_url+'" target="_blank">paper</a>&nbsp;] \n'
-
-    ck_repo_uid=llmisc.get('ck_repo_uid','')
-    if ck_repo_uid!='':
-       prfx=''
-       if not bscp: prfx='cid='
-       x=urlc+prfx+cfg['module_deps']['component.repo']+':'+ck_repo_uid
-       h1+='[&nbsp;<a href="'+x+'" target="_blank">CK repository</a>&nbsp;] \n'
+       ck_repo_uid=llmisc.get('ck_repo_uid','')
+       if ck_repo_uid!='':
+          prfx=''
+          if not bscp: prfx='cid='
+          x=urlc+prfx+cfg['module_deps']['component.repo']+':'+ck_repo_uid
+          h1+='[&nbsp;<a href="'+x+'" target="_blank">CK repository</a>&nbsp;] \n'
 
     return {'return':0, 'html':h, 'html1':h1, 'article':article}
 

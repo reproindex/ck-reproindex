@@ -191,6 +191,8 @@ def html(i):
     repo_url2=llmisc.get('repo_url2','')
     repo_url3=llmisc.get('repo_url3','')
 
+    short=i.get('short','')
+
     # Removing everything before tree
     url=repo_url3
     j=url.find('/tree/')
@@ -218,7 +220,7 @@ def html(i):
        h+='</div>\n'
 
     to_get=llmisc.get('to_get','')
-    if to_get!='':
+    if to_get!='' and short!='yes':
        h+='<b>How to get:</b>\n'
        h+='<div style="margin-left:20px;">\n'
        h+='<span style="color:#2f0000">'+to_get+'</span><br>\n'
@@ -231,7 +233,7 @@ def html(i):
        h+=' '+workflow_desc+'\n'
        h+='</div>\n'
 
-    if len(repo_deps)>0:
+    if len(repo_deps)>0 and short!='yes':
        h+='<b>Dependencies on other repositories:</b><br>\n'
        h+='<div style="margin-left:20px;">\n'
        h+=' <ul>\n'

@@ -39,7 +39,8 @@ def get(i):
               (web_vars_post)
               (web_vars_get)
               (web_vars_session)
-              (skip_cid_predix) - if 'yes', skip "?cid=" prefix when creating URLs
+              (skip_cid_predix)   - if 'yes', skip "?cid=" prefix when creating URLs
+              (short)             - if 'yes', just short info
             }
 
     Output: {
@@ -64,6 +65,8 @@ def get(i):
 
     scp=i.get('skip_cid_prefix','')
     bscp=(scp=="yes")
+
+    short=i.get('short','')
 
     wv=copy.deepcopy(wvp)
     wv.update(wvg)
@@ -93,13 +96,16 @@ def get(i):
     url0=url
 
     # Check article
-    a=wv.get('a','')
+    a=i.get('a','')
+    if a=='': a=wv.get('a','')
 
     # Check event
-    e=wv.get('e','')
+    e=i.get('e','')
+    if e=='': e=wv.get('e','')
 
     # Check component and prepare selector
-    c=wv.get('c','')
+    c=i.get('c','')
+    if c=='': c=wv.get('c','')
     if c=='': c='repo'
 
     c_uid='component.module' # Selected UID
@@ -139,7 +145,8 @@ def get(i):
     if r.get('url','')!='' and r.get('url','')!=url: url=r['url']
 
     # Check if CID
-    cid=wv.get('cid','')
+    cid=i.get('cid','')
+    if cid=='': cid=wv.get('cid','')
     d_uoa=''
     if cid!='':
        r=ck.parse_cid({'cid':cid})
@@ -224,7 +231,7 @@ def get(i):
     x=''
     if llst==0 or llst>1: x='s'
 
-    if llst!=1:
+    if llst!=1 and short!='yes':
        h+='<center>'+str(llst)+' result'+x+' ('+("%.3f" % float(ep))+' seconds)<br></center>\n'
 
     # List
@@ -244,6 +251,8 @@ def get(i):
         llmisc=llm.get('misc',{})
 
         duoa=llmisc.get('data_uoa','')
+        if duoa=='':
+           duoa=ll['data_uoa']
         duid=llmisc.get('data_uid','')
         if duid=='':
            duid=ll['data_uid']
@@ -256,6 +265,7 @@ def get(i):
                      'dict':ll,
                      'url':url0,
                      'skip_cid_prefix':scp,
+                     'short':short,
                      'number_of_entries':number_of_entries})
         if r['return']>0: return r
 
@@ -279,32 +289,37 @@ def get(i):
            else:
               h+=xurl1+muoa+':'+duoa+xurl2+'\n'
         else:
+           x=''
+           if short!='yes':
+              x=str(jj)+') '
+
            if article!='':
-              h+=str(jj)+') '+xurl1+article+xurl2+'\n'
+              h+=x+xurl1+article+xurl2+'\n'
            else:
-              h+=str(jj)+') '+xurl1+duoa+xurl2+'\n'
+              h+=x+xurl1+duoa+xurl2+'\n'
 
         h+=hh
 
         # Extra links
         url_help=cfg['url_ck_github_components']+cfg['module_deps']['module']+'_'+orig_module_uid
 
-        h+='<div id="ck_entries_space4"></div>\n'
-        h+='<div id="ck_downloads">\n'
+        if short!='yes':
+           h+='<div id="ck_entries_space4"></div>\n'
+           h+='<div id="ck_downloads">\n'
 
-        if orig_module_uid!='':
-           h+='[&nbsp;<a href="'+url_help+'" target="_blank">help</a>&nbsp;] \n'
+           if orig_module_uid!='':
+              h+='[&nbsp;<a href="'+url_help+'" target="_blank">help</a>&nbsp;] \n'
 
-        if c=='article' or c=='event':
-           y=cfg['url_rr_github_components2']
-        else:
-           y=cfg['url_rr_github_components']
-        h+='[&nbsp;<a href="'+y+'.'+c+'/'+duoa+'/.cm/meta.json" target="_blank">JSON meta</a>&nbsp;]&nbsp;&nbsp; \n'
+           if c=='article' or c=='event':
+              y=cfg['url_rr_github_components2']
+           else:
+              y=cfg['url_rr_github_components']
+           h+='[&nbsp;<a href="'+y+'.'+c+'/'+duoa+'/.cm/meta.json" target="_blank">JSON meta</a>&nbsp;]&nbsp;&nbsp; \n'
 
-        if hh1!='':
-           h+=hh1
+           if hh1!='':
+              h+=hh1
 
-        h+='</div>\n'
+           h+='</div>\n'
 
         h+='</div>\n'
 
