@@ -1,0 +1,22 @@
+{
+  "misc": {
+    "date": "20180324",
+    "date_print": "March 24, 2018",
+    "digital_library_url": "https://doi.org/10.1145/3229762",
+    "dashboard_url": "https://cknowledge.org/dashboard/request.asplos18",
+    "images": [
+      {
+        "file": "results.png",
+        "url": "https://cknowledge.org/dashboard/request.asplos18"
+      }
+    ],
+    "report_url": "https://portalparts.acm.org/3230000/3229762/fm/frontmatter.pdf",
+    "reproduced_papers_tags": "papers-request-asplos-2018",
+    "title": "The 1st Reproducible Tournament on Pareto-efficient Image Classification",
+    "url": "https://cknowledge.org/request-cfp-asplos2018.html"
+  },
+  "tags": [
+    "events",
+    "events-tournaments"
+  ]
+}

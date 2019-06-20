@@ -180,18 +180,23 @@ def html(i):
 
     badges=''
     if baaa!='':
-       badges+=' <a href="http://cTuning.org/ae/reviewing.html"><img src="https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_available_dl.jpg" width="64"></a>'
+       badges+=' <a href="http://cTuning.org/ae/reviewing.html#artifacts_available"><img src="https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_available_dl.jpg" width="64"></a>'
     if baaf!='':
-       badges+=' <a href="http://cTuning.org/ae/reviewing.html"><img src="https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_evaluated_functional_dl.jpg" width="64"></a>'
+       badges+=' <a href="http://cTuning.org/ae/reviewing.html#artifacts_functional"><img src="https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_evaluated_functional_dl.jpg" width="64"></a>'
     if baar!='':
-       badges+=' <a href="http://cTuning.org/ae/reviewing.html"><img src="https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_evaluated_reusable_dl.jpg" width="64"></a>'
+       badges+=' <a href="http://cTuning.org/ae/reviewing.html#artifacts_reusable"><img src="https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_evaluated_reusable_dl.jpg" width="64"></a>'
     if barr!='':
-       badges+=' <a href="http://cTuning.org/ae/reviewing.html"><img src="https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/results_reproduced_dl.jpg" width="64"></a>'
+       badges+=' <a href="http://cTuning.org/ae/reviewing.html#results_validated"><img src="https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/results_reproduced_dl.jpg" width="64"></a>'
     if barp!='':
-       badges+=' <a href="http://cTuning.org/ae/reviewing.html"><img src="https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/results_replicated_dl.jpg" width="64"></a>'
+       badges+=' <a href="http://cTuning.org/ae/reviewing.html#results_validated"><img src="https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/results_replicated_dl.jpg" width="64"></a>'
 
     if workflow.lower()=='ck':
-       badges+=' <a href="http://cKnowledge.org"><img src="http://ctuning.org/ae/stamps/ck-workflow.png" width="100"></a>'
+       x1=''
+       x2=''
+       if workflow_url!='':
+          x1='<a href="'+workflow_url+'">'
+          x2='</a>'
+       badges+=' '+x1+'<img src="https://ctuning.org/ae/stamps/ck-workflow.png" width="100">'+x2
 
 
     if badges!='':
@@ -237,35 +242,41 @@ def html(i):
           if j>0: x=artifact_doi_url[j+8:]
           h+='<b>Artifact DOI:</b> <a href="'+artifact_doi_url+'">'+x+'</a><br>\n'
 
+       uaa=llmisc.get('unified_artifact_appendix','')
+       if uaa!='':
+          h+='<b>Unified artifact appendix:</b> <a href="'+uaa+'">Link</a><br>\n'
+
        arts=llmisc.get('artifact_sources','')
        arts_url=llmisc.get('artifact_sources_url','')
 
        if arts_url!='':
           x=arts_url
           if arts!='': x=arts
-          h+='<b>Artifact Sources:</b> <a href="'+arts_url+'">'+x+'</a><br>\n'
+          h+='<b>Artifact before standardization:</b> <a href="'+arts_url+'">'+x+'</a><br>\n'
 
-       uaa=llmisc.get('unified_artifact_appendix','')
-       if uaa!='':
-          h+='<b>Unified artifact appendix:</b> <a href="'+uaa+'">Link</a><br>\n'
 
        if workflow_url!='':
           x=workflow_url
+          y='Automated workflow'
           if workflow!='': 
              x=workflow
-             if x=='CK': x='Link (CK)'
-          h+='<b>Automated workflow:</b> <a href="'+workflow_url+'">'+x+'</a><br>\n'
+             if x=='CK': 
+                x='Link'
+                y='Standardized CK workflow'
+          h+='<b>'+y+':</b> <a href="'+workflow_url+'">'+x+'</a>\n'
 
-       ck_repo_uid=llmisc.get('ck_repo_uid','')
-       if ck_repo_uid!='':
-          prfx=''
-          if not bscp: prfx='cid='
-          x=urlc+prfx+cfg['module_deps']['component.repo']+':'+ck_repo_uid
-          h+='<b>CK repository:</b> <a href="'+x+'">Index</a><br>\n'
+          ck_repo_uid=llmisc.get('ck_repo_uid','')
+          if ck_repo_uid!='':
+             prfx=''
+             if not bscp: prfx='cid='
+             x=urlc+prfx+cfg['module_deps']['component.repo']+':'+ck_repo_uid
+             h+=' (<a href="'+x+'">ReproIndex</a>)\n'
+
+          h+='<br>\n'
 
        tasks=llmisc.get('tasks',{})
        if len(tasks)>0:
-          h+='<b>Tasks (program workflows):</b><br>\n'
+          h+='<b>Standardized CK pipelines (programs):</b><br>\n'
           h+='<div style="margin-left:20px;">\n'
           h+=' <ul>\n'
           for tuid in tasks:
@@ -293,7 +304,10 @@ def html(i):
 
        rurl=llmisc.get('reproducibility_url','')
        if rurl!='':
-          h+='<b>Reproducibility (methodology):</b> yes (<a href="'+rurl+'">link</a>)<br>\n'
+          x='Link'
+          if 'acm' in rurl.lower() or 'ctuning' in rurl.lower():
+             x='ACM and cTuning'
+          h+='<b>Reproducible  methodology:</b> <a href="'+rurl+'">'+x+'</a><br>\n'
 
        results_dashboard_url=llmisc.get('results_dashboard_url','')
        if results_dashboard_url!='':
@@ -311,12 +325,12 @@ def html(i):
        if paper_doi_url!='':
           h1+='[&nbsp;<a href="'+paper_doi_url+'" target="_blank">paper</a>&nbsp;] \n'
 
-       ck_repo_uid=llmisc.get('ck_repo_uid','')
-       if ck_repo_uid!='':
-          prfx=''
-          if not bscp: prfx='cid='
-          x=urlc+prfx+cfg['module_deps']['component.repo']+':'+ck_repo_uid
-          h1+='[&nbsp;<a href="'+x+'" target="_blank">CK repository</a>&nbsp;] \n'
+#       ck_repo_uid=llmisc.get('ck_repo_uid','')
+#       if ck_repo_uid!='':
+#          prfx=''
+#          if not bscp: prfx='cid='
+#          x=urlc+prfx+cfg['module_deps']['component.repo']+':'+ck_repo_uid
+#          h1+='[&nbsp;<a href="'+x+'" target="_blank">CK repository</a>&nbsp;] \n'
 
     return {'return':0, 'html':h, 'html1':h1, 'article':article}
 

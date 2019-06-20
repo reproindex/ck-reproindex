@@ -1,0 +1,16 @@
+{
+  "misc": {
+    "date": "20190216",
+    "date_print": "February 16, 2019",
+    "reproduced_papers_tags": "papers-ppopp-2019",
+    "title": "Artifact Evaluation at PPoPP'19",
+    "url": "https://cTuning.org/ae/ppopp2019.html",
+    "digital_library_url": "https://doi.org/10.1145/3229762",
+    "report_url": "https://medium.com/@gfursin/acm-ppopp19-artifact-evaluation-report-and-hotcrp-configuration-f529134ab17c",
+    "notes": "a new record with 20 papers participating in the reproducitility initiative out of the 29 accepted papers or ~70%, with a dramatic increase from ~30% for PPoPP'15"
+  },
+  "tags": [
+    "events",
+    "events-conferences"
+  ]
+}

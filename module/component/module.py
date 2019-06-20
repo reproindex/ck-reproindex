@@ -203,6 +203,13 @@ def get(i):
     lst=r['lst']
     ep=r['elapsed_time']
 
+    # Check if skip
+    lst1=[]
+    for l in lst:
+        if l['meta'].get('skip','')!='yes':
+           lst1.append(l)
+    lst=lst1
+
     # Extra processing if article and selector != ""
     if c=='article' or c=='event':
        if selector=='-': selector=''
@@ -250,6 +257,8 @@ def get(i):
 
         llmisc=llm.get('misc',{})
 
+        images=llmisc.get('images',[])
+
         duoa=llmisc.get('data_uoa','')
         if duoa=='':
            duoa=ll['data_uoa']
@@ -258,7 +267,10 @@ def get(i):
            duid=ll['data_uid']
 
         muid=llmisc.get('module_uid','')
+
         muoa=llmisc.get('module_uoa','')
+        if muoa=='':
+           muoa=ll['module_uoa']
 
         r=ck.access({'action':'html',
                      'module_uoa':c_uid,
@@ -300,6 +312,23 @@ def get(i):
 
         h+=hh
 
+        # Images
+        if len(images)>0:
+           h+='<center>'
+
+           for img in images:
+               ifile=img.get('file','')
+               iurl=img.get('url','')
+
+               z=cfg['repo_url']+'/'+muoa+'/'+duoa+'/'+ifile
+               x='<img src="'+z+'" width="300">'
+               y=x
+               if iurl!='':
+                  y='<a href="'+iurl+'">'+x+'</a>\n'
+               h+=y
+
+           h+='</center>'
+
         # Extra links
         url_help=cfg['url_ck_github_components']+cfg['module_deps']['module']+'_'+orig_module_uid
 
@@ -308,13 +337,13 @@ def get(i):
            h+='<div id="ck_downloads">\n'
 
            if orig_module_uid!='':
-              h+='[&nbsp;<a href="'+url_help+'" target="_blank">help</a>&nbsp;] \n'
+              h+='[&nbsp;<a href="'+url_help+'" target="_blank">How to use</a>&nbsp;]&nbsp;\n'
 
            if c=='article' or c=='event':
               y=cfg['url_rr_github_components2']
            else:
               y=cfg['url_rr_github_components']
-           h+='[&nbsp;<a href="'+y+'.'+c+'/'+duoa+'/.cm/meta.json" target="_blank">JSON meta</a>&nbsp;]&nbsp;&nbsp; \n'
+           h+='[&nbsp;<a href="'+y+'.'+c+'/'+ll['data_uoa']+'/.cm/meta.json" target="_blank">ReproIndex JSON meta</a>&nbsp;]&nbsp;\n'
 
            if hh1!='':
               h+=hh1

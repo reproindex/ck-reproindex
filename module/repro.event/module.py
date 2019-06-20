@@ -1,5 +1,5 @@
 #
-# Collective Knowledge (index of reproducible articles)
+# Collective Knowledge (index of reproducible events)
 #
 # See CK LICENSE.txt for licensing details
 # See CK COPYRIGHT.txt for copyright details
@@ -169,7 +169,15 @@ def html(i):
     h=''
 
     # Check if in sinlge_entry mode and check if there is an html file
-    if single_entry:
+    p=d['path']
+    s=''
+    ff=os.path.join(p, 'info.html')
+    if os.path.isfile(ff):
+       r=ck.load_text_file({'text_file':ff})
+       if r['return']==0:
+          s=r['string'].strip()
+
+    if single_entry and s!='':
        article='-'
 
        if title!='':
@@ -180,13 +188,7 @@ def html(i):
              x2='</center></h2>'
           h+=x1+title+x2
 
-       p=d['path']
-       ff=os.path.join(p, 'info.html')
-       if os.path.isfile(ff):
-          r=ck.load_text_file({'text_file':ff})
-          if r['return']==0:
-             s=r['string'].strip()
-             h+='\n<p>'+s+'\n'
+          h+='\n<p>'+s+'\n'
     else:
        article=title
 
@@ -216,13 +218,29 @@ def html(i):
        if x!='':
           h+='<b>Date:</b> '+x+'<br>\n'
 
-       x=llm.get('tags',[])
-       if len(x)!='':
-          h+='<b>CK tags:</b> '+','.join(x)+'<br>\n'
+#       x=llm.get('tags',[])
+#       if len(x)!='':
+#          h+='<b>CK tags:</b> '+','.join(x)+'<br>\n'
 
        x=llmisc.get('reproduced_papers_tags','')
        if x!='':
-          h+='<b>Reproduced papers:</b> <a href="/papers/&a='+x+'">Link</a>\n'
+          h+='<b>Reproduced papers:</b> <a href="/papers/&a='+x+'">Link</a><br>\n'
+
+       x=llmisc.get('digital_library_url','')
+       if x!='':
+          h+='<b>Digital library:</b> <a href="'+x+'">Link</a><br>\n'
+
+       x=llmisc.get('report_url','')
+       if x!='':
+          h+='<b>Report:</b> <a href="'+x+'">Link</a><br>\n'
+
+       x=llmisc.get('dashboard_url','')
+       if x!='':
+          h+='<b>Live dashboard:</b> <a href="'+x+'">Link</a><br>\n'
+
+       x=llmisc.get('notes','')
+       if x!='':
+          h+='<b>Notes:</b> <i>'+x+'</i><br>\n'
 
        h+='</div>\n'
 

@@ -215,9 +215,9 @@ def html(i):
     h1=''
 
     if repo_url3!='':
-       h1+='[&nbsp;<a href="'+repo_url3+'" target="_blank">detection plugin</a>&nbsp;] \n'
+       h1+='[&nbsp;<a href="'+repo_url3+'" target="_blank">CK code</a>&nbsp;] \n'
     if repo_url2!='':
-       h1+='[&nbsp;<a href="'+repo_url2+'" target="_blank">meta</a>&nbsp;]\n'
+       h1+='[&nbsp;<a href="'+repo_url2+'" target="_blank">CK meta</a>&nbsp;]\n'
 
     return {'return':0, 'html':h, 'html1':h1}
 
