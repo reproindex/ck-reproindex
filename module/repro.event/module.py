@@ -146,29 +146,38 @@ def html(i):
     repo_url2=llmisc.get('repo_url2','')
     repo_url3=llmisc.get('repo_url3','')
 
-    duoa=llmisc.get('data_uoa','')
-    duid=llmisc.get('data_uid','')
+    duoa=d.get('data_uoa','')
+    duid=d.get('data_uid','')
 
-    ruoa=llmisc.get('repo_uoa','')
-    ruid=llmisc.get('repo_uid','')
+    ruoa=d.get('repo_uoa','')
+    ruid=d.get('repo_uid','')
 
-    muid=llmisc.get('module_uid','')
-    muoa=llmisc.get('module_uoa','')
+    muid=d.get('module_uid','')
+    muoa=d.get('module_uoa','')
 
     #Main
     title=llmisc.get('title','')
-    authors=llmisc.get('authors','')
-    where=llmisc.get('where','')
-    paper_pdf_url=llmisc.get('paper_pdf_url','')
-    paper_doi_url=llmisc.get('paper_doi_url','')
-    artifact_doi_url=llmisc.get('artifact_doi_url','')
 
-    workflow=llmisc.get('workflow','')
-    workflow_url=llmisc.get('workflow_url','')
+    date=llmisc.get('date','')
+    date_p=llmisc.get('date_print','')
+
+    deadline=llmisc.get('deadline','')
+    deadline_p=llmisc.get('deadline_print','')
+
+    h=''
 
     # Check if in sinlge_entry mode and check if there is an html file
-    h=''
     if single_entry:
+       article='-'
+
+       if title!='':
+          x1='<b>'
+          x2='</b>'
+          if single_entry:
+             x1='<h2><center>'
+             x2='</center></h2>'
+          h+=x1+title+x2
+
        p=d['path']
        ff=os.path.join(p, 'info.html')
        if os.path.isfile(ff):
@@ -176,157 +185,47 @@ def html(i):
           if r['return']==0:
              s=r['string'].strip()
              h+='\n<p>'+s+'\n'
+    else:
+       article=title
 
-
-    article=''
-    if title!='':
-       x1='<b>'
-       x2='</b>'
-       if single_entry:
-          x1='<h2><center>'
-          x2='</center></h2>'
-       article=x1+title+x2
-
-    if authors!='':
        h+='<div id="ck_entries_space4"></div>\n'
-       h+='<i>'+authors+'</i>\n'
 
-    baaa=llmisc.get('badge_acm_artifact_available','')
-    baaf=llmisc.get('badge_acm_artifact_functional','')
-    baar=llmisc.get('badge_acm_artifact_reusable','')
-    barr=llmisc.get('badge_acm_results_reproduced','')
-    barp=llmisc.get('badge_acm_results_replicated','')
+       h+='<div style="background-color:#efefef;margin:5px;padding:5px;">\n'
 
-    badges=''
-    if baaa!='':
-       badges+=' <a href="http://cTuning.org/ae/reviewing.html"><img src="https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_available_dl.jpg" width="64"></a>'
-    if baaf!='':
-       badges+=' <a href="http://cTuning.org/ae/reviewing.html"><img src="https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_evaluated_functional_dl.jpg" width="64"></a>'
-    if baar!='':
-       badges+=' <a href="http://cTuning.org/ae/reviewing.html"><img src="https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_evaluated_reusable_dl.jpg" width="64"></a>'
-    if barr!='':
-       badges+=' <a href="http://cTuning.org/ae/reviewing.html"><img src="https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/results_reproduced_dl.jpg" width="64"></a>'
-    if barp!='':
-       badges+=' <a href="http://cTuning.org/ae/reviewing.html"><img src="https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/results_replicated_dl.jpg" width="64"></a>'
+       event_url=llmisc.get('url','')
+       if event_url=='':
+          if llmisc.get('use_self_url','')=='yes':
+             event_url='/event/'+duoa
 
-    if workflow.lower()=='ck':
-       badges+=' <a href="http://cKnowledge.org"><img src="http://ctuning.org/ae/stamps/ck-workflow.png" width="100"></a>'
+       if event_url!='':
+          if event_url.lower()=='tba':
+             x='TBA'
+          else:
+             x='<a href="'+event_url+'">Link</a>'
+          h+='<b>Website:</b> '+x+'<br>\n'
 
+       x=deadline_p
+       if x=='': x=deadline
+       if x!='':
+          h+='<b>Deadline:</b> <span style="color:#7f0000";>'+x+'</span><br>\n'
 
-    if badges!='':
-       h+='<div id="ck_entries_space4"></div>\n'
-       h+='<center>'+badges+'</center>\n'
+       x=date_p
+       if x=='': x=date
+       if x!='':
+          h+='<b>Date:</b> '+x+'<br>\n'
 
-    h+='<div style="background-color:#efefef;margin:5px;padding:5px;">\n'
+       x=llm.get('tags',[])
+       if len(x)!='':
+          h+='<b>CK tags:</b> '+','.join(x)+'<br>\n'
 
-    url0=i.get('url','')
-    urlc=url0.replace('index.php','c.php') # Needed for components
-#    x1=''
-#    x2=''
-#    if url0!='' and ruid!='':
-#       prfx=''
-#       if not bscp: prfx='cid='
-#       x1='<a href="'+url0+prfx+cfg['module_deps']['component.repo']+':'+ruid+'" target="_blank">'
-#       x2='</a>'
-#    h+='<b>Repo name:</b> '+x1+ruoa+x2+'<br>\n'
+       x=llmisc.get('reproduced_papers_tags','')
+       if x!='':
+          h+='<b>Reproduced papers:</b> <a href="/papers/&a='+x+'">Link</a>\n'
 
-    where_url=llmisc.get('where_url','')
-    if where!='':
-       x1=''
-       x2=''
-       if where_url!='':
-          x1='<a href="'+where_url+'">'
-          x2='</a>'
-       h+='<b>Where published:</b> '+x1+where+x2+'<br>\n'
-
-    if paper_doi_url!='':
-       x=paper_doi_url
-       j=paper_doi_url.find('doi.org/')
-       if j>0: x=paper_doi_url[j+8:]
-       h+='<b>Article DOI:</b> <a href="'+paper_doi_url+'">'+x+'</a><br>\n'
-
-    if paper_pdf_url!='':
-       h+='<b>Article:</b> <a href="'+paper_pdf_url+'">PDF</a><br>\n'
-
-    if artifact_doi_url!='':
-       x=artifact_doi_url
-       j=artifact_doi_url.find('doi.org/')
-       if j>0: x=artifact_doi_url[j+8:]
-       h+='<b>Artifact DOI:</b> <a href="'+artifact_doi_url+'">'+x+'</a><br>\n'
-
-    arts=llmisc.get('artifact_sources','')
-    arts_url=llmisc.get('artifact_sources_url','')
-
-    if arts_url!='':
-       x=arts_url
-       if arts!='': x=arts
-       h+='<b>Artifact Sources:</b> <a href="'+arts_url+'">'+x+'</a><br>\n'
-
-    uaa=llmisc.get('unified_artifact_appendix','')
-    if uaa!='':
-       h+='<b>Unified artifact appendix:</b> <a href="'+uaa+'">Link</a><br>\n'
-
-    if workflow_url!='':
-       x=workflow_url
-       if workflow!='': 
-          x=workflow
-          if x=='CK': x='Link (CK)'
-       h+='<b>Automated workflow:</b> <a href="'+workflow_url+'">'+x+'</a><br>\n'
-
-    ck_repo_uid=llmisc.get('ck_repo_uid','')
-    if ck_repo_uid!='':
-       prfx=''
-       if not bscp: prfx='cid='
-       x=urlc+prfx+cfg['module_deps']['component.repo']+':'+ck_repo_uid
-       h+='<b>CK repository:</b> <a href="'+x+'">Index</a><br>\n'
-
-    tasks=llmisc.get('tasks',{})
-    if len(tasks)>0:
-       h+='<b>Tasks (program workflows):</b><br>\n'
-       h+='<div style="margin-left:20px;">\n'
-       h+=' <ul>\n'
-       for tuid in tasks:
-           tt=tasks[tuid]
-           tuoa=tt.get('data_uoa','')
-           if tuoa!='':
-              prfx=''
-              if not bscp: prfx='cid='
-              x='<a href="'+urlc+prfx+cfg['module_deps']['component.program']+':'+tuid+'" target="_blank">'+tuoa+'</a>'
-              h+='  <li><span style="color:#2f0000;">'+x+'</li>\n'
-
-       h+=' </ul>\n'
        h+='</div>\n'
-
-    results=llmisc.get('results','')
-    results_url=llmisc.get('results_url','')
-    if results_url!='':
-       x=results_url
-       if results!='': x=results
-       h+='<b>Reproducible results:</b> <a href="'+results_url+'">'+x+'</a><br>\n'
-
-    some_results_replicated=llmisc.get('some_results_replicated','')
-    if some_results_replicated=='yes':
-       h+='<b>Some results replicated:</b> &#10004;<br>\n'
-
-    rurl=llmisc.get('reproducibility_url','')
-    if rurl!='':
-       h+='<b>Reproducibility (methodology):</b> yes (<a href="'+rurl+'">link</a>)<br>\n'
-
-    results_dashboard_url=llmisc.get('results_dashboard_url','')
-    if results_dashboard_url!='':
-       x=results_dashboard_url
-       j=x.find('://')
-       if j>=0:
-          x=x[j+3:]
-       h+='<b>Dashboard with results:</b> <a href="'+results_dashboard_url+'">'+x+'</a><br>\n'
-
-    h+='</div>\n'
 
     # Extras
     h1=''
-
-    if paper_doi_url!='':
-       h1+='[&nbsp;<a href="'+paper_doi_url+'" target="_blank">paper</a>&nbsp;] \n'
 
     ck_repo_uid=llmisc.get('ck_repo_uid','')
     if ck_repo_uid!='':

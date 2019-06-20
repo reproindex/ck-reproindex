@@ -95,6 +95,9 @@ def get(i):
     # Check article
     a=wv.get('a','')
 
+    # Check event
+    e=wv.get('e','')
+
     # Check component and prepare selector
     c=wv.get('c','')
     if c=='': c='repo'
@@ -117,11 +120,11 @@ def get(i):
     if c=='article':
        di=rd.get('index_articles',[])
        selector=a
-       selector_key='a'
+       selector_key='p'
     elif c=='event':
        di=rd.get('index_events',[])
-       selector=a
-       selector_key='a'
+       selector=e
+       selector_key='e'
     else:
        di=rd.get('index',[])
        selector=c
@@ -176,6 +179,8 @@ def get(i):
     if ilength!=dlength:
        url+='&l='+str(ilength)
 
+    h=''
+
     # Search via CK
     ii={"action":"list",
         "module_uoa":c_uid,
@@ -192,7 +197,7 @@ def get(i):
     ep=r['elapsed_time']
 
     # Extra processing if article and selector != ""
-    if c=='article':
+    if c=='article' or c=='event':
        if selector=='-': selector=''
        if selector!='':
           lselector=selector.split(',')
@@ -203,8 +208,13 @@ def get(i):
                   if ll in tags:
                      lst1.append(l)
           lst=lst1
+
+    if c=='article':
        # Sort by title
        lst=sorted(lst, key=lambda x: (x.get('meta',{}).get('misc',{}).get('title','').lower()))
+    elif c=='event':
+       # Sort by date
+       lst=sorted(lst, key=lambda x: x.get('meta',{}).get('misc',{}).get('date','').lower(), reverse=True)
     else:
        # Sort by data alias
        lst=sorted(lst, key=lambda x: x.get('meta',{}).get('misc',{}).get('data_uoa','').lower())
@@ -213,9 +223,9 @@ def get(i):
 
     x=''
     if llst==0 or llst>1: x='s'
-    h=''
+
     if llst!=1:
-       h='<center>'+str(llst)+' result'+x+' ('+("%.3f" % float(ep))+' seconds)<br></center>\n'
+       h+='<center>'+str(llst)+' result'+x+' ('+("%.3f" % float(ep))+' seconds)<br></center>\n'
 
     # List
     j1=(ipage-1)*ilength
@@ -264,7 +274,8 @@ def get(i):
 
         if llst==1:
            if article!='':
-              h+=xurl1+article+xurl2+'\n'
+              if article!='-':
+                 h+=xurl1+article+xurl2+'\n'
            else:
               h+=xurl1+muoa+':'+duoa+xurl2+'\n'
         else:
@@ -288,7 +299,7 @@ def get(i):
            y=cfg['url_rr_github_components2']
         else:
            y=cfg['url_rr_github_components']
-        h+='[&nbsp;<a href="'+y+'.'+c+'/'+duid+'/.cm/meta.json" target="_blank">index</a>&nbsp;]&nbsp;&nbsp; \n'
+        h+='[&nbsp;<a href="'+y+'.'+c+'/'+duoa+'/.cm/meta.json" target="_blank">JSON meta</a>&nbsp;]&nbsp;&nbsp; \n'
 
         if hh1!='':
            h+=hh1

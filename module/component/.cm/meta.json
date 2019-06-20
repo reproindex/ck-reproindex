@@ -16,6 +16,6 @@
     "module": "032630d041b4fd8a"
   },
   "url_ck_github_components": "https://github.com/ctuning/ck/wiki/ckb_",
-  "url_rr_github_components": "https://github.com/ctuning/reproindex/tree/master/component",
-  "url_rr_github_components2": "https://github.com/ctuning/reproindex/tree/master/repro"
+  "url_rr_github_components": "https://github.com/reproindex/ck-reproindex/tree/master/component",
+  "url_rr_github_components2": "https://github.com/reproindex/ck-reproindex/tree/master/repro"
 }
