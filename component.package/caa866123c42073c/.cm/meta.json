@@ -1,0 +1,93 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "git_src_dir": "src",
+      "install_env": {
+        "CLBLAST_BRANCH": "mali-overlay",
+        "CLBLAST_URL": "https://github.com/intelfx/CLBlast"
+      },
+      "use_git_revision": "yes",
+      "version": "mali-overlay"
+    },
+    "deps": {
+      "clblast": {
+        "local": "yes",
+        "name": "CLBlast library (development)",
+        "sort": 30,
+        "tags": "lib,opencl-blas,clblast,vdev"
+      },
+      "cmake": {
+        "local": "yes",
+        "name": "cmake",
+        "sort": 5,
+        "tags": "tool,cmake"
+      },
+      "compiler": {
+        "local": "yes",
+        "name": "C++ compiler",
+        "sort": 10,
+        "tags": "compiler,lang-cpp"
+      },
+      "opencl": {
+        "local": "yes",
+        "name": "OpenCL library",
+        "sort": 20,
+        "tags": "lib,opencl"
+      }
+    },
+    "end_full_path": {
+      "android": "lib$#sep#$libclblast_mali.so",
+      "linux": "lib/libclblast_mali.so",
+      "mingw": "lib\\libclblas_mali.so",
+      "win": "lib\\libclblas_mali.so"
+    },
+    "need_cpu_info": "yes",
+    "only_for_host_os_tags": [
+      "windows",
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "windows",
+      "linux"
+    ],
+    "process_script": "process",
+    "soft_uoa": "7b81c6ad862f4b38",
+    "suggested_path": "lib-clblast",
+    "tags": [
+      "lib",
+      "blas",
+      "no-tune",
+      "opencl-blas",
+      "clblast",
+      "vmali-overlay"
+    ]
+  },
+  "misc": {
+    "data_uid": "caa866123c42073c",
+    "data_uoa": "lib-clblast-mali-overlay",
+    "host_os": "windows,linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "6d04bb400f29474d",
+    "repo_uoa": "ck-old-packages",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-old-packages/tree/master/package/lib-clblast-mali-overlay/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-old-packages/tree/master/package/lib-clblast-mali-overlay",
+    "soft_name": "CLBlast library",
+    "soft_uid": "7b81c6ad862f4b38",
+    "soft_uoa": "lib.clblast",
+    "stags": "lib,blas,no-tune,opencl-blas,clblast,vmali-overlay",
+    "tags": [
+      "lib",
+      "blas",
+      "no-tune",
+      "opencl-blas",
+      "clblast",
+      "vmali-overlay"
+    ],
+    "target_os": "windows,linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:ck-old-packages"
+  }
+}

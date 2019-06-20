@@ -1,0 +1,73 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "detect_in_soft_dir": "yes",
+      "env_mapping": [
+        {
+          "display_name": "your IBM QuantumExperience API key",
+          "variable": "CK_IBM_API_TOKEN"
+        },
+        {
+          "display_name": "your email that you used to register in IBM QuantumExperience",
+          "variable": "CK_IBM_API_EMAIL"
+        }
+      ],
+      "env_prefix": "CK_ENV_LOGIN_IBMQX",
+      "limit_recursion_dir_search": {
+        "linux": 0,
+        "win": 0
+      },
+      "soft_file_universal": ".cm$#sep#$meta.json"
+    },
+    "soft_name": "IBM QuantumExperience Login",
+    "tags": [
+      "dialogue",
+      "ibm",
+      "ibmq",
+      "ibmqx",
+      "login",
+      "quantum",
+      "qiskit",
+      "api_key",
+      "credentials",
+      "password"
+    ],
+    "use_customize_script_from_another_entry": {
+      "data_uoa": "f14e1ed51a944f13",
+      "module_uoa": "soft"
+    }
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "db455abe3d961ee8",
+    "data_uoa": "login.ibmqx",
+    "env_prefix": "CK_ENV_LOGIN_IBMQX",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "4f49a0bdde6167b4",
+    "repo_uoa": "ck-qiskit",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-qiskit/tree/master/soft/login.ibmqx/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-qiskit/tree/master/soft/login.ibmqx",
+    "soft_name": "IBM QuantumExperience Login",
+    "stags": "dialogue,ibm,ibmq,ibmqx,login,quantum,qiskit,api_key,credentials,password",
+    "tags": [
+      "dialogue",
+      "ibm",
+      "ibmq",
+      "ibmqx",
+      "login",
+      "quantum",
+      "qiskit",
+      "api_key",
+      "credentials",
+      "password"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-qiskit"
+  }
+}

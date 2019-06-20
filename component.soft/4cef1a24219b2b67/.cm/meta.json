@@ -1,0 +1,48 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "detect_in_soft_dir": "yes",
+      "env_prefix": "CK_ENV_VQE_HAMILTONIAN",
+      "limit_recursion_dir_search": {
+        "linux": 2,
+        "win": 2
+      },
+      "soft_file_universal": "vqe_hamiltonian.py",
+      "unsplit_version_to_tags_prefixed_with": "hamiltonian."
+    },
+    "soft_name": "Hamiltonian for VQE",
+    "tags": [
+      "quantum",
+      "vqe",
+      "hamiltonian",
+      "lib"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "4cef1a24219b2b67",
+    "data_uoa": "vqe.hamiltonian",
+    "env_prefix": "CK_ENV_VQE_HAMILTONIAN",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "de640faafc01c0a0",
+    "repo_uoa": "ck-quantum",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-quantum/tree/master/soft/vqe.hamiltonian/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-quantum/tree/master/soft/vqe.hamiltonian",
+    "soft_name": "Hamiltonian for VQE",
+    "stags": "quantum,vqe,hamiltonian,lib",
+    "tags": [
+      "quantum",
+      "vqe",
+      "hamiltonian",
+      "lib"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-quantum"
+  }
+}

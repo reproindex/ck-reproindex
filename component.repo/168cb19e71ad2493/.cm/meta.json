@@ -1,0 +1,25 @@
+{
+  "dict": {
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-crowdtuning-platforms"
+  },
+  "misc": {
+    "ckr": {
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-crowdtuning-platforms"
+    },
+    "data_uid": "168cb19e71ad2493",
+    "data_uoa": "ck-crowdtuning-platforms",
+    "desc": "Reusable meta description of diverse platforms (and their properties) participated in experiment crowdsourcing such as benchmarking of deep learning across Android devices (see <a href=\"https://play.google.com/store/apps/details?id=openscience.crowdsource.video.experiments&hl=en\">Android app</a> and <a href=\"http://cKnowledge.org/dnn-crowd-benchmarking-results\">live results</a>).",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-crowdtuning-platforms/tree/master/repo/ck-crowdtuning-platforms/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-crowdtuning-platforms/tree/master/repo/ck-crowdtuning-platforms",
+    "tasks": {},
+    "to_get": "ck pull repo:ck-crowdtuning-platforms",
+    "workflow_desc": ""
+  }
+}

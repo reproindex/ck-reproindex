@@ -1,0 +1,68 @@
+{
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-docker"
+      },
+      {
+        "repo_uoa": "ck-autotuning"
+      }
+    ],
+    "shared": "git",
+    "url": "https://github.com/SamAinsworth/reproduce-cgo2017-paper"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "18bb3d4130a4aaf9",
+          "repo_uoa": "ck-docker"
+        },
+        {
+          "repo_uid": "a4328ba99679e0d1",
+          "repo_uoa": "ck-autotuning"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/SamAinsworth/reproduce-cgo2017-paper"
+    },
+    "data_uid": "640f0b9dadc5bfda",
+    "data_uoa": "reproduce-cgo2017-paper",
+    "desc": "CK workflow and components from the CGO'17 paper \"Software Prefetching for Indirect Memory Accesses\".",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/SamAinsworth/reproduce-cgo2017-paper/tree/master/repo/reproduce-cgo2017-paper/.cm/meta.json",
+    "repo_url3": "https://github.com/SamAinsworth/reproduce-cgo2017-paper/tree/master/repo/reproduce-cgo2017-paper",
+    "tasks": {
+      "04810be822e46a1f": {
+        "data_uoa": "randacc"
+      },
+      "2544fd86ec43416d": {
+        "data_uoa": "nas-cg"
+      },
+      "42f28f884842c988": {
+        "data_uoa": "nas-common"
+      },
+      "491f2d46f4a5a01d": {
+        "data_uoa": "hashjoin-ph-2"
+      },
+      "5461e8f3d8681745": {
+        "data_uoa": "graph500"
+      },
+      "77048f4b89ac7814": {
+        "data_uoa": "hashjoin-ph-8"
+      },
+      "773bfa4c148d98dc": {
+        "data_uoa": "nas-is"
+      },
+      "ff8c81f53fd34d28": {
+        "data_uoa": "nas-sys"
+      }
+    },
+    "to_get": "ck pull repo --url=https://github.com/SamAinsworth/reproduce-cgo2017-paper",
+    "workflow_desc": "reproducible&nbsp;paper\n-&nbsp;passed&nbsp;<a href=\"http://cTuning.org/ae\">Artifact&nbsp;Evaluation</a>:\n<p><center><img src=\"https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_evaluated_reusable_dl.jpg\" width=\"64\"></center>\n"
+  }
+}

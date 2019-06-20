@@ -1,0 +1,55 @@
+{
+  "dict": {
+    "customize": {
+      "add_m32": "no",
+      "extra_dir": "pluto-0.11.3",
+      "retarget": "no",
+      "tool_prefix": "",
+      "version": "0.11.3"
+    },
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "process_script": "process",
+    "soft_uoa": "fbef47870a59450f",
+    "suggested_path": "pluto",
+    "tags": [
+      "compiler",
+      "source-to-source",
+      "pluto",
+      "v0.11.3",
+      "v0.11",
+      "v0"
+    ]
+  },
+  "misc": {
+    "data_uid": "e9037d43cb5f0ab7",
+    "data_uoa": "compiler-pluto-0.11.3",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "4e58bd6003fc6875",
+    "repo_uoa": "reproduce-fgg-2010",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-fgg-2010/tree/master/package/compiler-pluto-0.11.3/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-fgg-2010/tree/master/package/compiler-pluto-0.11.3",
+    "soft_name": "PLUTO polyhedral tool",
+    "soft_uid": "fbef47870a59450f",
+    "soft_uoa": "compiler.pluto",
+    "stags": "compiler,source-to-source,pluto,v0.11.3,v0.11,v0",
+    "tags": [
+      "compiler",
+      "source-to-source",
+      "pluto",
+      "v0.11.3",
+      "v0.11",
+      "v0"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:reproduce-fgg-2010"
+  }
+}

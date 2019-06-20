@@ -1,0 +1,85 @@
+{
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-autotuning"
+      }
+    ],
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-math"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "a4328ba99679e0d1",
+          "repo_uoa": "ck-autotuning"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-math"
+    },
+    "data_uid": "d94a45b5be3072ba",
+    "data_uoa": "ck-math",
+    "desc": "Collective of CK packages to unify detection, installation and rebuilding of popular mathematical packages such as OpenBLAS, clBLAST and Boost across different OS (see <a href=\"http://cKnowledge.org/shared-packages.html\">shared packages</a> and <a href=\"http://cKnowledge.org/shared-soft-detection-plugins.html\">software detection plugins</a>).",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-math/tree/master/repo/ck-math/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-math/tree/master/repo/ck-math",
+    "tasks": {
+      "022cd0e55fde4cc4": {
+        "data_uoa": "acl-sgemm-neon-example"
+      },
+      "0a1c7d2d30044852": {
+        "data_uoa": "acl-softmax-opencl"
+      },
+      "3ab3ec9613969aa1": {
+        "data_uoa": "acl-sgemm-opencl-example"
+      },
+      "4437b9145862a46b": {
+        "data_uoa": "clblast-tune-xgemm-fp32"
+      },
+      "4898d6fa94d039aa": {
+        "data_uoa": "test-boost"
+      },
+      "4bafba9fbfd798b9": {
+        "data_uoa": "clblast-tune-xgemm-direct-fp16"
+      },
+      "7c8341288b8d2a96": {
+        "data_uoa": "clblast-tune"
+      },
+      "848509ef849f2f39": {
+        "data_uoa": "armcl-classification-mobilenet"
+      },
+      "85bb58b3b80f8a52": {
+        "data_uoa": "clblast-tune-xgemm-direct-fp32"
+      },
+      "9dac54bbab3a0cc1": {
+        "data_uoa": "acl-alexnet-neon"
+      },
+      "a5d80d4f3a97d83a": {
+        "data_uoa": "test-armcl-opencl"
+      },
+      "ac9650c8c5f4de89": {
+        "data_uoa": "acl-softmax-opencl-tuner"
+      },
+      "cb780bb2eda93e54": {
+        "data_uoa": "clblast-tune-trans"
+      },
+      "d4bc7ead4ebeaa9b": {
+        "data_uoa": "clblast-tune-xgemm-fp16"
+      },
+      "d70d4973a7446684": {
+        "data_uoa": "test-armcl-opencl-arm32"
+      },
+      "dbd39c0497aa5f37": {
+        "data_uoa": "clblast-tune-fp32"
+      }
+    },
+    "to_get": "ck pull repo:ck-math",
+    "workflow_desc": ""
+  }
+}

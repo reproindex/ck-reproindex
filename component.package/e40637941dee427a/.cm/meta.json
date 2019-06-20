@@ -1,0 +1,94 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {
+      "extra_dir": "",
+      "force_ask_path": "no",
+      "install_env": {},
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "no",
+      "params": {
+        "deploy": {
+          "substitute": {
+            "batch_size": 1
+          },
+          "template": "deploy.prototxt"
+        }
+      },
+      "skip_file_check": "yes",
+      "version": "deepscale-squeezenet-1.1"
+    },
+    "deps": {
+      "caffemodel": {
+        "local": "yes",
+        "name": "SqueezeNet 1.1",
+        "sort": 20,
+        "tags": "caffemodel,squeezenet,v1.1"
+      },
+      "sdk-kann": {
+        "local": "yes",
+        "name": "KaNN Development Package",
+        "sort": 10,
+        "tags": "sdk,kann"
+      }
+    },
+    "end_full_path": {
+      "linux": "generated/multibin_bin.mpk"
+    },
+    "features": {
+      "accuracy": 0.58388,
+      "accuracy_top5": 0.810123,
+      "model_size_mb": 5
+    },
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "package_extra_name": " (deepscale, squeezenet, 1.1)",
+    "process_script": "convert",
+    "soft_uoa": "2025bf79b2048719",
+    "suggested_path": "kannmodel",
+    "tags": [
+      "kann",
+      "kannmodel",
+      "deepscale",
+      "squeezenet",
+      "v1.1",
+      "v1"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "caffe2kann",
+      "module_uoa": "script",
+      "repo_uoa": "ck-kann"
+    }
+  },
+  "misc": {
+    "data_uid": "e40637941dee427a",
+    "data_uoa": "kannmodel-deepscale-squeezenet-1.1",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "aa8299de464392e3",
+    "repo_uoa": "ck-kann",
+    "repo_url1": "",
+    "repo_url2": "http://github.com/ctuning/ck-kann/tree/master/package/kannmodel-deepscale-squeezenet-1.1/.cm/meta.json",
+    "repo_url3": "http://github.com/ctuning/ck-kann/tree/master/package/kannmodel-deepscale-squeezenet-1.1",
+    "soft_name": "KaNN model (net and weights)",
+    "soft_uid": "2025bf79b2048719",
+    "soft_uoa": "model.kann",
+    "stags": "kann,kannmodel,deepscale,squeezenet,v1.1,v1",
+    "tags": [
+      "kann",
+      "kannmodel",
+      "deepscale",
+      "squeezenet",
+      "v1.1",
+      "v1"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:ck-kann"
+  }
+}

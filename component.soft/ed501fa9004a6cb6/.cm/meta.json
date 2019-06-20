@@ -1,0 +1,48 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_LIB_GMP",
+      "include_file": "gmp.h",
+      "limit_recursion_dir_search": {
+        "linux": 3
+      },
+      "soft_file": {
+        "linux": "libgmp.so"
+      },
+      "soft_path_example": {
+        "linux": ""
+      }
+    },
+    "soft_name": "GMP library",
+    "tags": [
+      "lib",
+      "gmp"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "ed501fa9004a6cb6",
+    "data_uoa": "lib.gmp",
+    "env_prefix": "CK_ENV_LIB_GMP",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/lib.gmp/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/lib.gmp",
+    "soft_name": "GMP library",
+    "stags": "lib,gmp",
+    "tags": [
+      "lib",
+      "gmp"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

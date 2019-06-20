@@ -1,0 +1,60 @@
+{
+  "dict": {
+    "customize": {
+      "install_env": {
+        "PACKAGE_NAME": "ck-gui-x86_64.AppImage",
+        "PACKAGE_SKIP_CLEAN_OBJ": "YES",
+        "PACKAGE_SKIP_CLEAN_PACKAGE": "YES",
+        "PACKAGE_SKIP_LINUX_MAKE": "YES",
+        "PACKAGE_URL": "https://www.dropbox.com/s/261bieepeptkmrd",
+        "PACKAGE_WGET": "YES"
+      },
+      "version": "0.1"
+    },
+    "end_full_path": {
+      "linux": "ck-gui-x86_64.AppImage"
+    },
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "process_script": "install",
+    "soft_uoa": "f29450aa13250654",
+    "suggested_path": "tool-ck-gui-prebuilt",
+    "tags": [
+      "tool",
+      "ck-gui",
+      "vprebuilt"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "cd9ccc74060b3d18",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "2c5199665c4b27ba",
+    "data_uoa": "ck-gui-prebuilt",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "4ae7df4c1a806867",
+    "repo_uoa": "ck-gui",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/Chunosov/ck-gui/tree/master/package/ck-gui-prebuilt/.cm/meta.json",
+    "repo_url3": "https://github.com/Chunosov/ck-gui/tree/master/package/ck-gui-prebuilt",
+    "soft_name": "ck-gui prebuilt AppImage",
+    "soft_uid": "f29450aa13250654",
+    "soft_uoa": "tool.ck-gui",
+    "stags": "tool,ck-gui,vprebuilt",
+    "tags": [
+      "tool",
+      "ck-gui",
+      "vprebuilt"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo --url=https://github.com/Chunosov/ck-gui"
+  }
+}

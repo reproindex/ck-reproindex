@@ -1,0 +1,61 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {
+      "extra_dir": "",
+      "force_ask_path": "yes",
+      "install_env": {
+        "PET_IMAGES_ARCHIVE": "images.tar.gz",
+        "PET_IMAGES_URL": "http://www.robots.ox.ac.uk/~vgg/data/pets/data/images.tar.gz",
+        "PET_LABELS_ARCHIVE": "annotations.tar.gz",
+        "PET_LABELS_URL": "http://www.robots.ox.ac.uk/~vgg/data/pets/data/annotations.tar.gz"
+      },
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "yes",
+      "version": "2012"
+    },
+    "deps": {},
+    "end_full_path": {
+      "linux": "images/havanese_1.jpg"
+    },
+    "need_cpu_info": "no",
+    "process_script": "install",
+    "soft_uoa": "747be85833bb4f4e",
+    "suggested_path": "dataset-voc-2012",
+    "tags": [
+      "dataset",
+      "pet",
+      "oxford-iii",
+      "2012",
+      "images",
+      "channel-stable"
+    ]
+  },
+  "misc": {
+    "data_uid": "49b2a47fc094532d",
+    "data_uoa": "dataset-pet-2012",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "acb7cea44acac9c9",
+    "repo_uoa": "ck-tensorflow",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/dataset-pet-2012/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/dataset-pet-2012",
+    "soft_name": "The Oxford-IIIT PET Dataset",
+    "soft_uid": "747be85833bb4f4e",
+    "soft_uoa": "dataset.pet",
+    "stags": "dataset,pet,oxford-iii,2012,images,channel-stable",
+    "tags": [
+      "dataset",
+      "pet",
+      "oxford-iii",
+      "2012",
+      "images",
+      "channel-stable"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-tensorflow"
+  }
+}

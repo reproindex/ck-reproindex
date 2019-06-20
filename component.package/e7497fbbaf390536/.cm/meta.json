@@ -1,0 +1,64 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "git_src_dir": "src",
+      "install_env": {
+        "PACKAGE_AUTOGEN": "NO",
+        "PACKAGE_GIT": "YES",
+        "PACKAGE_PATCH": "YES",
+        "PACKAGE_SKIP_LINUX_MAKE": "YES",
+        "PACKAGE_SUB_DIR": "src",
+        "PACKAGE_SUB_DIR1": "src",
+        "PACKAGE_URL": "https://github.com/mlperf/inference"
+      },
+      "use_git_revision": "yes",
+      "version": "master"
+    },
+    "end_full_path_universal": "src$#sep#$trace_generator$#sep#$trace_generator.h",
+    "need_cpu_info": "no",
+    "only_for_host_os_tags": [
+      "linux",
+      "windows"
+    ],
+    "package_extra_name": "",
+    "process_script": "install",
+    "soft_uoa": "b50bf41c6bda616e",
+    "suggested_path": "bench-sylt",
+    "tags": [
+      "bench",
+      "google",
+      "sylt",
+      "vmaster"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "cd9ccc74060b3d18",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "e7497fbbaf390536",
+    "data_uoa": "bench-sylt-master",
+    "host_os": "linux,macos,windows",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "1be6d862d67244da",
+    "repo_uoa": "ck-mlperf",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-mlperf/tree/master/package/bench-sylt-master/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-mlperf/tree/master/package/bench-sylt-master",
+    "soft_name": "Trace Generation and Replay Harness",
+    "soft_uid": "b50bf41c6bda616e",
+    "soft_uoa": "bench.sylt",
+    "stags": "bench,google,sylt,vmaster",
+    "tags": [
+      "bench",
+      "google",
+      "sylt",
+      "vmaster"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-mlperf"
+  }
+}

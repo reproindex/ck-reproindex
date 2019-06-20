@@ -1,0 +1,47 @@
+{
+  "dict": {
+    "shared": "git",
+    "url": "https://github.com/ctuning/reproduce-adapt16"
+  },
+  "misc": {
+    "ckr": {
+      "shared": "git",
+      "url": "https://github.com/ctuning/reproduce-adapt16"
+    },
+    "data_uid": "71433a2b4d403d80",
+    "data_uoa": "reproduce-adapt16",
+    "desc": "CK workflows and packages from reproducible ADAPT'16 paper.",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-adapt16/tree/master/repo/reproduce-adapt16/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-adapt16/tree/master/repo/reproduce-adapt16",
+    "tasks": {
+      "08cfbdd4c7aef4fd": {
+        "data_uoa": "adapt16-fft"
+      },
+      "26a76418d812eba4": {
+        "data_uoa": "adapt16-fir"
+      },
+      "2ba13268d5c69e10": {
+        "data_uoa": "adapt16-dijkstra"
+      },
+      "452c9667592eb998": {
+        "data_uoa": "adapt16-bubblesort"
+      },
+      "45f7b5758f985266": {
+        "data_uoa": "adapt16-blowfish"
+      },
+      "4947d2131df8ff45": {
+        "data_uoa": "adapt16-adpcm"
+      },
+      "99f0aaceaeb47768": {
+        "data_uoa": "adapt16-huffbench"
+      }
+    },
+    "to_get": "ck pull repo:reproduce-adapt16",
+    "workflow_desc": "reproducible&nbsp;paper\n"
+  }
+}

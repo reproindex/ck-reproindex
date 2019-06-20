@@ -1,0 +1,68 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {
+      "force_ask_path": "yes",
+      "install_env": {
+        "MODEL_CONVERT_TO_BGR": "YES",
+        "MODEL_IMAGE_HEIGHT": 227,
+        "MODEL_IMAGE_WIDTH": 227,
+        "MODULE_FILE": "squeezenet-model.py",
+        "PACKAGE_SKIP_LINUX_MAKE": "YES",
+        "WEIGHTS_FILE": "tf-squeezenet-weights.mat"
+      },
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "yes",
+      "skip_file_check": "yes",
+      "version": "ImageNet"
+    },
+    "end_full_path": {
+      "linux": "squeezenet-model.py"
+    },
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "package_extra_name": " (squeezenet)",
+    "process_script": "install",
+    "soft_uoa": "439b9f1757f27091",
+    "suggested_path": "tensorflowmodel-squeezenet-py",
+    "tags": [
+      "tensorflowmodel",
+      "weights",
+      "python",
+      "squeezenet"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "cd9ccc74060b3d18",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "67dfc5ac2694ecb8",
+    "data_uoa": "tensorflowmodel-squeezenet-py",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "acb7cea44acac9c9",
+    "repo_uoa": "ck-tensorflow",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/tensorflowmodel-squeezenet-py/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/tensorflowmodel-squeezenet-py",
+    "soft_name": "TensorFlow python model and weights",
+    "soft_uid": "439b9f1757f27091",
+    "soft_uoa": "model.tensorflow.py",
+    "stags": "tensorflowmodel,weights,python,squeezenet",
+    "tags": [
+      "tensorflowmodel",
+      "weights",
+      "python",
+      "squeezenet"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:ck-tensorflow"
+  }
+}

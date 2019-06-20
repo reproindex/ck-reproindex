@@ -1,0 +1,52 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "env_prefix": "CK_ENV_PYTHON_PACKAGE_PILLOW",
+      "limit_recursion_dir_search": {
+        "linux": 5,
+        "win": 5
+      },
+      "soft_file_universal": "PIL$#sep#$__init__.py",
+      "version_module_name": "_version",
+      "version_variable_name": "__version__"
+    },
+    "soft_name": "Pillow Python library",
+    "tags": [
+      "lib",
+      "python-package",
+      "pillow",
+      "PIL"
+    ],
+    "use_customize_script_from_another_entry": {
+      "data_uoa": "4460bdb0ade2a3df",
+      "module_uoa": "soft"
+    }
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "be1b42af44e2c97e",
+    "data_uoa": "lib.python.pillow",
+    "env_prefix": "CK_ENV_PYTHON_PACKAGE_PILLOW",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/lib.python.pillow/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/lib.python.pillow",
+    "soft_name": "Pillow Python library",
+    "stags": "lib,python-package,pillow,PIL",
+    "tags": [
+      "lib",
+      "python-package",
+      "pillow",
+      "PIL"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

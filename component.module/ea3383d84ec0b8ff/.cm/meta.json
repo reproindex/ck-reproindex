@@ -1,0 +1,44 @@
+{
+  "dict": {
+    "actions": {
+      "run": {
+        "desc": "run workflow"
+      }
+    },
+    "aggregators": [
+      "averaged-median",
+      "krum-co",
+      "krum-py",
+      "average",
+      "median",
+      "krum-tf",
+      "average-nan",
+      "bulyan-co",
+      "bulyan-py"
+    ],
+    "copyright": "See CK COPYRIGHT.txt for copyright details",
+    "desc": "Workflow to automate validation of results from the SysML'19 paper: \"AggregaThor: Byzantine Machine Learning via Robust Gradient Aggregation\"",
+    "developer": "Grigori Fursin",
+    "developer_email": "Grigori.Fursin@cTuning.org",
+    "developer_webpage": "http://fursin.net",
+    "license": "See CK LICENSE.txt for licensing details"
+  },
+  "misc": {
+    "actions": {
+      "run": {
+        "url_api": "https://github.com/ctuning/reproduce-sysml19-paper-aggregathor/tree/master/module/workflow-sysml19-aggregathor/module.py#L33"
+      }
+    },
+    "data_uid": "ea3383d84ec0b8ff",
+    "data_uoa": "workflow-sysml19-aggregathor",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "76d81ee9a38d4679",
+    "repo_uoa": "reproduce-sysml19-paper-aggregathor",
+    "repo_url1": "https://github.com/ctuning/reproduce-sysml19-paper-aggregathor/tree/master/module/workflow-sysml19-aggregathor/module.py",
+    "repo_url2": "https://github.com/ctuning/reproduce-sysml19-paper-aggregathor/tree/master/module/workflow-sysml19-aggregathor/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:reproduce-sysml19-paper-aggregathor",
+    "workflow": ""
+  }
+}

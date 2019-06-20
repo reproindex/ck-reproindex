@@ -1,0 +1,69 @@
+{
+  "dict": {
+    "actions": {
+      "detect": {
+        "desc": "detect various properties (features) of a given GPGPU"
+      },
+      "set_freq": {
+        "desc": "set frequency of a given GPGPU (if supported)"
+      },
+      "show": {
+        "desc": "viewing entries as html",
+        "for_web": "yes"
+      }
+    },
+    "cfg_uoa": "program-crowdtuning",
+    "copyright": "See CK COPYRIGHT.txt for copyright details",
+    "desc": "describing and detecting platform's GPU",
+    "developer": "Grigori Fursin",
+    "developer_email": "Grigori.Fursin@cTuning.org",
+    "developer_webpage": "http://fursin.net",
+    "lcfg_uoa": "local-platform",
+    "license": "See CK LICENSE.txt for licensing details",
+    "module_deps": {
+      "cfg": "b34231a3467566f8",
+      "choice": "e4564d6f984400d7",
+      "env": "9b9b3208ac44b891",
+      "machine": "84be34883a81b2a9",
+      "platform": "707ccdfe444cafac",
+      "platform.cpu": "aa6b542a420b8db9",
+      "platform.init": "38a2f5438d8555b6",
+      "platform.os": "41e31cc4496b8a8e",
+      "program": "b0ac08fe1d3c2615"
+    },
+    "program": {
+      "cuda": "1cda86b1074513a7",
+      "opencl": "e34164a6a31352e2"
+    },
+    "tool_env_key": {
+      "cuda": "CK_ENV_TOOL_SHOW_CUDA_DEVICES_FULL",
+      "opencl": "CK_ENV_TOOL_SHOW_OPENCL_DEVICES_FULL"
+    },
+    "tool_tags": {
+      "cuda": "tool,show-cuda-devices",
+      "opencl": "tool,show-opencl-devices"
+    }
+  },
+  "misc": {
+    "actions": {
+      "detect": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/platform.gpgpu/module.py#L33"
+      },
+      "set_freq": {},
+      "show": {
+        "url_api": "https://github.com/ctuning/ck-autotuning/tree/master/module/platform.gpgpu/module.py#L530"
+      }
+    },
+    "data_uid": "192ed4e0bbdbe743",
+    "data_uoa": "platform.gpgpu",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "a4328ba99679e0d1",
+    "repo_uoa": "ck-autotuning",
+    "repo_url1": "https://github.com/ctuning/ck-autotuning/tree/master/module/platform.gpgpu/module.py",
+    "repo_url2": "https://github.com/ctuning/ck-autotuning/tree/master/module/platform.gpgpu/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:ck-autotuning",
+    "workflow": ""
+  }
+}

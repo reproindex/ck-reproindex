@@ -1,0 +1,68 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "version": "1.0.3"
+    },
+    "deps": {
+      "lib-gmp": {
+        "local": "yes",
+        "name": "GMP library",
+        "sort": 10,
+        "tags": "lib,gmp"
+      },
+      "lib-mpfr": {
+        "local": "yes",
+        "name": "MPFR library",
+        "sort": 20,
+        "tags": "lib,mpfr"
+      }
+    },
+    "end_full_path": {
+      "linux": "lib/libmpc.a",
+      "mingw": "lib\\libmpc.a"
+    },
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "process_script": "process",
+    "soft_uoa": "067e4f40badd4223",
+    "suggested_path": "mpc",
+    "tags": [
+      "lib",
+      "mpc",
+      "v1.0.3",
+      "v1.0",
+      "v1"
+    ]
+  },
+  "misc": {
+    "data_uid": "3471e25734b79984",
+    "data_uoa": "lib-mpc-1.0.3-linux",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "944d5b8a6b4ba2f8",
+    "repo_uoa": "ck-dev-compilers",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-dev-compilers/tree/master/package/lib-mpc-1.0.3-linux/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-dev-compilers/tree/master/package/lib-mpc-1.0.3-linux",
+    "soft_name": "MPC library",
+    "soft_uid": "067e4f40badd4223",
+    "soft_uoa": "lib.mpc",
+    "stags": "lib,mpc,v1.0.3,v1.0,v1",
+    "tags": [
+      "lib",
+      "mpc",
+      "v1.0.3",
+      "v1.0",
+      "v1"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:ck-dev-compilers"
+  }
+}

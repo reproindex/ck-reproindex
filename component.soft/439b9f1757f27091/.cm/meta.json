@@ -1,0 +1,46 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_TENSORFLOW_MODEL",
+      "soft_file": {
+        "linux": "*-model.py",
+        "win": "*-model.py"
+      }
+    },
+    "soft_name": "TensorFlow python model and weights",
+    "tags": [
+      "tensorflowmodel",
+      "weights",
+      "python"
+    ],
+    "template": "yes",
+    "template_type": "TensorFlow model (Python)"
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "439b9f1757f27091",
+    "data_uoa": "model.tensorflow.py",
+    "env_prefix": "CK_ENV_TENSORFLOW_MODEL",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "acb7cea44acac9c9",
+    "repo_uoa": "ck-tensorflow",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/soft/model.tensorflow.py/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/soft/model.tensorflow.py",
+    "soft_name": "TensorFlow python model and weights",
+    "stags": "tensorflowmodel,weights,python",
+    "tags": [
+      "tensorflowmodel",
+      "weights",
+      "python"
+    ],
+    "target_os": "any",
+    "template": "TensorFlow model (Python)",
+    "to_get": "ck pull repo:ck-tensorflow"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "dict": {
+    "backup_data_uid": "925820da925b422d",
+    "data_name": "caffe-ssd-train-kitti",
+    "no_compile": "yes",
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "run_cmds": {
+      "prepare": {
+        "run_deps": {
+          "kitti-dataset": {
+            "force_target_as_host": "yes",
+            "local": "yes",
+            "name": "KITTI dataset",
+            "sort": 20,
+            "tags": "dataset,kitti,val"
+          }
+        },
+        "run_time": {
+          "run_cmd_main": "$<<CK_ENV_COMPILER_PYTHON_FILE>>$ ../prepare.py"
+        }
+      },
+      "train": {
+        "run_time": {
+          "run_cmd_main": "$<<CK_ENV_COMPILER_PYTHON_FILE>>$ ../train.py"
+        }
+      }
+    },
+    "run_deps": {
+      "caffemodel": {
+        "force_target_as_host": "yes",
+        "local": "yes",
+        "name": "Caffe model (net and pretrained weights)",
+        "sort": 40,
+        "tags": "caffemodel,ssd"
+      },
+      "lib-caffe": {
+        "local": "yes",
+        "name": "Caffe library",
+        "skip_pruning_by_other_deps": "yes",
+        "sort": 1,
+        "tags": "lib,caffe,ssd"
+      }
+    },
+    "run_vars": {
+      "CK_BATCH_SIZE": 8,
+      "CK_DEVICE_ID": 0,
+      "CK_SNAPSHOT_INTERVAL": 1000,
+      "CK_TEST_INTERVAL": 250,
+      "CK_TRAIN_IMAGES_PERCENT": 70
+    },
+    "tags": [
+      "caffe-detection",
+      "caffe-detection-ssd",
+      "ssd",
+      "demo",
+      "training",
+      "object-detection"
+    ],
+    "version": "1.0.0"
+  },
+  "misc": {
+    "data_uid": "925820da925b422d",
+    "data_uoa": "caffe-ssd-train-kitti",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "57e83bca8a5a4344",
+    "repo_uoa": "ck-caffe",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/dividiti/ck-caffe/tree/master/program/caffe-ssd-train-kitti/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/ck-caffe/tree/master/program/caffe-ssd-train-kitti",
+    "soft_name": "",
+    "stags": "caffe-detection,caffe-detection-ssd,ssd,demo,training,object-detection",
+    "tags": [
+      "caffe-detection",
+      "caffe-detection-ssd",
+      "ssd",
+      "demo",
+      "training",
+      "object-detection"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-caffe.git",
+    "version": ""
+  }
+}

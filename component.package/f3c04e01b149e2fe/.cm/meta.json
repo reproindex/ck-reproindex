@@ -1,0 +1,47 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "version": "1.0"
+    },
+    "end_full_path": {
+      "android": "bin$#sep#$show-opencl-devices",
+      "linux": "bin/show-opencl-devices",
+      "mingw": "bin\\show-opencl-devices.exe",
+      "win": "bin\\show-opencl-devices.exe"
+    },
+    "soft_uoa": "9a78ab6a5c89d8b8",
+    "suggested_path": "show-opencl-devices",
+    "tags": [
+      "tool",
+      "show-opencl-devices",
+      "channel-stable"
+    ],
+    "template": "yes",
+    "template_type": "tool to show OpenCL devices"
+  },
+  "misc": {
+    "data_uid": "f3c04e01b149e2fe",
+    "data_uoa": "tool-show-opencl-devices",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/tool-show-opencl-devices/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/tool-show-opencl-devices",
+    "soft_name": "show-opencl-devices",
+    "soft_uid": "9a78ab6a5c89d8b8",
+    "soft_uoa": "tool.show-opencl-devices",
+    "stags": "tool,show-opencl-devices,channel-stable",
+    "tags": [
+      "tool",
+      "show-opencl-devices",
+      "channel-stable"
+    ],
+    "target_os": "any",
+    "template": "tool to show OpenCL devices",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "dict": {
+    "customize": {
+      "env_prefix": "CK_ENV_TOOL_CLTUNE",
+      "limit_recursion_dir_search": {
+        "linux": 2,
+        "win": 2
+      },
+      "soft_file": {
+        "linux": "libcltune.so",
+        "win": "cltune.dll"
+      }
+    },
+    "soft_name": "CLTune autotuner",
+    "tags": [
+      "tool",
+      "opencl",
+      "clblast",
+      "cltune"
+    ]
+  },
+  "misc": {
+    "auto_detect": "no",
+    "data_uid": "4a0fc75eab604a79",
+    "data_uoa": "tool.cltune",
+    "env_prefix": "CK_ENV_TOOL_CLTUNE",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/tool.cltune/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/tool.cltune",
+    "soft_name": "CLTune autotuner",
+    "stags": "tool,opencl,clblast,cltune",
+    "tags": [
+      "tool",
+      "opencl",
+      "clblast",
+      "cltune"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

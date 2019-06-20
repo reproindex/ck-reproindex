@@ -1,0 +1,41 @@
+{
+  "actions": {},
+  "desc": "index of CK repositories",
+  "dict": {
+    "actions": {
+      "add_index": {
+        "desc": "add index"
+      },
+      "html": {
+        "desc": "generate html"
+      }
+    },
+    "cfg-list-of-repos": "list-of-repos",
+    "desc": "index of CK repositories",
+    "module_deps": {
+      "cfg": "b34231a3467566f8",
+      "repo": "befd7892b0d469e9"
+    }
+  },
+  "misc": {
+    "actions": {
+      "add_index": {
+        "url_api": "https://github.com/ctuning/reproindex/tree/master/module/component.repo/module.py#L33"
+      },
+      "html": {
+        "url_api": "https://github.com/ctuning/reproindex/tree/master/module/component.repo/module.py#L137"
+      }
+    },
+    "data_uid": "4adfaff6d69d41a9",
+    "data_uoa": "component.repo",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "c590dea823213918",
+    "repo_uoa": "reproindex",
+    "repo_url1": "https://github.com/ctuning/reproindex/tree/master/module/component.repo/module.py",
+    "repo_url2": "https://github.com/ctuning/reproindex/tree/master/module/component.repo/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:reproindex",
+    "workflow": ""
+  }
+}

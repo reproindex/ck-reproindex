@@ -1,0 +1,46 @@
+{
+  "misc": {
+    "artifact_doi_url": "",
+    "artifact_sources": "GitHub",
+    "artifact_sources_url": "https://github.com/dividiti/gemmbench",
+    "authors": "Anton Lokhmotov",
+    "badge_acm_artifact_available": "",
+    "badge_acm_artifact_functional": "",
+    "badge_acm_artifact_reusable": "",
+    "badge_acm_results_replicated": "",
+    "badge_acm_results_reproduced": "",
+    "ck_repo_uid": "1e884df489890fa1",
+    "paper_doi_url": "https://arxiv.org/abs/1511.03742",
+    "paper_pdf_url": "https://arxiv.org/pdf/1511.03742",
+    "reproducibility_url": "http://cTuning.org/ae",
+    "results": "Reddit discussion",
+    "results_dashboard_url": "",
+    "results_url": "https://www.reddit.com/r/adaptworkshop/comments/3sngox/adapt16_submission_gemmbench_a_framework_for",
+    "some_results_replicated": "yes",
+    "tasks": {
+      "0ef9511e3864c67b": {
+        "data_uoa": "clblast-xgemm"
+      },
+      "345594b4ab4624fc": {
+        "data_uoa": "arm-mali-sgemm"
+      },
+      "5dbd24d34a039434": {
+        "data_uoa": "clblast-xgemm-overlay"
+      },
+      "fc41b0a762616427": {
+        "data_uoa": "gemmbench-cl-launcher-1.0"
+      }
+    },
+    "title": "GEMMbench: a framework for reproducible and collaborative benchmarking of matrix multiplication",
+    "unified_artifact_appendix": "",
+    "where": "ADAPT'16",
+    "where_url": "https://adapt-workshop.org/index2016.html",
+    "workflow": "CK",
+    "workflow_url": "https://github.com/dividiti/gemmbench"
+  },
+  "tags": [
+    "papers",
+    "papers-adapt",
+    "papers-adapt-2016"
+  ]
+}

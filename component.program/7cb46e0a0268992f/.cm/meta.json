@@ -1,0 +1,128 @@
+{
+  "dict": {
+    "backup_data_uid": "7cb46e0a0268992f",
+    "build_compiler_vars": {
+      "EXCLUDE_PENCIL_TEST": "1",
+      "HOG_CL": "\\\"../pencil-benchmark/pencil-benchmarks-imageproc/hog/HogDescriptor.cl\\\"",
+      "RUN_ONLY_ONE_EXPERIMENT": "1",
+      "SELECT_CL_DEVICE_TYPE": "CL_DEVICE_TYPE_GPU",
+      "VECTOR_SIZE": "1",
+      "XOPENME": "1",
+      "XOPENME_DUMP_IMAGES": "0"
+    },
+    "compile_deps": {
+      "compiler": {
+        "local": "yes",
+        "name": "C++ compiler",
+        "sort": 10,
+        "tags": "compiler,lang-cpp"
+      },
+      "lib-opencl": {
+        "local": "yes",
+        "name": "OpenCL library",
+        "sort": 30,
+        "tags": "lib,opencl"
+      },
+      "lib-opencv": {
+        "extra_libs": [
+          "opencv_imgproc",
+          "opencv_ocl",
+          "opencv_highgui"
+        ],
+        "local": "yes",
+        "name": "OpenCV library",
+        "sort": 20,
+        "tags": "lib,opencv"
+      },
+      "lib-xopenme": {
+        "local": "yes",
+        "name": "xOpenME library",
+        "sort": 40,
+        "tags": "lib,xopenme"
+      }
+    },
+    "compiler_add_include_as_env_from_deps": [
+      "CK_ENV_LIB_STDCPP_INCLUDE",
+      "CK_ENV_LIB_STDCPP_INCLUDE_EXTRA"
+    ],
+    "compiler_env": "CK_CXX",
+    "compiler_flags_as_env": "$<<CK_COMPILER_FLAG_CPP11>>$",
+    "data_name": "realeyes-hog-opencl",
+    "extra_ld_vars": "$<<CK_EXTRA_LIB_M>>$",
+    "include_dirs": [
+      "pencil-benchmark/pencil-benchmarks-imageproc/hog",
+      "pencil-benchmark/pencil-benchmarks-imageproc/include"
+    ],
+    "linker_add_lib_as_env": [
+      "CK_CXX_EXTRA",
+      "CK_ENV_LIB_STDCPP_STATIC"
+    ],
+    "main_language": "cpp",
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "run_cmds": {
+      "default": {
+        "dataset_tags": [
+          "dataset",
+          "image",
+          "jpeg"
+        ],
+        "ignore_return_code": "no",
+        "run_time": {
+          "fine_grain_timer_file": "tmp-ck-timer.json",
+          "post_process_cmd": "python $#src_path_local#$convert_timers_to_ck_format.py",
+          "run_cmd_main": "$#BIN_FILE#$ $#dataset_path#$$#dataset_filename#$",
+          "run_cmd_out1": "stdout.log",
+          "run_cmd_out2": "",
+          "run_correctness_output_files": [],
+          "run_input_files": [
+            "pencil-benchmark/pencil-benchmarks-imageproc/hog/HogDescriptor.cl"
+          ],
+          "run_output_files": [
+            "stdout.log",
+            "tmp-ck-timer.json"
+          ]
+        }
+      }
+    },
+    "source_files": [
+      "pencil-benchmark/pencil-benchmarks-imageproc/hog/test_hog.cpp"
+    ],
+    "species": [
+      "c84ac2ab43ad1400"
+    ],
+    "tags": [
+      "program",
+      "realeyes",
+      "polyhedral",
+      "hog",
+      "lang-cpp"
+    ],
+    "target_file": "a"
+  },
+  "misc": {
+    "data_uid": "7cb46e0a0268992f",
+    "data_uoa": "polyhedral-hog-opencl",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "7d60433aa9fd29fe",
+    "repo_uoa": "reproduce-carp-project",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-carp-project/tree/master/program/polyhedral-hog-opencl/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-carp-project/tree/master/program/polyhedral-hog-opencl",
+    "soft_name": "",
+    "stags": "program,realeyes,polyhedral,hog,lang-cpp",
+    "tags": [
+      "program",
+      "realeyes",
+      "polyhedral",
+      "hog",
+      "lang-cpp"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:reproduce-carp-project",
+    "version": ""
+  }
+}

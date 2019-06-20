@@ -1,0 +1,57 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_DATASET_WMT32K_ENGLISH_GERMAN_TF",
+      "limit_recursion_dir_search": {
+        "linux": 3,
+        "win": 3
+      },
+      "soft_file_universal": "translate_ende_wmt32k-train-00000-of-00100"
+    },
+    "soft_name": "WMT32K English-German dataset (all)",
+    "tags": [
+      "dataset",
+      "translation",
+      "raw",
+      "train",
+      "val",
+      "wmt",
+      "wmt32k",
+      "english-german",
+      "german"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "46efa92a9e2b792a",
+    "data_uoa": "dataset.wmt32k.en-de",
+    "env_prefix": "CK_ENV_DATASET_WMT32K_ENGLISH_GERMAN_TF",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "90009e454e059d40",
+    "repo_uoa": "ck-tbd-suite",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tbd-suite/tree/master/soft/dataset.wmt32k.en-de/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tbd-suite/tree/master/soft/dataset.wmt32k.en-de",
+    "soft_name": "WMT32K English-German dataset (all)",
+    "stags": "dataset,translation,raw,train,val,wmt,wmt32k,english-german,german",
+    "tags": [
+      "dataset",
+      "translation",
+      "raw",
+      "train",
+      "val",
+      "wmt",
+      "wmt32k",
+      "english-german",
+      "german"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-tbd-suite"
+  }
+}

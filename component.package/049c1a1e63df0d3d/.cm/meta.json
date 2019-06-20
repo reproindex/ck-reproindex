@@ -1,0 +1,69 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "install_env": {
+        "PACKAGE_VER": "0.9.1"
+      },
+      "version": "0.9.1"
+    },
+    "deps": {
+      "python": {
+        "add_to_path": "yes",
+        "local": "yes",
+        "name": "Python",
+        "sort": 20,
+        "tags": "compiler,python"
+      }
+    },
+    "end_full_path_universal": "lib$#sep#$mlflow$#sep#$__init__.py",
+    "need_cpu_info": "yes",
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "package_extra_name": "",
+    "process_script": "install",
+    "soft_uoa": "43e2a913182d06f6",
+    "suggested_path": "mlflow",
+    "tags": [
+      "tool",
+      "mlflow",
+      "v0",
+      "v0.9",
+      "v0.9.1",
+      "vprebuilt",
+      "channel-stable"
+    ]
+  },
+  "misc": {
+    "data_uid": "049c1a1e63df0d3d",
+    "data_uoa": "mlflow-0.9.1",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "23dd4b94ab240d29",
+    "repo_uoa": "ck-mlflow",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-mlflow/tree/master/package/mlflow-0.9.1/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-mlflow/tree/master/package/mlflow-0.9.1",
+    "soft_name": "MLFlow",
+    "soft_uid": "43e2a913182d06f6",
+    "soft_uoa": "mlflow",
+    "stags": "tool,mlflow,v0,v0.9,v0.9.1,vprebuilt,channel-stable",
+    "tags": [
+      "tool",
+      "mlflow",
+      "v0",
+      "v0.9",
+      "v0.9.1",
+      "vprebuilt",
+      "channel-stable"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:ck-mlflow"
+  }
+}

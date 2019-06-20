@@ -1,0 +1,38 @@
+{
+  "dict": {
+    "actions": {
+      "run_cache_stat": {
+        "desc": "run workflow"
+      }
+    },
+    "copyright": "See CK COPYRIGHT.txt for copyright details",
+    "desc": "ccprof workflow",
+    "developer": " ",
+    "developer_email": " ",
+    "developer_webpage": " ",
+    "license": "See CK LICENSE.txt for licensing details",
+    "module_deps": {
+      "env": "9b9b3208ac44b891",
+      "program": "b0ac08fe1d3c2615",
+      "script": "84e27ad9dd12e734"
+    }
+  },
+  "misc": {
+    "actions": {
+      "run_cache_stat": {
+        "url_api": "https://github.com/proywm/ck-ccprof/tree/master/module/ccprof/module.py#L34"
+      }
+    },
+    "data_uid": "0829aad27f493bb7",
+    "data_uoa": "ccprof",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "07aff7c7b258f26b",
+    "repo_uoa": "ck-ccprof",
+    "repo_url1": "https://github.com/proywm/ck-ccprof/tree/master/module/ccprof/module.py",
+    "repo_url2": "https://github.com/proywm/ck-ccprof/tree/master/module/ccprof/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo --url=https://github.com/proywm/ck-ccprof",
+    "workflow": ""
+  }
+}

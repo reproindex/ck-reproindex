@@ -1,0 +1,102 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "git_src_dir": "src",
+      "install_env": {
+        "PACKAGE_CONFIGURE_FLAGS": "-DPYTHON_EXECUTABLE:FILEPATH=\"$<<CK_ENV_COMPILER_PYTHON_FILE>>$\"",
+        "PACKAGE_GIT": "YES",
+        "PACKAGE_GIT_CHECKOUT": "v1.3.0",
+        "PACKAGE_PATCH": "YES",
+        "PACKAGE_SKIP_CLEAN_OBJ": "YES",
+        "PACKAGE_SKIP_CLEAN_SRC_DIR": "YES",
+        "PACKAGE_SKIP_LINUX_MAKE": "YES",
+        "PACKAGE_SUB_DIR": "src",
+        "PACKAGE_URL": "https://github.com/tensorflow/tensorflow"
+      },
+      "version": "1.3.0"
+    },
+    "deps": {
+      "cmake": {
+        "force_target_as_host": "yes",
+        "local": "yes",
+        "name": "CMake tool",
+        "skip_from_bat": "yes",
+        "sort": 1,
+        "tags": "tool,cmake"
+      },
+      "compiler": {
+        "local": "yes",
+        "name": "C++ compiler",
+        "sort": 30,
+        "tags": "compiler,lang-cpp"
+      },
+      "python": {
+        "add_to_path": "yes",
+        "local": "yes",
+        "name": "Python interpreter",
+        "sort": 5,
+        "tags": "compiler,python"
+      }
+    },
+    "end_full_path": {
+      "linux": "src/tensorflow/contrib/cmake/build/tf_python/tensorflow/__init__.py"
+    },
+    "need_cpu_info": "yes",
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "package_extra_name": " (via CMake)",
+    "process_script": "install",
+    "soft_uoa": "30db354f469bb178",
+    "suggested_path": "lib-tensorflow-cmake",
+    "tags": [
+      "lib",
+      "tensorflow",
+      "tensorflow-cmake",
+      "vsrc",
+      "v1.3.0",
+      "v1.3",
+      "v1"
+    ],
+    "use_preprocess_scripts_from_another_entry": {
+      "data_uoa": "fd44428fbc77f77f",
+      "module_uoa": "84e27ad9dd12e734"
+    },
+    "use_scripts_from_another_entry": {
+      "data_uoa": "cd9ccc74060b3d18",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "422ab29e2a8e26f7",
+    "data_uoa": "lib-tensorflow-1.3.0-cmake-cpu",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "acb7cea44acac9c9",
+    "repo_uoa": "ck-tensorflow",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/lib-tensorflow-1.3.0-cmake-cpu/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/lib-tensorflow-1.3.0-cmake-cpu",
+    "soft_name": "TensorFlow library",
+    "soft_uid": "30db354f469bb178",
+    "soft_uoa": "lib.tensorflow",
+    "stags": "lib,tensorflow,tensorflow-cmake,vsrc,v1.3.0,v1.3,v1",
+    "tags": [
+      "lib",
+      "tensorflow",
+      "tensorflow-cmake",
+      "vsrc",
+      "v1.3.0",
+      "v1.3",
+      "v1"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:ck-tensorflow"
+  }
+}

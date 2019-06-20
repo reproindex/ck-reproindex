@@ -1,0 +1,103 @@
+{
+  "dict": {
+    "backup_data_uid": "794023410cbed8b0",
+    "build_compiler_vars": {
+      "OPENME": ""
+    },
+    "compile_deps": {
+      "compiler": {
+        "local": "yes",
+        "name": "C compiler",
+        "sort": 10,
+        "tags": "compiler,lang-c"
+      },
+      "lib-openme": {
+        "local": "yes",
+        "name": "OpenME library",
+        "sort": 30,
+        "tags": "lib,plugins,openme,lang-c"
+      },
+      "rtl-milepost-codelet": {
+        "local": "yes",
+        "name": "Milepost Codelet Run Time Library",
+        "sort": 20,
+        "tags": "lib,rtl,milepost,codelet"
+      }
+    },
+    "compiler_env": "CK_CC",
+    "data_name": "demo-codelet-openme-auto-tuning-plugins",
+    "extra_ld_vars": "$<<CK_EXTRA_LIB_M>>$ $<<CK_EXTRA_LIB_DL>>$",
+    "main_language": "c",
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "run_cmds": {
+      "default": {
+        "hot_functions": [
+          {
+            "name": "astex_codelet__2",
+            "percent": "99"
+          }
+        ],
+        "ignore_return_code": "no",
+        "run_time": {
+          "fine_grain_timer_file": "tmp-ck-timer.json",
+          "run_cmd_main": "$#BIN_FILE#$ \"$#src_path#$codelet.data\"",
+          "run_cmd_out1": "tmp-output1.tmp",
+          "run_cmd_out2": "tmp-output2.tmp",
+          "run_correctness_output_files": [
+            "tmp-output2.tmp"
+          ],
+          "run_input_files": [
+            "codelet.data"
+          ],
+          "run_output_files": [
+            "tmp-ck-timer.json"
+          ]
+        }
+      }
+    },
+    "run_vars": {
+      "CT_REPEAT_MAIN": "1"
+    },
+    "source_files": [
+      "susan.codelet__2.c",
+      "susan.codelet__2.wrapper.c"
+    ],
+    "source_files_templates": [
+      "susan.codelet__2.wrapper.c"
+    ],
+    "tags": [
+      "lang-c",
+      "program",
+      "milepost",
+      "small",
+      "codelet"
+    ],
+    "target_file": "a"
+  },
+  "misc": {
+    "data_uid": "794023410cbed8b0",
+    "data_uoa": "demo-codelet-openme-auto-tuning-plugins",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "a4328ba99679e0d1",
+    "repo_uoa": "ck-autotuning",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-autotuning/tree/master/program/demo-codelet-openme-auto-tuning-plugins/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-autotuning/tree/master/program/demo-codelet-openme-auto-tuning-plugins",
+    "soft_name": "",
+    "stags": "lang-c,program,milepost,small,codelet",
+    "tags": [
+      "lang-c",
+      "program",
+      "milepost",
+      "small",
+      "codelet"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-autotuning",
+    "version": ""
+  }
+}

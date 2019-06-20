@@ -1,0 +1,51 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "add_to_path": "yes",
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_LIB_NETCDF",
+      "limit_recursion_dir_search": {
+        "linux": 4,
+        "win": 4
+      },
+      "soft_file": {
+        "linux": "libnetcdf.a"
+      },
+      "soft_path_example": {
+        "linux": "",
+        "win": ""
+      }
+    },
+    "deps": {},
+    "soft_name": "NetCDF library",
+    "tags": [
+      "lib",
+      "netcdf"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "d96c51eade1f1cb8",
+    "data_uoa": "lib.netcdf",
+    "env_prefix": "CK_ENV_LIB_NETCDF",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/lib.netcdf/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/lib.netcdf",
+    "soft_name": "NetCDF library",
+    "stags": "lib,netcdf",
+    "tags": [
+      "lib",
+      "netcdf"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "dict": {
+    "build_compiler_vars": {
+      "XOPENME": ""
+    },
+    "compile_cmds": {
+      "default": {
+        "cmd": "../ck-compile$#script_ext#$"
+      }
+    },
+    "compile_deps": {
+      "compiler": {
+        "local": "yes",
+        "name": "C++ compiler",
+        "sort": 10,
+        "tags": "compiler,lang-cpp"
+      },
+      "xopenme": {
+        "local": "yes",
+        "name": "xOpenME library",
+        "sort": 20,
+        "tags": "lib,xopenme"
+      }
+    },
+    "compiler_env": "CK_CXX",
+    "data_name": "unrar",
+    "extra_ld_vars": "$<<CK_EXTRA_LIB_M>>$",
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "run_cmds": {
+      "unrar": {
+        "dataset_tags": [
+          "unrar",
+          "archiver",
+          "dataset"
+        ],
+        "hot_functions": [
+          {
+            "name": "Unpack::Unpack29(bool)",
+            "percent": "79"
+          }
+        ],
+        "ignore_return_code": "no",
+        "run_time": {
+          "fine_grain_timer_file": "tmp-ck-timer.json",
+          "run_cmd_main": "$#BIN_FILE#$ e -y $#dataset_path#$$#dataset_filename#$ data.txt .",
+          "run_cmd_out1": "tmp-stdout.tmp",
+          "run_cmd_out2": "tmp-stderr.tmp",
+          "run_correctness_output_files": [
+            "data.txt",
+            "tmp-stderr.tmp"
+          ],
+          "run_output_files": [
+            "data.txt",
+            "tmp-ck-timer.json"
+          ]
+        }
+      },
+      "unrar_stdout": {
+        "dataset_tags": [
+          "unrar",
+          "archiver",
+          "dataset"
+        ],
+        "hot_functions": [
+          {
+            "name": "Unpack::Unpack29(bool)",
+            "percent": "79"
+          }
+        ],
+        "ignore_return_code": "no",
+        "run_time": {
+          "fine_grain_timer_file": "tmp-ck-timer.json",
+          "run_cmd_main": "$#BIN_FILE#$ p $#dataset_path#$$#dataset_filename#$ data.txt",
+          "run_cmd_out1": "tmp-stdout.tmp",
+          "run_cmd_out2": "tmp-stderr.tmp",
+          "run_correctness_output_files": [
+            "tmp-stdout.tmp",
+            "tmp-stderr.tmp"
+          ],
+          "run_output_files": [
+            "tmp-ck-timer.json"
+          ]
+        }
+      }
+    },
+    "run_vars": {
+      "CT_REPEAT_MAIN": "1"
+    },
+    "skip_bin_ext": "yes",
+    "tags": [
+      "unrar",
+      "lang-cpp",
+      "automotive",
+      "benchmark",
+      "program",
+      "crowd-tuning"
+    ],
+    "target_file": "a.out",
+    "use_compile_script": "yes"
+  },
+  "misc": {
+    "data_uid": "2b96daac23c3f034",
+    "data_uoa": "unrar",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "4439c9443bbab749",
+    "repo_uoa": "ck-rpi-optimization",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/dividiti/ck-rpi-optimization/tree/master/program/unrar/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/ck-rpi-optimization/tree/master/program/unrar",
+    "soft_name": "",
+    "stags": "unrar,lang-cpp,automotive,benchmark,program,crowd-tuning",
+    "tags": [
+      "unrar",
+      "lang-cpp",
+      "automotive",
+      "benchmark",
+      "program",
+      "crowd-tuning"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-rpi-optimization",
+    "version": ""
+  }
+}

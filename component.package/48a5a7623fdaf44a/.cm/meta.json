@@ -1,0 +1,142 @@
+{
+  "dict": {
+    "comment": "RECOMMENDED",
+    "customize": {
+      "extra_dir": "",
+      "git_src_dir": "src",
+      "install_env": {
+        "CK_SEISSOL_COMPILE_MODE": "release",
+        "CK_SEISSOL_GENERATED_KERNELS": "yes",
+        "CK_SEISSOL_HDF5": "no",
+        "CK_SEISSOL_LOG_LEVEL": "error",
+        "CK_SEISSOL_LOG_LEVEL0": "info",
+        "CK_SEISSOL_ORDER": "6",
+        "CK_SEISSOL_PARALLELIZATION": "hybrid",
+        "CK_SEISSOL_TARGET_ARCH": "dsnb",
+        "PACKAGE_AUTOGEN": "NO",
+        "PACKAGE_BUILD_TYPE": "make",
+        "PACKAGE_CONFIGURE_FLAGS": "",
+        "PACKAGE_CONFIGURE_FLAGS_LINUX": "",
+        "PACKAGE_GIT": "YES",
+        "PACKAGE_GIT_CHECKOUT": "scc18",
+        "PACKAGE_GIT_CLONE_FLAGS": "--recursive",
+        "PACKAGE_PATCH": "YES",
+        "PACKAGE_SKIP_CLEAN_INSTALL": "NO",
+        "PACKAGE_SKIP_CLEAN_OBJ": "YES",
+        "PACKAGE_SKIP_CLEAN_PACKAGE": "NO",
+        "PACKAGE_SKIP_CLEAN_SRC_DIR": "YES",
+        "PACKAGE_SKIP_LINUX_MAKE": "YES",
+        "PACKAGE_SUB_DIR": "src",
+        "PACKAGE_URL": "https://github.com/SeisSol/SeisSol.git"
+      },
+      "version": "scc18"
+    },
+    "deps": {
+      "compiler": {
+        "local": "yes",
+        "name": "C compiler",
+        "sort": 1,
+        "tags": "compiler,lang-cpp"
+      },
+      "hdf5": {
+        "local": "yes",
+        "name": "Parallel HDF5 lib (static)",
+        "skip_default": "yes",
+        "sort": 4,
+        "tags": "lib,hdf5-static,vparallel,vmpi"
+      },
+      "lib-xsmm": {
+        "local": "yes",
+        "name": "Intel XSMM lib",
+        "skip_default": "yes",
+        "sort": 16,
+        "tags": "lib,intel,xsmm"
+      },
+      "mpi": {
+        "add_to_path": "yes",
+        "local": "yes",
+        "name": "MPI library",
+        "repeat_at_the_end": "yes",
+        "skip_default": "yes",
+        "sort": 2,
+        "tags": "lib,mpi",
+        "version_to": [
+          2,
+          99,
+          99
+        ]
+      },
+      "netcdf": {
+        "local": "yes",
+        "name": "Netcdf lib",
+        "skip_default": "yes",
+        "sort": 8,
+        "tags": "lib,netcdf"
+      },
+      "python": {
+        "local": "yes",
+        "name": "Python < 3",
+        "sort": 100,
+        "tags": "compiler,python",
+        "version_to": [
+          3
+        ]
+      },
+      "tool-scons": {
+        "local": "yes",
+        "name": "Tool Scons Python",
+        "skip_default": "yes",
+        "sort": 110,
+        "tags": "tool,scons"
+      }
+    },
+    "end_full_path": {
+      "linux": "install/version.h"
+    },
+    "need_cpu_info": "yes",
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "process_script": "install",
+    "soft_uoa": "b29000ec3c6f16b6",
+    "suggested_path": "lib-seissol",
+    "tags": [
+      "lib",
+      "seissol",
+      "vnetcdf",
+      "v201703"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "cd9ccc74060b3d18",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "48a5a7623fdaf44a",
+    "data_uoa": "lib-seissol-scc18",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "1ca4108a0485b920",
+    "repo_uoa": "ck-scc18",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-scc18/tree/master/package/lib-seissol-scc18/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-scc18/tree/master/package/lib-seissol-scc18",
+    "soft_name": "Seissol",
+    "soft_uid": "b29000ec3c6f16b6",
+    "soft_uoa": "lib.seissol",
+    "stags": "lib,seissol,vnetcdf,v201703",
+    "tags": [
+      "lib",
+      "seissol",
+      "vnetcdf",
+      "v201703"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:ck-scc18"
+  }
+}

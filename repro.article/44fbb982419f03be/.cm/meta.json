@@ -1,0 +1,37 @@
+{
+  "misc": {
+    "artifact_doi_url": "https://doi.org/10.1145/3229769",
+    "artifact_sources": "GitHub",
+    "artifact_sources_url": "https://github.com/intel/caffe/wiki/ReQuEST-Artifact-Installation-Guide",
+    "authors": "Jiong Gong, Haihao Shen, Guoming Zhang, Xiaoli Liu, Shane Li, Ge Jin, Niharika Maheshwari, Evarist Fomenko, Eden Segal",
+    "badge_acm_artifact_available": "yes",
+    "badge_acm_artifact_functional": "",
+    "badge_acm_artifact_reusable": "yes",
+    "badge_acm_results_replicated": "yes",
+    "badge_acm_results_reproduced": "",
+    "ck_repo_uid": "0e40b194adc51b5a",
+    "paper_doi_url": "https://doi.org/10.1145/3229762.3229763",
+    "paper_pdf_url": "",
+    "reproducibility_url": "http://cknowledge.org/request-cfp-asplos2018.html",
+    "results": "CK format",
+    "results_dashboard_url": "http://cKnowledge.org/dashboard/request.asplos18",
+    "results_url": "https://github.com/ctuning/ck-request-asplos18-results-caffe-intel",
+    "tasks": {
+      "42869a95af6fc638": {
+        "data_uoa": "convert-ssd-to-i8"
+      }
+    },
+    "title": "Highly Efficient 8-bit Low Precision Inference of Convolutional Neural Networks with IntelCaffe",
+    "unified_artifact_appendix": "https://github.com/ctuning/ck-artifact-evaluation/tree/master/wfe/artifact-evaluation/templates",
+    "where": "ReQuEST-ASPLOS'18",
+    "where_url": "http://cKnowledge.org/request-cfp-asplos2018.html",
+    "workflow": "CK",
+    "workflow_url": "https://github.com/ctuning/ck-request-asplos18-caffe-intel"
+  },
+  "tags": [
+    "papers",
+    "papers-request",
+    "papers-request-asplos",
+    "papers-request-asplos-2018"
+  ]
+}

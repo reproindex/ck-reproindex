@@ -1,0 +1,28 @@
+{
+  "dict": {},
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "1ff43ae88715a8c1",
+          "repo_uoa": "ck-env"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-old-packages"
+    },
+    "data_uid": "6d04bb400f29474d",
+    "data_uoa": "ck-old-packages",
+    "desc": "Collection of outdated CK packages for legacy.",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-old-packages/tree/master/repo/ck-old-packages/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-old-packages/tree/master/repo/ck-old-packages",
+    "tasks": {},
+    "to_get": "ck pull repo:ck-old-packages",
+    "workflow_desc": ""
+  }
+}

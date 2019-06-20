@@ -1,0 +1,64 @@
+{
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-crowdtuning"
+      }
+    ],
+    "shared": "git",
+    "url": "https://github.com/dividiti/ck-rpi-optimization"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "c7e5332641d8922a",
+          "repo_uoa": "ck-crowdtuning"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/dividiti/ck-rpi-optimization"
+    },
+    "data_uid": "4439c9443bbab749",
+    "data_uoa": "ck-rpi-optimization",
+    "desc": "CK workflows, portable packages and interactive articles to crowdsource autotuning of shared workloads across Rapsberry Pi devices (see <a href=\"http://cKnowledge.org/rpi-crowd-tuning\">interactive report</a>).",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/dividiti/ck-rpi-optimization/tree/master/repo/ck-rpi-optimization/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/ck-rpi-optimization/tree/master/repo/ck-rpi-optimization",
+    "tasks": {
+      "025b8a8f359c7375": {
+        "data_uoa": "rhash"
+      },
+      "0ab9fa4425c85211": {
+        "data_uoa": "gzip"
+      },
+      "0eaff5b110631fe3": {
+        "data_uoa": "aubio"
+      },
+      "2b96daac23c3f034": {
+        "data_uoa": "unrar"
+      },
+      "6ec2287294570ae2": {
+        "data_uoa": "sha512sum"
+      },
+      "870b7744a6511320": {
+        "data_uoa": "ccrypt"
+      },
+      "c4fb948b4a75a0d6": {
+        "data_uoa": "zlib"
+      },
+      "ccad6c81f94904a7": {
+        "data_uoa": "minigzip"
+      },
+      "dba9c44de68b633c": {
+        "data_uoa": "7z"
+      }
+    },
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-rpi-optimization",
+    "workflow_desc": ""
+  }
+}

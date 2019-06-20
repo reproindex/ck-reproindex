@@ -1,0 +1,49 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "deployed_name_infix": "qiskit.ansatz.",
+      "detect_in_soft_dir": "yes",
+      "env_prefix": "CK_ENV_VQE_QISKIT_ANSATZ",
+      "limit_recursion_dir_search": {
+        "linux": 2,
+        "win": 2
+      },
+      "soft_file_universal": "custom_ansatz.py",
+      "unsplit_version_to_tags_prefixed_with": "ansatz."
+    },
+    "soft_name": "Ansatz function for QISKit VQE",
+    "tags": [
+      "quantum",
+      "vqe",
+      "ansatz",
+      "qiskit"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "89832edfa225ad76",
+    "data_uoa": "template.qiskit.ansatz",
+    "env_prefix": "CK_ENV_VQE_QISKIT_ANSATZ",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "4f49a0bdde6167b4",
+    "repo_uoa": "ck-qiskit",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-qiskit/tree/master/soft/template.qiskit.ansatz/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-qiskit/tree/master/soft/template.qiskit.ansatz",
+    "soft_name": "Ansatz function for QISKit VQE",
+    "stags": "quantum,vqe,ansatz,qiskit",
+    "tags": [
+      "quantum",
+      "vqe",
+      "ansatz",
+      "qiskit"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-qiskit"
+  }
+}

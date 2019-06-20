@@ -1,0 +1,72 @@
+{
+  "dict": {
+    "actions": {
+      "clean": {
+        "desc": "clean paper"
+      },
+      "compile": {
+        "desc": "compile paper"
+      },
+      "convert_to_live_ck_report": {
+        "desc": "convert tex article to live ck report"
+      },
+      "copy_file": {
+        "desc": "copy file from an entry to current directory"
+      },
+      "generate": {
+        "desc": "generate research paper title",
+        "for_web": "yes"
+      },
+      "html_viewer": {
+        "desc": "view experiment as html",
+        "for_web": "yes"
+      },
+      "preprocess": {
+        "desc": "preprocess LaTex papers"
+      }
+    },
+    "copyright": "See CK COPYRIGHT.txt for copyright details",
+    "desc": "dissemination: publications (can be interactive)",
+    "developer": "Grigori Fursin",
+    "developer_email": "Grigori.Fursin@cTuning.org",
+    "developer_webpage": "http://fursin.net",
+    "license": "See CK LICENSE.txt for licensing details",
+    "module_deps": {
+      "person": "b0743a4044480ead"
+    }
+  },
+  "misc": {
+    "actions": {
+      "clean": {
+        "url_api": "https://github.com/ctuning/ck-dissemination-modules/tree/master/module/dissemination.publication/module.py#L1096"
+      },
+      "compile": {
+        "url_api": "https://github.com/ctuning/ck-dissemination-modules/tree/master/module/dissemination.publication/module.py#L1075"
+      },
+      "convert_to_live_ck_report": {
+        "url_api": "https://github.com/ctuning/ck-dissemination-modules/tree/master/module/dissemination.publication/module.py#L577"
+      },
+      "copy_file": {},
+      "generate": {
+        "url_api": "https://github.com/ctuning/ck-dissemination-modules/tree/master/module/dissemination.publication/module.py#L87"
+      },
+      "html_viewer": {
+        "url_api": "https://github.com/ctuning/ck-dissemination-modules/tree/master/module/dissemination.publication/module.py#L257"
+      },
+      "preprocess": {
+        "url_api": "https://github.com/ctuning/ck-dissemination-modules/tree/master/module/dissemination.publication/module.py#L448"
+      }
+    },
+    "data_uid": "29db2248aba45e59",
+    "data_uoa": "dissemination.publication",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "62a4f46acf5ff29e",
+    "repo_uoa": "ck-dissemination-modules",
+    "repo_url1": "https://github.com/ctuning/ck-dissemination-modules/tree/master/module/dissemination.publication/module.py",
+    "repo_url2": "https://github.com/ctuning/ck-dissemination-modules/tree/master/module/dissemination.publication/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:ck-dissemination-modules",
+    "workflow": ""
+  }
+}

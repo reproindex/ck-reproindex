@@ -1,0 +1,130 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "git_src_dir": "src",
+      "install_env": {
+        "PACKAGE_NAME": "p3-v1.3.zip",
+        "PACKAGE_URL": "https://zenodo.org/record/2549852/files/anandj91",
+        "PACKAGE_WORK_DIR": "anandj91-p3-c647954"
+      },
+      "version": "sysml19"
+    },
+    "deps": {
+      "compiler": {
+        "local": "yes",
+        "name": "C++ compiler",
+        "sort": 15,
+        "tags": "compiler,lang-cpp",
+        "update_tags_by_target_platform2": {
+          "android": "gcc",
+          "linux": "gcc",
+          "win": "mcl"
+        }
+      },
+      "compiler-cuda": {
+        "local": "yes",
+        "name": "CUDA compiler",
+        "sort": 16,
+        "tags": "compiler,lang-c-cuda",
+        "version_from": [
+          9,
+          0,
+          0
+        ]
+      },
+      "lib-cudnn": {
+        "local": "yes",
+        "name": "CUDA DNN library",
+        "sort": 17,
+        "tags": "lib,cudnn",
+        "version_from": [
+          7,
+          0,
+          0
+        ]
+      },
+      "lib-openblas": {
+        "local": "yes",
+        "name": "OpenBLAS library",
+        "skip_default": "yes",
+        "sort": 30,
+        "tags": "lib,blas,openblas"
+      },
+      "lib-opencv": {
+        "local": "yes",
+        "name": "OpenCV library",
+        "skip_default": "yes",
+        "sort": 20,
+        "tags": "lib,opencv-shared",
+        "version_from": [
+          3,
+          0,
+          0
+        ],
+        "version_to": [
+          3,
+          99,
+          99
+        ]
+      },
+      "python": {
+        "add_to_path": "yes",
+        "local": "yes",
+        "name": "Python",
+        "sort": 10,
+        "tags": "compiler,python",
+        "version_from": [
+          3,
+          1,
+          0
+        ]
+      }
+    },
+    "end_full_path": {
+      "linux": "anandj91-p3-c647954/run_exp.sh"
+    },
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "package_extra_name": " (zenodo snapshot for SysML'19 paper)",
+    "process_script": "install",
+    "soft_uoa": "e8ad4fd0a0ebc4f7",
+    "sort": -100,
+    "suggested_path": "tool-sysml19-p3-zenodo",
+    "tags": [
+      "tool",
+      "sysml19",
+      "p3",
+      "vzenodo"
+    ]
+  },
+  "misc": {
+    "data_uid": "e445d0925ddf81c1",
+    "data_uoa": "sysml19-p3-zenodo",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "1ddab3e1f40f7b8c",
+    "repo_uoa": "reproduce-sysml19-paper-p3",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-sysml19-paper-p3/tree/master/package/sysml19-p3-zenodo/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-sysml19-paper-p3/tree/master/package/sysml19-p3-zenodo",
+    "soft_name": "SysML'19 P3",
+    "soft_uid": "e8ad4fd0a0ebc4f7",
+    "soft_uoa": "sysml19-p3",
+    "stags": "tool,sysml19,p3,vzenodo",
+    "tags": [
+      "tool",
+      "sysml19",
+      "p3",
+      "vzenodo"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:reproduce-sysml19-paper-p3"
+  }
+}

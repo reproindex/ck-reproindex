@@ -1,0 +1,35 @@
+{
+  "dict": {
+    "shared": "git",
+    "url": "https://github.com/ctuning/reproducible-papers"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "62a4f46acf5ff29e",
+          "repo_uoa": "ck-dissemination-modules"
+        },
+        {
+          "repo_uid": "215d441c19db1fed",
+          "repo_uoa": "ck-web"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/reproducible-papers"
+    },
+    "data_uid": "464e129546330d68",
+    "data_uoa": "reproducible-papers",
+    "desc": "",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproducible-papers/tree/master/repo/reproducible-papers/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproducible-papers/tree/master/repo/reproducible-papers",
+    "tasks": {},
+    "to_get": "ck pull repo:reproducible-papers",
+    "workflow_desc": ""
+  }
+}

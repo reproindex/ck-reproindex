@@ -1,0 +1,46 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_LIB_NNVM",
+      "limit_recursion_dir_search": {
+        "linux": 5,
+        "win": 5
+      },
+      "soft_file": {
+        "linux": "libnnvm.a",
+        "win": "libnnvm.lib"
+      }
+    },
+    "soft_name": "NNVM library",
+    "tags": [
+      "lib",
+      "nnvm"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "98928b1af4dcf29d",
+    "data_uoa": "lib.nnvm",
+    "env_prefix": "CK_ENV_LIB_NNVM",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "0442e96ea67b7957",
+    "repo_uoa": "ck-tvm",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tvm/tree/master/soft/lib.nnvm/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tvm/tree/master/soft/lib.nnvm",
+    "soft_name": "NNVM library",
+    "stags": "lib,nnvm",
+    "tags": [
+      "lib",
+      "nnvm"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-tvm"
+  }
+}

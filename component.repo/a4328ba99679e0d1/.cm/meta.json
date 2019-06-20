@@ -1,0 +1,95 @@
+{
+  "dict": {
+    "checkouts": {
+      "stable": {
+        "branch": "master",
+        "checkout": "5efde26"
+      }
+    },
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-env"
+      },
+      {
+        "repo_uoa": "ck-analytics"
+      }
+    ],
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-autotuning"
+  },
+  "misc": {
+    "ckr": {
+      "checkouts": {
+        "stable": {
+          "branch": "master",
+          "checkout": "5efde26"
+        }
+      },
+      "repo_deps": [
+        {
+          "repo_uid": "1ff43ae88715a8c1",
+          "repo_uoa": "ck-env"
+        },
+        {
+          "repo_uid": "76c4424a1473c873",
+          "repo_uoa": "ck-analytics"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-autotuning"
+    },
+    "data_uid": "a4328ba99679e0d1",
+    "data_uoa": "ck-autotuning",
+    "desc": "Portable and customizable CK workflow for multi-dimensional and multi-objective benchmarking, autotuning and co-design (see real use cases: <a href=\"http://cKnowledge.org/rpi-crowd-tuning\">1</a> and <a href=\"https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl\">2</a>).",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-autotuning/tree/master/repo/ck-autotuning/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-autotuning/tree/master/repo/ck-autotuning",
+    "tasks": {
+      "08ef407b9ce82e10": {
+        "data_uoa": "template-hello-world-c-output-validation"
+      },
+      "1cda86b1074513a7": {
+        "data_uoa": "tool-print-cuda-devices"
+      },
+      "42ae94021ab42570": {
+        "data_uoa": "template-hello-world-c-jpeg-dataset"
+      },
+      "664d118ccc787865": {
+        "data_uoa": "template-hello-world-python"
+      },
+      "687b07c78763721d": {
+        "data_uoa": "template-hello-world-c-openme"
+      },
+      "794023410cbed8b0": {
+        "data_uoa": "demo-codelet-openme-auto-tuning-plugins"
+      },
+      "8a9aacc9d97428a9": {
+        "data_uoa": "custom-autotuning-wrapper"
+      },
+      "9d4c3aa036b29852": {
+        "data_uoa": "template-hello-world-java"
+      },
+      "a75413e8459e2d6e": {
+        "data_uoa": "template-hello-world-fortran"
+      },
+      "b55f2a0a5ad748fd": {
+        "data_uoa": "template-hello-world-c"
+      },
+      "bee44fc49e6dc289": {
+        "data_uoa": "template-hello-world-c-compile-run-via-scripts"
+      },
+      "d5bdb76f9ed48e0b": {
+        "data_uoa": "template-hello-world-cxx"
+      },
+      "e34164a6a31352e2": {
+        "data_uoa": "tool-print-opencl-devices"
+      }
+    },
+    "to_get": "ck pull repo:ck-autotuning",
+    "workflow_desc": ""
+  }
+}

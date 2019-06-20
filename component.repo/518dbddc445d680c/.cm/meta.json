@@ -1,0 +1,56 @@
+{
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-autotuning"
+      },
+      {
+        "repo_uoa": "ctuning-datasets-min"
+      },
+      {
+        "repo_uoa": "ck-caffe",
+        "repo_url": "https://github.com/dividiti/ck-caffe"
+      }
+    ],
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-mvnc"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "a4328ba99679e0d1",
+          "repo_uoa": "ck-autotuning"
+        },
+        {
+          "repo_uid": "4ffcc1307484d840",
+          "repo_uoa": "ctuning-datasets-min"
+        },
+        {
+          "repo_uid": "57e83bca8a5a4344",
+          "repo_uoa": "ck-caffe",
+          "repo_url": "https://github.com/dividiti/ck-caffe"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-mvnc"
+    },
+    "data_uid": "518dbddc445d680c",
+    "data_uoa": "ck-mvnc",
+    "desc": "Portable/customizable installation and unified access to Caffe and other AI frameworks on Movidius NN accelerator with different workflows and data sets.",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-mvnc/tree/master/repo/ck-mvnc/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-mvnc/tree/master/repo/ck-mvnc",
+    "tasks": {
+      "2c3a40f39a23706a": {
+        "data_uoa": "demo-mvnc-yolo"
+      }
+    },
+    "to_get": "ck pull repo:ck-mvnc",
+    "workflow_desc": "programs"
+  }
+}

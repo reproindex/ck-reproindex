@@ -1,0 +1,100 @@
+{
+  "dict": {
+    "customize": {
+      "add_m32": "no",
+      "bugfix1": "yes",
+      "extra_dir": "",
+      "install_env": {
+        "ENABLE_LANGUAGES": "c,c++,fortran"
+      },
+      "retarget": "no",
+      "tool_prefix_configured": "yes",
+      "version": "4.4.4"
+    },
+    "deps": {
+      "lib-cloog": {
+        "local": "yes",
+        "name": "Cloog library",
+        "sort": 50,
+        "tags": "lib,cloog,v0.17.0"
+      },
+      "lib-gmp": {
+        "local": "yes",
+        "name": "GMP library",
+        "sort": 10,
+        "tags": "lib,gmp,v5.0.5"
+      },
+      "lib-isl": {
+        "local": "yes",
+        "name": "ISL library",
+        "sort": 60,
+        "tags": "lib,isl,v0.10"
+      },
+      "lib-mpfr": {
+        "local": "yes",
+        "name": "MPFR library",
+        "sort": 20,
+        "tags": "lib,mpfr,v3.1.0"
+      },
+      "tool-texinfo": {
+        "local": "yes",
+        "name": "texinfo",
+        "sort": 5,
+        "tags": "tool,texinfo,v4.13"
+      }
+    },
+    "end_full_path": {
+      "linux": "bin/gcc"
+    },
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "process_script": "process",
+    "soft_uoa": "a34a00e452894f94",
+    "suggested_path": "gcc-milepost",
+    "tags": [
+      "compiler",
+      "gcc",
+      "milepost",
+      "lang-c",
+      "v4.4.4",
+      "v4.4",
+      "v4"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "90da0e74d7477233",
+      "module_uoa": "package"
+    }
+  },
+  "misc": {
+    "data_uid": "6607605358444ebf",
+    "data_uoa": "compiler-gcc-4.4.4-milepost-with-cxx-src-deps",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "9482c22d7601b0df",
+    "repo_uoa": "reproduce-milepost-project",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/compiler-gcc-4.4.4-milepost-with-cxx-src-deps/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/compiler-gcc-4.4.4-milepost-with-cxx-src-deps",
+    "soft_name": "Milepost ML-based self-tuning research GCC compiler",
+    "soft_uid": "a34a00e452894f94",
+    "soft_uoa": "compiler.gcc.milepost",
+    "stags": "compiler,gcc,milepost,lang-c,v4.4.4,v4.4,v4",
+    "tags": [
+      "compiler",
+      "gcc",
+      "milepost",
+      "lang-c",
+      "v4.4.4",
+      "v4.4",
+      "v4"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:reproduce-milepost-project"
+  }
+}

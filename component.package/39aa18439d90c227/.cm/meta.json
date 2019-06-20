@@ -1,0 +1,69 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {
+      "install_env": {
+        "MODEL_IMAGE_HEIGHT": "224",
+        "MODEL_IMAGE_WIDTH": "224",
+        "MODEL_INPUT_LAYER_NAME": "input_tensor:0",
+        "MODEL_NORMALIZE_DATA": "YES",
+        "MODEL_OUTPUT_LAYER_NAME": "ArgMax:0",
+        "PACKAGE_NAME": "resnet50_v1.pb",
+        "PACKAGE_SKIP_CLEAN_PACKAGE": "YES",
+        "PACKAGE_SKIP_LINUX_MAKE": "YES",
+        "PACKAGE_URL": "https://zenodo.org/record/2535873/files",
+        "PACKAGE_WGET": "YES"
+      },
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "yes",
+      "skip_file_check": "yes",
+      "version": "1.5"
+    },
+    "end_full_path_universal": "resnet50_v1.pb",
+    "only_for_host_os_tags": [],
+    "only_for_target_os_tags": [],
+    "package_extra_name": " (resnet50-v1.5)",
+    "process_script": "install",
+    "soft_uoa": "439b9f1757f27091",
+    "suggested_path": "tensorflowmodel-resnet50-v1.5-mlperf",
+    "tags": [
+      "tensorflowmodel",
+      "frozen",
+      "resnet",
+      "resnet50",
+      "resnet50-v1.5",
+      "mlperf"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "download-and-install-package",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "39aa18439d90c227",
+    "data_uoa": "tensorflowmodel-resnet50-v1.5-mlperf",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "acb7cea44acac9c9",
+    "repo_uoa": "ck-tensorflow",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/tensorflowmodel-resnet50-v1.5-mlperf/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/tensorflowmodel-resnet50-v1.5-mlperf",
+    "soft_name": "TensorFlow python model and weights",
+    "soft_uid": "439b9f1757f27091",
+    "soft_uoa": "model.tensorflow.py",
+    "stags": "tensorflowmodel,frozen,resnet,resnet50,resnet50-v1.5,mlperf",
+    "tags": [
+      "tensorflowmodel",
+      "frozen",
+      "resnet",
+      "resnet50",
+      "resnet50-v1.5",
+      "mlperf"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-tensorflow"
+  }
+}

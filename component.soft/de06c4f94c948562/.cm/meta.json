@@ -1,0 +1,50 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "env_prefix": "CK_ENV_PYTHON_PACKAGE_FORESTOPENFERMION",
+      "limit_recursion_dir_search": {
+        "linux": 5,
+        "win": 5
+      },
+      "soft_file_universal": "forestopenfermion$#sep#$__init__.py",
+      "version_module_name": "__init__",
+      "version_variable_name": "__version__"
+    },
+    "soft_name": "ForestOpenFermion Python library",
+    "tags": [
+      "lib",
+      "python-package",
+      "forestopenfermion"
+    ],
+    "use_customize_script_from_another_entry": {
+      "data_uoa": "lib.python.scipy",
+      "module_uoa": "soft"
+    }
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "de06c4f94c948562",
+    "data_uoa": "lib.python.forestopenfermion",
+    "env_prefix": "CK_ENV_PYTHON_PACKAGE_FORESTOPENFERMION",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "6456e78d8c044a88",
+    "repo_uoa": "ck-rigetti",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-rigetti/tree/master/soft/lib.python.forestopenfermion/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-rigetti/tree/master/soft/lib.python.forestopenfermion",
+    "soft_name": "ForestOpenFermion Python library",
+    "stags": "lib,python-package,forestopenfermion",
+    "tags": [
+      "lib",
+      "python-package",
+      "forestopenfermion"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-rigetti"
+  }
+}

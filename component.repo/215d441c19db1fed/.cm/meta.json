@@ -1,0 +1,27 @@
+{
+  "dict": {
+    "shared": "git",
+    "sync": "yes",
+    "url": "https://github.com/ctuning/ck-web"
+  },
+  "misc": {
+    "ckr": {
+      "shared": "git",
+      "sync": "yes",
+      "url": "https://github.com/ctuning/ck-web.git"
+    },
+    "data_uid": "215d441c19db1fed",
+    "data_uoa": "ck-web",
+    "desc": "Portable CK web server and web front-end with a unified JSON API for dashboards, benchmark scoreboards, interactive articles, graphs, crowdsourced experiments, etc (see <a href=\"http://cKnowledge.org/request-results\">demo</a>).",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-web/tree/master/repo/ck-web/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-web/tree/master/repo/ck-web",
+    "tasks": {},
+    "to_get": "ck pull repo:ck-web",
+    "workflow_desc": ""
+  }
+}

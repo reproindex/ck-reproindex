@@ -1,0 +1,50 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "version": "2.3.0"
+    },
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "process_script": "process",
+    "soft_uoa": "97fa312a6a53d93e",
+    "suggested_path": "likwid",
+    "tags": [
+      "perf",
+      "likwid",
+      "v2.3.0",
+      "v2.3",
+      "v2"
+    ]
+  },
+  "misc": {
+    "data_uid": "d28d28263e60caba",
+    "data_uoa": "perf-likwid-2.3.0",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "4e58bd6003fc6875",
+    "repo_uoa": "reproduce-fgg-2010",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-fgg-2010/tree/master/package/perf-likwid-2.3.0/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-fgg-2010/tree/master/package/perf-likwid-2.3.0",
+    "soft_name": "Likwid tool",
+    "soft_uid": "97fa312a6a53d93e",
+    "soft_uoa": "perf.likwid",
+    "stags": "perf,likwid,v2.3.0,v2.3,v2",
+    "tags": [
+      "perf",
+      "likwid",
+      "v2.3.0",
+      "v2.3",
+      "v2"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:reproduce-fgg-2010"
+  }
+}

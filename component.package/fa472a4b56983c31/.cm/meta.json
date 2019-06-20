@@ -1,0 +1,78 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "install_env": {
+        "PACKAGE_BUILD_TYPE": "",
+        "PACKAGE_NAME": "sbt-0.13.13.zip",
+        "PACKAGE_RENAME": "NO",
+        "PACKAGE_SKIP_CLEAN_INSTALL": "NO",
+        "PACKAGE_SKIP_CLEAN_PACKAGE": "NO",
+        "PACKAGE_SKIP_CLEAN_SRC_DIR": "NO",
+        "PACKAGE_SKIP_LINUX_MAKE": "YES",
+        "PACKAGE_SUB_DIR": "sbt-launcher-packaging-0.13.13",
+        "PACKAGE_SUB_DIR1": "sbt-launcer-packaging-0.13.13",
+        "PACKAGE_UNGZIP": "NO",
+        "PACKAGE_UNTAR": "NO",
+        "PACKAGE_UNTAR_SKIP_ERROR_WIN": "YES",
+        "PACKAGE_UNZIP": "YES",
+        "PACKAGE_URL": "https://dl.bintray.com/sbt/native-packages/sbt/0.13.13",
+        "PACKAGE_WGET": "YES"
+      },
+      "version": "0.13.13"
+    },
+    "deps": {},
+    "end_full_path": {
+      "linux": "sbt-launcher-packaging-0.13.13/bin/sbt"
+    },
+    "need_cpu_info": "yes",
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "process_script": "install",
+    "soft_uoa": "966d414948618897",
+    "suggested_path": "tool-sbt",
+    "tags": [
+      "tool",
+      "scala",
+      "sbt",
+      "v0.13.13",
+      "v0.13",
+      "v0"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "cd9ccc74060b3d18",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "fa472a4b56983c31",
+    "data_uoa": "tool-sbt-0.13.13",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "974c6589e9b66157",
+    "repo_uoa": "ck-lift",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/lift-project/ck-lift/tree/master/package/tool-sbt-0.13.13/.cm/meta.json",
+    "repo_url3": "https://github.com/lift-project/ck-lift/tree/master/package/tool-sbt-0.13.13",
+    "soft_name": "Scala SBT tool",
+    "soft_uid": "966d414948618897",
+    "soft_uoa": "tool.sbt",
+    "stags": "tool,scala,sbt,v0.13.13,v0.13,v0",
+    "tags": [
+      "tool",
+      "scala",
+      "sbt",
+      "v0.13.13",
+      "v0.13",
+      "v0"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo --url=https://github.com/lift-project/ck-lift"
+  }
+}

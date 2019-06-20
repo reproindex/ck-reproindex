@@ -1,0 +1,62 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "install_env": {
+        "MOBILENET_MULTIPLIER": "0.25",
+        "MOBILENET_RESOLUTION": "192",
+        "MOBILENET_VERSION": "1",
+        "PACKAGE_NAME": "mobilenet_v1_0.25_192_2017_06_14.tar.gz",
+        "PACKAGE_URL": "http://download.tensorflow.org/models/mobilenet_v1_0.25_192_2017_06_14.tar.gz"
+      },
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "yes",
+      "version": "1_0.25_192"
+    },
+    "deps": {
+      "lib-tensorflow": {
+        "local": "yes",
+        "name": "TensorFlow library",
+        "sort": 10,
+        "tags": "lib,tensorflow"
+      }
+    },
+    "end_full_path_universal": "mobilenet_v1_0.25_192.ckpt.index",
+    "process_script": "install",
+    "soft_uoa": "50b442db9bde0a0c",
+    "suggested_path": "weights-mobilenet-v1_0.25_192",
+    "tags": [
+      "mobilenet",
+      "weights",
+      "checkpoints"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "c91e02b8f9061d66",
+      "module_uoa": "package"
+    }
+  },
+  "misc": {
+    "data_uid": "9fc8617444bb8509",
+    "data_uoa": "weights-mobilenet-v1-0.25-192",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "7698eaf859b79f2b",
+    "repo_uoa": "ck-request-asplos18-mobilenets-armcl-opencl",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl/tree/master/package/weights-mobilenet-v1-0.25-192/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl/tree/master/package/weights-mobilenet-v1-0.25-192",
+    "soft_name": "MobileNet weights",
+    "soft_uid": "50b442db9bde0a0c",
+    "soft_uoa": "weights.mobilenet.armcl",
+    "stags": "mobilenet,weights,checkpoints",
+    "tags": [
+      "mobilenet",
+      "weights",
+      "checkpoints"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl"
+  }
+}

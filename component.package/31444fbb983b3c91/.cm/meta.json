@@ -1,0 +1,77 @@
+{
+  "dict": {
+    "customize": {
+      "add_m32": "no",
+      "bugfix1": "yes",
+      "extra_dir": "",
+      "retarget": "no",
+      "tool_prefix_configured": "yes",
+      "version": "4.4.4"
+    },
+    "deps": {
+      "tool-texinfo": {
+        "local": "yes",
+        "name": "texinfo",
+        "only_for_target_os_tags": [
+          "linux"
+        ],
+        "sort": 5,
+        "tags": "tool,texinfo,v4.13"
+      }
+    },
+    "end_full_path": {
+      "linux": "bin/gcc",
+      "mingw": "src\\etc\\milepost-gcc-4.4.4-bin\\bin\\gcc.exe",
+      "win": "src\\etc\\milepost-gcc-4.4.4-bin\\bin\\gcc.exe"
+    },
+    "only_for_host_os_tags": [
+      "linux",
+      "windows"
+    ],
+    "only_for_target_os_tags": [
+      "linux",
+      "windows",
+      "mingw"
+    ],
+    "process_script": "process",
+    "soft_uoa": "a34a00e452894f94",
+    "suggested_path": "gcc-milepost",
+    "tags": [
+      "compiler",
+      "gcc",
+      "milepost",
+      "lang-c",
+      "v4.4.4",
+      "v4.4",
+      "v4"
+    ]
+  },
+  "misc": {
+    "data_uid": "31444fbb983b3c91",
+    "data_uoa": "compiler-gcc-4.4.4-milepost-src-no-deps",
+    "host_os": "linux,macos,windows",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "9482c22d7601b0df",
+    "repo_uoa": "reproduce-milepost-project",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/compiler-gcc-4.4.4-milepost-src-no-deps/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/compiler-gcc-4.4.4-milepost-src-no-deps",
+    "soft_name": "Milepost ML-based self-tuning research GCC compiler",
+    "soft_uid": "a34a00e452894f94",
+    "soft_uoa": "compiler.gcc.milepost",
+    "stags": "compiler,gcc,milepost,lang-c,v4.4.4,v4.4,v4",
+    "tags": [
+      "compiler",
+      "gcc",
+      "milepost",
+      "lang-c",
+      "v4.4.4",
+      "v4.4",
+      "v4"
+    ],
+    "target_os": "linux,macos,windows,mingw",
+    "template": "",
+    "to_get": "ck pull repo:reproduce-milepost-project"
+  }
+}

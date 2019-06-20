@@ -1,0 +1,58 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {
+      "version": "3.8.0"
+    },
+    "env": {},
+    "no_install_path": "yes",
+    "only_for_host_os_tags": [
+      "windows"
+    ],
+    "only_for_target_os": [
+      "windows-64"
+    ],
+    "process_script": "process",
+    "soft_uoa": "1c2eb494b8ae3bc4",
+    "suggested_path": "llvm",
+    "tags": [
+      "compiler",
+      "llvm",
+      "lang-c",
+      "lang-cpp",
+      "v3.8.0",
+      "v3.8",
+      "v3",
+      "channel-stable"
+    ]
+  },
+  "misc": {
+    "data_uid": "5692641e18a68d78",
+    "data_uoa": "compiler-llvm-3.8.0-win64-download",
+    "host_os": "windows",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/compiler-llvm-3.8.0-win64-download/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/compiler-llvm-3.8.0-win64-download",
+    "soft_name": "LLVM compiler",
+    "soft_uid": "1c2eb494b8ae3bc4",
+    "soft_uoa": "compiler.llvm",
+    "stags": "compiler,llvm,lang-c,lang-cpp,v3.8.0,v3.8,v3,channel-stable",
+    "tags": [
+      "compiler",
+      "llvm",
+      "lang-c",
+      "lang-cpp",
+      "v3.8.0",
+      "v3.8",
+      "v3",
+      "channel-stable"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "dict": {
+    "actions": {
+      "add": {
+        "desc": "register new repository in CK"
+      },
+      "browse": {
+        "desc": "show remote repo in a browser"
+      },
+      "copy": {
+        "desc": "copy repo (forbidden)"
+      },
+      "cp": {
+        "desc": "copy repo (forbidden)"
+      },
+      "create": {
+        "desc": "register new repository in CK"
+      },
+      "delete": {
+        "desc": "remove repository from CK"
+      },
+      "deps": {
+        "desc": "resolve dependencies on other repositories for a given repository"
+      },
+      "find": {
+        "desc": "find path to repo"
+      },
+      "get_and_unzip_archive": {
+        "desc": "(receive repository from web if needed in zip), unzip and register repository in CK"
+      },
+      "import": {
+        "desc": "register repository from current path in CK"
+      },
+      "print_deps": {
+        "desc": "print dependencies on other shared repositories"
+      },
+      "pull": {
+        "desc": "if a given repository is shared, pull it from GIT"
+      },
+      "push": {
+        "desc": "if a given repository is shared shared, push and commit it to GIT"
+      },
+      "recache": {
+        "desc": "recache all local repositories (to speed up search)"
+      },
+      "remove": {
+        "desc": "remove repository from CK"
+      },
+      "ren": {
+        "desc": "rename repo"
+      },
+      "rename": {
+        "desc": "rename repo"
+      },
+      "renew": {
+        "desc": "renew repository (remove fully and pull again)"
+      },
+      "reset": {
+        "desc": "reset git repos (default branch)"
+      },
+      "rm": {
+        "desc": "remove repository from CK"
+      },
+      "show": {
+        "desc": "show repositories and their status"
+      },
+      "unzip": {
+        "desc": "unzip entries from an archive to a given CK repository"
+      },
+      "update": {
+        "desc": "update repository description"
+      },
+      "where": {
+        "desc": "find local path to a given repository"
+      },
+      "zip": {
+        "desc": "archive repository to zip (can be shared with public, for Artifact Evaluation, etc)"
+      }
+    },
+    "actions_redirect": {
+      "import": "import_repo"
+    },
+    "copyright": "See CK COPYRIGHT.txt for copyright details",
+    "desc": "CK repositories",
+    "developer": "Grigori Fursin",
+    "developer_email": "Grigori.Fursin@cTuning.org",
+    "developer_webpage": "http://cTuning.org/lab/people/gfursin",
+    "license": "See CK LICENSE.txt for licensing details"
+  },
+  "misc": {
+    "actions": {
+      "add": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L34"
+      },
+      "browse": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L2181"
+      },
+      "copy": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L2628"
+      },
+      "cp": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L2646"
+      },
+      "create": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L1143"
+      },
+      "delete": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L1381"
+      },
+      "deps": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L1789"
+      },
+      "find": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L2082"
+      },
+      "get_and_unzip_archive": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L1629"
+      },
+      "import": {},
+      "print_deps": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L1974"
+      },
+      "pull": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L754"
+      },
+      "push": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L1007"
+      },
+      "recache": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L1154"
+      },
+      "remove": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L1370"
+      },
+      "ren": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L2506"
+      },
+      "rename": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L2609"
+      },
+      "renew": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L2112"
+      },
+      "reset": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L2482"
+      },
+      "rm": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L1272"
+      },
+      "show": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L2355"
+      },
+      "unzip": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L1588"
+      },
+      "update": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L549"
+      },
+      "where": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L1392"
+      },
+      "zip": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py#L1426"
+      }
+    },
+    "data_uid": "befd7892b0d469e9",
+    "data_uoa": "repo",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "604419a9fcc7a081",
+    "repo_uoa": "default",
+    "repo_url1": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/module.py",
+    "repo_url2": "https://github.com/ctuning/ck/tree/master/ck/repo/module/repo/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "",
+    "workflow": ""
+  }
+}

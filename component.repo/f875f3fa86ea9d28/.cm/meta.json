@@ -1,0 +1,35 @@
+{
+  "dict": {
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-request-asplos18-results-resnet-tvm-fpga"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "f2be9b14e67b8b23",
+          "repo_uoa": "ck-request-asplos18-results"
+        },
+        {
+          "repo_uid": "a1294586bce671ba",
+          "repo_uoa": "ck-request-asplos18-resnet-tvm-fpga"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-request-asplos18-results-resnet-tvm-fpga"
+    },
+    "data_uid": "f875f3fa86ea9d28",
+    "data_uoa": "ck-request-asplos18-results-resnet-tvm-fpga",
+    "desc": "Collected experimental results in the CK format from the <a href=\"http://cknowledge.org/request-cfp-asplos2018.html\">1st ACM ReQuEST-ASPLOS'18 tournament</a>.",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-request-asplos18-results-resnet-tvm-fpga/tree/master/repo/ck-request-asplos18-results-resnet-tvm-fpga/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-request-asplos18-results-resnet-tvm-fpga/tree/master/repo/ck-request-asplos18-results-resnet-tvm-fpga",
+    "tasks": {},
+    "to_get": "ck pull repo:ck-request-asplos18-results-resnet-tvm-fpga",
+    "workflow_desc": ""
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "dict": {
+    "auto_detect": "no",
+    "customize": {
+      "add_include_path": "yes",
+      "env_prefix": "CK_ENV_LIB_ISAAC"
+    },
+    "deps": {},
+    "skip_file_check": "yes",
+    "soft_name": "ISAAC library",
+    "tags": [
+      "lib",
+      "partial-blas",
+      "isaac"
+    ]
+  },
+  "misc": {
+    "auto_detect": "no",
+    "data_uid": "6838ff78b50424f9",
+    "data_uoa": "lib.isaac",
+    "env_prefix": "CK_ENV_LIB_ISAAC",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/lib.isaac/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/lib.isaac",
+    "soft_name": "ISAAC library",
+    "stags": "lib,partial-blas,isaac",
+    "tags": [
+      "lib",
+      "partial-blas",
+      "isaac"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

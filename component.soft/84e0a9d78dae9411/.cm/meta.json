@@ -1,0 +1,39 @@
+{
+  "dict": {
+    "customize": {
+      "env_prefix": "CK_ENV_LIB_GRAPH_GENERATOR"
+    },
+    "soft_name": "R-MAT Graph Generator library",
+    "tags": [
+      "lib",
+      "graph500",
+      "rmat-generator",
+      "rmat"
+    ]
+  },
+  "misc": {
+    "auto_detect": "no",
+    "data_uid": "84e0a9d78dae9411",
+    "data_uoa": "lib.graph-generator",
+    "env_prefix": "CK_ENV_LIB_GRAPH_GENERATOR",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "68121412a8ff317c",
+    "repo_uoa": "ck-graph-analytics",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-graph-analytics/tree/master/soft/lib.graph-generator/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-graph-analytics/tree/master/soft/lib.graph-generator",
+    "soft_name": "R-MAT Graph Generator library",
+    "stags": "lib,graph500,rmat-generator,rmat",
+    "tags": [
+      "lib",
+      "graph500",
+      "rmat-generator",
+      "rmat"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-graph-analytics"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "dict": {
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-mlflow"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "a4328ba99679e0d1",
+          "repo_uoa": "ck-autotuning"
+        },
+        {
+          "repo_uid": "d94a45b5be3072ba",
+          "repo_uoa": "ck-math"
+        },
+        {
+          "repo_uid": "4ffcc1307484d840",
+          "repo_uoa": "ctuning-datasets-min"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-mlflow"
+    },
+    "data_uid": "23dd4b94ab240d29",
+    "data_uoa": "ck-mlflow",
+    "desc": "Portable and customizable installation and unified CK access to MLFlow from DataBricks",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-mlflow/tree/master/repo/ck-mlflow/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-mlflow/tree/master/repo/ck-mlflow",
+    "tasks": {},
+    "to_get": "ck pull repo:ck-mlflow"
+  }
+}

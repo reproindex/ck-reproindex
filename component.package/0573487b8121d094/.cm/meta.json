@@ -1,0 +1,68 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "version": "0.3"
+    },
+    "deps": {
+      "compiler": {
+        "local": "yes",
+        "name": "C compiler",
+        "sort": 10,
+        "tags": "compiler,lang-c"
+      }
+    },
+    "end_full_path": {
+      "android": "lib$#sep#$librtlxopenme.a",
+      "linux": "lib/librtlxopenme.a",
+      "mingw": "lib\\librtlxopenme.a",
+      "win": "lib\\librtlxopenme.lib"
+    },
+    "process_script": "process",
+    "soft_uoa": "673507878d649b4a",
+    "suggested_path": "lib-rtl-xopenme",
+    "tags": [
+      "lib",
+      "rtl",
+      "xopenme",
+      "lang-c",
+      "lang-cpp",
+      "lang-f77",
+      "lang-f90",
+      "lang-f95",
+      "channel-stable"
+    ],
+    "template": "yes",
+    "template_type": "Reduced OpenME run-time library"
+  },
+  "misc": {
+    "data_uid": "0573487b8121d094",
+    "data_uoa": "lib-rtl-xopenme",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "a4328ba99679e0d1",
+    "repo_uoa": "ck-autotuning",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-autotuning/tree/master/package/lib-rtl-xopenme/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-autotuning/tree/master/package/lib-rtl-xopenme",
+    "soft_name": "xOpenME run-time library",
+    "soft_uid": "673507878d649b4a",
+    "soft_uoa": "lib.rtl.xopenme",
+    "stags": "lib,rtl,xopenme,lang-c,lang-cpp,lang-f77,lang-f90,lang-f95,channel-stable",
+    "tags": [
+      "lib",
+      "rtl",
+      "xopenme",
+      "lang-c",
+      "lang-cpp",
+      "lang-f77",
+      "lang-f90",
+      "lang-f95",
+      "channel-stable"
+    ],
+    "target_os": "any",
+    "template": "Reduced OpenME run-time library",
+    "to_get": "ck pull repo:ck-autotuning"
+  }
+}

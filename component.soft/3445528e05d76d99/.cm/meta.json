@@ -1,0 +1,48 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "add_to_path": "yes",
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_LIB_HPCTOOLKIT_LIBMONITOR",
+      "limit_recursion_dir_search": {
+        "linux": 3
+      },
+      "soft_file": {
+        "linux": "libmonitor.so"
+      },
+      "soft_path_example": {
+        "linux": ""
+      }
+    },
+    "soft_name": "HPCToolKit libmonitor library",
+    "tags": [
+      "lib",
+      "hpctoolkit-libmonitor"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "3445528e05d76d99",
+    "data_uoa": "lib.hpctoolkit.libmonitor",
+    "env_prefix": "CK_ENV_LIB_HPCTOOLKIT_LIBMONITOR",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/lib.hpctoolkit.libmonitor/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/lib.hpctoolkit.libmonitor",
+    "soft_name": "HPCToolKit libmonitor library",
+    "stags": "lib,hpctoolkit-libmonitor",
+    "tags": [
+      "lib",
+      "hpctoolkit-libmonitor"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

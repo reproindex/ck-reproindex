@@ -1,0 +1,21 @@
+{
+  "actions": {
+    "add_index": {
+      "desc": "add index"
+    },
+    "get": {
+      "desc": "find specific components"
+    },
+    "html": {
+      "desc": "generate html"
+    },
+    "index": {
+      "desc": "index components"
+    }
+  },
+  "desc": "index of CK modules",
+  "module_deps": {
+    "component":"bd4513457990ba8f",
+    "component.repo":"4adfaff6d69d41a9"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "backup_data_uid": "e751428174907932",
+  "backup_module_uid": "b56ccd54ac2b15b9",
+  "backup_module_uoa": "repro.article",
+  "control": {
+    "engine": "CK",
+    "iso_datetime": "2019-03-05T11:43:56.498444",
+    "version": [
+      "1",
+      "9",
+      "7",
+      "1"
+    ]
+  }
+}

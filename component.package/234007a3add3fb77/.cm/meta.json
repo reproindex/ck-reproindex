@@ -1,0 +1,99 @@
+{
+  "dict": {
+    "customize": {
+      "install_env": {
+        "PACKAGE_NAME": "QScintilla_gpl-2.10.4.tar.gz",
+        "PACKAGE_NAME1": "QScintilla_gpl-2.10.4.tar",
+        "PACKAGE_SKIP_CLEAN_OBJ": "YES",
+        "PACKAGE_SKIP_LINUX_MAKE": "YES",
+        "PACKAGE_UNGZIP": "YES",
+        "PACKAGE_UNTAR": "YES",
+        "PACKAGE_URL": "https://netix.dl.sourceforge.net/project/pyqt/QScintilla2/QScintilla-2.10.4",
+        "PACKAGE_WGET": "YES"
+      },
+      "version": "2.10.4"
+    },
+    "deps": {
+      "compiler": {
+        "local": "yes",
+        "name": "C++ compiler",
+        "sort": 0,
+        "tags": "compiler,lang-cpp"
+      },
+      "lib-qt": {
+        "local": "yes",
+        "name": "Qt library",
+        "sort": 1,
+        "tags": "lib,qt",
+        "version_from": [
+          4,
+          8
+        ],
+        "version_to": [
+          5,
+          999
+        ]
+      }
+    },
+    "end_full_path": {
+      "linux": "QScintilla_gpl-2.10.4/Qt4Qt5/Qsci/qsciscintilla.h",
+      "win": "QScintilla_gpl-2.10.4/Qt4Qt5/Qsci/qsciscintilla.h"
+    },
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "process_script": "install",
+    "soft_uoa": "694943589fc8fb59",
+    "suggested_path": "lib-qscintilla",
+    "tags": [
+      "lib",
+      "qscintilla",
+      "vqt",
+      "vqt4",
+      "vqt5",
+      "vsrc",
+      "v2.10.4",
+      "v2.10",
+      "v2",
+      "channel-stable"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "cd9ccc74060b3d18",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "234007a3add3fb77",
+    "data_uoa": "lib-qscintilla",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "4ae7df4c1a806867",
+    "repo_uoa": "ck-gui",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/Chunosov/ck-gui/tree/master/package/lib-qscintilla/.cm/meta.json",
+    "repo_url3": "https://github.com/Chunosov/ck-gui/tree/master/package/lib-qscintilla",
+    "soft_name": "QScintilla development library",
+    "soft_uid": "694943589fc8fb59",
+    "soft_uoa": "lib.qscintilla",
+    "stags": "lib,qscintilla,vqt,vqt4,vqt5,vsrc,v2.10.4,v2.10,v2,channel-stable",
+    "tags": [
+      "lib",
+      "qscintilla",
+      "vqt",
+      "vqt4",
+      "vqt5",
+      "vsrc",
+      "v2.10.4",
+      "v2.10",
+      "v2",
+      "channel-stable"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo --url=https://github.com/Chunosov/ck-gui"
+  }
+}

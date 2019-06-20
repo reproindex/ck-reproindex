@@ -1,0 +1,78 @@
+{
+  "dict": {
+    "aux_uoa": "4e3e9dd897f125bb",
+    "check_exit_status": "yes",
+    "customize": {
+      "force_ask_path": "no",
+      "install_env": {},
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "no",
+      "version": "bvlc-googlenet"
+    },
+    "deps": {
+      "dataset-imagenet-raw": {
+        "add_to_path": "no",
+        "local": "yes",
+        "name": "ImageNet dataset (raw)",
+        "sort": 30,
+        "tags": "dataset,imagenet,raw"
+      },
+      "kannmodel": {
+        "add_to_path": "no",
+        "local": "yes",
+        "name": "KaNN model (net and weights)",
+        "sort": 10,
+        "tags": "kannmodel,bvlc,googlenet"
+      }
+    },
+    "end_full_path": {
+      "linux": "ILSVRC2012_val_00000001.kann_input",
+      "win": "ILSVRC2012_val_00000001.kann_input"
+    },
+    "need_cpu_info": "no",
+    "process_script": "convert",
+    "remove_deps": "yes",
+    "soft_uoa": "8db14d6a8ccd42fe",
+    "suggested_path": "dataset-imagenet-ilsvrc2012-val-kann",
+    "tags": [
+      "dataset",
+      "imagenet",
+      "val",
+      "kann",
+      "bvlc",
+      "googlenet"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "imagenet2kann",
+      "module_uoa": "script",
+      "use_repo": "ck-kann"
+    }
+  },
+  "misc": {
+    "data_uid": "8f831fdd4948e344",
+    "data_uoa": "kanndataset-imagenet-val-bvlc-googlenet",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "aa8299de464392e3",
+    "repo_uoa": "ck-kann",
+    "repo_url1": "",
+    "repo_url2": "http://github.com/ctuning/ck-kann/tree/master/package/kanndataset-imagenet-val-bvlc-googlenet/.cm/meta.json",
+    "repo_url3": "http://github.com/ctuning/ck-kann/tree/master/package/kanndataset-imagenet-val-bvlc-googlenet",
+    "soft_name": "ImageNet dataset (validation, KaNN)",
+    "soft_uid": "8db14d6a8ccd42fe",
+    "soft_uoa": "dataset.imagenet.val.kann",
+    "stags": "dataset,imagenet,val,kann,bvlc,googlenet",
+    "tags": [
+      "dataset",
+      "imagenet",
+      "val",
+      "kann",
+      "bvlc",
+      "googlenet"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-kann"
+  }
+}

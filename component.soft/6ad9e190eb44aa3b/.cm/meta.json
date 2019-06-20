@@ -1,0 +1,48 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_LIB_TF",
+      "limit_recursion_dir_search": {
+        "android": 10
+      },
+      "soft_file": {
+        "android": "install/lib/libtensorflow-core.a"
+      }
+    },
+    "soft_name": "TensorFlow C++ API",
+    "tags": [
+      "lib",
+      "tensorflow",
+      "vstatic"
+    ],
+    "template": "yes",
+    "template_type": "TensorFlow library (C++)"
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "6ad9e190eb44aa3b",
+    "data_uoa": "lib.tensorflow.static",
+    "env_prefix": "CK_ENV_LIB_TF",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "acb7cea44acac9c9",
+    "repo_uoa": "ck-tensorflow",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/soft/lib.tensorflow.static/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/soft/lib.tensorflow.static",
+    "soft_name": "TensorFlow C++ API",
+    "stags": "lib,tensorflow,vstatic",
+    "tags": [
+      "lib",
+      "tensorflow",
+      "vstatic"
+    ],
+    "target_os": "any",
+    "template": "TensorFlow library (C++)",
+    "to_get": "ck pull repo:ck-tensorflow"
+  }
+}

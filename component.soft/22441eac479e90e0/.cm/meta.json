@@ -1,0 +1,48 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_LIB_TF",
+      "limit_recursion_dir_search": {
+        "android": 10
+      },
+      "soft_file": {
+        "android": "install/lib/libtensorflow-core.a"
+      }
+    },
+    "soft_name": "TensorFlow Lite API",
+    "tags": [
+      "lib",
+      "tensorflow",
+      "vstatic"
+    ],
+    "template": "yes",
+    "template_type": "TFLite library (С++)"
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "22441eac479e90e0",
+    "data_uoa": "lib.tflite.static",
+    "env_prefix": "CK_ENV_LIB_TF",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "acb7cea44acac9c9",
+    "repo_uoa": "ck-tensorflow",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/soft/lib.tflite.static/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/soft/lib.tflite.static",
+    "soft_name": "TensorFlow Lite API",
+    "stags": "lib,tensorflow,vstatic",
+    "tags": [
+      "lib",
+      "tensorflow",
+      "vstatic"
+    ],
+    "target_os": "any",
+    "template": "TFLite library (С++)",
+    "to_get": "ck pull repo:ck-tensorflow"
+  }
+}

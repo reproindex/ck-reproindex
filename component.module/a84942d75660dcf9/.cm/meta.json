@@ -1,0 +1,123 @@
+{
+  "dict": {
+    "actions": {
+      "configure": {
+        "desc": "configure device"
+      },
+      "crowdbench": {
+        "desc": "crowd benchmark Android workloads via CK public repository (cknowledge.org/repo)"
+      },
+      "dashboard": {
+        "desc": "ARM workload automation dashboard",
+        "for_web": "yes"
+      },
+      "import": {
+        "desc": "import workloads from original WA"
+      },
+      "list": {
+        "desc": "list workloads",
+        "for_web": "yes"
+      },
+      "replay": {
+        "desc": "replay a given experiment"
+      },
+      "run": {
+        "desc": "run workload(s)"
+      },
+      "runx": {
+        "desc": "run workload via CK pipeline",
+        "for_web": "yes"
+      }
+    },
+    "actions_redirect": {
+      "import": "import_wa",
+      "list": "list_wa"
+    },
+    "agenda_file": "agenda.yaml",
+    "copyright": "See CK-WA COPYRIGHT for copyright details",
+    "default_agenda": {
+      "config": {
+        "instrumentation": [
+          "~execution_time"
+        ],
+        "result_processors": [
+          "json"
+        ]
+      },
+      "workloads": []
+    },
+    "default_device_cfg_file": "device-template.json",
+    "desc": "CK front-end for ARM workload automation",
+    "developer": "dividiti",
+    "developer_email": "grigori@dividiti.com",
+    "developer_webpage": "http://dividiti.com",
+    "device_cfg_file": "config.py",
+    "license": "See CK-WA LICENSE for licensing details",
+    "linux_based_wa_devices": [
+      "chromeos_test_image",
+      "gem5_linux",
+      "generic_linux",
+      "odroidxu3_linux",
+      "XE503C12"
+    ],
+    "module_deps": {
+      "env": "9b9b3208ac44b891",
+      "experiment": "bc0409fb61f0aa82",
+      "experiment.bench.workload.android": "53fc154f34ab6b17",
+      "machine": "84be34883a81b2a9",
+      "pipeline": "db25414b48b4ffb3",
+      "platform": "707ccdfe444cafac",
+      "platform.os": "41e31cc4496b8a8e",
+      "program": "b0ac08fe1d3c2615",
+      "wa-device": "b288469ca210e99e",
+      "wa-params": "53869eb7a3ca4aea",
+      "wa-result": "9db0db9369416e1b",
+      "wa-scenario": "694431881401480c",
+      "wa-tool": "4f939c62eeeb988b"
+    },
+    "wa_deps": {
+      "wa": {
+        "env_key": "WA",
+        "local": "yes",
+        "name": "ARM Workload Automation",
+        "sort": 10,
+        "tags": "tool,wa"
+      }
+    },
+    "workflow": "yes",
+    "workflow_type": "Arm workload automation workflow"
+  },
+  "misc": {
+    "actions": {
+      "configure": {
+        "url_api": "https://github.com/dividiti/ck-wa/tree/master/module/wa/module.py#L1273"
+      },
+      "crowdbench": {
+        "url_api": "https://github.com/dividiti/ck-wa/tree/master/module/wa/module.py#L1377"
+      },
+      "dashboard": {
+        "url_api": "https://github.com/dividiti/ck-wa/tree/master/module/wa/module.py#L715"
+      },
+      "import": {},
+      "list": {},
+      "replay": {
+        "url_api": "https://github.com/dividiti/ck-wa/tree/master/module/wa/module.py#L1210"
+      },
+      "run": {
+        "url_api": "https://github.com/dividiti/ck-wa/tree/master/module/wa/module.py#L93"
+      },
+      "runx": {}
+    },
+    "data_uid": "a84942d75660dcf9",
+    "data_uoa": "wa",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "410382d03df408ec",
+    "repo_uoa": "ck-wa",
+    "repo_url1": "https://github.com/dividiti/ck-wa/tree/master/module/wa/module.py",
+    "repo_url2": "https://github.com/dividiti/ck-wa/tree/master/module/wa/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-wa",
+    "workflow": "Arm workload automation workflow"
+  }
+}

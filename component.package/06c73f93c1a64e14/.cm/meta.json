@@ -1,0 +1,64 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "install_env": {
+        "KERAS_URL": "https://github.com/fchollet/keras"
+      },
+      "version": "pip"
+    },
+    "deps": {
+      "lib.tensorflow": {
+        "add_to_path": "yes",
+        "local": "yes",
+        "name": "CUDA compiler >=7.0",
+        "sort": 40,
+        "tags": "lib,tensorflow-cuda"
+      },
+      "python": {
+        "local": "yes",
+        "name": "Python",
+        "sort": 20,
+        "tags": "compiler,python"
+      }
+    },
+    "end_full_path": {
+      "linux": "keras/__init__.py"
+    },
+    "package_extra_name": " (tensorflow based)",
+    "process_script": "install",
+    "soft_uoa": "04698bcbc46c246f",
+    "suggested_path": "keras-tensorflow",
+    "tags": [
+      "lib",
+      "keras",
+      "tensorflow-based",
+      "vpip"
+    ]
+  },
+  "misc": {
+    "data_uid": "06c73f93c1a64e14",
+    "data_uoa": "lib-keras-pip",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "acb7cea44acac9c9",
+    "repo_uoa": "ck-tensorflow",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/lib-keras-pip/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/lib-keras-pip",
+    "soft_name": "Keras API, TensorFlow based",
+    "soft_uid": "04698bcbc46c246f",
+    "soft_uoa": "lib.keras",
+    "stags": "lib,keras,tensorflow-based,vpip",
+    "tags": [
+      "lib",
+      "keras",
+      "tensorflow-based",
+      "vpip"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-tensorflow"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {
+      "extra_dir": "",
+      "file_with_weights": "jacintonet11_bn_iter_320000.caffemodel",
+      "force_ask_path": "yes",
+      "install_env": {
+        "MODEL_FILE": "jacintonet11_bn_iter_320000.caffemodel",
+        "MODEL_HASH_CALCULATOR": "sha1sum",
+        "MODEL_HASH_REF": "60f5ac3fe7f6e022bac8072ad14f69b6e2a28350",
+        "MODEL_URL": "https://github.com/tidsp/caffe-jacinto-models/raw/master/examples/tidsp/models/non_sparse/imagenet_classification/jacintonet11/jacintonet11_bn_iter_320000.caffemodel"
+      },
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "yes",
+      "params": {
+        "deploy": {
+          "substitute": {
+            "batch_size": 1
+          },
+          "template": "deploy.prototxt"
+        },
+        "train": {
+          "substitute": {
+            "train_batch_size": 128,
+            "val_batch_size": 128
+          },
+          "template": "train_val.prototxt"
+        },
+        "val": {
+          "accuracy_layers": [
+            "accuracy/top-1",
+            "accuracy/top-5"
+          ],
+          "substitute": {
+            "train_batch_size": 128,
+            "val_batch_size": 128
+          },
+          "template": "train_val.prototxt"
+        }
+      },
+      "skip_file_check": "yes",
+      "version": "trunk"
+    },
+    "end_full_path": {
+      "linux": "jacintonet11_bn_iter_320000.caffemodel",
+      "win": "jacintonet11_bn_iter_320000.caffemodel"
+    },
+    "features": {
+      "accuracy": 0.6077,
+      "accuracy_top5": 0.832
+    },
+    "only_for_host_os_tags": [
+      "windows",
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "windows",
+      "linux"
+    ],
+    "package_extra_name": " (tidsp, jacintonet11, non-sparse)",
+    "process_script": "download",
+    "soft_uoa": "e2400aabc11d6cd1",
+    "suggested_path": "caffemodel-tidsp-jacintonet11-non-sparse",
+    "tags": [
+      "caffe",
+      "weights",
+      "caffemodel",
+      "tidsp",
+      "jacintonet11",
+      "non-sparse",
+      "channel-stable"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "download-caffemodel",
+      "module_uoa": "script",
+      "repo_uoa": "ck-caffe"
+    }
+  },
+  "misc": {
+    "data_uid": "90896a4ec3be86d7",
+    "data_uoa": "caffemodel-tidsp-jacintonet11-non-sparse",
+    "host_os": "windows,linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "57e83bca8a5a4344",
+    "repo_uoa": "ck-caffe",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/dividiti/ck-caffe/tree/master/package/caffemodel-tidsp-jacintonet11-non-sparse/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/ck-caffe/tree/master/package/caffemodel-tidsp-jacintonet11-non-sparse",
+    "soft_name": "Caffe model (net and weights)",
+    "soft_uid": "e2400aabc11d6cd1",
+    "soft_uoa": "model.caffe",
+    "stags": "caffe,weights,caffemodel,tidsp,jacintonet11,non-sparse,channel-stable",
+    "tags": [
+      "caffe",
+      "weights",
+      "caffemodel",
+      "tidsp",
+      "jacintonet11",
+      "non-sparse",
+      "channel-stable"
+    ],
+    "target_os": "windows,linux,macos",
+    "template": "",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-caffe.git"
+  }
+}

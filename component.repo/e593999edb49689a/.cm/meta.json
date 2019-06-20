@@ -1,0 +1,43 @@
+{
+  "dict": {
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-cntk"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "a4328ba99679e0d1",
+          "repo_uoa": "ck-autotuning"
+        },
+        {
+          "repo_uid": "d94a45b5be3072ba",
+          "repo_uoa": "ck-math"
+        },
+        {
+          "repo_uid": "4ffcc1307484d840",
+          "repo_uoa": "ctuning-datasets-min"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-cntk"
+    },
+    "data_uid": "e593999edb49689a",
+    "data_uoa": "ck-cntk",
+    "desc": "Portable/customizable installation and unified access to CNTK AI framework with different workflows and data sets (see <a href=\"http://cKnowledge.org/request\">ReQuEST tournaments</a>).",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-cntk/tree/master/repo/ck-cntk/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-cntk/tree/master/repo/ck-cntk",
+    "tasks": {
+      "0bfecb4858004a23": {
+        "data_uoa": "cntk"
+      }
+    },
+    "to_get": "ck pull repo:ck-cntk",
+    "workflow_desc": "programs"
+  }
+}

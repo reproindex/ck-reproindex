@@ -1,0 +1,37 @@
+{
+  "dict": {
+    "customize": {
+      "env_prefix": "CK_ENV_LIB_RTL_POLYBENCH"
+    },
+    "soft_name": "Polybench run-time library (outdated)",
+    "tags": [
+      "lib",
+      "rtl",
+      "polybench"
+    ]
+  },
+  "misc": {
+    "auto_detect": "no",
+    "data_uid": "ac25cef24e429b24",
+    "data_uoa": "lib.rtl.polybench",
+    "env_prefix": "CK_ENV_LIB_RTL_POLYBENCH",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/lib.rtl.polybench/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/lib.rtl.polybench",
+    "soft_name": "Polybench run-time library (outdated)",
+    "stags": "lib,rtl,polybench",
+    "tags": [
+      "lib",
+      "rtl",
+      "polybench"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

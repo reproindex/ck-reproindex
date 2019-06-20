@@ -1,0 +1,45 @@
+{
+  "dict": {
+    "actions": {
+      "generate": {
+        "desc": "generate ACM proceedings"
+      }
+    },
+    "copyright": "See CK COPYRIGHT.txt for copyright details",
+    "desc": "automating ACM proceedings with papers and artifacts",
+    "developer": "Grigori Fursin",
+    "developer_email": "Grigori.Fursin@cTuning.org",
+    "developer_webpage": "http://fursin.net",
+    "file_artifact_meta": "ck-artifact-meta.json",
+    "file_paper_meta": "ck-paper-meta.json",
+    "license": "See CK LICENSE.txt for licensing details",
+    "module_deps": {
+      "artifact": "417c3b437caa4594",
+      "dissemination.publication": "29db2248aba45e59",
+      "docker": "88eef0cd8c43b68a",
+      "person": "b0743a4044480ead",
+      "repo": "befd7892b0d469e9",
+      "xml": "438944ac88b3baab"
+    },
+    "workflow": "yes",
+    "workflow_type": "pipeline to generate ACM ReQuEST proceedings (papers and artifacts)"
+  },
+  "misc": {
+    "actions": {
+      "generate": {
+        "url_api": "https://github.com/ctuning/ck-dissemination-modules/tree/master/module/proceedings.acm/module.py#L33"
+      }
+    },
+    "data_uid": "6b88021f7bcea660",
+    "data_uoa": "proceedings.acm",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "62a4f46acf5ff29e",
+    "repo_uoa": "ck-dissemination-modules",
+    "repo_url1": "https://github.com/ctuning/ck-dissemination-modules/tree/master/module/proceedings.acm/module.py",
+    "repo_url2": "https://github.com/ctuning/ck-dissemination-modules/tree/master/module/proceedings.acm/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:ck-dissemination-modules",
+    "workflow": "pipeline to generate ACM ReQuEST proceedings (papers and artifacts)"
+  }
+}

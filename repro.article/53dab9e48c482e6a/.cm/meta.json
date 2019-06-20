@@ -1,0 +1,32 @@
+{
+  "misc": {
+    "artifact_doi_url": "https://dl.acm.org/citation.cfm?doid=3068854",
+    "artifact_sources": "",
+    "artifact_sources_url": "",
+    "authors": "Patrick Flick, Patrick Flick, Tony Pan, Srinivas Aluru",
+    "badge_acm_artifact_available": "",
+    "badge_acm_artifact_functional": "",
+    "badge_acm_artifact_reusable": "",
+    "badge_acm_results_replicated": "",
+    "badge_acm_results_reproduced": "",
+    "ck_repo_uid": "",
+    "paper_doi_url": "https://doi.org/10.1145/2807591.2807619",
+    "paper_pdf_url": "",
+    "reproducibility_url": "",
+    "results": "",
+    "results_dashboard_url": "",
+    "results_url": "",
+    "some_results_replicated": "yes",
+    "title": "A parallel connectivity algorithm for de Bruijn graphs in metagenomic applications",
+    "unified_artifact_appendix": "",
+    "where": "SC'15",
+    "where_url": "http://sc15.supercomputing.org",
+    "workflow": "CK",
+    "workflow_url": "https://dl.acm.org/citation.cfm?doid=3068854"
+  },
+  "tags": [
+    "papers",
+    "papers-sc",
+    "papers-sc-2015"
+  ]
+}

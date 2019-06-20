@@ -1,0 +1,80 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "install_env": {
+        "TENSORFLOW_URL": "https://github.com/tensorflow/tensorflow",
+        "USE_CUDA": 0
+      },
+      "params": {
+        "python_bin_path": "${CK_ENV_COMPILER_PYTHON}/bin/python",
+        "tf_need_cuda": 0,
+        "tf_need_gcp": 0,
+        "tf_need_hdfs": 0
+      },
+      "version": "0.10"
+    },
+    "deps": {
+      "bazel": {
+        "local": "yes",
+        "name": "Bazel",
+        "sort": 10,
+        "tags": "tool,bazel"
+      },
+      "python": {
+        "local": "yes",
+        "name": "Python",
+        "sort": 20,
+        "tags": "compiler,python"
+      }
+    },
+    "end_full_path": {
+      "linux": "lib/tensorflow/__init__.py",
+      "win": "lib/tensorflow/__init__.py"
+    },
+    "need_cpu_info": "yes",
+    "only_for_host_os_tags": [
+      "linux",
+      "windows"
+    ],
+    "only_for_target_os_tags": [
+      "linux",
+      "windows"
+    ],
+    "package_extra_name": " (cpu)",
+    "process_script": "install",
+    "soft_uoa": "30db354f469bb178",
+    "suggested_path": "tensorflow-cpu",
+    "tags": [
+      "lib",
+      "tensorflow",
+      "v0.10",
+      "python"
+    ]
+  },
+  "misc": {
+    "data_uid": "939b484199d4d7da",
+    "data_uoa": "lib-tensorflow-0.10.0-cpu",
+    "host_os": "linux,macos,windows",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "6d04bb400f29474d",
+    "repo_uoa": "ck-old-packages",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-old-packages/tree/master/package/lib-tensorflow-0.10.0-cpu/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-old-packages/tree/master/package/lib-tensorflow-0.10.0-cpu",
+    "soft_name": "TensorFlow library",
+    "soft_uid": "30db354f469bb178",
+    "soft_uoa": "lib.tensorflow",
+    "stags": "lib,tensorflow,v0.10,python",
+    "tags": [
+      "lib",
+      "tensorflow",
+      "v0.10",
+      "python"
+    ],
+    "target_os": "linux,macos,windows",
+    "template": "",
+    "to_get": "ck pull repo:ck-old-packages"
+  }
+}

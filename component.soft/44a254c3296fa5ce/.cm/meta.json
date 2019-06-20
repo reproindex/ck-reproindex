@@ -1,0 +1,54 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "env_prefix": "CK_ENV_LOCAL_FOREST",
+      "limit_recursion_dir_search": {
+        "linux": 5,
+        "win": 5
+      },
+      "soft_file": {
+        "linux": "qvm"
+      }
+    },
+    "soft_name": "Rigetti local Forest tools",
+    "tags": [
+      "bin",
+      "quantum",
+      "rigetti",
+      "local",
+      "forest",
+      "qvm",
+      "quilc"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "44a254c3296fa5ce",
+    "data_uoa": "local.forest",
+    "env_prefix": "CK_ENV_LOCAL_FOREST",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "6456e78d8c044a88",
+    "repo_uoa": "ck-rigetti",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-rigetti/tree/master/soft/local.forest/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-rigetti/tree/master/soft/local.forest",
+    "soft_name": "Rigetti local Forest tools",
+    "stags": "bin,quantum,rigetti,local,forest,qvm,quilc",
+    "tags": [
+      "bin",
+      "quantum",
+      "rigetti",
+      "local",
+      "forest",
+      "qvm",
+      "quilc"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-rigetti"
+  }
+}

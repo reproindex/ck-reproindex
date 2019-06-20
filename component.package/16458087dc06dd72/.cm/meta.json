@@ -1,0 +1,76 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {
+      "extra_dir": "",
+      "force_ask_path": "yes",
+      "install_env": {
+        "IMAGESETS_DIR": "ImageSets",
+        "IMAGESETS_IMAGE_DIR": "Layout",
+        "IMAGESETS_SEG_DIR": "Segmentation",
+        "IMAGESETS_TESTS_DIR": "Main",
+        "IMAGE_DIR": "JPEGImages",
+        "LABELS_DIR": "Annotations",
+        "SEG_CLASS_DIR": "SegmentationClass",
+        "SEG_OBJ_DIR": "SegmentationObject",
+        "TEST_DIR": "test",
+        "TRAIN_DIR": "train",
+        "VOC_DIR1": "VOCdevkit",
+        "VOC_DIR2": "VOC2007",
+        "VOC_TEST_ARCHIVE": "VOCtest_06-Nov-2007.tar",
+        "VOC_TEST_URL": "http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtest_06-Nov-2007.tar",
+        "VOC_TRAIN_ARCHIVE": "VOCtrainval_06-Nov-2007.tar",
+        "VOC_TRAIN_URL": "http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar"
+      },
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "yes",
+      "version": "2007"
+    },
+    "deps": {},
+    "end_full_path": {
+      "linux": "train/VOCdevkit/VOC2007/JPEGImages/000005.jpg",
+      "win": "train/VOCdevkit/VOC2007/JPEGImages/000005.jpg"
+    },
+    "need_cpu_info": "no",
+    "process_script": "install",
+    "soft_uoa": "041cf4753bed7c62",
+    "suggested_path": "dataset-voc-2007",
+    "tags": [
+      "dataset",
+      "voc",
+      "VOC",
+      "2007",
+      "val",
+      "full",
+      "channel-stable"
+    ]
+  },
+  "misc": {
+    "data_uid": "16458087dc06dd72",
+    "data_uoa": "dataset-voc-2007",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "57e83bca8a5a4344",
+    "repo_uoa": "ck-caffe",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/dividiti/ck-caffe/tree/master/package/dataset-voc-2007/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/ck-caffe/tree/master/package/dataset-voc-2007",
+    "soft_name": "VOC dataset",
+    "soft_uid": "041cf4753bed7c62",
+    "soft_uoa": "dataset.voc",
+    "stags": "dataset,voc,VOC,2007,val,full,channel-stable",
+    "tags": [
+      "dataset",
+      "voc",
+      "VOC",
+      "2007",
+      "val",
+      "full",
+      "channel-stable"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-caffe.git"
+  }
+}

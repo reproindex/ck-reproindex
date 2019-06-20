@@ -1,0 +1,33 @@
+{
+  "dict": {
+    "actions": {
+      "add": {
+        "desc": "add scenario (semi-manual)"
+      }
+    },
+    "copyright": "See CK-WA COPYRIGHT.txt for copyright details",
+    "desc": "common workload automation scenarios",
+    "developer": "cTuning foundation",
+    "developer_email": "Grigori.Fursin@cTuning.org",
+    "developer_webpage": "http://cTuning.org",
+    "license": "See CK-WA LICENSE.txt for licensing details"
+  },
+  "misc": {
+    "actions": {
+      "add": {
+        "url_api": "https://github.com/dividiti/ck-wa/tree/master/module/wa-scenario/module.py#L33"
+      }
+    },
+    "data_uid": "694431881401480c",
+    "data_uoa": "wa-scenario",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "410382d03df408ec",
+    "repo_uoa": "ck-wa",
+    "repo_url1": "https://github.com/dividiti/ck-wa/tree/master/module/wa-scenario/module.py",
+    "repo_url2": "https://github.com/dividiti/ck-wa/tree/master/module/wa-scenario/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-wa",
+    "workflow": ""
+  }
+}

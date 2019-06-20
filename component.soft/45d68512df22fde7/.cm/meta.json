@@ -1,0 +1,74 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "add_only_with_version": "yes",
+      "build_dir_name": "python",
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_COMPILER_PYTHON",
+      "languages": [
+        "PYTHON"
+      ],
+      "limit_recursion_dir_search": {
+        "linux": 3,
+        "win": 4
+      },
+      "only_for_host_os_tags": [
+        "windows",
+        "linux"
+      ],
+      "only_for_target_os_tags": [
+        "windows",
+        "android",
+        "linux"
+      ],
+      "soft_file": {
+        "linux": "python*",
+        "win": "python*.exe"
+      },
+      "soft_file_from_host_os": "yes",
+      "soft_version_cmd": {
+        "linux": "--version > $#filename#$ 2>&1",
+        "win": "--version > $#filename#$ 2>&1"
+      }
+    },
+    "env": {
+      "CK_PYC": "python",
+      "CK_PY_OBJ_EXT": ".pyc",
+      "CK_PY_RT": "python"
+    },
+    "soft_name": "python",
+    "tags": [
+      "compiler",
+      "python",
+      "lang-python"
+    ],
+    "template": "yes",
+    "template_type": "python"
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "45d68512df22fde7",
+    "data_uoa": "compiler.python",
+    "env_prefix": "CK_ENV_COMPILER_PYTHON",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/compiler.python/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/compiler.python",
+    "soft_name": "python",
+    "stags": "compiler,python,lang-python",
+    "tags": [
+      "compiler",
+      "python",
+      "lang-python"
+    ],
+    "target_os": "any",
+    "template": "python",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

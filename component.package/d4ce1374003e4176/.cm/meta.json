@@ -1,0 +1,76 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "install_env": {
+        "GPU_ENABLED": 0,
+        "TENSORFLOW_PACKAGE_VER": "1.0.1"
+      },
+      "version": "1.0.1"
+    },
+    "deps": {
+      "python": {
+        "local": "yes",
+        "name": "Python",
+        "sort": 20,
+        "tags": "compiler,python"
+      }
+    },
+    "end_full_path": {
+      "linux": "lib/tensorflow/__init__.py"
+    },
+    "need_cpu_info": "yes",
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "package_extra_name": " (prebuilt, cpu)",
+    "process_script": "install",
+    "soft_uoa": "30db354f469bb178",
+    "suggested_path": "tensorflow-prebuilt",
+    "tags": [
+      "lib",
+      "tensorflow",
+      "tensorflow-cpu",
+      "v1",
+      "v1.0",
+      "v1.0.1",
+      "vprebuilt",
+      "vcpu"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "1bb541bb2330badd"
+    }
+  },
+  "misc": {
+    "data_uid": "d4ce1374003e4176",
+    "data_uoa": "lib-tensorflow-1.0.1-cpu",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "6d04bb400f29474d",
+    "repo_uoa": "ck-old-packages",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-old-packages/tree/master/package/lib-tensorflow-1.0.1-cpu/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-old-packages/tree/master/package/lib-tensorflow-1.0.1-cpu",
+    "soft_name": "TensorFlow library",
+    "soft_uid": "30db354f469bb178",
+    "soft_uoa": "lib.tensorflow",
+    "stags": "lib,tensorflow,tensorflow-cpu,v1,v1.0,v1.0.1,vprebuilt,vcpu",
+    "tags": [
+      "lib",
+      "tensorflow",
+      "tensorflow-cpu",
+      "v1",
+      "v1.0",
+      "v1.0.1",
+      "vprebuilt",
+      "vcpu"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:ck-old-packages"
+  }
+}

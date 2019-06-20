@@ -1,0 +1,74 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {
+      "install_env": {
+        "MODEL_IMAGE_HEIGHT": "224",
+        "MODEL_IMAGE_WIDTH": "224",
+        "MODEL_MOBILENET_MULTIPLIER": "0.35",
+        "MODEL_MOBILENET_RESOLUTION": "224",
+        "MODEL_MOBILENET_VERSION": "2",
+        "MODEL_NORMALIZE_DATA": "YES",
+        "MODEL_WEIGHTS_ARE_CHECKPOINTS": "YES",
+        "MODULE_FILE": "mobilenet-model.py",
+        "PACKAGE_NAME": "mobilenet_v2_0.35_224.tgz",
+        "PACKAGE_URL": "https://zenodo.org/record/2266646/files",
+        "WEIGHTS_FILE": "mobilenet_v2_0.35_224.ckpt"
+      },
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "yes",
+      "skip_file_check": "yes",
+      "version": "2_0.35_224"
+    },
+    "end_full_path_universal": "mobilenet-model.py",
+    "only_for_host_os_tags": [],
+    "only_for_target_os_tags": [],
+    "package_extra_name": " (mobilenet-v2-0.35-224)",
+    "process_script": "install",
+    "soft_uoa": "439b9f1757f27091",
+    "suggested_path": "tensorflowmodel-mobilenet-v2-0.35-224-py",
+    "tags": [
+      "tensorflowmodel",
+      "weights",
+      "frozen",
+      "tflite",
+      "python",
+      "mobilenet",
+      "mobilenet-v2",
+      "mobilenet-v2-0.35-224"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "6b1b2b254718b69a",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "c07466b049babc4b",
+    "data_uoa": "tensorflowmodel-mobilenet-v2-0.35-224-py",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "acb7cea44acac9c9",
+    "repo_uoa": "ck-tensorflow",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/tensorflowmodel-mobilenet-v2-0.35-224-py/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/tensorflowmodel-mobilenet-v2-0.35-224-py",
+    "soft_name": "TensorFlow python model and weights",
+    "soft_uid": "439b9f1757f27091",
+    "soft_uoa": "model.tensorflow.py",
+    "stags": "tensorflowmodel,weights,frozen,tflite,python,mobilenet,mobilenet-v2,mobilenet-v2-0.35-224",
+    "tags": [
+      "tensorflowmodel",
+      "weights",
+      "frozen",
+      "tflite",
+      "python",
+      "mobilenet",
+      "mobilenet-v2",
+      "mobilenet-v2-0.35-224"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-tensorflow"
+  }
+}

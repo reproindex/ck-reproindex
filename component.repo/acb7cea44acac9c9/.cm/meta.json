@@ -1,0 +1,103 @@
+{
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-autotuning"
+      },
+      {
+        "repo_uoa": "ck-math"
+      }
+    ],
+    "shared": "git",
+    "sync": "yes",
+    "url": "https://github.com/ctuning/ck-tensorflow"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "a4328ba99679e0d1",
+          "repo_uoa": "ck-autotuning"
+        },
+        {
+          "repo_uid": "d94a45b5be3072ba",
+          "repo_uoa": "ck-math"
+        }
+      ],
+      "shared": "git",
+      "sync": "yes",
+      "url": "https://github.com/ctuning/ck-tensorflow"
+    },
+    "data_uid": "acb7cea44acac9c9",
+    "data_uoa": "ck-tensorflow",
+    "desc": "Portable/customizable installation and unified access to TensorFlow AI framework with different workflows and data sets.",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/repo/ck-tensorflow/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/repo/ck-tensorflow",
+    "tasks": {
+      "1a1ae632cabc15f4": {
+        "data_uoa": "tflite-classification"
+      },
+      "1b749fbac94afc81": {
+        "data_uoa": "tensorflow-classification"
+      },
+      "1c1cc5d6a4944be7": {
+        "data_uoa": "tensorflow-classification-cpu"
+      },
+      "1df946974b91b723": {
+        "data_uoa": "tensorflow_cc-demo-label-image"
+      },
+      "246b4593aa8b2a72": {
+        "data_uoa": "tensorflow-freeze"
+      },
+      "3fc6868e5524e49a": {
+        "data_uoa": "image-classification-tflite-py"
+      },
+      "59df77344848419b": {
+        "data_uoa": "tensorflow-detection-squeezedet"
+      },
+      "61b01b96cc84f33a": {
+        "data_uoa": "tensorflow_cc-demo-multibox-detector"
+      },
+      "62de6ce26934e3eb": {
+        "data_uoa": "tensorflow"
+      },
+      "62e8996f6ce93af9": {
+        "data_uoa": "kitti-eval-tool"
+      },
+      "6e58bd944e048e47": {
+        "data_uoa": "image-classification-tflite"
+      },
+      "b36bf6b4ffda2f2c": {
+        "data_uoa": "tensorflow_cc-test"
+      },
+      "b4025ad44457764b": {
+        "data_uoa": "image-classification-tf-py"
+      },
+      "bc1442207bd74ca6": {
+        "data_uoa": "yad2k-demo"
+      },
+      "c0bacdae0ce2b532": {
+        "data_uoa": "tensorflow-time"
+      },
+      "cabe5c1c202f403b": {
+        "data_uoa": "tensorflow-classification-cpu-1.2.1"
+      },
+      "dda4f4bb0b8cf989": {
+        "data_uoa": "image-classification-tf-cpp"
+      },
+      "df7d1490b8aae613": {
+        "data_uoa": "squeezedet"
+      },
+      "e604d4895f811451": {
+        "data_uoa": "object-detection-tf-py"
+      }
+    },
+    "to_get": "ck pull repo:ck-tensorflow",
+    "workflow_desc": "programs"
+  }
+}

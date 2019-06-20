@@ -1,0 +1,70 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {
+      "extra_dir": "",
+      "force_ask_path": "yes",
+      "install_env": {
+        "ANNOTATION_URL": "http://msvocds.blob.core.windows.net/annotations-1-0-3",
+        "IMAGE_URL": "http://updates.xored.com/COCO-dataset",
+        "LABELS_DIR": "annotations",
+        "TRAINVAL_OBJ_INSTANCES_ARCHIVE": "instances_train-val2014.zip",
+        "VAL_DIR": "val2014",
+        "VAL_IMAGE_ARCHIVE": "val2014.zip"
+      },
+      "instances_train_file": "instances_train2014.json",
+      "instances_val_file": "instances_val2014.json",
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "yes",
+      "version": "2014"
+    },
+    "deps": {},
+    "end_full_path": {
+      "linux": "val2014/COCO_val2014_000000000042.jpg",
+      "win": "val2014/COCO_val2014_000000000042.jpg"
+    },
+    "need_cpu_info": "no",
+    "process_script": "install",
+    "soft_uoa": "2439499e39a313b5",
+    "suggested_path": "dataset-coco-2014",
+    "tags": [
+      "dataset",
+      "coco",
+      "COCO",
+      "2014",
+      "val",
+      "full",
+      "object-detection",
+      "channel-stable"
+    ]
+  },
+  "misc": {
+    "data_uid": "4330ea8a9b47ac90",
+    "data_uoa": "dataset-coco-2014",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/dataset-coco-2014/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/dataset-coco-2014",
+    "soft_name": "COCO dataset",
+    "soft_uid": "2439499e39a313b5",
+    "soft_uoa": "dataset.coco",
+    "stags": "dataset,coco,COCO,2014,val,full,object-detection,channel-stable",
+    "tags": [
+      "dataset",
+      "coco",
+      "COCO",
+      "2014",
+      "val",
+      "full",
+      "object-detection",
+      "channel-stable"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

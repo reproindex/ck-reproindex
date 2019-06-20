@@ -1,0 +1,42 @@
+{
+  "dict": {
+    "customize": {
+      "add_to_path": "yes",
+      "env_prefix": "CK_ENV_TOOL_HPCTOOLKIT",
+      "limit_recursion_dir_search": {
+        "linux": 3
+      },
+      "soft_file": {
+        "linux": "hpctoolkit"
+      }
+    },
+    "soft_name": "HPCToolKit",
+    "tags": [
+      "tool",
+      "hpctoolkit"
+    ]
+  },
+  "misc": {
+    "auto_detect": "no",
+    "data_uid": "4f80aafdd6784314",
+    "data_uoa": "tool.hpctoolkit",
+    "env_prefix": "CK_ENV_TOOL_HPCTOOLKIT",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/tool.hpctoolkit/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/tool.hpctoolkit",
+    "soft_name": "HPCToolKit",
+    "stags": "tool,hpctoolkit",
+    "tags": [
+      "tool",
+      "hpctoolkit"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

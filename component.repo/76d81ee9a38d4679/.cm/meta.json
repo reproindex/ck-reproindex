@@ -1,0 +1,47 @@
+{
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-env"
+      },
+      {
+        "repo_uoa": "ck-tensorflow"
+      }
+    ],
+    "shared": "git",
+    "url": "https://github.com/ctuning/reproduce-sysml19-paper-aggregathor"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "1ff43ae88715a8c1",
+          "repo_uoa": "ck-env"
+        },
+        {
+          "repo_uid": "acb7cea44acac9c9",
+          "repo_uoa": "ck-tensorflow"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/reproduce-sysml19-paper-aggregathor"
+    },
+    "data_uid": "76d81ee9a38d4679",
+    "data_uoa": "reproduce-sysml19-paper-aggregathor",
+    "desc": "Reproducibility report and the Collective Knowledge workflow for the SysML'19 paper \"AggregaThor: Byzantine Machine Learning via Robust Gradient Aggregation\"",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-sysml19-paper-aggregathor/tree/master/repo/reproduce-sysml19-paper-aggregathor/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-sysml19-paper-aggregathor/tree/master/repo/reproduce-sysml19-paper-aggregathor",
+    "tasks": {
+      "fb1f01bafc9dec64": {
+        "data_uoa": "sysml19-aggregathor"
+      }
+    },
+    "to_get": "ck pull repo:reproduce-sysml19-paper-aggregathor",
+    "workflow_desc": "programs"
+  }
+}

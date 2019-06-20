@@ -1,0 +1,64 @@
+{
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-autotuning"
+      },
+      {
+        "repo_uoa": "ck-dissemination-modules"
+      },
+      {
+        "repo_uoa": "ck-artifact-evaluation"
+      },
+      {
+        "repo_uoa": "ck-docker"
+      }
+    ],
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-scc18"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "a4328ba99679e0d1",
+          "repo_uoa": "ck-autotuning"
+        },
+        {
+          "repo_uid": "62a4f46acf5ff29e",
+          "repo_uoa": "ck-dissemination-modules"
+        },
+        {
+          "repo_uid": "1b8b35474438bdbc",
+          "repo_uoa": "ck-artifact-evaluation"
+        },
+        {
+          "repo_uid": "18bb3d4130a4aaf9",
+          "repo_uoa": "ck-docker"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-scc18"
+    },
+    "data_uid": "1ca4108a0485b920",
+    "data_uoa": "ck-scc18",
+    "desc": "CK workflow and components to automate SuperComputing'18 Student Cluster Competition.",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-scc18/tree/master/repo/ck-scc18/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-scc18/tree/master/repo/ck-scc18",
+    "tasks": {
+      "c374d10bbfd53379": {
+        "data_uoa": "seissol-netcdf"
+      },
+      "f3429eb04e3556f3": {
+        "data_uoa": "seissol-proxy"
+      }
+    },
+    "to_get": "ck pull repo:ck-scc18",
+    "workflow_desc": "reproducible&nbsp;paper\n-&nbsp;passed&nbsp;<a href=\"http://cTuning.org/ae\">Artifact&nbsp;Evaluation</a>:\n<p><center><img src=\"https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_evaluated_reusable_dl.jpg\" width=\"64\"></center>\n"
+  }
+}

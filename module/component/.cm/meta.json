@@ -1,0 +1,21 @@
+{
+  "actions": {
+    "get": {
+      "desc": "get index of components"
+    },
+    "get_from_cmd": {
+      "desc": "get component from CMD"
+    },
+    "index": {
+      "desc": "index components"
+    }
+  },
+  "desc": "indexing reusable research components",
+  "module_deps": {
+    "cfg": "b34231a3467566f8",
+    "module": "032630d041b4fd8a"
+  },
+  "url_ck_github_components": "https://github.com/ctuning/ck/wiki/ckb_",
+  "url_rr_github_components": "https://github.com/ctuning/reproindex/tree/master/component",
+  "url_rr_github_components2": "https://github.com/ctuning/reproindex/tree/master/repro"
+}

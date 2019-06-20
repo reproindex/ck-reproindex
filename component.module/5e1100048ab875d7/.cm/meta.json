@@ -1,0 +1,129 @@
+{
+  "dict": {
+    "actions": {
+      "add": {
+        "desc": "add software detection plugin with template"
+      },
+      "check": {
+        "desc": "check is given software is already installed and register it in the CK or install it if package exists (the same as 'detect')"
+      },
+      "check_target": {
+        "desc": "check that host and target OS is supported"
+      },
+      "compare_versions": {
+        "desc": "compare two versions (in list)"
+      },
+      "detect": {
+        "desc": "detect is given software is already installed and register it in the CK or install it if package exists (the same as 'check')"
+      },
+      "find_config_file": {
+        "desc": "find installation JSON file"
+      },
+      "get_version": {
+        "desc": "low-level function to get version (will be substituted)"
+      },
+      "internal_detect": {
+        "desc": "detect version of a given software (internal)"
+      },
+      "list_all_files": {
+        "desc": "list all files including directories"
+      },
+      "print_help": {
+        "desc": "print help for this software entry"
+      },
+      "search_tool": {
+        "desc": "search tool in pre-defined paths"
+      },
+      "search_version": {
+        "desc": "search for soft version in some files"
+      },
+      "setup": {
+        "desc": "setup CK environment for a given software"
+      },
+      "show": {
+        "desc": "show available software descriptions",
+        "for_web": "yes"
+      },
+      "split_version": {
+        "desc": "split version"
+      }
+    },
+    "ck_install_file": "ck-install.json",
+    "ck_install_file_saved": "ck-install-saved.json",
+    "copyright": "See CK COPYRIGHT.txt for copyright details",
+    "custom_script_name": "customize",
+    "default_bat_name": "env",
+    "desc": "managing software (registering in CK environment)",
+    "developer": "Grigori Fursin",
+    "developer_email": "Grigori.Fursin@cTuning.org",
+    "developer_webpage": "http://fursin.net",
+    "license": "See CK LICENSE.txt for licensing details",
+    "module_deps": {
+      "env": "9b9b3208ac44b891",
+      "machine": "84be34883a81b2a9",
+      "misc": "cddc5e04b0da610e",
+      "os": "0440cb72c2bc5cc6",
+      "platform.os": "41e31cc4496b8a8e"
+    }
+  },
+  "misc": {
+    "actions": {
+      "add": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/soft/module.py#L2883"
+      },
+      "check": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/soft/module.py#L1384"
+      },
+      "check_target": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/soft/module.py#L2296"
+      },
+      "compare_versions": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/soft/module.py#L2778"
+      },
+      "detect": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/soft/module.py#L1384"
+      },
+      "find_config_file": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/soft/module.py#L2715"
+      },
+      "get_version": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/soft/module.py#L2028"
+      },
+      "internal_detect": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/soft/module.py#L45"
+      },
+      "list_all_files": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/soft/module.py#L1297"
+      },
+      "print_help": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/soft/module.py#L2228"
+      },
+      "search_tool": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/soft/module.py#L1197"
+      },
+      "search_version": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/soft/module.py#L2961"
+      },
+      "setup": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/soft/module.py#L241"
+      },
+      "show": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/soft/module.py#L2401"
+      },
+      "split_version": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/soft/module.py#L2362"
+      }
+    },
+    "data_uid": "5e1100048ab875d7",
+    "data_uoa": "soft",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "https://github.com/ctuning/ck-env/tree/master/module/soft/module.py",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/module/soft/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:ck-env",
+    "workflow": ""
+  }
+}

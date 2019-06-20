@@ -1,0 +1,54 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "detect_in_soft_dir": "yes",
+      "env_mapping": [
+        {
+          "display_name": "your name",
+          "variable": "CK_MY_NAME"
+        },
+        {
+          "default_value": "apple",
+          "display_name": "your favourite fruit",
+          "variable": "CK_MY_FRUIT"
+        }
+      ],
+      "env_prefix": "CK_ENV_DIALOGUE_BASE",
+      "limit_recursion_dir_search": {
+        "linux": 0,
+        "win": 0
+      },
+      "soft_file_universal": ".cm/meta.json"
+    },
+    "soft_name": "Base Dialogue",
+    "tags": [
+      "base",
+      "dialogue"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "f14e1ed51a944f13",
+    "data_uoa": "dialogue.base",
+    "env_prefix": "CK_ENV_DIALOGUE_BASE",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/dialogue.base/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/dialogue.base",
+    "soft_name": "Base Dialogue",
+    "stags": "base,dialogue",
+    "tags": [
+      "base",
+      "dialogue"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

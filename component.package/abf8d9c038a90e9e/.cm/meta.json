@@ -1,0 +1,67 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {
+      "extra_dir": "",
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "yes",
+      "version": "10"
+    },
+    "deps": {
+      "tensorflow": {
+        "local": "yes",
+        "name": "TensorFlow Library",
+        "skip_from_bat": "yes",
+        "sort": 10,
+        "tags": "lib,tensorflow"
+      },
+      "tensorflow-model-api": {
+        "local": "yes",
+        "name": "TensorFlow Models (Source)",
+        "skip_from_bat": "yes",
+        "sort": 20,
+        "tags": "tensorflowmodel,api"
+      }
+    },
+    "end_full_path_universal": "install/cifar10_train.tfrecord",
+    "need_cpu_info": "no",
+    "process_script": "install",
+    "soft_uoa": "cecb9516584497ac",
+    "suggested_path": "dataset-tf-slim-cifar10",
+    "tags": [
+      "dataset",
+      "tensorflow",
+      "slim",
+      "tensorflow-slim",
+      "cifar10",
+      "channel-stable"
+    ]
+  },
+  "misc": {
+    "data_uid": "abf8d9c038a90e9e",
+    "data_uoa": "dataset-tf-slim-cifar10",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "acb7cea44acac9c9",
+    "repo_uoa": "ck-tensorflow",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/dataset-tf-slim-cifar10/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/dataset-tf-slim-cifar10",
+    "soft_name": "Th",
+    "soft_uid": "cecb9516584497ac",
+    "soft_uoa": "dataset.tensorflow.slim",
+    "stags": "dataset,tensorflow,slim,tensorflow-slim,cifar10,channel-stable",
+    "tags": [
+      "dataset",
+      "tensorflow",
+      "slim",
+      "tensorflow-slim",
+      "cifar10",
+      "channel-stable"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-tensorflow"
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "dict": {
+    "backup_data_uid": "4d32328645fb8e5f",
+    "ck_to_env": {
+      "CK_WA_SCRIPTS_PATH": "script:39157fb314f399ae"
+    },
+    "clean_dirs": [
+      "wa_output"
+    ],
+    "data_name": "WA workload: sysbench",
+    "deps": {
+      "wa": {
+        "env_key": "WA",
+        "force_target_as_host": "yes",
+        "local": "yes",
+        "name": "ARM Workload Automation",
+        "sort": 10,
+        "tags": "tool,wa"
+      }
+    },
+    "no_compile": "yes",
+    "no_target_file": "yes",
+    "params": {
+      "cmd_params": {
+        "allowed_values": null,
+        "default": "",
+        "desc": "Additional parameters to be passed to sysbench as a single stiring",
+        "mandatory": null,
+        "type": "str"
+      },
+      "file_test_mode": {
+        "allowed_values": [
+          "seqwr",
+          "seqrewr",
+          "seqrd",
+          "rndrd",
+          "rndwr",
+          "rndrw"
+        ],
+        "default": null,
+        "desc": "File test mode to use. This should only be specified if ``test`` is ``\"fileio\"``; if that is the case and ``file_test_mode`` is not specified, it will default to ``\"seqwr\"`` (please see sysbench documentation for explanation of various modes).",
+        "mandatory": null,
+        "type": "str"
+      },
+      "force_install": {
+        "allowed_values": null,
+        "default": true,
+        "desc": "Always install binary found on the host, even if already installed on device",
+        "mandatory": null,
+        "type": "boolean"
+      },
+      "max_requests": {
+        "allowed_values": null,
+        "default": null,
+        "desc": "The limit for the total number of requests.",
+        "mandatory": null,
+        "type": "integer"
+      },
+      "max_time": {
+        "allowed_values": null,
+        "default": null,
+        "desc": "The limit for the total execution time. If neither this nor                ``max_requests`` is specified, this will default to 30 seconds.",
+        "mandatory": null,
+        "type": "integer"
+      },
+      "modules": {
+        "allowed_values": null,
+        "default": null,
+        "desc": "Lists the modules to be loaded by this extension. A module is a plug-in that further extends functionality of an extension.",
+        "mandatory": null,
+        "type": "list"
+      },
+      "num_threads": {
+        "allowed_values": null,
+        "default": null,
+        "desc": "The number of threads sysbench will launch, overrides  ``threads`` (old parameter name)",
+        "mandatory": null,
+        "type": "integer"
+      },
+      "taskset_mask": {
+        "allowed_values": null,
+        "default": 0,
+        "desc": "The processes spawned by sysbench will be pinned to cores as specified by this parameter",
+        "mandatory": null,
+        "type": "integer"
+      },
+      "test": {
+        "allowed_values": [
+          "fileio",
+          "cpu",
+          "memory",
+          "threads",
+          "mutex"
+        ],
+        "default": "cpu",
+        "desc": "sysbench test to run",
+        "mandatory": null,
+        "type": "str"
+      },
+      "threads": {
+        "allowed_values": null,
+        "default": 8,
+        "desc": "The number of threads sysbench will launch",
+        "mandatory": null,
+        "type": "integer"
+      },
+      "timeout": {
+        "allowed_values": null,
+        "default": 300,
+        "desc": "timeout for workload execution (adjust from default if running on a slow device and/or specifying a large value for ``max_requests``",
+        "mandatory": null,
+        "type": "integer"
+      }
+    },
+    "print_files_after_run": [
+      "tmp-output2.tmp",
+      "wa_output/status.txt",
+      "wa_output/sysbench_1_1/result.txt"
+    ],
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "required_device_access_type": [
+      "wa_android",
+      "wa_linux"
+    ],
+    "run_cmds": {
+      "default": {
+        "ignore_return_code": "no",
+        "run_time": {
+          "fine_grain_timer_file": "tmp-ck-timer.json",
+          "post_process_cmds": [
+            "python $<<CK_WA_SCRIPTS_PATH>>$$#dir_sep#$postprocess_workload.py"
+          ],
+          "post_process_via_ck": "yes",
+          "pre_process_via_ck": {
+            "data_uoa": "process-wa",
+            "module_uoa": "script",
+            "script_name": "preprocess_workload"
+          },
+          "run_cmd_main": "wa run $<<CK_WA_CMD>>$",
+          "run_cmd_out1": "tmp-output1.tmp",
+          "run_cmd_out2": "tmp-output2.tmp",
+          "run_output_files": []
+        }
+      }
+    },
+    "run_via_third_party": "yes",
+    "tags": [
+      "wa",
+      "workload-automation",
+      "sysbench"
+    ],
+    "wa_alias": "sysbench",
+    "wa_desc": "SysBench is a modular, cross-platform and multi-threaded benchmark tool for evaluating OS parameters that are important for a system running a database under intensive load"
+  },
+  "misc": {
+    "data_uid": "4d32328645fb8e5f",
+    "data_uoa": "wa-sysbench",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "cca2211feceec6dc",
+    "repo_uoa": "ck-wa-workloads",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-wa-workloads/tree/master/program/wa-sysbench/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-wa-workloads/tree/master/program/wa-sysbench",
+    "soft_name": "",
+    "stags": "wa,workload-automation,sysbench",
+    "tags": [
+      "wa",
+      "workload-automation",
+      "sysbench"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-wa-workloads",
+    "version": ""
+  }
+}

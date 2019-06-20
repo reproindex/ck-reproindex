@@ -1,0 +1,84 @@
+{
+  "dict": {
+    "backup_data_uid": "26a76418d812eba4",
+    "build_compiler_vars": {
+      "XOPENME": ""
+    },
+    "compile_deps": {
+      "compiler": {
+        "local": "yes",
+        "name": "C compiler",
+        "tags": "compiler,lang-c"
+      },
+      "xopenme": {
+        "local": "yes",
+        "name": "xOpenME library",
+        "sort": 20,
+        "tags": "lib,xopenme"
+      }
+    },
+    "compiler_env": "CK_CC",
+    "data_name": "adapt16-fir",
+    "extra_ld_vars": "$<<CK_EXTRA_LIB_M>>$",
+    "main_language": "c",
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "run_cmds": {
+      "default": {
+        "dataset_tags": [],
+        "hot_functions": [],
+        "ignore_return_code": "no",
+        "run_time": {
+          "fine_grain_timer_file": "tmp-ck-timer.json",
+          "run_cmd_main": "$#BIN_FILE#$",
+          "run_cmd_out1": "tmp-output1.tmp",
+          "run_cmd_out2": "tmp-output2.tmp",
+          "run_correctness_output_files": [
+            "tmp-output1.tmp",
+            "tmp-output2.tmp"
+          ],
+          "run_output_files": [
+            "tmp-ck-timer.json"
+          ]
+        }
+      }
+    },
+    "run_vars": {
+      "CT_REPEAT_MAIN": "1"
+    },
+    "source_files": [
+      "base.c",
+      "__ic__helper__.c",
+      "base_hf1.c"
+    ],
+    "tags": [
+      "adapt16",
+      "program",
+      "lang-c"
+    ],
+    "target_file": "a"
+  },
+  "misc": {
+    "data_uid": "26a76418d812eba4",
+    "data_uoa": "adapt16-fir",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "71433a2b4d403d80",
+    "repo_uoa": "reproduce-adapt16",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-adapt16/tree/master/program/adapt16-fir/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-adapt16/tree/master/program/adapt16-fir",
+    "soft_name": "",
+    "stags": "adapt16,program,lang-c",
+    "tags": [
+      "adapt16",
+      "program",
+      "lang-c"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:reproduce-adapt16",
+    "version": ""
+  }
+}

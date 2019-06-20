@@ -1,0 +1,36 @@
+{
+  "actions": {},
+  "desc": "index of reproducible articles",
+  "dict": {
+    "actions": {
+      "add_index": {
+        "desc": "add index"
+      },
+      "html": {
+        "desc": "generate html"
+      }
+    },
+    "desc": "index of reproducible articles"
+  },
+  "misc": {
+    "actions": {
+      "add_index": {
+        "url_api": "https://github.com/ctuning/reproindex/tree/master/module/repro.article/module.py#L33"
+      },
+      "html": {
+        "url_api": "https://github.com/ctuning/reproindex/tree/master/module/repro.article/module.py#L93"
+      }
+    },
+    "data_uid": "b56ccd54ac2b15b9",
+    "data_uoa": "repro.article",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "c590dea823213918",
+    "repo_uoa": "reproindex",
+    "repo_url1": "https://github.com/ctuning/reproindex/tree/master/module/repro.article/module.py",
+    "repo_url2": "https://github.com/ctuning/reproindex/tree/master/module/repro.article/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:reproindex",
+    "workflow": ""
+  }
+}

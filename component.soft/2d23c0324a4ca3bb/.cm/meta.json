@@ -1,0 +1,61 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "build_dir_name": "show-cuda-devices",
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_TOOL_SHOW_CUDA_DEVICES",
+      "limit_recursion_dir_search": {
+        "linux": 3,
+        "win": 3
+      },
+      "only_for_host_os_tags": [
+        "windows",
+        "linux"
+      ],
+      "skip_version": "yes",
+      "soft_file": {
+        "linux": "show-cuda-devices",
+        "win": "show-cuda-devices.exe"
+      }
+    },
+    "deps": {
+      "cuda-compiler": {
+        "env_key": "COMPILER",
+        "local": "yes",
+        "name": "CUDA compiler",
+        "sort": 20,
+        "tags": "compiler,lang-c-cuda"
+      }
+    },
+    "soft_name": "show-cuda-devices",
+    "tags": [
+      "tool",
+      "show-cuda-devices"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "2d23c0324a4ca3bb",
+    "data_uoa": "tool.show-cuda-devices",
+    "env_prefix": "CK_ENV_TOOL_SHOW_CUDA_DEVICES",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/tool.show-cuda-devices/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/tool.show-cuda-devices",
+    "soft_name": "show-cuda-devices",
+    "stags": "tool,show-cuda-devices",
+    "tags": [
+      "tool",
+      "show-cuda-devices"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

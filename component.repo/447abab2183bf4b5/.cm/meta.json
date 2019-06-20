@@ -1,0 +1,35 @@
+{
+  "dict": {
+    "shared": "git",
+    "url": "https://github.com/dividiti/ck-crowdsource-dnn-optimization"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "a4328ba99679e0d1",
+          "repo_uoa": "ck-autotuning"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/dividiti/ck-crowdsource-dnn-optimization"
+    },
+    "data_uid": "447abab2183bf4b5",
+    "data_uoa": "ck-crowdsource-dnn-optimization",
+    "desc": "GUI to crowdsource benchmarking and optimization of DNN engines and models across diverse Linux or Windows platforms (see <a href=\"http://cKnowledge.org/ai\">unified AI vision</a>).",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/dividiti/ck-crowdsource-dnn-optimization/tree/master/repo/ck-crowdsource-dnn-optimization/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/ck-crowdsource-dnn-optimization/tree/master/repo/ck-crowdsource-dnn-optimization",
+    "tasks": {
+      "64769bf4da7e874e": {
+        "data_uoa": "dnn-desktop-demo"
+      }
+    },
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-crowdsource-dnn-optimization",
+    "workflow_desc": "GUI, programs"
+  }
+}

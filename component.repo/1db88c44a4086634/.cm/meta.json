@@ -1,0 +1,449 @@
+{
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-autotuning"
+      },
+      {
+        "repo_uoa": "ctuning-datasets-min"
+      }
+    ],
+    "shared": "git",
+    "url": "https://github.com/ctuning/ctuning-programs"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "a4328ba99679e0d1",
+          "repo_uoa": "ck-autotuning"
+        },
+        {
+          "repo_uid": "4ffcc1307484d840",
+          "repo_uoa": "ctuning-datasets-min"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/ctuning-programs"
+    },
+    "data_uid": "1db88c44a4086634",
+    "data_uoa": "ctuning-programs",
+    "desc": "Evolving set of diverse and portable programs shared by the community in the unified CK format to participate in collaborative benchmarking, optimization and co-design while gradually substituting rigid, non-portable and outdated and non representative benchmarks (see the <a href=\"http://cKnowledge.org/rpi-crowd-tuning\">real use case</a>).",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ctuning-programs/tree/master/repo/ctuning-programs/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ctuning-programs/tree/master/repo/ctuning-programs",
+    "tasks": {
+      "027f5c05074a5197": {
+        "data_uoa": "milepost-codelet-mibench-telecomm-fft-fftmisc-codelet-5-1"
+      },
+      "0367c4233bfbeccd": {
+        "data_uoa": "polybench-cpu-dynprog"
+      },
+      "03f8d3acc8ac9f3c": {
+        "data_uoa": "polybench-cpu-medley-floyd-warshall"
+      },
+      "0416aa10109467f2": {
+        "data_uoa": "milepost-codelet-mibench-consumer-mad-src-layer3-codelet-5-1"
+      },
+      "050feb15cb44e1ac": {
+        "data_uoa": "polybench-opencl-gemm"
+      },
+      "05a8cd0d0108d495": {
+        "data_uoa": "cbench-consumer-tiff2rgba"
+      },
+      "091b8e8ac6771d75": {
+        "data_uoa": "milepost-codelet-mibench-consumer-lame-src-psymodel-codelet-17-1"
+      },
+      "09d5a1f4deeb5da8": {
+        "data_uoa": "polybench-cuda-gemm"
+      },
+      "0e4fe48425aaa8f8": {
+        "data_uoa": "polybench-cpu-doitgen"
+      },
+      "0ee84941b98a518b": {
+        "data_uoa": "milepost-codelet-mibench-consumer-tiff2rgba-src-tif-predict-codelet-4-1"
+      },
+      "10d483fa6b866697": {
+        "data_uoa": "polybench-opencl-bicg"
+      },
+      "116a9c375e7d7e14": {
+        "data_uoa": "polybench-cpu-gemm"
+      },
+      "1342009924b07ad4": {
+        "data_uoa": "polybench-cpu-mvt"
+      },
+      "159119e650b12206": {
+        "data_uoa": "polybench-cpu-jacobi-2d-imper"
+      },
+      "16315806e584c298": {
+        "data_uoa": "milepost-codelet-mibench-automotive-qsort1-src-qsort-codelet-1-1"
+      },
+      "1dc0c31614d5bb23": {
+        "data_uoa": "polybench-cpu-symm"
+      },
+      "1ea490ab7b32b882": {
+        "data_uoa": "polybench-opencl-2mm"
+      },
+      "1f4153a9cd18aedf": {
+        "data_uoa": "milepost-codelet-mibench-consumer-tiffdither-src-tif-fax3-codelet-8-1"
+      },
+      "216d13bc73f4484b": {
+        "data_uoa": "cbench-consumer-tiff2dither"
+      },
+      "23f3483284b4d369": {
+        "data_uoa": "polybench-cuda-3mm"
+      },
+      "24190c8d14559b92": {
+        "data_uoa": "polybench-cpu-fdtd-2d"
+      },
+      "2464d8b8b482d757": {
+        "data_uoa": "polybench-cpu-syrk"
+      },
+      "24b6f89b5f0521d9": {
+        "data_uoa": "bench-julia-sin"
+      },
+      "26184e03244a4fd0": {
+        "data_uoa": "milepost-codelet-mibench-automotive-basicmath-cubic-codelet-3-1"
+      },
+      "26e45fda3d53197f": {
+        "data_uoa": "polybench-opencl-corr"
+      },
+      "273ffbb4f669879b": {
+        "data_uoa": "polybench-cpu-3mm"
+      },
+      "281d682750abb84c": {
+        "data_uoa": "polybench-opencl-atax"
+      },
+      "28a30d1a6d1c4b4e": {
+        "data_uoa": "milepost-codelet-mibench-telecomm-adpcm-c-src-adpcm-codelet-1-1"
+      },
+      "28a472aa3b4c8905": {
+        "data_uoa": "milepost-codelet-mibench-telecomm-gsm-src-rpe-codelet-4-1"
+      },
+      "2feb4c2bb3d7c915": {
+        "data_uoa": "mbedtls"
+      },
+      "3430ca52867453cf": {
+        "data_uoa": "milepost-codelet-mibench-consumer-tiffmedian-src-tiffmedian-codelet-5-1"
+      },
+      "34f38a1a98d2f4eb": {
+        "data_uoa": "milepost-codelet-mibench-office-ghostscript-src-gdevpbm-codelet-1-1"
+      },
+      "35439096a38ea629": {
+        "data_uoa": "milepost-codelet-mibench-telecomm-adpcm-d-src-adpcm-codelet-1-1"
+      },
+      "38cc3da5dc75fdcc": {
+        "data_uoa": "polybench-opencl-3dconv"
+      },
+      "3a41ebef3884bf58": {
+        "data_uoa": "polybench-opencl-gramschm"
+      },
+      "3b324bb4e5d8dbf3": {
+        "data_uoa": "polybench-cpu-adi"
+      },
+      "3c388add54598acc": {
+        "data_uoa": "milepost-codelet-mibench-consumer-jpeg-c-src-jfdctint-codelet-2-1"
+      },
+      "3ca9743384432b0e": {
+        "data_uoa": "milepost-codelet-mibench-automotive-basicmath-isqrt-codelet-1-1"
+      },
+      "3f1cd294e5ba5241": {
+        "data_uoa": "cbench-consumer-tiff2bw"
+      },
+      "42c4cd40c98fd203": {
+        "data_uoa": "milepost-codelet-mibench-consumer-tiffdither-src-tif-fax3-codelet-9-1"
+      },
+      "43ae9330ce69e055": {
+        "data_uoa": "milepost-codelet-mibench-consumer-lame-src-fft-codelet-2-1"
+      },
+      "43f6b09a6c8cba8f": {
+        "data_uoa": "cbench-consumer-jpeg-c"
+      },
+      "460c155e146483ea": {
+        "data_uoa": "milepost-codelet-mibench-office-rsynth-src-nsynth-codelet-9-1"
+      },
+      "46aaa20a00f75022": {
+        "data_uoa": "polybench-cuda-corr"
+      },
+      "47c5e1e72ea4db5b": {
+        "data_uoa": "polybench-opencl-syr2k"
+      },
+      "48644d06bd491b51": {
+        "data_uoa": "milepost-codelet-mibench-automotive-bitcount-src-bitcnts-codelet-1-1"
+      },
+      "486c9d18140d8947": {
+        "data_uoa": "milepost-codelet-mibench-automotive-bitcount-src-bitcnt-1-codelet-2-1"
+      },
+      "48f9b5cc8882d478": {
+        "data_uoa": "milepost-codelet-mibench-security-pgp-d-src-mpilib-codelet-1-1"
+      },
+      "49079f616635ec7c": {
+        "data_uoa": "polybench-cpu-bicg"
+      },
+      "4a6e8298ccb89c54": {
+        "data_uoa": "polybench-cpu-fdtd-apml"
+      },
+      "4fa34887b09fa28f": {
+        "data_uoa": "polybench-cpu-2mm"
+      },
+      "4ff1b558b4be8853": {
+        "data_uoa": "cbench-security-pgp"
+      },
+      "514b82b442ba2720": {
+        "data_uoa": "polybench-opencl-2dconv"
+      },
+      "5336325f24328a18": {
+        "data_uoa": "polybench-cuda-atax"
+      },
+      "5416ca30b4014bcb": {
+        "data_uoa": "polybench-cuda-3dconv"
+      },
+      "572753d44f11b063": {
+        "data_uoa": "milepost-codelet-mibench-telecomm-fft-fourierf-codelet-3-1"
+      },
+      "58a794344b7af635": {
+        "data_uoa": "milepost-codelet-mibench-consumer-tiffmedian-src-tiffmedian-codelet-6-1"
+      },
+      "5ae87ab32641f495": {
+        "data_uoa": "cbench-consumer-lame"
+      },
+      "5e51c0ef845068b3": {
+        "data_uoa": "cbench-network-dijkstra"
+      },
+      "68dae8408cde2eb5": {
+        "data_uoa": "milepost-codelet-mibench-security-pgp-e-src-mpilib-codelet-1-1"
+      },
+      "6955fba422ea2fc0": {
+        "data_uoa": "milepost-codelet-mibench-consumer-tiffmedian-src-tiffmedian-codelet-3-1"
+      },
+      "69ea34cf3ba98b5e": {
+        "data_uoa": "shared-bzip2-1.0.5"
+      },
+      "71fef0b6cb4c858f": {
+        "data_uoa": "shared-matmul-fortran"
+      },
+      "7a24c34d0e46a0bf": {
+        "data_uoa": "milepost-codelet-mibench-network-dijkstra-src-dijkstra-large-codelet-5-1"
+      },
+      "7a4cd1f3425cd4da": {
+        "data_uoa": "milepost-codelet-mibench-telecomm-gsm-src-short-term-codelet-2-1"
+      },
+      "7d8b39939dac41d6": {
+        "data_uoa": "polybench-opencl-syrk"
+      },
+      "7e1a2d821dd44db9": {
+        "data_uoa": "milepost-codelet-mibench-consumer-lame-src-newmdct-codelet-10-1"
+      },
+      "817644943b6356dd": {
+        "data_uoa": "polybench-cuda-mvt"
+      },
+      "81b0007dc6992f84": {
+        "data_uoa": "polybench-cpu-trmm"
+      },
+      "85b74e51b563c21e": {
+        "data_uoa": "shared-bzip2-1.0.6"
+      },
+      "87435181418948dc": {
+        "data_uoa": "milepost-codelet-mibench-consumer-tiffdither-src-tiffdither-codelet-1-1"
+      },
+      "896e3e4e0386bb93": {
+        "data_uoa": "polybench-opencl-mvt"
+      },
+      "898dde0f5e4dda95": {
+        "data_uoa": "milepost-codelet-mibench-consumer-mad-src-layer3-codelet-6-1"
+      },
+      "8be318a06cf5654f": {
+        "data_uoa": "polybench-cpu-syr2k"
+      },
+      "8d45f1bc018e6aee": {
+        "data_uoa": "polybench-cuda-covar"
+      },
+      "945a7615fd8040de": {
+        "data_uoa": "polybench-cuda-2mm"
+      },
+      "9842d32f842b31e8": {
+        "data_uoa": "cbench-security-rijndael"
+      },
+      "9b91b2144cd90d33": {
+        "data_uoa": "cbench-security-sha"
+      },
+      "9c54f0278f14d93b": {
+        "data_uoa": "milepost-codelet-mibench-security-pgp-e-src-mpilib-codelet-4-1"
+      },
+      "a082541f0cb804a9": {
+        "data_uoa": "polybench-cuda-bicg"
+      },
+      "a9e815bdd9d13eda": {
+        "data_uoa": "milepost-codelet-mibench-consumer-jpeg-c-src-jcdctmgr-codelet-13-1"
+      },
+      "aa9c06e21f11fc6c": {
+        "data_uoa": "milepost-codelet-mibench-automotive-susan-e-src-susan-codelet-10-1"
+      },
+      "ae94e26bcc1fe1bc": {
+        "data_uoa": "polybench-cpu-gesummv"
+      },
+      "aeff074737844179": {
+        "data_uoa": "shared-matmul-c"
+      },
+      "b054ac7ad4f75234": {
+        "data_uoa": "polybench-cpu-atax"
+      },
+      "b2fbb2cfee7a30c7": {
+        "data_uoa": "cbench-security-blowfish"
+      },
+      "b753747364c2c9dc": {
+        "data_uoa": "polybench-cpu-cholesky"
+      },
+      "b9332788a647bb8e": {
+        "data_uoa": "polybench-cpu-lu"
+      },
+      "bd14ff49010d959a": {
+        "data_uoa": "cbench-consumer-jpeg-d"
+      },
+      "c05fd0ce84b48718": {
+        "data_uoa": "shared-matmul-python"
+      },
+      "c0884638af27c073": {
+        "data_uoa": "polybench-cpu-ludcmp"
+      },
+      "c09b9eb1ec3ab6e4": {
+        "data_uoa": "milepost-codelet-mibench-consumer-tiffmedian-src-tiffmedian-codelet-1-1"
+      },
+      "c49d407c9b221149": {
+        "data_uoa": "cbench-consumer-tiff2median"
+      },
+      "c5780d949b84c9b9": {
+        "data_uoa": "polybench-cuda-syr2k"
+      },
+      "c76ea143119c0fa1": {
+        "data_uoa": "polybench-cpu-gramschmidt"
+      },
+      "c8b356abb5c85891": {
+        "data_uoa": "milepost-codelet-mibench-consumer-lame-src-takehiro-codelet-5-1"
+      },
+      "ca4ed38e0cccb03c": {
+        "data_uoa": "shared-matmul-java"
+      },
+      "cc8a984aa39db856": {
+        "data_uoa": "cbench-telecom-adpcm-d"
+      },
+      "cd0fe806ff048a09": {
+        "data_uoa": "milepost-codelet-mibench-consumer-lame-src-quantize-pvt-codelet-6-1"
+      },
+      "cd5347b096ee3aee": {
+        "data_uoa": "milepost-codelet-mibench-consumer-lame-src-takehiro-codelet-16-1"
+      },
+      "d4ab7888d81707de": {
+        "data_uoa": "polybench-cuda-2dconv"
+      },
+      "d9fe58b054b96a55": {
+        "data_uoa": "milepost-codelet-mibench-office-rsynth-src-nsynth-codelet-5-1"
+      },
+      "da2c286c5e54037e": {
+        "data_uoa": "polybench-cpu-durbin"
+      },
+      "db8e2f4b48b57c24": {
+        "data_uoa": "polybench-cpu-medley-reg-detect"
+      },
+      "dbf6c794119a7357": {
+        "data_uoa": "cbench-network-patricia"
+      },
+      "dc4b309795a15cef": {
+        "data_uoa": "milepost-codelet-mibench-consumer-lame-src-newmdct-codelet-3-1"
+      },
+      "dd376e64eaf417ca": {
+        "data_uoa": "cbench-telecom-gsm"
+      },
+      "de2d84329bcaa3df": {
+        "data_uoa": "polybench-cpu-trisolv"
+      },
+      "de64f4757a409aaf": {
+        "data_uoa": "cbench-office-stringsearch2"
+      },
+      "df8d459c97967c25": {
+        "data_uoa": "cbench-telecom-crc32"
+      },
+      "dfa8577397971411": {
+        "data_uoa": "polybench-cuda-fdtd-2d"
+      },
+      "e091a7488097073a": {
+        "data_uoa": "cbench-telecom-adpcm-c"
+      },
+      "e35b42e9b3c9409e": {
+        "data_uoa": "shared-matmul-cpp"
+      },
+      "e4185ca513160ab0": {
+        "data_uoa": "shared-matmul-c2"
+      },
+      "e46b77346b49bdc7": {
+        "data_uoa": "polybench-opencl-gesummv"
+      },
+      "e85dfa1a8054a559": {
+        "data_uoa": "milepost-codelet-mibench-consumer-tiffmedian-src-tiffmedian-codelet-4-1"
+      },
+      "e8b5de7bdda78277": {
+        "data_uoa": "polybench-cpu-seidel-2d"
+      },
+      "eb4fb73933f4de58": {
+        "data_uoa": "milepost-codelet-mibench-security-pgp-e-src-mpilib-codelet-3-1"
+      },
+      "eb5d37157876f88d": {
+        "data_uoa": "cbench-automotive-bitcount"
+      },
+      "efa9fe4cc67b394f": {
+        "data_uoa": "polybench-cuda-gramschm"
+      },
+      "f03cd04b9f14f15a": {
+        "data_uoa": "polybench-opencl-covar"
+      },
+      "f1df4708b4f0c755": {
+        "data_uoa": "milepost-codelet-mibench-consumer-jpeg-c-src-jchuff-codelet-9-1"
+      },
+      "f258a1b1479593a5": {
+        "data_uoa": "cbench-consumer-mad"
+      },
+      "f423929c042229cf": {
+        "data_uoa": "milepost-codelet-mibench-automotive-susan-s-src-susan-codelet-1-1"
+      },
+      "f49d9c2480e86d8c": {
+        "data_uoa": "polybench-cuda-syrk"
+      },
+      "f5292980629d07f9": {
+        "data_uoa": "polybench-opencl-fdtd-2d"
+      },
+      "f9571624511b7552": {
+        "data_uoa": "polybench-cpu-gemver"
+      },
+      "fa1ebd487986c6f4": {
+        "data_uoa": "polybench-cpu-jacobi-1d-imper"
+      },
+      "fa283dc7dbe62128": {
+        "data_uoa": "polybench-cuda-gesummv"
+      },
+      "fa9045a94538f03d": {
+        "data_uoa": "milepost-codelet-mibench-consumer-lame-src-quantize-codelet-7-1"
+      },
+      "fbebc3b04a78e505": {
+        "data_uoa": "cbench-automotive-qsort1"
+      },
+      "fc254acbaffb03ac": {
+        "data_uoa": "cbench-bzip2"
+      },
+      "fdfe2f988432ca6d": {
+        "data_uoa": "milepost-codelet-mibench-automotive-susan-e-src-susan-codelet-2-1"
+      },
+      "ffae6002992343d4": {
+        "data_uoa": "polybench-opencl-3mm"
+      },
+      "ffbf51c23a91343c": {
+        "data_uoa": "cbench-automotive-susan"
+      }
+    },
+    "to_get": "ck pull repo:ctuning-programs",
+    "workflow_desc": "programs"
+  }
+}

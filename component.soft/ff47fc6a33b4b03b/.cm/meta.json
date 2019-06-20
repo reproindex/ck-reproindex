@@ -1,0 +1,55 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_DATASET_IMAGENET_VAL",
+      "limit_recursion_dir_search": {
+        "linux": 3,
+        "win": 3
+      },
+      "soft_file": {
+        "linux": "ILSVRC2012_val_00000001.JPEG",
+        "win": "ILSVRC2012_val_00000001.JPEG"
+      }
+    },
+    "deps": {},
+    "soft_name": "ImageNet dataset (validation)",
+    "tags": [
+      "dataset",
+      "imagenet",
+      "raw",
+      "val",
+      "caffe"
+    ],
+    "template": "yes",
+    "template_type": "dataset (imagenet, val images)"
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "ff47fc6a33b4b03b",
+    "data_uoa": "dataset.imagenet.val",
+    "env_prefix": "CK_ENV_DATASET_IMAGENET_VAL",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/dataset.imagenet.val/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/dataset.imagenet.val",
+    "soft_name": "ImageNet dataset (validation)",
+    "stags": "dataset,imagenet,raw,val,caffe",
+    "tags": [
+      "dataset",
+      "imagenet",
+      "raw",
+      "val",
+      "caffe"
+    ],
+    "target_os": "any",
+    "template": "dataset (imagenet, val images)",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "actions": {},
+  "desc": "index of CK soft detection plugins",
+  "dict": {
+    "actions": {
+      "add_index": {
+        "desc": "add index"
+      },
+      "html": {
+        "desc": "generate html"
+      }
+    },
+    "desc": "index of CK soft detection plugins"
+  },
+  "misc": {
+    "actions": {
+      "add_index": {
+        "url_api": "https://github.com/ctuning/reproindex/tree/master/module/component.soft/module.py#L33"
+      },
+      "html": {
+        "url_api": "https://github.com/ctuning/reproindex/tree/master/module/component.soft/module.py#L123"
+      }
+    },
+    "data_uid": "c4746e18ba0d23fe",
+    "data_uoa": "component.soft",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "c590dea823213918",
+    "repo_uoa": "reproindex",
+    "repo_url1": "https://github.com/ctuning/reproindex/tree/master/module/component.soft/module.py",
+    "repo_url2": "https://github.com/ctuning/reproindex/tree/master/module/component.soft/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:reproindex",
+    "workflow": ""
+  }
+}

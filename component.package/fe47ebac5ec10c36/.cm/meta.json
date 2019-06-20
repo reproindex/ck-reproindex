@@ -1,0 +1,55 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "version": "2.2"
+    },
+    "deps": {},
+    "end_full_path": {
+      "android": "include$#sep#$TooN$#sep#$TooN.h",
+      "linux": "include/TooN/TooN.h",
+      "mingw": "include\\TooN\\TooN.h",
+      "win": "include\\TooN\\TooN.h"
+    },
+    "only_for_host_os_tags": [
+      "windows",
+      "linux"
+    ],
+    "process_script": "process",
+    "soft_uoa": "f3fbb766bb4456ea",
+    "suggested_path": "lib-toon",
+    "tags": [
+      "lib",
+      "toon",
+      "v2.2",
+      "v2",
+      "channel-stable"
+    ]
+  },
+  "misc": {
+    "data_uid": "fe47ebac5ec10c36",
+    "data_uoa": "lib-toon-2.2",
+    "host_os": "windows,linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "d94a45b5be3072ba",
+    "repo_uoa": "ck-math",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-math/tree/master/package/lib-toon-2.2/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-math/tree/master/package/lib-toon-2.2",
+    "soft_name": "TooN library",
+    "soft_uid": "f3fbb766bb4456ea",
+    "soft_uoa": "lib.toon",
+    "stags": "lib,toon,v2.2,v2,channel-stable",
+    "tags": [
+      "lib",
+      "toon",
+      "v2.2",
+      "v2",
+      "channel-stable"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-math"
+  }
+}

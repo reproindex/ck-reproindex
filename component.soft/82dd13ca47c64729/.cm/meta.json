@@ -1,0 +1,56 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_LIB_ISL",
+      "include_file": "isl/aff.h",
+      "limit_recursion_dir_search": {
+        "linux": 3
+      },
+      "soft_file": {
+        "linux": "libisl.so"
+      },
+      "soft_path_example": {
+        "linux": ""
+      }
+    },
+    "deps": {
+      "lib-gmp": {
+        "local": "yes",
+        "name": "GMP library",
+        "sort": 10,
+        "tags": "lib,gmp"
+      }
+    },
+    "soft_name": "ISL library",
+    "tags": [
+      "lib",
+      "isl"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "82dd13ca47c64729",
+    "data_uoa": "lib.isl",
+    "env_prefix": "CK_ENV_LIB_ISL",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/lib.isl/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/lib.isl",
+    "soft_name": "ISL library",
+    "stags": "lib,isl",
+    "tags": [
+      "lib",
+      "isl"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

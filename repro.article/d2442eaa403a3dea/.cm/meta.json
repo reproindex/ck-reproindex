@@ -1,0 +1,37 @@
+{
+  "misc": {
+    "artifact_doi_url": "https://doi.org/10.5281/zenodo.2548779",
+    "artifact_sources": "GitHub",
+    "artifact_sources_url": "https://github.com/LPD-EPFL/AggregaThor",
+    "authors": "Georgios Damaskinos, El Mahdi El Mhamdi, Rachid Guerraoui, Arsany Guirguis, Sebastien Rouault",
+    "badge_acm_artifact_available": "yes",
+    "badge_acm_artifact_functional": "",
+    "badge_acm_artifact_reusable": "yes",
+    "badge_acm_results_replicated": "",
+    "badge_acm_results_reproduced": "",
+    "ck_repo_uid": "76d81ee9a38d4679",
+    "paper_doi_url": "",
+    "paper_pdf_url": "http://www.sysml.cc/doc/2019/54.pdf",
+    "reproducibility_url": "http://ctuning.org/ae/sysml2019.html",
+    "results": "Open review via GitHub issues",
+    "results_dashboard_url": "",
+    "results_url": "https://github.com/ctuning/reproduce-sysml19-paper-aggregathor/issues",
+    "some_results_replicated": "yes",
+    "tasks": {
+      "fb1f01bafc9dec64": {
+        "data_uoa": "sysml19-aggregathor"
+      }
+    },
+    "title": "AGGREGATHOR: Byzantine Machine Learning via Robust Gradient Aggregation",
+    "unified_artifact_appendix": "https://github.com/ctuning/ck-artifact-evaluation/tree/master/wfe/artifact-evaluation/templates",
+    "where": "SysML'19",
+    "where_url": "http://sysml.cc",
+    "workflow": "CK",
+    "workflow_url": "https://github.com/ctuning/reproduce-sysml19-paper-aggregathor"
+  },
+  "tags": [
+    "papers",
+    "papers-sysml",
+    "papers-sysml-2019"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_LIB_PYNQ_DMA",
+      "limit_recursion_dir_search": {
+        "linux": 4
+      },
+      "soft_file": {
+        "linux": "libdma.so"
+      }
+    },
+    "soft_name": "PYNQ DMA library",
+    "tags": [
+      "lib",
+      "pynq-dma"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "044f569eca5ec2ba",
+    "data_uoa": "lib.pynq.dma",
+    "env_prefix": "CK_ENV_LIB_PYNQ_DMA",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "a1294586bce671ba",
+    "repo_uoa": "ck-request-asplos18-resnet-tvm-fpga",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-request-asplos18-resnet-tvm-fpga/tree/master/soft/lib.pynq.dma/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-request-asplos18-resnet-tvm-fpga/tree/master/soft/lib.pynq.dma",
+    "soft_name": "PYNQ DMA library",
+    "stags": "lib,pynq-dma",
+    "tags": [
+      "lib",
+      "pynq-dma"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-request-asplos18-resnet-tvm-fpga"
+  }
+}

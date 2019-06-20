@@ -1,0 +1,72 @@
+{
+  "dict": {
+    "backup_data_uid": "39b81533ec3ccb56",
+    "ck_to_env": {
+      "CK_WA_SCRIPTS_PATH": "script:39157fb314f399ae"
+    },
+    "clean_dirs": [
+      "wa_output"
+    ],
+    "compile_deps": {
+      "compiler": {
+        "local": "yes",
+        "name": "C compiler",
+        "sort": 10,
+        "tags": "compiler,lang-c"
+      }
+    },
+    "compiler_env": "CK_CC",
+    "data_name": "dhrystone",
+    "extra_ld_vars": "$<<CK_EXTRA_LIB_M>>$",
+    "main_language": "c",
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "run_cmds": {
+      "default": {
+        "ignore_return_code": "no",
+        "run_time": {
+          "fine_grain_timer_file": "tmp-ck-timer.json",
+          "post_process_cmds": [
+            "python $<<CK_WA_SCRIPTS_PATH>>$$#dir_sep#$postprocess_raw_output.py"
+          ],
+          "post_process_via_ck": "yes",
+          "run_cmd_main": "$#BIN_FILE#$ -l $<<CK_DHRYSTONE_ITERS>>$ -t $<<CK_DHRYSTONE_THREADS>>$",
+          "run_cmd_out1": "tmp-output1.tmp",
+          "run_cmd_out2": "tmp-output2.tmp",
+          "run_output_files": []
+        }
+      }
+    },
+    "run_vars": {
+      "CK_DHRYSTONE_ITERS": 500,
+      "CK_DHRYSTONE_THREADS": 4
+    },
+    "source_files": [
+      "dhrystone.c"
+    ],
+    "tags": [
+      "dhrystone"
+    ]
+  },
+  "misc": {
+    "data_uid": "39b81533ec3ccb56",
+    "data_uoa": "dhrystone",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "cca2211feceec6dc",
+    "repo_uoa": "ck-wa-workloads",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-wa-workloads/tree/master/program/dhrystone/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-wa-workloads/tree/master/program/dhrystone",
+    "soft_name": "",
+    "stags": "dhrystone",
+    "tags": [
+      "dhrystone"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-wa-workloads",
+    "version": ""
+  }
+}

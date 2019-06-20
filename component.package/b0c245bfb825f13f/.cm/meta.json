@@ -1,0 +1,77 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {
+      "add_to_env": {
+        "_INPUT_LAYER": "input",
+        "_OUTPUT_LAYER": "InceptionV3/Predictions/Softmax"
+      },
+      "extra_dir": "",
+      "file_labels": "imagenet_slim_labels.txt",
+      "file_model": "inception_v3_2016_08_28_frozen.pb",
+      "install_env": {
+        "PACKAGE_NAME": "inception_v3_2016_08_28_frozen.pb.tar.gz",
+        "PACKAGE_NAME1": "inception_v3_2016_08_28_frozen.pb.tar",
+        "PACKAGE_SKIP_LINUX_MAKE": "YES",
+        "PACKAGE_UNGZIP": "YES",
+        "PACKAGE_UNTAR": "YES",
+        "PACKAGE_URL": "https://storage.googleapis.com/download.tensorflow.org/models",
+        "PACKAGE_WGET": "YES"
+      },
+      "no_os_in_suggested_path": "yes",
+      "version": "v3-20160828-frozen"
+    },
+    "end_full_path_universal": "inception_v3_2016_08_28_frozen.pb",
+    "package_extra_name": " (imagenet, inception v3, 20160828)",
+    "process_script": "install",
+    "soft_uoa": "13a3e54526868246",
+    "suggested_path": "tensorflow-model-imagenet-inception",
+    "tags": [
+      "tensorflow",
+      "weights",
+      "tensorflowmodel",
+      "google",
+      "imagenet",
+      "inception",
+      "inception-v3",
+      "v20160828-frozen",
+      "stripped",
+      "channel-stable"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "cd9ccc74060b3d18",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "b0c245bfb825f13f",
+    "data_uoa": "tensorflowmodel-imagenet-inception-v3-20160828-frozen-stripped",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "acb7cea44acac9c9",
+    "repo_uoa": "ck-tensorflow",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/tensorflowmodel-imagenet-inception-v3-20160828-frozen-stripped/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/tensorflowmodel-imagenet-inception-v3-20160828-frozen-stripped",
+    "soft_name": "TensorFlow Imagenet stripped dataset aux (net and weights)",
+    "soft_uid": "13a3e54526868246",
+    "soft_uoa": "dataset.tensorflow.imagenet.stripped.aux",
+    "stags": "tensorflow,weights,tensorflowmodel,google,imagenet,inception,inception-v3,v20160828-frozen,stripped,channel-stable",
+    "tags": [
+      "tensorflow",
+      "weights",
+      "tensorflowmodel",
+      "google",
+      "imagenet",
+      "inception",
+      "inception-v3",
+      "v20160828-frozen",
+      "stripped",
+      "channel-stable"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-tensorflow"
+  }
+}

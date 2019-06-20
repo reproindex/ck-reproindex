@@ -1,0 +1,59 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "git_src_dir": "src",
+      "install_env": {
+        "PACKAGE_BUILD_TYPE": "",
+        "PACKAGE_GIT": "YES",
+        "PACKAGE_PATCH": "YES",
+        "PACKAGE_SKIP_CLEAN_SRC_DIR": "YES",
+        "PACKAGE_SKIP_LINUX_MAKE": "YES",
+        "PACKAGE_SUB_DIR": "src",
+        "PACKAGE_URL": "https://github.com/spack/spack"
+      }
+    },
+    "end_full_path_universal": "src/bin/spack",
+    "need_cpu_info": "no",
+    "only_for_host_os_tags": [],
+    "only_for_target_os_tags": [],
+    "process_script": "install",
+    "soft_uoa": "e29497d516564e3b",
+    "suggested_path": "tool-spack",
+    "tags": [
+      "tool",
+      "spack",
+      "vmaster"
+    ],
+    "template": "yes",
+    "template_type": "spack",
+    "use_scripts_from_another_entry": {
+      "data_uoa": "cd9ccc74060b3d18",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "4a36b803bd842d99",
+    "data_uoa": "tool-spack-master",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/tool-spack-master/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/tool-spack-master",
+    "soft_name": "spack",
+    "soft_uid": "e29497d516564e3b",
+    "soft_uoa": "tool.spack",
+    "stags": "tool,spack,vmaster",
+    "tags": [
+      "tool",
+      "spack",
+      "vmaster"
+    ],
+    "target_os": "any",
+    "template": "spack",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

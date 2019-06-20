@@ -1,0 +1,43 @@
+{
+  "dict": {
+    "customize": {
+      "env_prefix": "CK_ENV_LIB_ANDROID_AUX",
+      "only_for_target_os_tags": [
+        "android"
+      ],
+      "skip_add_to_bin": "yes",
+      "skip_add_to_ld_path": "yes",
+      "skip_add_to_path": "yes"
+    },
+    "soft_name": "Android auxilary libraries and tools (outdated)",
+    "tags": [
+      "lib",
+      "android",
+      "aux"
+    ]
+  },
+  "misc": {
+    "auto_detect": "no",
+    "data_uid": "e088ecb44b41acdb",
+    "data_uoa": "lib.android.aux",
+    "env_prefix": "CK_ENV_LIB_ANDROID_AUX",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/lib.android.aux/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/lib.android.aux",
+    "soft_name": "Android auxilary libraries and tools (outdated)",
+    "stags": "lib,android,aux",
+    "tags": [
+      "lib",
+      "android",
+      "aux"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

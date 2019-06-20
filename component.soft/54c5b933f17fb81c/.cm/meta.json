@@ -1,0 +1,49 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_LIB_CAFFE2",
+      "limit_recursion_dir_search": {
+        "linux": 4,
+        "win": 4
+      },
+      "soft_file": {
+        "linux": "libcaffe2.so",
+        "win": "caffe2.exe"
+      }
+    },
+    "deps": {},
+    "soft_name": "Facebook Caffe2 framework",
+    "tags": [
+      "lib",
+      "facebook",
+      "caffe2"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "54c5b933f17fb81c",
+    "data_uoa": "lib.caffe2",
+    "env_prefix": "CK_ENV_LIB_CAFFE2",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "b8adffa0791cb38a",
+    "repo_uoa": "ck-caffe2",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-caffe2/tree/master/soft/lib.caffe2/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-caffe2/tree/master/soft/lib.caffe2",
+    "soft_name": "Facebook Caffe2 framework",
+    "stags": "lib,facebook,caffe2",
+    "tags": [
+      "lib",
+      "facebook",
+      "caffe2"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-caffe2"
+  }
+}

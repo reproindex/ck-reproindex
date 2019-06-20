@@ -1,0 +1,87 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {
+      "extra_dir": "",
+      "force_ask_path": "yes",
+      "install_env": {
+        "IMAGE_DIR": "image_02/data",
+        "LABELS_DIR": "",
+        "PACKAGE_NAME": "2011_09_26_drive_0009_sync.zip",
+        "PACKAGE_SKIP_CLEAN_OBJ": "YES",
+        "PACKAGE_SKIP_CLEAN_SRC_DIR": "YES",
+        "PACKAGE_SKIP_LINUX_MAKE": "YES",
+        "PACKAGE_UNZIP": "YES",
+        "PACKAGE_URL": "http://s3.eu-central-1.amazonaws.com/avg-kitti/raw_data/2011_09_26_drive_0009",
+        "PACKAGE_WGET": "YES"
+      },
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "no",
+      "version": "drive-0009"
+    },
+    "deps": {},
+    "end_full_path": {
+      "linux": "2011_09_26/2011_09_26_drive_0009_sync/image_00/data/0000000000.png",
+      "win": "2011_09_26/2011_09_26_drive_0009_sync/image_00/data/0000000000.png"
+    },
+    "need_cpu_info": "no",
+    "process_script": "install",
+    "soft_uoa": "dd47415baf24025e",
+    "suggested_path": "dataset-kitti",
+    "tags": [
+      "dataset",
+      "val",
+      "kitti",
+      "drive",
+      "drive-0009",
+      "continuous",
+      "kitti-drive",
+      "kitti-drive-0009",
+      "kitti-continuous",
+      "KITTI",
+      "KITTI-drive",
+      "KITTI-drive-0009",
+      "KITTI-continuous",
+      "channel-stable"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "cd9ccc74060b3d18",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "c4345931d134c21e",
+    "data_uoa": "dataset-kitti-drive-0009",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "acb7cea44acac9c9",
+    "repo_uoa": "ck-tensorflow",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/dataset-kitti-drive-0009/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/dataset-kitti-drive-0009",
+    "soft_name": "KITTI dataset",
+    "soft_uid": "dd47415baf24025e",
+    "soft_uoa": "dataset.kitti",
+    "stags": "dataset,val,kitti,drive,drive-0009,continuous,kitti-drive,kitti-drive-0009,kitti-continuous,KITTI,KITTI-drive,KITTI-drive-0009,KITTI-continuous,channel-stable",
+    "tags": [
+      "dataset",
+      "val",
+      "kitti",
+      "drive",
+      "drive-0009",
+      "continuous",
+      "kitti-drive",
+      "kitti-drive-0009",
+      "kitti-continuous",
+      "KITTI",
+      "KITTI-drive",
+      "KITTI-drive-0009",
+      "KITTI-continuous",
+      "channel-stable"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-tensorflow"
+  }
+}

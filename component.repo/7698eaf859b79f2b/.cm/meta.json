@@ -1,0 +1,67 @@
+{
+  "dict": {
+    "ck_artifact": "08da9685582866a0",
+    "recache": "yes",
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-caffe",
+        "repo_url": "https://github.com/dividiti/ck-caffe"
+      },
+      {
+        "repo_uoa": "ck-tensorflow"
+      },
+      {
+        "repo_uoa": "ck-math"
+      },
+      {
+        "repo_uoa": "ck-request"
+      }
+    ],
+    "shared": "git",
+    "url": "https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl"
+  },
+  "misc": {
+    "ckr": {
+      "ck_artifact": "08da9685582866a0",
+      "recache": "yes",
+      "repo_deps": [
+        {
+          "repo_uid": "57e83bca8a5a4344",
+          "repo_uoa": "ck-caffe",
+          "repo_url": "https://github.com/dividiti/ck-caffe"
+        },
+        {
+          "repo_uid": "acb7cea44acac9c9",
+          "repo_uoa": "ck-tensorflow"
+        },
+        {
+          "repo_uid": "d94a45b5be3072ba",
+          "repo_uoa": "ck-math"
+        },
+        {
+          "repo_uid": "c51322a8eae14587",
+          "repo_uoa": "ck-request"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl"
+    },
+    "data_uid": "7698eaf859b79f2b",
+    "data_uoa": "ck-request-asplos18-mobilenets-armcl-opencl",
+    "desc": "CK workflow, portable packages and other artifacts for the <a href=\"http://cknowledge.org/request-cfp-asplos2018.html\">ReQuEST-ASPLOS'18 tournament</a>.",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl/tree/master/repo/ck-request-asplos18-mobilenets-armcl-opencl/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl/tree/master/repo/ck-request-asplos18-mobilenets-armcl-opencl",
+    "tasks": {
+      "5a9a6915b20ea1bf": {
+        "data_uoa": "mobilenets-armcl-opencl"
+      }
+    },
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl",
+    "workflow_desc": "reproducible&nbsp;paper\n-&nbsp;passed&nbsp;<a href=\"http://cTuning.org/ae\">Artifact&nbsp;Evaluation</a>:\n<p><center><img src=\"https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_evaluated_reusable_dl.jpg\" width=\"64\"></center>\n"
+  }
+}

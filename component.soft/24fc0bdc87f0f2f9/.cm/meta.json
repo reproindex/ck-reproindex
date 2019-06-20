@@ -1,0 +1,39 @@
+{
+  "dict": {
+    "customize": {
+      "env_prefix": "CK_ENV_AUTOTUNING_CCC",
+      "only_for_host_os_tags": [
+        "linux"
+      ],
+      "skip_add_to_ld_path": "yes"
+    },
+    "soft_name": "Continuous Collective Compilation (autotuning) tool (outdated)",
+    "tags": [
+      "autotuning",
+      "ccc"
+    ]
+  },
+  "misc": {
+    "auto_detect": "no",
+    "data_uid": "24fc0bdc87f0f2f9",
+    "data_uoa": "autotuning.ccc",
+    "env_prefix": "CK_ENV_AUTOTUNING_CCC",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/autotuning.ccc/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/autotuning.ccc",
+    "soft_name": "Continuous Collective Compilation (autotuning) tool (outdated)",
+    "stags": "autotuning,ccc",
+    "tags": [
+      "autotuning",
+      "ccc"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

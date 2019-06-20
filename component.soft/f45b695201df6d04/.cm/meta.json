@@ -1,0 +1,49 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_params_file": "ck-params.json",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_DEEPHI_CALIBRATION",
+      "limit_recursion_dir_search": {
+        "linux": 7,
+        "win": 3
+      },
+      "soft_file": {
+        "linux": "calibration.txt",
+        "win": "calibration.txt"
+      }
+    },
+    "soft_name": "DeePhi calibration images (256;320)",
+    "tags": [
+      "deephi",
+      "calibration",
+      "images"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "f45b695201df6d04",
+    "data_uoa": "images.deephi",
+    "env_prefix": "CK_ENV_DEEPHI_CALIBRATION",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "d03f001de4248a2a",
+    "repo_uoa": "ck-dnndk",
+    "repo_url1": "",
+    "repo_url2": "http://github.com/ctuning/ck-dnndk/tree/master/soft/images.deephi/.cm/meta.json",
+    "repo_url3": "http://github.com/ctuning/ck-dnndk/tree/master/soft/images.deephi",
+    "soft_name": "DeePhi calibration images (256;320)",
+    "stags": "deephi,calibration,images",
+    "tags": [
+      "deephi",
+      "calibration",
+      "images"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-dnndk"
+  }
+}

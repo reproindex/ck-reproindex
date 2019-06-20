@@ -1,0 +1,55 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "version": "1.0"
+    },
+    "end_full_path": {
+      "android": "bin$#sep#$perf",
+      "linux": "bin/perf",
+      "mingw": "bin\\perf",
+      "win": "bin\\perf"
+    },
+    "only_for_host_os_tags": [
+      "windows",
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "android"
+    ],
+    "process_script": "process",
+    "soft_uoa": "e088ecb44b41acdb",
+    "suggested_path": "lib-android-aux",
+    "tags": [
+      "lib",
+      "android",
+      "aux",
+      "v1.0"
+    ]
+  },
+  "misc": {
+    "data_uid": "9654c4e17915d456",
+    "data_uoa": "lib-android-aux",
+    "host_os": "windows,linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "8f3741434566b104",
+    "repo_uoa": "reproduce-ck-paper",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-ck-paper/tree/master/package/lib-android-aux/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-ck-paper/tree/master/package/lib-android-aux",
+    "soft_name": "Android auxilary libraries and tools (outdated)",
+    "soft_uid": "e088ecb44b41acdb",
+    "soft_uoa": "lib.android.aux",
+    "stags": "lib,android,aux,v1.0",
+    "tags": [
+      "lib",
+      "android",
+      "aux",
+      "v1.0"
+    ],
+    "target_os": "android",
+    "template": "",
+    "to_get": "ck pull repo:reproduce-ck-paper"
+  }
+}

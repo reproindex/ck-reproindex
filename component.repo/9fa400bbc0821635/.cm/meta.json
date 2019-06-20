@@ -1,0 +1,43 @@
+{
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-crowdtuning"
+      },
+      {
+        "repo_uoa": "ck-caffe"
+      }
+    ],
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-crowd-scenarios"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "c7e5332641d8922a",
+          "repo_uoa": "ck-crowdtuning"
+        },
+        {
+          "repo_uid": "57e83bca8a5a4344",
+          "repo_uoa": "ck-caffe"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-crowd-scenarios"
+    },
+    "data_uid": "9fa400bbc0821635",
+    "data_uoa": "ck-crowd-scenarios",
+    "desc": "Automatically generated scenarios (code and data) for our Android app to crowdsource benchmarking and optimization of deep learning across diverse devices and data sets (see <a href=\"https://play.google.com/store/apps/details?id=openscience.crowdsource.video.experiments&hl=en\">Android app</a>).",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-crowd-scenarios/tree/master/repo/ck-crowd-scenarios/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-crowd-scenarios/tree/master/repo/ck-crowd-scenarios",
+    "tasks": {},
+    "to_get": "ck pull repo:ck-crowd-scenarios",
+    "workflow_desc": ""
+  }
+}

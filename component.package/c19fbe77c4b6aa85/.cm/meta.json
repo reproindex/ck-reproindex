@@ -1,0 +1,74 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {
+      "extra_dir": "",
+      "force_ask_path": "yes",
+      "install_env": {
+        "ANNOTATION_URL": "https://www.dropbox.com/s/y73j7o8f3xvzy6k/validation-annotations-bbox-min.csv",
+        "CLASSES_FILE": "class-descriptions-boxable.csv",
+        "CLASSES_URL": "https://www.dropbox.com/s/3kcftx4h7tmfu8m/class-descriptions-boxable.csv",
+        "IMAGE_URL": "https://www.dropbox.com/s/1pe7y4xi66wsmpk/OpenImages2018-val-min.tar.gz",
+        "LABELS_DIR": "/",
+        "VAL_DIR": "validation-min",
+        "VAL_FILE": "validation-annotations-bbox-min.csv",
+        "VAL_IMAGE_ARCHIVE": "OpenImages2018-val-min.tar.gz"
+      },
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "yes",
+      "version": "2018"
+    },
+    "deps": {},
+    "end_full_path": {
+      "linux": "validation-min/005bd647ca0ac947.jpg",
+      "win": "validation-min/005bd647ca0ac947.jpg"
+    },
+    "need_cpu_info": "no",
+    "process_script": "install",
+    "soft_uoa": "df91cf74f7416f94",
+    "suggested_path": "dataset-openimages-min",
+    "tags": [
+      "dataset",
+      "openimages",
+      "OpenImages",
+      "open-images",
+      "Open-Images",
+      "2018",
+      "val",
+      "min",
+      "object-detection",
+      "channel-stable"
+    ]
+  },
+  "misc": {
+    "data_uid": "c19fbe77c4b6aa85",
+    "data_uoa": "dataset-openimages-min",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/dataset-openimages-min/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/dataset-openimages-min",
+    "soft_name": "OpenImages dataset",
+    "soft_uid": "df91cf74f7416f94",
+    "soft_uoa": "dataset.openimages",
+    "stags": "dataset,openimages,OpenImages,open-images,Open-Images,2018,val,min,object-detection,channel-stable",
+    "tags": [
+      "dataset",
+      "openimages",
+      "OpenImages",
+      "open-images",
+      "Open-Images",
+      "2018",
+      "val",
+      "min",
+      "object-detection",
+      "channel-stable"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

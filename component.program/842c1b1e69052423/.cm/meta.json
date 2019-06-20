@@ -1,0 +1,95 @@
+{
+  "dict": {
+    "backup_data_uid": "473c67d70ebe45a9",
+    "build_compiler_vars": {},
+    "compile_deps": {},
+    "print_files_after_run": [
+      "tmp-stdout.tmp",
+      "tmp-stderr.tmp"
+    ],
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "run_cmds": {
+      "default": {
+        "ignore_return_code": "no",
+        "run_time": {
+          "fine_grain_timer_file": "tmp-ck-timer.json",
+          "post_process_cmds": [
+            "python $#src_path_local#$postprocess.py"
+          ],
+          "post_process_via_ck": "yes",
+          "pre_process_via_ck": {
+            "script_name": "preprocess"
+          },
+          "run_cmd_main": "/home/accesscore/CK_REPOS/ck-kann/platform.init/emb02/ck-set-cpu-frequency $<<CK_CPU_FREQ>>$; /home/accesscore/CK_REPOS/ck-kann/platform.init/emb02/ck-set-ddr-frequency $<<CK_DDR_FREQ>>$; $<<CK_ENV_MODEL_KANN_HOST_BIN>>$ $<<CK_ENV_MODEL_KANN_MULTIBIN_BIN>>$ io_bin tmp-kann-input.tmp tmp-kann-output.tmp $<<CK_ENV_MODEL_KANN_PARAMS_BIN>>$ $<<CK_KANN_MAX_NUMBER_IMAGES>>$",
+          "run_cmd_out1": "tmp-stdout.tmp",
+          "run_cmd_out2": "tmp-stderr.tmp",
+          "run_correctness_output_files": [],
+          "run_input_files": [],
+          "run_output_files": [
+            "tmp-ck-timer.json"
+          ]
+        }
+      }
+    },
+    "run_deps": {
+      "imagenet-aux": {
+        "force_target_as_host": "yes",
+        "local": "yes",
+        "name": "KaNN dataset labels (ImageNet aux)",
+        "sort": 30,
+        "tags": "dataset,imagenet,aux"
+      },
+      "kanndataset": {
+        "force_target_as_host": "yes",
+        "local": "yes",
+        "name": "KaNN dataset (ImageNet val)",
+        "sort": 20,
+        "tags": "dataset,imagenet,val,kann"
+      },
+      "kannmodel": {
+        "force_target_as_host": "yes",
+        "local": "yes",
+        "name": "KaNN model (net and weights)",
+        "sort": 10,
+        "tags": "kannmodel"
+      }
+    },
+    "run_vars": {
+      "CK_CPU_FREQ": 400,
+      "CK_DDR_FREQ": 1066,
+      "CK_KANN_MAX_NUMBER_IMAGES": 1
+    },
+    "skip_bin_ext": "yes",
+    "source_files": [],
+    "tags": [
+      "kann",
+      "evaluation",
+      "client"
+    ],
+    "version": "1.2"
+  },
+  "misc": {
+    "data_uid": "842c1b1e69052423",
+    "data_uoa": "kann",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "aa8299de464392e3",
+    "repo_uoa": "ck-kann",
+    "repo_url1": "",
+    "repo_url2": "http://github.com/ctuning/ck-kann/tree/master/program/kann/.cm/meta.json",
+    "repo_url3": "http://github.com/ctuning/ck-kann/tree/master/program/kann",
+    "soft_name": "",
+    "stags": "kann,evaluation,client",
+    "tags": [
+      "kann",
+      "evaluation",
+      "client"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-kann",
+    "version": ""
+  }
+}

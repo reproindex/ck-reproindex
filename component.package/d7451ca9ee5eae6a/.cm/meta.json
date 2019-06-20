@@ -1,0 +1,72 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {
+      "install_env": {
+        "PACKAGE_GIT": "YES",
+        "PACKAGE_SKIP_LINUX_MAKE": "YES",
+        "PACKAGE_SUB_DIR": "models",
+        "PACKAGE_URL": "https://github.com/tensorflow/models.git"
+      },
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "no",
+      "version": "master"
+    },
+    "deps": {
+      "protobuf": {
+        "local": "yes",
+        "name": "ProtoBuf host library 3.0.x",
+        "tags": "lib,protobuf-host,v3,v3.0"
+      }
+    },
+    "end_full_path": {
+      "linux": "models/research/object_detection/README.md"
+    },
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "process_script": "install",
+    "soft_uoa": "72ca45fb219ff46c",
+    "suggested_path": "tensorflowmodel-api",
+    "tags": [
+      "tensorflowmodel",
+      "tensorflow",
+      "model",
+      "api",
+      "channel-stable"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "cd9ccc74060b3d18",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "d7451ca9ee5eae6a",
+    "data_uoa": "tensorflowmodel-api",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "acb7cea44acac9c9",
+    "repo_uoa": "ck-tensorflow",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/tensorflowmodel-api/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/tensorflowmodel-api",
+    "soft_name": "TensorFlow models",
+    "soft_uid": "72ca45fb219ff46c",
+    "soft_uoa": "model.tensorflow-models-api",
+    "stags": "tensorflowmodel,tensorflow,model,api,channel-stable",
+    "tags": [
+      "tensorflowmodel",
+      "tensorflow",
+      "model",
+      "api",
+      "channel-stable"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:ck-tensorflow"
+  }
+}

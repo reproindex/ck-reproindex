@@ -1,0 +1,55 @@
+{
+  "dict": {
+    "actions": {
+      "build": {
+        "desc": "build predictive model",
+        "for_web": "yes"
+      },
+      "validate": {
+        "desc": "validate predictive model",
+        "for_web": "yes"
+      }
+    },
+    "author": "Grigori Fursin",
+    "author_email": "Grigori.Fursin@cTuning.org",
+    "author_webpage": "http://fursin.net",
+    "copyright": "See CK COPYRIGHT.txt for copyright details",
+    "desc": "predictive modeling via R",
+    "license": "See CK LICENSE.txt for licensing details",
+    "model_code_build": "model_$#model_name#$_build.R",
+    "model_code_predict": "model_$#model_name#$_predict.R",
+    "module_deps": {
+      "experiment": "bc0409fb61f0aa82"
+    },
+    "module_names": [
+      "earth",
+      "lm",
+      "nnet",
+      "party",
+      "randomforest",
+      "rpart",
+      "svm"
+    ]
+  },
+  "misc": {
+    "actions": {
+      "build": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/model.r/module.py#L33"
+      },
+      "validate": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/model.r/module.py#L187"
+      }
+    },
+    "data_uid": "3610126974aec8b0",
+    "data_uoa": "model.r",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "76c4424a1473c873",
+    "repo_uoa": "ck-analytics",
+    "repo_url1": "https://github.com/ctuning/ck-analytics/tree/master/module/model.r/module.py",
+    "repo_url2": "https://github.com/ctuning/ck-analytics/tree/master/module/model.r/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:ck-analytics",
+    "workflow": ""
+  }
+}

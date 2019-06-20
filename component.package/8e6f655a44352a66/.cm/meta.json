@@ -1,0 +1,48 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "version": "5.0"
+    },
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "process_script": "process",
+    "soft_uoa": "3a8a82fa40bf992d",
+    "suggested_path": "open64",
+    "tags": [
+      "compiler",
+      "open64",
+      "v5.0",
+      "v5"
+    ]
+  },
+  "misc": {
+    "data_uid": "8e6f655a44352a66",
+    "data_uoa": "compiler-open64-5.0-src-linux-problems",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "4e58bd6003fc6875",
+    "repo_uoa": "reproduce-fgg-2010",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-fgg-2010/tree/master/package/compiler-open64-5.0-src-linux-problems/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-fgg-2010/tree/master/package/compiler-open64-5.0-src-linux-problems",
+    "soft_name": "GNU C compiler",
+    "soft_uid": "3a8a82fa40bf992d",
+    "soft_uoa": "compiler.gcc",
+    "stags": "compiler,open64,v5.0,v5",
+    "tags": [
+      "compiler",
+      "open64",
+      "v5.0",
+      "v5"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:reproduce-fgg-2010"
+  }
+}

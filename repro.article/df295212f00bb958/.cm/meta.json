@@ -1,0 +1,60 @@
+{
+  "misc": {
+    "artifact_doi_url": "",
+    "artifact_sources": "GitHub",
+    "artifact_sources_url": "https://github.com/dividiti/ck-rpi-optimization",
+    "authors": "Grigori Fursin, Anton Lokhmotov, Dmitry Savenko, Eben Upton",
+    "badge_acm_artifact_available": "",
+    "badge_acm_artifact_functional": "",
+    "badge_acm_artifact_reusable": "",
+    "badge_acm_results_replicated": "",
+    "badge_acm_results_reproduced": "",
+    "ck_repo_uid": "4439c9443bbab749",
+    "paper_doi_url": "https://arxiv.org/abs/1801.08024",
+    "paper_pdf_url": "http://cKnowledge.org/rpi-crowd-tuning",
+    "reproducibility_url": "http://cTuning.org/ae",
+    "results": "CK format",
+    "results_dashboard_url": "http://cKnowledge.org/repo",
+    "results_url": "https://github.com/ctuning/ck-rpi-optimization-results",
+    "some_results_replicated": "yes",
+    "tasks": {
+      "025b8a8f359c7375": {
+        "data_uoa": "rhash"
+      },
+      "0ab9fa4425c85211": {
+        "data_uoa": "gzip"
+      },
+      "0eaff5b110631fe3": {
+        "data_uoa": "aubio"
+      },
+      "2b96daac23c3f034": {
+        "data_uoa": "unrar"
+      },
+      "6ec2287294570ae2": {
+        "data_uoa": "sha512sum"
+      },
+      "870b7744a6511320": {
+        "data_uoa": "ccrypt"
+      },
+      "c4fb948b4a75a0d6": {
+        "data_uoa": "zlib"
+      },
+      "ccad6c81f94904a7": {
+        "data_uoa": "minigzip"
+      },
+      "dba9c44de68b633c": {
+        "data_uoa": "7z"
+      }
+    },
+    "title": "Collective Knowledge workflow for collaborative research into multi-objective autotuning and machine learning techniques",
+    "unified_artifact_appendix": "https://github.com/ctuning/ck-artifact-evaluation/tree/master/wfe/artifact-evaluation/templates",
+    "where": "ArXiv",
+    "where_url": "",
+    "workflow": "CK",
+    "workflow_url": "https://github.com/dividiti/ck-rpi-optimization"
+  },
+  "tags": [
+    "papers",
+    "papers-reports"
+  ]
+}

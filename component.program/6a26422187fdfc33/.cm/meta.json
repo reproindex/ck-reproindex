@@ -1,0 +1,74 @@
+{
+  "dict": {
+    "backup_data_uid": "6a26422187fdfc33",
+    "data_name": "axbc-snap",
+    "no_compile": "yes",
+    "no_target_file": "yes",
+    "print_files_after_run": [
+      "stderr.log",
+      "stdout.log"
+    ],
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "run_cmds": {
+      "default": {
+        "ignore_return_code": "no",
+        "run_time": {
+          "fine_grain_timer_file": "tmp-ck-timer.json",
+          "post_process_via_ck": "yes",
+          "run_cmd_main": "mpirun -np $<<CK_MPI_PROCESS>>$ $<<CK_ENV_AXBC_BIN>>$ -f $<<CK_ENV_DATASET_SNAP_FULL_NAME>>$ -p 1x1 -n $<<CK_ENV_DATASET_SNAP_NUM_OF_VERTICES>>$ -N 100 -c 0 -x 1 -d 0 -H 0 -o $<<CK_ENV_DATASET_SNAP_GRAPH_NAME>>$.out",
+          "run_cmd_out1": "stdout.log",
+          "run_cmd_out2": "stderr.log",
+          "run_output_files": [
+            "stdout.log",
+            "stderr.log",
+            "tmp-ck-timer.json"
+          ]
+        }
+      }
+    },
+    "run_deps": {
+      "dataset-snap": {
+        "local": "yes",
+        "name": "Snap dataset",
+        "sort": 10,
+        "tags": "dataset,graph,snap"
+      },
+      "lib-axbc": {
+        "local": "yes",
+        "name": "Approximating BC",
+        "sort": 10,
+        "tags": "lib,abc,bc,approximation"
+      }
+    },
+    "run_vars": {
+      "CK_GRAPH_NAME": "facebook_combined.txt",
+      "CK_MPI_PROCESS": 1,
+      "CK_NUM_VERTICES": 4039
+    },
+    "tags": [
+      "graph"
+    ]
+  },
+  "misc": {
+    "data_uid": "6a26422187fdfc33",
+    "data_uoa": "axbc-snap",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "68121412a8ff317c",
+    "repo_uoa": "ck-graph-analytics",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-graph-analytics/tree/master/program/axbc-snap/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-graph-analytics/tree/master/program/axbc-snap",
+    "soft_name": "",
+    "stags": "graph",
+    "tags": [
+      "graph"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-graph-analytics",
+    "version": ""
+  }
+}

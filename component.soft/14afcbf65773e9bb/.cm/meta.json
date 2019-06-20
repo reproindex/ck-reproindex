@@ -1,0 +1,45 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_SDK_KANN",
+      "limit_recursion_dir_search": {
+        "linux": 1
+      },
+      "soft_file": {
+        "linux": "python/caffe_to_kann.py"
+      }
+    },
+    "soft_name": "KaNN Development Package",
+    "tags": [
+      "kann",
+      "sdk",
+      "kalray"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "14afcbf65773e9bb",
+    "data_uoa": "sdk.kann",
+    "env_prefix": "CK_ENV_SDK_KANN",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "aa8299de464392e3",
+    "repo_uoa": "ck-kann",
+    "repo_url1": "",
+    "repo_url2": "http://github.com/ctuning/ck-kann/tree/master/soft/sdk.kann/.cm/meta.json",
+    "repo_url3": "http://github.com/ctuning/ck-kann/tree/master/soft/sdk.kann",
+    "soft_name": "KaNN Development Package",
+    "stags": "kann,sdk,kalray",
+    "tags": [
+      "kann",
+      "sdk",
+      "kalray"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-kann"
+  }
+}

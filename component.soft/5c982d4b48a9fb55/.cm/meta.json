@@ -1,0 +1,41 @@
+{
+  "dict": {
+    "customize": {
+      "env_prefix": "CK_ENV_BC"
+    },
+    "soft_name": "BC on Multi-GPU",
+    "tags": [
+      "lib",
+      "graph500",
+      "betweeness-centraliy",
+      "bc",
+      "exact"
+    ]
+  },
+  "misc": {
+    "auto_detect": "no",
+    "data_uid": "5c982d4b48a9fb55",
+    "data_uoa": "lib.mgbc",
+    "env_prefix": "CK_ENV_BC",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "68121412a8ff317c",
+    "repo_uoa": "ck-graph-analytics",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-graph-analytics/tree/master/soft/lib.mgbc/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-graph-analytics/tree/master/soft/lib.mgbc",
+    "soft_name": "BC on Multi-GPU",
+    "stags": "lib,graph500,betweeness-centraliy,bc,exact",
+    "tags": [
+      "lib",
+      "graph500",
+      "betweeness-centraliy",
+      "bc",
+      "exact"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-graph-analytics"
+  }
+}

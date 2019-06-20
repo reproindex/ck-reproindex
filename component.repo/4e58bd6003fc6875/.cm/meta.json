@@ -1,0 +1,40 @@
+{
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-math"
+      }
+    ],
+    "shared": "git",
+    "url": "https://github.com/ctuning/reproduce-fgg-2010"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "d94a45b5be3072ba",
+          "repo_uoa": "ck-math"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/reproduce-fgg-2010"
+    },
+    "data_uid": "4e58bd6003fc6875",
+    "data_uoa": "reproduce-fgg-2010",
+    "desc": "Demo of experimental results in the reproducible CK format from past papers.",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-fgg-2010/tree/master/repo/reproduce-fgg-2010/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-fgg-2010/tree/master/repo/reproduce-fgg-2010",
+    "tasks": {
+      "b86283e4e8aad445": {
+        "data_uoa": "test-boost"
+      }
+    },
+    "to_get": "ck pull repo:reproduce-fgg-2010",
+    "workflow_desc": ""
+  }
+}

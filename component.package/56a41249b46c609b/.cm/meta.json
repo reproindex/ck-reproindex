@@ -1,0 +1,89 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "git_src_dir": "src",
+      "install_env": {
+        "PACKAGE_GIT": "YES",
+        "PACKAGE_GIT_CHECKOUT": "0d94aeaec5ea7a03009eeb8cb68c44c423e7dbd9",
+        "PACKAGE_PATCH": "YES",
+        "PACKAGE_SUB_DIR": "src",
+        "PACKAGE_URL": "https://github.com/XiaoMi/mace"
+      },
+      "version": "0.8.1"
+    },
+    "deps": {
+      "bazel": {
+        "add_to_path": "no",
+        "local": "no",
+        "name": "Bazel tool",
+        "sort": 40,
+        "tags": "tool,bazel",
+        "version_from": [
+          0,
+          11,
+          1
+        ],
+        "version_to": [
+          0,
+          15,
+          99
+        ]
+      }
+    },
+    "end_full_path": {
+      "linux": "install/lib/libmace.so"
+    },
+    "need_cpu_info": "yes",
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "process_script": "install",
+    "soft_uoa": "448d195670f907f4",
+    "suggested_path": "lib-mace",
+    "tags": [
+      "lib",
+      "mace",
+      "vsrc",
+      "v0.8.1",
+      "v0.8",
+      "v0",
+      "channel-stable"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "18850c4158b7022f",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "56a41249b46c609b",
+    "data_uoa": "lib-mace-cpu-0.8.1",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "d94a45b5be3072ba",
+    "repo_uoa": "ck-math",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-math/tree/master/package/lib-mace-cpu-0.8.1/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-math/tree/master/package/lib-mace-cpu-0.8.1",
+    "soft_name": "MACE library",
+    "soft_uid": "448d195670f907f4",
+    "soft_uoa": "lib.mace",
+    "stags": "lib,mace,vsrc,v0.8.1,v0.8,v0,channel-stable",
+    "tags": [
+      "lib",
+      "mace",
+      "vsrc",
+      "v0.8.1",
+      "v0.8",
+      "v0",
+      "channel-stable"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:ck-math"
+  }
+}

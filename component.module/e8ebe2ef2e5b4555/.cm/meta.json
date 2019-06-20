@@ -1,0 +1,33 @@
+{
+  "dict": {
+    "actions": {
+      "pull": {
+        "desc": "update CK and all repos"
+      }
+    },
+    "copyright": "See CK COPYRIGHT.txt for copyright details",
+    "desc": "common operations for the whole CK",
+    "developer": "Grigori Fursin",
+    "developer_email": "Grigori.Fursin@cTuning.org",
+    "developer_webpage": "http://cTuning.org/lab/people/gfursin",
+    "license": "See CK LICENSE.txt for licensing details"
+  },
+  "misc": {
+    "actions": {
+      "pull": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/all/module.py#L33"
+      }
+    },
+    "data_uid": "e8ebe2ef2e5b4555",
+    "data_uoa": "all",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "604419a9fcc7a081",
+    "repo_uoa": "default",
+    "repo_url1": "https://github.com/ctuning/ck/tree/master/ck/repo/module/all/module.py",
+    "repo_url2": "https://github.com/ctuning/ck/tree/master/ck/repo/module/all/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "",
+    "workflow": ""
+  }
+}

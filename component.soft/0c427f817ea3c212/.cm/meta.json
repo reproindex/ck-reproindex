@@ -1,0 +1,71 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "detect_in_soft_dir": "yes",
+      "env_mapping": [
+        {
+          "display_name": "your Forest API key",
+          "variable": "QVM_API_KEY"
+        },
+        {
+          "display_name": "your Forest User ID",
+          "variable": "QVM_USER_ID"
+        }
+      ],
+      "env_prefix": "CK_ENV_LOGIN_RIGETTI_FOREST",
+      "limit_recursion_dir_search": {
+        "linux": 0,
+        "win": 0
+      },
+      "soft_file_universal": ".cm$#sep#$meta.json"
+    },
+    "soft_name": "Rigetti Forest Login",
+    "tags": [
+      "dialogue",
+      "login",
+      "quantum",
+      "rigetti",
+      "forest",
+      "api_key",
+      "user_id",
+      "credentials",
+      "password"
+    ],
+    "use_customize_script_from_another_entry": {
+      "data_uoa": "f14e1ed51a944f13",
+      "module_uoa": "soft"
+    }
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "0c427f817ea3c212",
+    "data_uoa": "login.forest",
+    "env_prefix": "CK_ENV_LOGIN_RIGETTI_FOREST",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "6456e78d8c044a88",
+    "repo_uoa": "ck-rigetti",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-rigetti/tree/master/soft/login.forest/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-rigetti/tree/master/soft/login.forest",
+    "soft_name": "Rigetti Forest Login",
+    "stags": "dialogue,login,quantum,rigetti,forest,api_key,user_id,credentials,password",
+    "tags": [
+      "dialogue",
+      "login",
+      "quantum",
+      "rigetti",
+      "forest",
+      "api_key",
+      "user_id",
+      "credentials",
+      "password"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-rigetti"
+  }
+}

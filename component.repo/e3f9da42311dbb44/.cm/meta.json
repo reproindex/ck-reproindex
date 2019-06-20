@@ -1,0 +1,31 @@
+{
+  "dict": {
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-web-adapt-workshop"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "215d441c19db1fed",
+          "repo_uoa": "ck-web"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-web-adapt-workshop"
+    },
+    "data_uid": "e3f9da42311dbb44",
+    "data_uoa": "ck-web-adapt-workshop",
+    "desc": "CK resources for the <a href=\"http://adapt-workshop.org\">ADAPT workshop</a>.",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-web-adapt-workshop/tree/master/repo/ck-web-adapt-workshop/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-web-adapt-workshop/tree/master/repo/ck-web-adapt-workshop",
+    "tasks": {},
+    "to_get": "ck pull repo:ck-web-adapt-workshop",
+    "workflow_desc": "website generator"
+  }
+}

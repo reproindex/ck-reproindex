@@ -1,0 +1,74 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {
+      "extra_dir": "",
+      "force_ask_path": "yes",
+      "install_env": {
+        "PACKAGE_GIT": "YES",
+        "PACKAGE_GIT_CHECKOUT": "4c78fa350f9c11ab9a5b620e78286846a7ee66de",
+        "PACKAGE_PATCH": "YES",
+        "PACKAGE_SKIP_LINUX_MAKE": "YES",
+        "PACKAGE_SUB_DIR": "squeezeDet",
+        "PACKAGE_URL": "https://github.com/dividiti/squeezeDet"
+      },
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "yes",
+      "source_dir": "src",
+      "version": "master-05e9de1"
+    },
+    "deps": {
+      "python": {
+        "local": "yes",
+        "name": "Python",
+        "sort": 20,
+        "tags": "compiler,python"
+      }
+    },
+    "end_full_path": {
+      "linux": "squeezeDet/README.md",
+      "win": "squeezeDet/README.md"
+    },
+    "package_extra_name": " (patched)",
+    "process_script": "install",
+    "soft_uoa": "76551749a9854388",
+    "suggested_path": "demo-squeezedet-patched",
+    "tags": [
+      "tensorflow",
+      "demo",
+      "squeezedet",
+      "patched",
+      "channel-stable"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "cd9ccc74060b3d18",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "f34b26b7334f47ef",
+    "data_uoa": "demo-squeezedet-patched",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "acb7cea44acac9c9",
+    "repo_uoa": "ck-tensorflow",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/demo-squeezedet-patched/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/demo-squeezedet-patched",
+    "soft_name": "SqueezeDet demo",
+    "soft_uid": "76551749a9854388",
+    "soft_uoa": "demo.squeezedet",
+    "stags": "tensorflow,demo,squeezedet,patched,channel-stable",
+    "tags": [
+      "tensorflow",
+      "demo",
+      "squeezedet",
+      "patched",
+      "channel-stable"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-tensorflow"
+  }
+}

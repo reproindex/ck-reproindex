@@ -1,0 +1,58 @@
+{
+  "dict": {
+    "customize": {
+      "add_m32": "no",
+      "extra_dir": "",
+      "retarget": "no",
+      "tool_prefix": "",
+      "version": "3.8.0"
+    },
+    "end_full_path": {
+      "android": "clang+llvm-3.8.0-x86_64-linux-gnu-ubuntu-14.04/bin/clang",
+      "linux": "clang+llvm-3.8.0-x86_64-linux-gnu-ubuntu-14.04/bin/clang"
+    },
+    "need_cpu_info": "yes",
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "process_script": "process",
+    "soft_uoa": "1c2eb494b8ae3bc4",
+    "suggested_path": "llvm",
+    "tags": [
+      "compiler",
+      "llvm",
+      "v3.8.0",
+      "v3.8",
+      "v3"
+    ]
+  },
+  "misc": {
+    "data_uid": "ea97591549ecb878",
+    "data_uoa": "compiler-llvm-3.8.0-ubuntu-14.04",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "944d5b8a6b4ba2f8",
+    "repo_uoa": "ck-dev-compilers",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-dev-compilers/tree/master/package/compiler-llvm-3.8.0-ubuntu-14.04/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-dev-compilers/tree/master/package/compiler-llvm-3.8.0-ubuntu-14.04",
+    "soft_name": "LLVM compiler",
+    "soft_uid": "1c2eb494b8ae3bc4",
+    "soft_uoa": "compiler.llvm",
+    "stags": "compiler,llvm,v3.8.0,v3.8,v3",
+    "tags": [
+      "compiler",
+      "llvm",
+      "v3.8.0",
+      "v3.8",
+      "v3"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:ck-dev-compilers"
+  }
+}

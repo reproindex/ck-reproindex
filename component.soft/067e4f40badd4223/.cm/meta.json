@@ -1,0 +1,62 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_LIB_MPC",
+      "include_file": "mpc.h",
+      "limit_recursion_dir_search": {
+        "linux": 3
+      },
+      "soft_file": {
+        "linux": "libmpc.so"
+      },
+      "soft_path_example": {
+        "linux": ""
+      }
+    },
+    "deps": {
+      "lib-gmp": {
+        "local": "yes",
+        "name": "GMP library",
+        "sort": 10,
+        "tags": "lib,gmp"
+      },
+      "lib-mpfr": {
+        "local": "yes",
+        "name": "MPFR library",
+        "sort": 20,
+        "tags": "lib,mpfr"
+      }
+    },
+    "soft_name": "MPC library",
+    "tags": [
+      "lib",
+      "mpc"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "067e4f40badd4223",
+    "data_uoa": "lib.mpc",
+    "env_prefix": "CK_ENV_LIB_MPC",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/lib.mpc/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/lib.mpc",
+    "soft_name": "MPC library",
+    "stags": "lib,mpc",
+    "tags": [
+      "lib",
+      "mpc"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "dict": {
+    "apk": {
+      "name": "com.google.android.gallery3d"
+    },
+    "backup_data_uid": "4394c4a81b234e44",
+    "ck_to_env": {
+      "CK_WA_SCRIPTS_PATH": "script:39157fb314f399ae"
+    },
+    "clean_dirs": [
+      "wa_output"
+    ],
+    "data_name": "WA workload: camerarecord",
+    "deps": {
+      "wa": {
+        "env_key": "WA",
+        "force_target_as_host": "yes",
+        "local": "yes",
+        "name": "ARM Workload Automation",
+        "sort": 10,
+        "tags": "tool,wa"
+      }
+    },
+    "no_compile": "yes",
+    "no_target_file": "yes",
+    "params": {
+      "modules": {
+        "allowed_values": null,
+        "default": null,
+        "desc": "Lists the modules to be loaded by this extension. A module is a plug-in that further extends functionality of an extension.",
+        "mandatory": null,
+        "type": "list"
+      },
+      "recording_mode": {
+        "allowed_values": [
+          "normal",
+          "slow_motion"
+        ],
+        "default": "normal",
+        "desc": "The video recording mode.",
+        "mandatory": null,
+        "type": "str"
+      },
+      "recording_time": {
+        "allowed_values": null,
+        "default": 60,
+        "desc": "The video recording time in seconds.",
+        "mandatory": null,
+        "type": "integer"
+      }
+    },
+    "print_files_after_run": [
+      "tmp-output2.tmp",
+      "wa_output/status.txt",
+      "wa_output/camerarecord_1_1/result.txt"
+    ],
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "required_device_access_type": [
+      "wa_android",
+      "wa_linux"
+    ],
+    "run_cmds": {
+      "default": {
+        "ignore_return_code": "no",
+        "run_time": {
+          "fine_grain_timer_file": "tmp-ck-timer.json",
+          "post_process_cmds": [
+            "python $<<CK_WA_SCRIPTS_PATH>>$$#dir_sep#$postprocess_workload.py"
+          ],
+          "post_process_via_ck": "yes",
+          "pre_process_via_ck": {
+            "data_uoa": "process-wa",
+            "module_uoa": "script",
+            "script_name": "preprocess_workload"
+          },
+          "run_cmd_main": "wa run $<<CK_WA_CMD>>$",
+          "run_cmd_out1": "tmp-output1.tmp",
+          "run_cmd_out2": "tmp-output2.tmp",
+          "run_output_files": []
+        }
+      }
+    },
+    "run_via_third_party": "yes",
+    "tags": [
+      "wa",
+      "workload-automation",
+      "camerarecord"
+    ],
+    "wa_alias": "camerarecord",
+    "wa_desc": "Uses in-built Android camera app to record the video for given interval of time"
+  },
+  "misc": {
+    "data_uid": "4394c4a81b234e44",
+    "data_uoa": "wa-camerarecord",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "cca2211feceec6dc",
+    "repo_uoa": "ck-wa-workloads",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-wa-workloads/tree/master/program/wa-camerarecord/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-wa-workloads/tree/master/program/wa-camerarecord",
+    "soft_name": "",
+    "stags": "wa,workload-automation,camerarecord",
+    "tags": [
+      "wa",
+      "workload-automation",
+      "camerarecord"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-wa-workloads",
+    "version": ""
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "misc": {
+    "artifact_doi_url": "",
+    "artifact_sources": "GitHub",
+    "artifact_sources_url": "https://github.com/SamAinsworth/reproduce-cgo2017-paper",
+    "authors": "Sam Ainsworth and Timothy M. Jones",
+    "badge_acm_artifact_available": "",
+    "badge_acm_artifact_functional": "",
+    "badge_acm_artifact_reusable": "",
+    "badge_acm_results_replicated": "",
+    "badge_acm_results_reproduced": "",
+    "ck_repo_uid": "640f0b9dadc5bfda",
+    "paper_doi_url": "https://dl.acm.org/citation.cfm?id=3049865",
+    "paper_pdf_url": "https://www.cl.cam.ac.uk/~sa614/papers/Software-Prefetching-CGO2017.pdf",
+    "reproducibility_url": "http://ctuning.org/ae/cgo2017.html",
+    "results": "CK format",
+    "results_dashboard_url": "https://github.com/SamAinsworth/reproduce-cgo2017-paper/files/618737/ck-aarch64-dashboard.pdf",
+    "results_url": "https://github.com/SamAinsworth/reproduce-cgo2017-paper",
+    "some_results_replicated": "yes",
+    "tasks": {
+      "04810be822e46a1f": {
+        "data_uoa": "randacc"
+      },
+      "2544fd86ec43416d": {
+        "data_uoa": "nas-cg"
+      },
+      "42f28f884842c988": {
+        "data_uoa": "nas-common"
+      },
+      "491f2d46f4a5a01d": {
+        "data_uoa": "hashjoin-ph-2"
+      },
+      "5461e8f3d8681745": {
+        "data_uoa": "graph500"
+      },
+      "77048f4b89ac7814": {
+        "data_uoa": "hashjoin-ph-8"
+      },
+      "773bfa4c148d98dc": {
+        "data_uoa": "nas-is"
+      },
+      "ff8c81f53fd34d28": {
+        "data_uoa": "nas-sys"
+      }
+    },
+    "title": "Software Prefetching for Indirect Memory Accesses",
+    "unified_artifact_appendix": "https://github.com/ctuning/ck-artifact-evaluation/tree/master/wfe/artifact-evaluation/templates",
+    "where": "CGO'17",
+    "where_url": "http://cgo.org/cgo2017",
+    "workflow": "CK",
+    "workflow_url": "https://github.com/SamAinsworth/reproduce-cgo2017-paper"
+  },
+  "tags": [
+    "papers",
+    "papers-cgo",
+    "papers-cgo-2017"
+  ]
+}

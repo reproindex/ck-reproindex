@@ -1,0 +1,57 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "version": "1.5"
+    },
+    "deps": {
+      "compiler": {
+        "local": "yes",
+        "name": "C compiler",
+        "tags": "compiler,lang-c"
+      }
+    },
+    "end_full_path": {
+      "android": "lib$#sep#$plugin-openme-ctuning-1.5.so",
+      "linux": "lib/plugin-openme-ctuning-1.5.so",
+      "mingw": "lib\\plugin-openme-ctuning-1.5.so",
+      "win": "lib\\plugin-openme-ctuning-1.5.dll"
+    },
+    "process_script": "process",
+    "soft_uoa": "77a2104b4b828802",
+    "suggested_path": "plugin-openme-ctuning",
+    "tags": [
+      "plugin",
+      "openme",
+      "ctuning",
+      "auto-tuning",
+      "channel-stable"
+    ]
+  },
+  "misc": {
+    "data_uid": "0aff5b24437640ea",
+    "data_uoa": "plugin-openme-ctuning-1.5",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "a4328ba99679e0d1",
+    "repo_uoa": "ck-autotuning",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-autotuning/tree/master/package/plugin-openme-ctuning-1.5/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-autotuning/tree/master/package/plugin-openme-ctuning-1.5",
+    "soft_name": "cTuning OpenME plugin",
+    "soft_uid": "77a2104b4b828802",
+    "soft_uoa": "plugin.openme.ctuning",
+    "stags": "plugin,openme,ctuning,auto-tuning,channel-stable",
+    "tags": [
+      "plugin",
+      "openme",
+      "ctuning",
+      "auto-tuning",
+      "channel-stable"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-autotuning"
+  }
+}

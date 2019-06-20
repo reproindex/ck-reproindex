@@ -1,0 +1,36 @@
+{
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-env"
+      }
+    ],
+    "shared": "git",
+    "url": "https://github.com/lift-project/ck-lift"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "1ff43ae88715a8c1",
+          "repo_uoa": "ck-env"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/lift-project/ck-lift"
+    },
+    "data_uid": "974c6589e9b66157",
+    "data_uoa": "ck-lift",
+    "desc": "[OUTDATED] Portable/customizable installation and unified access to Lift compiler.",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/lift-project/ck-lift/tree/master/repo/ck-lift/.cm/meta.json",
+    "repo_url3": "https://github.com/lift-project/ck-lift/tree/master/repo/ck-lift",
+    "tasks": {},
+    "to_get": "ck pull repo --url=https://github.com/lift-project/ck-lift",
+    "workflow_desc": "reproducible&nbsp;paper\n-&nbsp;passed&nbsp;<a href=\"http://cTuning.org/ae\">Artifact&nbsp;Evaluation</a>:\n<p><center><img src=\"https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_evaluated_reusable_dl.jpg\" width=\"64\"></center>\n"
+  }
+}

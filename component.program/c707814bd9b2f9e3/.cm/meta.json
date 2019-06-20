@@ -1,0 +1,66 @@
+{
+  "dict": {
+    "backup_data_uid": "c707814bd9b2f9e3",
+    "build_compiler_vars": {},
+    "compile_deps": {
+      "compiler": {
+        "local": "yes",
+        "name": "Python 3",
+        "tags": "compiler,python",
+        "version_from": [
+          3,
+          5,
+          0
+        ]
+      }
+    },
+    "data_name": "visualize-convergence",
+    "main_language": "python",
+    "no_compile": "yes",
+    "no_target_file": "yes",
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "run_cmds": {
+      "default": {
+        "ignore_return_code": "no",
+        "run_time": {
+          "run_cmd_main": "$<<CK_ENV_COMPILER_PYTHON_FILE>>$ ..$#dir_sep#$visualize_convergence.py"
+        }
+      }
+    },
+    "run_vars": {
+      "CK_VAR1": 123,
+      "CK_VAR2": 666
+    },
+    "tags": [
+      "program",
+      "lang-python",
+      "quantum",
+      "visualize-convergence"
+    ]
+  },
+  "misc": {
+    "data_uid": "c707814bd9b2f9e3",
+    "data_uoa": "visualize-convergence",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "de640faafc01c0a0",
+    "repo_uoa": "ck-quantum",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-quantum/tree/master/program/visualize-convergence/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-quantum/tree/master/program/visualize-convergence",
+    "soft_name": "",
+    "stags": "program,lang-python,quantum,visualize-convergence",
+    "tags": [
+      "program",
+      "lang-python",
+      "quantum",
+      "visualize-convergence"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-quantum",
+    "version": ""
+  }
+}

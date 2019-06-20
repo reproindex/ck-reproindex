@@ -1,0 +1,53 @@
+{
+  "dict": {
+    "ck_artifact": "e7cc77d72f13441e",
+    "recache": "yes",
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-caffe",
+        "repo_url": "https://github.com/dividiti/ck-caffe"
+      },
+      {
+        "repo_uoa": "ck-request"
+      }
+    ],
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-request-asplos18-caffe-intel"
+  },
+  "misc": {
+    "ckr": {
+      "ck_artifact": "e7cc77d72f13441e",
+      "recache": "yes",
+      "repo_deps": [
+        {
+          "repo_uid": "57e83bca8a5a4344",
+          "repo_uoa": "ck-caffe",
+          "repo_url": "https://github.com/dividiti/ck-caffe"
+        },
+        {
+          "repo_uid": "c51322a8eae14587",
+          "repo_uoa": "ck-request"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-request-asplos18-caffe-intel"
+    },
+    "data_uid": "0e40b194adc51b5a",
+    "data_uoa": "ck-request-asplos18-caffe-intel",
+    "desc": "CK workflow, portable packages and other artifacts for the <a href=\"http://cknowledge.org/request-cfp-asplos2018.html\">ReQuEST-ASPLOS'18 tournament</a>.",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-request-asplos18-caffe-intel/tree/master/repo/ck-request-asplos18-caffe-intel/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-request-asplos18-caffe-intel/tree/master/repo/ck-request-asplos18-caffe-intel",
+    "tasks": {
+      "42869a95af6fc638": {
+        "data_uoa": "convert-ssd-to-i8"
+      }
+    },
+    "to_get": "ck pull repo:ck-request-asplos18-caffe-intel",
+    "workflow_desc": "reproducible&nbsp;paper\n-&nbsp;passed&nbsp;<a href=\"http://cTuning.org/ae\">Artifact&nbsp;Evaluation</a>:\n<p><center><img src=\"https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_evaluated_reusable_dl.jpg\" width=\"64\"></center>\n"
+  }
+}

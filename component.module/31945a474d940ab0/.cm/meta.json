@@ -1,0 +1,43 @@
+{
+  "dict": {
+    "actions": {
+      "auth": {
+        "desc": "authentication of a user",
+        "for_web": "yes"
+      },
+      "create": {
+        "desc": "create account",
+        "for_web": "yes"
+      },
+      "renew": {
+        "desc": "renew user",
+        "for_web": "yes"
+      }
+    },
+    "desc": "web-based user auth"
+  },
+  "misc": {
+    "actions": {
+      "auth": {
+        "url_api": "https://github.com/ctuning/ck-web/tree/master/module/user/module.py#L33"
+      },
+      "create": {
+        "url_api": "https://github.com/ctuning/ck-web/tree/master/module/user/module.py#L104"
+      },
+      "renew": {
+        "url_api": "https://github.com/ctuning/ck-web/tree/master/module/user/module.py#L190"
+      }
+    },
+    "data_uid": "31945a474d940ab0",
+    "data_uoa": "user",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "215d441c19db1fed",
+    "repo_uoa": "ck-web",
+    "repo_url1": "https://github.com/ctuning/ck-web/tree/master/module/user/module.py",
+    "repo_url2": "https://github.com/ctuning/ck-web/tree/master/module/user/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:ck-web",
+    "workflow": ""
+  }
+}

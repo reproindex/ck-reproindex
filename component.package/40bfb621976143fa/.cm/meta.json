@@ -1,0 +1,84 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {
+      "extra_dir": "",
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "yes",
+      "version": "2007"
+    },
+    "deps": {
+      "python": {
+        "local": "yes",
+        "name": "Python interpreter (v3+)",
+        "skip_from_bat": "yes",
+        "sort": 5,
+        "tags": "compiler,python",
+        "version_from": [
+          3
+        ]
+      },
+      "tensorflow": {
+        "local": "yes",
+        "name": "TensorFlow Library",
+        "skip_from_bat": "yes",
+        "sort": 10,
+        "tags": "lib,tensorflow"
+      },
+      "wmt32k-en-de-train": {
+        "local": "yes",
+        "name": "WMT32k English-German dataset (train)",
+        "skip_from_bat": "yes",
+        "sort": 20,
+        "tags": "dataset,wmt32k,raw,train"
+      },
+      "wmt32k-en-de-val": {
+        "local": "yes",
+        "name": "WMT32k English-German dataset (val)",
+        "skip_from_bat": "yes",
+        "sort": 30,
+        "tags": "dataset,wmt32k,raw,val"
+      }
+    },
+    "end_full_path_universal": "t2t_data/translate_ende_wmt32k-train-00000-of-00100",
+    "need_cpu_info": "no",
+    "process_script": "download-wmt-ende-wmt32k",
+    "soft_uoa": "46efa92a9e2b792a",
+    "suggested_path": "dataset-wmt32",
+    "tags": [
+      "dataset",
+      "tensor2tensor",
+      "raw",
+      "train-tf",
+      "machine-translation",
+      "transformer"
+    ]
+  },
+  "misc": {
+    "data_uid": "40bfb621976143fa",
+    "data_uoa": "wmt32k-en-de-trainval",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "90009e454e059d40",
+    "repo_uoa": "ck-tbd-suite",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tbd-suite/tree/master/package/wmt32k-en-de-trainval/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tbd-suite/tree/master/package/wmt32k-en-de-trainval",
+    "soft_name": "WMT32K English-German dataset (all)",
+    "soft_uid": "46efa92a9e2b792a",
+    "soft_uoa": "dataset.wmt32k.en-de",
+    "stags": "dataset,tensor2tensor,raw,train-tf,machine-translation,transformer",
+    "tags": [
+      "dataset",
+      "tensor2tensor",
+      "raw",
+      "train-tf",
+      "machine-translation",
+      "transformer"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-tbd-suite"
+  }
+}

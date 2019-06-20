@@ -1,0 +1,152 @@
+{
+  "dict": {
+    "backup_data_uid": "f6ca4dbc824cbfae",
+    "ck_to_env": {
+      "CK_WA_SCRIPTS_PATH": "script:39157fb314f399ae"
+    },
+    "clean_dirs": [
+      "wa_output"
+    ],
+    "data_name": "WA workload: bbench",
+    "deps": {
+      "wa": {
+        "env_key": "WA",
+        "force_target_as_host": "yes",
+        "local": "yes",
+        "name": "ARM Workload Automation",
+        "sort": 10,
+        "tags": "tool,wa"
+      }
+    },
+    "no_compile": "yes",
+    "no_target_file": "yes",
+    "params": {
+      "audio_file": {
+        "allowed_values": null,
+        "default": "/home/fursin/.workload_automation/dependencies/Canon_in_D_Piano.mp3",
+        "desc": "The (on-host) path to the audio file to be played. This is only used if ``with_audio`` is ``True``.",
+        "mandatory": null,
+        "type": "str"
+      },
+      "browser_activity": {
+        "allowed_values": null,
+        "default": ".BrowserActivity",
+        "desc": "Specifies the startup activity  name of the device's browser app.",
+        "mandatory": null,
+        "type": "str"
+      },
+      "browser_package": {
+        "allowed_values": null,
+        "default": "com.android.browser",
+        "desc": "Specifies the package name of the device's browser app.",
+        "mandatory": null,
+        "type": "str"
+      },
+      "clear_file_cache": {
+        "allowed_values": null,
+        "default": true,
+        "desc": "Clear the the file cache on the target device prior to running the workload.",
+        "mandatory": null,
+        "type": "boolean"
+      },
+      "force_dependency_push": {
+        "allowed_values": null,
+        "default": false,
+        "desc": "Specifies whether to push dependency files to the device to the device if they are already on it.",
+        "mandatory": null,
+        "type": "boolean"
+      },
+      "modules": {
+        "allowed_values": null,
+        "default": null,
+        "desc": "Lists the modules to be loaded by this extension. A module is a plug-in that further extends functionality of an extension.",
+        "mandatory": null,
+        "type": "list"
+      },
+      "perform_cleanup": {
+        "allowed_values": null,
+        "default": false,
+        "desc": "If ``True``, workload files on the device will be deleted after execution.",
+        "mandatory": null,
+        "type": "boolean"
+      },
+      "server_timeout": {
+        "allowed_values": null,
+        "default": 300,
+        "desc": "Specifies the timeout (in seconds) before the server is stopped.",
+        "mandatory": null,
+        "type": "integer"
+      },
+      "with_audio": {
+        "allowed_values": null,
+        "default": false,
+        "desc": "Specifies whether an MP3 should be played in the background during workload execution.",
+        "mandatory": null,
+        "type": "boolean"
+      }
+    },
+    "print_files_after_run": [
+      "tmp-output2.tmp",
+      "wa_output/status.txt",
+      "wa_output/bbench_1_1/result.txt"
+    ],
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "required_device_access_type": [
+      "wa_android",
+      "wa_linux"
+    ],
+    "run_cmds": {
+      "default": {
+        "ignore_return_code": "no",
+        "run_time": {
+          "fine_grain_timer_file": "tmp-ck-timer.json",
+          "post_process_cmds": [
+            "python $<<CK_WA_SCRIPTS_PATH>>$$#dir_sep#$postprocess_workload.py"
+          ],
+          "post_process_via_ck": "yes",
+          "pre_process_via_ck": {
+            "data_uoa": "process-wa",
+            "module_uoa": "script",
+            "script_name": "preprocess_workload"
+          },
+          "run_cmd_main": "wa run $<<CK_WA_CMD>>$",
+          "run_cmd_out1": "tmp-output1.tmp",
+          "run_cmd_out2": "tmp-output2.tmp",
+          "run_output_files": []
+        }
+      }
+    },
+    "run_via_third_party": "yes",
+    "tags": [
+      "wa",
+      "workload-automation",
+      "bbench"
+    ],
+    "wa_alias": "bbench",
+    "wa_desc": "BBench workload opens the built-in browser and navigates to, and scrolls through, some preloaded web pages and ends the workload by trying to connect to a local server it runs after it starts. It can also play the workload while it plays an audio file in the background"
+  },
+  "misc": {
+    "data_uid": "f6ca4dbc824cbfae",
+    "data_uoa": "wa-bbench",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "cca2211feceec6dc",
+    "repo_uoa": "ck-wa-workloads",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-wa-workloads/tree/master/program/wa-bbench/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-wa-workloads/tree/master/program/wa-bbench",
+    "soft_name": "",
+    "stags": "wa,workload-automation,bbench",
+    "tags": [
+      "wa",
+      "workload-automation",
+      "bbench"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-wa-workloads",
+    "version": ""
+  }
+}

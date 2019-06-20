@@ -1,0 +1,79 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "git_src_dir": "src",
+      "install_env": {
+        "PACKAGE_AUTOGEN": "NO",
+        "PACKAGE_CONFIGURE_FLAGS_ANDROID": "",
+        "PACKAGE_CONFIGURE_FLAGS_LINUX": "",
+        "PACKAGE_CONFIGURE_FLAGS_WINDOWS": "",
+        "PACKAGE_GIT": "YES",
+        "PACKAGE_PATCH": "NO",
+        "PACKAGE_SKIP_CLEAN_INSTALL": "NO",
+        "PACKAGE_SKIP_CLEAN_OBJ": "NO",
+        "PACKAGE_SKIP_CLEAN_PACKAGE": "NO",
+        "PACKAGE_SKIP_CLEAN_SRC": "NO",
+        "PACKAGE_SKIP_CLEAN_SRC_DIR": "NO",
+        "PACKAGE_SKIP_CMAKE_TARGET": "NO",
+        "PACKAGE_SKIP_LINUX_MAKE": "YES",
+        "PACKAGE_SUB_DIR": "src",
+        "PACKAGE_SUB_DIR1": "src",
+        "PACKAGE_URL": "https://github.com/NVlabs/cub.git"
+      },
+      "use_git_revision": "yes",
+      "version": "master"
+    },
+    "deps": {},
+    "end_full_path": {
+      "linux": "src/cub/cub.cuh"
+    },
+    "only_for_host_os_tags": [
+      "linux",
+      "windows"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "process_script": "install",
+    "soft_uoa": "01ef066e4737863b",
+    "suggested_path": "lib-cub-src",
+    "tags": [
+      "lib",
+      "cub",
+      "nvidia",
+      "vsrc",
+      "vmaster"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "cd9ccc74060b3d18",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "056073724c5895e7",
+    "data_uoa": "lib-nvidia-cub-master-universal",
+    "host_os": "linux,macos,windows",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "68121412a8ff317c",
+    "repo_uoa": "ck-graph-analytics",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-graph-analytics/tree/master/package/lib-nvidia-cub-master-universal/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-graph-analytics/tree/master/package/lib-nvidia-cub-master-universal",
+    "soft_name": "Nvidia CUB library",
+    "soft_uid": "01ef066e4737863b",
+    "soft_uoa": "lib.cub",
+    "stags": "lib,cub,nvidia,vsrc,vmaster",
+    "tags": [
+      "lib",
+      "cub",
+      "nvidia",
+      "vsrc",
+      "vmaster"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:ck-graph-analytics"
+  }
+}

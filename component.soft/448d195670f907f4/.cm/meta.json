@@ -1,0 +1,45 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_LIB_MACE",
+      "limit_recursion_dir_search": {
+        "linux": 5
+      },
+      "soft_file": {
+        "linux": "install/lib/libmace.so"
+      }
+    },
+    "soft_name": "MACE library",
+    "tags": [
+      "lib",
+      "mace"
+    ],
+    "template": "yes"
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "448d195670f907f4",
+    "data_uoa": "lib.mace",
+    "env_prefix": "CK_ENV_LIB_MACE",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "d94a45b5be3072ba",
+    "repo_uoa": "ck-math",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-math/tree/master/soft/lib.mace/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-math/tree/master/soft/lib.mace",
+    "soft_name": "MACE library",
+    "stags": "lib,mace",
+    "tags": [
+      "lib",
+      "mace"
+    ],
+    "target_os": "any",
+    "template": "yes",
+    "to_get": "ck pull repo:ck-math"
+  }
+}

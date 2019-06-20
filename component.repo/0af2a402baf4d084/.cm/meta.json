@@ -1,0 +1,31 @@
+{
+  "dict": {
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-crowdtuning-results"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "c7e5332641d8922a",
+          "repo_uoa": "ck-crowdtuning"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-crowdtuning-results"
+    },
+    "data_uid": "0af2a402baf4d084",
+    "data_uoa": "ck-crowdtuning-results",
+    "desc": "Copy of public results from different crowdsourced experiments in the CK format from <a href=\"http://cKnowledge.org/repo\">this public repo</a>.",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-crowdtuning-results/tree/master/repo/ck-crowdtuning-results/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-crowdtuning-results/tree/master/repo/ck-crowdtuning-results",
+    "tasks": {},
+    "to_get": "ck pull repo:ck-crowdtuning-results",
+    "workflow_desc": ""
+  }
+}

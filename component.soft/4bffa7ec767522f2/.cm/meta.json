@@ -1,0 +1,45 @@
+{
+  "dict": {
+    "customize": {
+      "env_prefix": "CK_ENV_BENCH_SPEC_CPU2006",
+      "skip_add_to_bin": "yes",
+      "skip_add_to_ld_path": "yes"
+    },
+    "soft_name": "SPEC CPU2006 benchmark",
+    "tags": [
+      "bench",
+      "spec",
+      "cpu",
+      "2006",
+      "cpu2006"
+    ],
+    "template": "yes",
+    "template_type": "spec cpu2006 benchmark"
+  },
+  "misc": {
+    "auto_detect": "no",
+    "data_uid": "4bffa7ec767522f2",
+    "data_uoa": "bench.spec.cpu2006",
+    "env_prefix": "CK_ENV_BENCH_SPEC_CPU2006",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/bench.spec.cpu2006/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/bench.spec.cpu2006",
+    "soft_name": "SPEC CPU2006 benchmark",
+    "stags": "bench,spec,cpu,2006,cpu2006",
+    "tags": [
+      "bench",
+      "spec",
+      "cpu",
+      "2006",
+      "cpu2006"
+    ],
+    "target_os": "any",
+    "template": "spec cpu2006 benchmark",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

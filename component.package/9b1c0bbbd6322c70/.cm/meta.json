@@ -1,0 +1,73 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {
+      "extra_dir": "",
+      "file_labels": "synset.txt",
+      "file_model": "resnet18_qt8.json",
+      "file_weights": "resnet18_qt8.params",
+      "install_env": {
+        "PACKAGE_NAME": "vtamodel_resnet18_qt8.tar.bz2",
+        "PACKAGE_NAME1": "vtamodel_resnet18_qt8.tar",
+        "PACKAGE_SKIP_LINUX_MAKE": "YES",
+        "PACKAGE_UNBZIP": "YES",
+        "PACKAGE_UNTAR": "YES",
+        "PACKAGE_URL": "http://cKnowledge.org/ai/data",
+        "PACKAGE_WGET": "YES",
+        "VTA_MODEL": "resnet18_qt8.json",
+        "VTA_MODEL_LABELS": "synset.txt",
+        "VTA_MODEL_WEIGHTS": "resnet18_qt8.params"
+      },
+      "no_os_in_suggested_path": "yes",
+      "version": "20180701"
+    },
+    "end_full_path_universal": "resnet18_qt8.params",
+    "package_extra_name": " (resnet 18, int8, 20180701)",
+    "process_script": "install",
+    "soft_uoa": "5cd477e80e72a9dc",
+    "suggested_path": "vta-model-resnet18-qt8",
+    "tags": [
+      "vtamodel",
+      "release",
+      "weights",
+      "resenet",
+      "resnet18",
+      "vint8",
+      "qt8",
+      "channel-stable"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "cd9ccc74060b3d18",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "9b1c0bbbd6322c70",
+    "data_uoa": "vtamodel-resnet18-qt8",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "0442e96ea67b7957",
+    "repo_uoa": "ck-tvm",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tvm/tree/master/package/vtamodel-resnet18-qt8/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tvm/tree/master/package/vtamodel-resnet18-qt8",
+    "soft_name": "VTA model (net and weights)",
+    "soft_uid": "5cd477e80e72a9dc",
+    "soft_uoa": "model.vta",
+    "stags": "vtamodel,release,weights,resenet,resnet18,vint8,qt8,channel-stable",
+    "tags": [
+      "vtamodel",
+      "release",
+      "weights",
+      "resenet",
+      "resnet18",
+      "vint8",
+      "qt8",
+      "channel-stable"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-tvm"
+  }
+}

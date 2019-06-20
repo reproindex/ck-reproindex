@@ -1,0 +1,82 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {
+      "extra_dir": "",
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "yes",
+      "version": "2007"
+    },
+    "deps": {
+      "pascal-voc07-train": {
+        "local": "yes",
+        "name": "PASCAL VOC07 object detection dataset (train)",
+        "skip_from_bat": "yes",
+        "sort": 20,
+        "tags": "dataset,pascal-voc07,raw,train"
+      },
+      "pascal-voc07-val": {
+        "local": "yes",
+        "name": "PASCAL VOC07 object detection dataset (val)",
+        "skip_from_bat": "yes",
+        "sort": 30,
+        "tags": "dataset,pascal-voc07,raw,val"
+      },
+      "python": {
+        "local": "yes",
+        "name": "Python interpreter (v3+)",
+        "skip_from_bat": "yes",
+        "sort": 5,
+        "tags": "compiler,python",
+        "version_from": [
+          3
+        ]
+      },
+      "tensorflow": {
+        "local": "yes",
+        "name": "TensorFlow Library",
+        "skip_from_bat": "yes",
+        "sort": 10,
+        "tags": "lib,tensorflow"
+      }
+    },
+    "end_full_path_universal": "dataset/pascal_train_2007.record",
+    "need_cpu_info": "no",
+    "process_script": "download-voc",
+    "soft_uoa": "40a5a942105e3639",
+    "suggested_path": "dataset-pascal-voc07-tf",
+    "tags": [
+      "dataset",
+      "pascal-voc07",
+      "raw",
+      "train-tf",
+      "object-detection"
+    ]
+  },
+  "misc": {
+    "data_uid": "60d2919e1da43999",
+    "data_uoa": "pascal-voc07-tf-trainval",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "90009e454e059d40",
+    "repo_uoa": "ck-tbd-suite",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tbd-suite/tree/master/package/pascal-voc07-tf-trainval/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tbd-suite/tree/master/package/pascal-voc07-tf-trainval",
+    "soft_name": "The PASCAL VOC07 (Object Detection) dataset (train, val, TF)",
+    "soft_uid": "40a5a942105e3639",
+    "soft_uoa": "dataset.pascal_voc07",
+    "stags": "dataset,pascal-voc07,raw,train-tf,object-detection",
+    "tags": [
+      "dataset",
+      "pascal-voc07",
+      "raw",
+      "train-tf",
+      "object-detection"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-tbd-suite"
+  }
+}

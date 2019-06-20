@@ -1,0 +1,71 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {
+      "install_env": {
+        "PACKAGE_URL": "http://strawberryperl.com/download/5.24.1.1/",
+        "PACKAGE_WGET": "YES",
+        "PACKAGE_WGET_EXTRA": "--no-cookies"
+      },
+      "version": ""
+    },
+    "end_full_path": {
+      "mingw": "perl\\bin\\perl.exe",
+      "win": "perl\\bin\\perl.exe"
+    },
+    "need_cpu_info": "yes",
+    "only_for_host_os_tags": [
+      "windows"
+    ],
+    "only_for_target_os_tags": [
+      "windows",
+      "mingw"
+    ],
+    "process_script": "install",
+    "soft_uoa": "64af56ff46465488",
+    "suggested_path": "strawberry-perl-5.24.1.1",
+    "tags": [
+      "compiler",
+      "perl",
+      "lang-perl",
+      "v5.24.1.1",
+      "v5.24.1",
+      "v5.24",
+      "v5",
+      "channel-stable"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "cd9ccc74060b3d18",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "cabb44aca9694d3f",
+    "data_uoa": "perl-strawberry-5.24.1.1-win",
+    "host_os": "windows",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/perl-strawberry-5.24.1.1-win/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/perl-strawberry-5.24.1.1-win",
+    "soft_name": "Perl",
+    "soft_uid": "64af56ff46465488",
+    "soft_uoa": "compiler.perl",
+    "stags": "compiler,perl,lang-perl,v5.24.1.1,v5.24.1,v5.24,v5,channel-stable",
+    "tags": [
+      "compiler",
+      "perl",
+      "lang-perl",
+      "v5.24.1.1",
+      "v5.24.1",
+      "v5.24",
+      "v5",
+      "channel-stable"
+    ],
+    "target_os": "windows,mingw",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

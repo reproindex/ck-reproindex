@@ -1,0 +1,79 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "add_only_with_version": "yes",
+      "add_to_path": "yes",
+      "build_dir_name": "gfortran",
+      "can_strip_dynamic_lib": "yes",
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_COMPILER_GFORTRAN",
+      "languages": [
+        "F77",
+        "F90",
+        "F95"
+      ],
+      "limit_recursion_dir_search": {
+        "linux": 3,
+        "win": 4
+      },
+      "only_for_target_os_tags": [
+        "mingw",
+        "windows",
+        "linux"
+      ],
+      "search_numeric_ext_on_linux": "yes",
+      "soft_file": {
+        "linux": "gfortran",
+        "win": "gfortran.exe"
+      },
+      "soft_file_from_host_os": "yes",
+      "soft_path_example": {
+        "linux": "/usr/bin/gfortran",
+        "win": "C:\\Program Files\\GCC-4.9.2-x64\\bin\\gfortran.exe"
+      },
+      "soft_version_cmd": {
+        "linux": "--version > $#filename#$ 2>&1",
+        "win": " --version > $#filename#$ 2>&1"
+      },
+      "sort": 100
+    },
+    "soft_name": "GNU Fortran compiler",
+    "tags": [
+      "compiler",
+      "fortran",
+      "gfortran",
+      "lang-f77",
+      "lang-f90",
+      "lang-f95"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "504d7e807c7b3146",
+    "data_uoa": "compiler.gfortran",
+    "env_prefix": "CK_ENV_COMPILER_GFORTRAN",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/compiler.gfortran/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/compiler.gfortran",
+    "soft_name": "GNU Fortran compiler",
+    "stags": "compiler,fortran,gfortran,lang-f77,lang-f90,lang-f95",
+    "tags": [
+      "compiler",
+      "fortran",
+      "gfortran",
+      "lang-f77",
+      "lang-f90",
+      "lang-f95"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

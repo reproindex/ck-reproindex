@@ -1,0 +1,32 @@
+{
+  "misc": {
+    "artifact_doi_url": "",
+    "artifact_sources": "GitHub",
+    "artifact_sources_url": "https://github.com/lift-project/ck-lift",
+    "authors": "Michel Steuwer, Toomas Remmelg and Christophe Dubach",
+    "badge_acm_artifact_available": "",
+    "badge_acm_artifact_functional": "",
+    "badge_acm_artifact_reusable": "",
+    "badge_acm_results_replicated": "",
+    "badge_acm_results_reproduced": "",
+    "ck_repo_uid": "974c6589e9b66157",
+    "paper_doi_url": "https://dl.acm.org/citation.cfm?id=3049841",
+    "paper_pdf_url": "https://github.com/michel-steuwer/publications/raw/master/2017/CGO-2017.pdf",
+    "reproducibility_url": "http://ctuning.org/ae/cgo2017.html",
+    "results": "GitLab issues",
+    "results_dashboard_url": "",
+    "results_url": "https://gitlab.com/michel-steuwer/cgo_2017_artifact/issues/1",
+    "some_results_replicated": "yes",
+    "title": "Lift: A Functional Data-Parallel IR for High-Performance GPU Code Generation",
+    "unified_artifact_appendix": "https://github.com/ctuning/ck-artifact-evaluation/tree/master/wfe/artifact-evaluation/templates",
+    "where": "CGO'17",
+    "where_url": "http://cgo.org/cgo2017",
+    "workflow": "CK",
+    "workflow_url": "https://github.com/lift-project/ck-lift"
+  },
+  "tags": [
+    "papers",
+    "papers-cgo",
+    "papers-cgo-2017"
+  ]
+}

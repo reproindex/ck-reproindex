@@ -1,0 +1,33 @@
+{
+  "dict": {
+    "actions": {
+      "prepare": {
+        "desc": "Prepare a lift benchmark"
+      },
+      "run": {
+        "desc": "Run a lift benchmark"
+      }
+    }
+  },
+  "misc": {
+    "actions": {
+      "prepare": {
+        "url_api": "https://github.com/lift-project/ck-lift/tree/master/module/lift-benchmark/module.py#L201"
+      },
+      "run": {
+        "url_api": "https://github.com/lift-project/ck-lift/tree/master/module/lift-benchmark/module.py#L45"
+      }
+    },
+    "data_uid": "10209c9944e509b1",
+    "data_uoa": "lift-benchmark",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "974c6589e9b66157",
+    "repo_uoa": "ck-lift",
+    "repo_url1": "https://github.com/lift-project/ck-lift/tree/master/module/lift-benchmark/module.py",
+    "repo_url2": "https://github.com/lift-project/ck-lift/tree/master/module/lift-benchmark/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo --url=https://github.com/lift-project/ck-lift",
+    "workflow": ""
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {
+      "extra_dir": "",
+      "install_env": {
+        "DATASET_TYPE": "openimages",
+        "FROZEN_GRAPH": "frozen_inference_graph.pb",
+        "LABELMAP_FILE": "oid_bbox_trainable_label_map.pbtxt",
+        "MODEL_NAME": "Faster-RCNN-ResNet-V2-Atrous for OpenImages",
+        "PACKAGE_NAME": "faster_rcnn_inception_resnet_v2_atrous_oid_2018_01_28.tar.gz",
+        "PACKAGE_NAME1": "faster_rcnn_inception_resnet_v2_atrous_oid_2018_01_28",
+        "PACKAGE_URL": "http://download.tensorflow.org/models/object_detection",
+        "WEIGHTS_FILE": "model.ckpt"
+      },
+      "model_id": "resnet",
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "yes",
+      "version": "20180128"
+    },
+    "deps": {
+      "tensorflow-model-api": {
+        "local": "yes",
+        "name": "TensorFlow Object Detection API",
+        "tags": "tensorflow,model,api"
+      }
+    },
+    "end_full_path": {
+      "linux": "frozen_inference_graph.pb"
+    },
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "package_extra_name": " (Faster-RCNN-ResNet-V2-Atrous, OpenImages)",
+    "process_script": "install",
+    "soft_uoa": "3fc0c4b9ba63de2f",
+    "suggested_path": "tensorflowmodel-object-detection-faster-rcnn-inception-resnet-v2-atrous",
+    "tags": [
+      "tensorflowmodel",
+      "object-detection",
+      "fasterRCNN",
+      "inception",
+      "resnet",
+      "resnet-v2",
+      "vopenimages",
+      "channel-stable"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "c412930408fb8271",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "a4bb8fb5340d0ada",
+    "data_uoa": "tensorflowmodel-object-detection-faster-rcnn-inception-resnet-v2-atrous-oid",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "acb7cea44acac9c9",
+    "repo_uoa": "ck-tensorflow",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/tensorflowmodel-object-detection-faster-rcnn-inception-resnet-v2-atrous-oid/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/tensorflowmodel-object-detection-faster-rcnn-inception-resnet-v2-atrous-oid",
+    "soft_name": "TensorFlow model (object-detection)",
+    "soft_uid": "3fc0c4b9ba63de2f",
+    "soft_uoa": "model.tensorflow.object-detection",
+    "stags": "tensorflowmodel,object-detection,fasterRCNN,inception,resnet,resnet-v2,vopenimages,channel-stable",
+    "tags": [
+      "tensorflowmodel",
+      "object-detection",
+      "fasterRCNN",
+      "inception",
+      "resnet",
+      "resnet-v2",
+      "vopenimages",
+      "channel-stable"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:ck-tensorflow"
+  }
+}

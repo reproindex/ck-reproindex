@@ -1,0 +1,21 @@
+{
+  "dict": {},
+  "misc": {
+    "data_uid": "29541978641cb982",
+    "data_uoa": "plugin-openme-icompiler-alchemist-1.5-tbd",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "4e58bd6003fc6875",
+    "repo_uoa": "reproduce-fgg-2010",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-fgg-2010/tree/master/package/plugin-openme-icompiler-alchemist-1.5-tbd/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-fgg-2010/tree/master/package/plugin-openme-icompiler-alchemist-1.5-tbd",
+    "soft_uoa": "",
+    "stags": "",
+    "tags": [],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:reproduce-fgg-2010"
+  }
+}

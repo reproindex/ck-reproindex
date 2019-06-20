@@ -1,0 +1,45 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "add_include_path": "yes",
+      "env_prefix": "CK_ENV_LIB_OPENME",
+      "skip_add_to_bin": "yes",
+      "skip_add_to_path": "yes"
+    },
+    "soft_name": "OpenME library",
+    "tags": [
+      "lib",
+      "plugins",
+      "openme",
+      "lang-c"
+    ],
+    "template": "yes",
+    "template_type": "OpenME library"
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "815be64bec1d4613",
+    "data_uoa": "lib.openme",
+    "env_prefix": "CK_ENV_LIB_OPENME",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/lib.openme/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/lib.openme",
+    "soft_name": "OpenME library",
+    "stags": "lib,plugins,openme,lang-c",
+    "tags": [
+      "lib",
+      "plugins",
+      "openme",
+      "lang-c"
+    ],
+    "target_os": "any",
+    "template": "OpenME library",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

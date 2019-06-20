@@ -1,0 +1,22 @@
+{
+  "dict": {},
+  "misc": {
+    "data_uid": "42f28f884842c988",
+    "data_uoa": "nas-common",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "640f0b9dadc5bfda",
+    "repo_uoa": "reproduce-cgo2017-paper",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/SamAinsworth/reproduce-cgo2017-paper/tree/master/program/nas-common/.cm/meta.json",
+    "repo_url3": "https://github.com/SamAinsworth/reproduce-cgo2017-paper/tree/master/program/nas-common",
+    "soft_name": "",
+    "stags": "",
+    "tags": [],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo --url=https://github.com/SamAinsworth/reproduce-cgo2017-paper",
+    "version": ""
+  }
+}

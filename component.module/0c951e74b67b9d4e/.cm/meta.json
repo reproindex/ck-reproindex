@@ -1,0 +1,45 @@
+{
+  "dict": {
+    "actions": {
+      "autotune": {
+        "desc": "autotune CLBlast via CK"
+      },
+      "crowdtune": {
+        "desc": "crowdtune CLBlast via CK"
+      }
+    },
+    "copyright": "See CK COPYRIGHT.txt for copyright details",
+    "desc": "CK wrapper for CLBlast to enable collaborative optimization",
+    "developer": "Grigori Fursin",
+    "developer_email": "Grigori.Fursin@cTuning.org",
+    "developer_webpage": "http://fursin.net",
+    "license": "See CK LICENSE.txt for licensing details",
+    "module_deps": {
+      "experiment.tune.opencl.clblast": "6c5af99f945739bd",
+      "program": "b0ac08fe1d3c2615"
+    },
+    "workflow": "yes",
+    "workflow_type": "CLBlast autotuning pipeline"
+  },
+  "misc": {
+    "actions": {
+      "autotune": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/clblast/module.py#L33"
+      },
+      "crowdtune": {
+        "url_api": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/clblast/module.py#L55"
+      }
+    },
+    "data_uid": "0c951e74b67b9d4e",
+    "data_uoa": "clblast",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "c7e5332641d8922a",
+    "repo_uoa": "ck-crowdtuning",
+    "repo_url1": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/clblast/module.py",
+    "repo_url2": "https://github.com/ctuning/ck-crowdtuning/tree/master/module/clblast/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:ck-crowdtuning",
+    "workflow": "CLBlast autotuning pipeline"
+  }
+}

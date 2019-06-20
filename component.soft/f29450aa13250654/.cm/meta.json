@@ -1,0 +1,45 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_CK_GUI",
+      "limit_recursion_dir_search": {
+        "linux": 5,
+        "win": 5
+      },
+      "soft_file": {
+        "linux": "ck-gui-x86_64.AppImage"
+      }
+    },
+    "soft_name": "ck-gui prebuilt AppImage",
+    "tags": [
+      "tool",
+      "ck-gui"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "f29450aa13250654",
+    "data_uoa": "tool.ck-gui",
+    "env_prefix": "CK_ENV_CK_GUI",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "4ae7df4c1a806867",
+    "repo_uoa": "ck-gui",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/Chunosov/ck-gui/tree/master/soft/tool.ck-gui/.cm/meta.json",
+    "repo_url3": "https://github.com/Chunosov/ck-gui/tree/master/soft/tool.ck-gui",
+    "soft_name": "ck-gui prebuilt AppImage",
+    "stags": "tool,ck-gui",
+    "tags": [
+      "tool",
+      "ck-gui"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo --url=https://github.com/Chunosov/ck-gui"
+  }
+}

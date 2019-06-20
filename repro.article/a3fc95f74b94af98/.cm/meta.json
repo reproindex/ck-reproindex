@@ -1,0 +1,37 @@
+{
+  "misc": {
+    "artifact_doi_url": "",
+    "artifact_sources": "GitHub",
+    "artifact_sources_url": "https://github.com/ctuning/ck-clsmith",
+    "authors": "Andrei Lascu, Alastair F. Donaldson",
+    "badge_acm_artifact_available": "",
+    "badge_acm_artifact_functional": "",
+    "badge_acm_artifact_reusable": "",
+    "badge_acm_results_replicated": "",
+    "badge_acm_results_reproduced": "",
+    "ck_repo_uid": "bd5c40d5b3fd5035",
+    "paper_doi_url": "https://arxiv.org/abs/1511.02725",
+    "paper_pdf_url": "https://arxiv.org/pdf/1511.02725.pdf",
+    "reproducibility_url": "http://cTuning.org/ae",
+    "results": "Reddit discussion",
+    "results_dashboard_url": "http://cKnowledge.org/repo-beta",
+    "results_url": "https://www.reddit.com/r/adaptworkshop/comments/3sngmg/adapt16_submission_integrating_a_largescale",
+    "some_results_replicated": "yes",
+    "tasks": {
+      "4eca01a57df4dfb2": {
+        "data_uoa": "tool-cl-launcher-1.0"
+      }
+    },
+    "title": "Integrating a large-scale testing campaign in the CK framework",
+    "unified_artifact_appendix": "",
+    "where": "ADAPT'16",
+    "where_url": "https://adapt-workshop.org/index2016.html",
+    "workflow": "CK",
+    "workflow_url": "https://github.com/ctuning/ck-clsmith"
+  },
+  "tags": [
+    "papers",
+    "papers-adapt",
+    "papers-adapt-2016"
+  ]
+}

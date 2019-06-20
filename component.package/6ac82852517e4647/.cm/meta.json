@@ -1,0 +1,50 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {},
+    "env": {
+      "CK_MAKE": "cs-make"
+    },
+    "no_install_path": "yes",
+    "only_for_host_os_tags": [
+      "windows"
+    ],
+    "only_for_target_os_tags": [
+      "mingw"
+    ],
+    "process_script": "process",
+    "soft_uoa": "3a8a82fa40bf992d",
+    "suggested_path": "gcc",
+    "tags": [
+      "compiler",
+      "gcc",
+      "lang-c",
+      "lang-cpp"
+    ]
+  },
+  "misc": {
+    "data_uid": "6ac82852517e4647",
+    "data_uoa": "compiler-mingw-gcc-download",
+    "host_os": "windows",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "6d04bb400f29474d",
+    "repo_uoa": "ck-old-packages",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-old-packages/tree/master/package/compiler-mingw-gcc-download/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-old-packages/tree/master/package/compiler-mingw-gcc-download",
+    "soft_name": "GNU C compiler",
+    "soft_uid": "3a8a82fa40bf992d",
+    "soft_uoa": "compiler.gcc",
+    "stags": "compiler,gcc,lang-c,lang-cpp",
+    "tags": [
+      "compiler",
+      "gcc",
+      "lang-c",
+      "lang-cpp"
+    ],
+    "target_os": "mingw",
+    "template": "",
+    "to_get": "ck pull repo:ck-old-packages"
+  }
+}

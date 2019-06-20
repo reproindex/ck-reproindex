@@ -1,0 +1,112 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {
+      "extra_dir": "",
+      "file_mean_bin": "ResNet_mean.binaryproto",
+      "file_with_weights": "ResNet-50-model.caffemodel",
+      "force_ask_path": "yes",
+      "install_env": {
+        "MODEL_FILE": "ResNet-50-model.caffemodel",
+        "MODEL_HASH_CALCULATOR": "sha1sum",
+        "MODEL_HASH_REF": "b7c79ccc21ad0479cddc0dd78b1d20c4d722908d",
+        "MODEL_URL": "https://deepdetect.com/models/resnet/ResNet-50-model.caffemodel"
+      },
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "no",
+      "params": {
+        "deploy": {
+          "substitute": {
+            "batch_size": 1
+          },
+          "template": "deploy.prototxt"
+        },
+        "train": {
+          "substitute": {
+            "train_batch_size": 50,
+            "val_batch_size": 50
+          },
+          "template": "train_val.prototxt"
+        },
+        "val": {
+          "accuracy_layers": [
+            "accuracy/top-1",
+            "accuracy/top-5"
+          ],
+          "substitute": {
+            "train_batch_size": 50,
+            "val_batch_size": 50
+          },
+          "template": "train_val.prototxt"
+        }
+      },
+      "skip_file_check": "yes",
+      "version": "fp32"
+    },
+    "end_full_path": {
+      "linux": "ResNet-50-model.caffemodel",
+      "win": "ResNet-50-model.caffemodel"
+    },
+    "features": {
+      "accuracy": 0.0,
+      "accuracy_top5": 0.0,
+      "model_size_mb": 98
+    },
+    "only_for_host_os_tags": [
+      "windows",
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "windows",
+      "linux"
+    ],
+    "package_extra_name": " (resnet50, fp32)",
+    "process_script": "download",
+    "soft_uoa": "e2400aabc11d6cd1",
+    "suggested_path": "caffemodel-resnet50",
+    "tags": [
+      "caffe",
+      "weights",
+      "caffemodel",
+      "resnet",
+      "resnet50",
+      "vfloat32",
+      "vfp32",
+      "channel-stable"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "download-caffemodel",
+      "module_uoa": "script",
+      "repo_uoa": "ck-caffe"
+    }
+  },
+  "misc": {
+    "data_uid": "4b439b412770d1a6",
+    "data_uoa": "caffemodel-resnet50",
+    "host_os": "windows,linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "57e83bca8a5a4344",
+    "repo_uoa": "ck-caffe",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/dividiti/ck-caffe/tree/master/package/caffemodel-resnet50/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/ck-caffe/tree/master/package/caffemodel-resnet50",
+    "soft_name": "Caffe model (net and weights)",
+    "soft_uid": "e2400aabc11d6cd1",
+    "soft_uoa": "model.caffe",
+    "stags": "caffe,weights,caffemodel,resnet,resnet50,vfloat32,vfp32,channel-stable",
+    "tags": [
+      "caffe",
+      "weights",
+      "caffemodel",
+      "resnet",
+      "resnet50",
+      "vfloat32",
+      "vfp32",
+      "channel-stable"
+    ],
+    "target_os": "windows,linux,macos",
+    "template": "",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-caffe.git"
+  }
+}

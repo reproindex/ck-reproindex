@@ -1,0 +1,57 @@
+{
+  "dict": {
+    "actions": {
+      "clean": {
+        "desc": "flush whole index"
+      },
+      "off": {
+        "desc": "turn transparent indexing off"
+      },
+      "on": {
+        "desc": "turn transparent indexing on"
+      },
+      "show": {
+        "desc": "show transparent indexing status (ON or OFF)"
+      },
+      "test": {
+        "desc": "test ElasticSearch indexing server"
+      }
+    },
+    "copyright": "See CK COPYRIGHT.txt for copyright details",
+    "desc": "indexing of CK entries via hadoop-based ElasticSearch to speed up search",
+    "developer": "Grigori Fursin",
+    "developer_email": "Grigori.Fursin@cTuning.org",
+    "developer_webpage": "http://cTuning.org/lab/people/gfursin",
+    "license": "See CK LICENSE.txt for licensing details"
+  },
+  "misc": {
+    "actions": {
+      "clean": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/index/module.py#L218"
+      },
+      "off": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/index/module.py#L61"
+      },
+      "on": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/index/module.py#L33"
+      },
+      "show": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/index/module.py#L89"
+      },
+      "test": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/index/module.py#L184"
+      }
+    },
+    "data_uid": "fe44df6a05a4e937",
+    "data_uoa": "index",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "604419a9fcc7a081",
+    "repo_uoa": "default",
+    "repo_url1": "https://github.com/ctuning/ck/tree/master/ck/repo/module/index/module.py",
+    "repo_url2": "https://github.com/ctuning/ck/tree/master/ck/repo/module/index/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "",
+    "workflow": ""
+  }
+}

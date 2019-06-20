@@ -1,0 +1,47 @@
+{
+  "dict": {
+    "auto_detect": "no",
+    "customize": {
+      "add_include_path": "yes",
+      "env_prefix": "CK_ENV_LIB_CUB"
+    },
+    "deps": {},
+    "skip_file_check": "yes",
+    "soft_name": "Nvidia CUB library",
+    "tags": [
+      "src",
+      "lib",
+      "cub",
+      "nvidia",
+      "utils",
+      "cuda"
+    ]
+  },
+  "misc": {
+    "auto_detect": "no",
+    "data_uid": "01ef066e4737863b",
+    "data_uoa": "lib.cub",
+    "env_prefix": "CK_ENV_LIB_CUB",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "68121412a8ff317c",
+    "repo_uoa": "ck-graph-analytics",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-graph-analytics/tree/master/soft/lib.cub/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-graph-analytics/tree/master/soft/lib.cub",
+    "soft_name": "Nvidia CUB library",
+    "stags": "src,lib,cub,nvidia,utils,cuda",
+    "tags": [
+      "src",
+      "lib",
+      "cub",
+      "nvidia",
+      "utils",
+      "cuda"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-graph-analytics"
+  }
+}

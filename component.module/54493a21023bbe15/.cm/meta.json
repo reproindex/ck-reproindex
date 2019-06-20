@@ -1,0 +1,34 @@
+{
+  "dict": {
+    "actions": {
+      "eval": {
+        "desc": "Evaluate model "
+      },
+      "train": {
+        "desc": "Train model"
+      }
+    },
+    "desc": "Tensorflow Model configured with Tensorflow Object Detection API"
+  },
+  "misc": {
+    "actions": {
+      "eval": {
+        "url_api": "https://github.com/ctuning/ck-tensorflow/tree/master/module/model.tensorflowapi/module.py#L121"
+      },
+      "train": {
+        "url_api": "https://github.com/ctuning/ck-tensorflow/tree/master/module/model.tensorflowapi/module.py#L53"
+      }
+    },
+    "data_uid": "54493a21023bbe15",
+    "data_uoa": "model.tensorflowapi",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "acb7cea44acac9c9",
+    "repo_uoa": "ck-tensorflow",
+    "repo_url1": "https://github.com/ctuning/ck-tensorflow/tree/master/module/model.tensorflowapi/module.py",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/module/model.tensorflowapi/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:ck-tensorflow",
+    "workflow": ""
+  }
+}

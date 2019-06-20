@@ -1,0 +1,46 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_LIB_VTA_PYTHON",
+      "limit_recursion_dir_search": {
+        "linux": 5,
+        "win": 5
+      },
+      "soft_file": {
+        "linux": "vta/__init__.py",
+        "win": "vta\\__init__.py"
+      }
+    },
+    "soft_name": "VTA python library",
+    "tags": [
+      "lib",
+      "vta-python"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "13a8561d6a2a166c",
+    "data_uoa": "lib.vta.python",
+    "env_prefix": "CK_ENV_LIB_VTA_PYTHON",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "a1294586bce671ba",
+    "repo_uoa": "ck-request-asplos18-resnet-tvm-fpga",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-request-asplos18-resnet-tvm-fpga/tree/master/soft/lib.vta.python/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-request-asplos18-resnet-tvm-fpga/tree/master/soft/lib.vta.python",
+    "soft_name": "VTA python library",
+    "stags": "lib,vta-python",
+    "tags": [
+      "lib",
+      "vta-python"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-request-asplos18-resnet-tvm-fpga"
+  }
+}

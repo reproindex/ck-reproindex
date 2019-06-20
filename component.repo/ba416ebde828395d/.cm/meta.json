@@ -1,0 +1,47 @@
+{
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-crowdtuning"
+      },
+      {
+        "repo_uoa": "ck-math"
+      }
+    ],
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-tiny-dnn"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "c7e5332641d8922a",
+          "repo_uoa": "ck-crowdtuning"
+        },
+        {
+          "repo_uid": "d94a45b5be3072ba",
+          "repo_uoa": "ck-math"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-tiny-dnn"
+    },
+    "data_uid": "ba416ebde828395d",
+    "data_uoa": "ck-tiny-dnn",
+    "desc": "[OUTDATED] Portable/customizable installation for TinyDNN AI framework.",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tiny-dnn/tree/master/repo/ck-tiny-dnn/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tiny-dnn/tree/master/repo/ck-tiny-dnn",
+    "tasks": {
+      "5d67d68bd7141eda": {
+        "data_uoa": "tiny-dnn-bench"
+      }
+    },
+    "to_get": "ck pull repo:ck-tiny-dnn",
+    "workflow_desc": "programs"
+  }
+}

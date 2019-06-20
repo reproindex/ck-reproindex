@@ -1,0 +1,108 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "version": "0.1"
+    },
+    "deps": {
+      "compiler": {
+        "local": "yes",
+        "name": "CUDA compiler >=7.0",
+        "sort": 10,
+        "tags": "compiler,lang-c-cuda"
+      },
+      "lib-blas": {
+        "local": "yes",
+        "name": "BLAS library",
+        "sort": 8,
+        "tags": "lib,blas,openblas"
+      },
+      "lib-boost": {
+        "force_add_static_lib_path": "yes",
+        "local": "yes",
+        "name": "Boost library",
+        "sort": 13,
+        "tags": "lib,boost"
+      },
+      "lib-caffe": {
+        "local": "yes",
+        "name": "Caffe library",
+        "skip_pruning_by_other_deps": "yes",
+        "sort": 1,
+        "tags": "lib,caffe,vcuda"
+      },
+      "lib-cublas": {
+        "local": "yes",
+        "name": "cuBLAS library",
+        "sort": 8,
+        "tags": "lib,cuda,cuda-blas,cublas"
+      },
+      "lib-gflags": {
+        "local": "yes",
+        "name": "GFlags library",
+        "sort": 5,
+        "tags": "lib,gflags"
+      },
+      "lib-glog": {
+        "force_add_static_lib_path": "yes",
+        "local": "yes",
+        "name": "GLog library",
+        "sort": 7,
+        "tags": "lib,glog"
+      },
+      "lib-opencv": {
+        "local": "yes",
+        "name": "OpenCV library",
+        "sort": 10,
+        "tags": "lib,opencv"
+      },
+      "lib-protobuf-host": {
+        "local": "yes",
+        "name": "ProtoBuf HOST library",
+        "only_for_target_os_tags": [
+          "linux",
+          "windows"
+        ],
+        "sort": 9,
+        "tags": "lib,protobuf-host"
+      }
+    },
+    "end_full_path": {
+      "linux": "lib/libdnnproxy.a",
+      "mingw": "lib\\libdnnproxy.a",
+      "win": "lib\\libdnnproxy.lib"
+    },
+    "process_script": "process",
+    "soft_uoa": "88d704eafc486ca3",
+    "suggested_path": "dnn-proxy-caffe-cuda",
+    "tags": [
+      "vcuda",
+      "caffe",
+      "dnn-proxy"
+    ]
+  },
+  "misc": {
+    "data_uid": "2e4bbcbb70cbd134",
+    "data_uoa": "dnn-proxy-caffe-cuda",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "6d04bb400f29474d",
+    "repo_uoa": "ck-old-packages",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-old-packages/tree/master/package/dnn-proxy-caffe-cuda/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-old-packages/tree/master/package/dnn-proxy-caffe-cuda",
+    "soft_name": "DNN Proxy Library",
+    "soft_uid": "88d704eafc486ca3",
+    "soft_uoa": "lib.dnnproxy",
+    "stags": "vcuda,caffe,dnn-proxy",
+    "tags": [
+      "vcuda",
+      "caffe",
+      "dnn-proxy"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-old-packages"
+  }
+}

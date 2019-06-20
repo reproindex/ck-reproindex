@@ -1,0 +1,50 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_DATASET_IMAGENET_AUX",
+      "limit_recursion_dir_search": {
+        "linux": 3,
+        "win": 3
+      },
+      "soft_file_universal": "imagenet_mean.binaryproto"
+    },
+    "deps": {},
+    "soft_name": "ImageNet dataset (aux)",
+    "tags": [
+      "dataset",
+      "imagenet",
+      "aux",
+      "caffe"
+    ],
+    "template": "yes",
+    "template_type": "dataset (imagenet, aux)"
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "167d823440e6a59a",
+    "data_uoa": "dataset.imagenet.aux",
+    "env_prefix": "CK_ENV_DATASET_IMAGENET_AUX",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/dataset.imagenet.aux/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/dataset.imagenet.aux",
+    "soft_name": "ImageNet dataset (aux)",
+    "stags": "dataset,imagenet,aux,caffe",
+    "tags": [
+      "dataset",
+      "imagenet",
+      "aux",
+      "caffe"
+    ],
+    "target_os": "any",
+    "template": "dataset (imagenet, aux)",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

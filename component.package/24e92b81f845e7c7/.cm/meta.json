@@ -1,0 +1,74 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "install_env": {
+        "CFG_URL": "https://raw.githubusercontent.com/pjreddie/darknet/master/cfg/yolo.cfg",
+        "INSTALL_DEMO": "yes",
+        "WEIGHTS_URL": "http://pjreddie.com/media/files/yolo.weights",
+        "YAD2K_URL": "https://github.com/allanzelener/YAD2K"
+      },
+      "version": "1.0"
+    },
+    "deps": {
+      "lib.keras": {
+        "local": "yes",
+        "name": "Keras library, TensorFlow based",
+        "sort": 30,
+        "tags": "keras,lib"
+      },
+      "lib.tensorflow": {
+        "local": "yes",
+        "name": "TensorFlow Library",
+        "sort": 25,
+        "tags": "lib,tensorflow-cuda"
+      },
+      "python": {
+        "local": "yes",
+        "name": "Python 3",
+        "sort": 20,
+        "tags": "compiler,python,v3"
+      }
+    },
+    "end_full_path": {
+      "linux": "src/yad2k.py"
+    },
+    "package_extra_name": "",
+    "process_script": "install",
+    "soft_uoa": "d7aa2c2374f7bbd4",
+    "suggested_path": "yad2k",
+    "tags": [
+      "darknet",
+      "yad2k-src",
+      "yolo",
+      "keras",
+      "dnn"
+    ]
+  },
+  "misc": {
+    "data_uid": "24e92b81f845e7c7",
+    "data_uoa": "model-yad2k",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "acb7cea44acac9c9",
+    "repo_uoa": "ck-tensorflow",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/model-yad2k/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/model-yad2k",
+    "soft_name": "YAD2K: Yet Another Darknet 2 Keras sources",
+    "soft_uid": "d7aa2c2374f7bbd4",
+    "soft_uoa": "model.yad2k",
+    "stags": "darknet,yad2k-src,yolo,keras,dnn",
+    "tags": [
+      "darknet",
+      "yad2k-src",
+      "yolo",
+      "keras",
+      "dnn"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-tensorflow"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_LIB_LEVELDB",
+      "file_root_name": "libleveldb",
+      "limit_recursion_dir_search": {
+        "linux": 4,
+        "win": 4
+      },
+      "soft_file": {
+        "linux": "libleveldb$#file_ext_dll#$"
+      },
+      "soft_path_example": {
+        "linux": "/usr/local/lib/libleveldb.dylib"
+      }
+    },
+    "deps": {},
+    "soft_name": "LevelDB library",
+    "tags": [
+      "lib",
+      "leveldb"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "7bcd2d0cb07c45c7",
+    "data_uoa": "lib.leveldb",
+    "env_prefix": "CK_ENV_LIB_LEVELDB",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/lib.leveldb/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/lib.leveldb",
+    "soft_name": "LevelDB library",
+    "stags": "lib,leveldb",
+    "tags": [
+      "lib",
+      "leveldb"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

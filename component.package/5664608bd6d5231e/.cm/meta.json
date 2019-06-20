@@ -1,0 +1,55 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "install_env": {
+        "CERE_URL": "https://github.com/benchmark-subsetting/cere"
+      },
+      "version": "trunk"
+    },
+    "end_full_path": {
+      "linux": "bin/ToDo",
+      "mingw": "bin\\ToDo"
+    },
+    "only_for_host_os_tags": [
+      "windows",
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "windows",
+      "linux"
+    ],
+    "process_script": "process",
+    "soft_uoa": "973c95734f81aee7",
+    "suggested_path": "cere-trunk",
+    "tags": [
+      "tool",
+      "cere",
+      "vtrunk"
+    ]
+  },
+  "misc": {
+    "data_uid": "5664608bd6d5231e",
+    "data_uoa": "tool-cere-trunk",
+    "host_os": "windows,linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "9482c22d7601b0df",
+    "repo_uoa": "reproduce-milepost-project",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/tool-cere-trunk/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/tool-cere-trunk",
+    "soft_name": "CERE Tool",
+    "soft_uid": "973c95734f81aee7",
+    "soft_uoa": "tool.cere",
+    "stags": "tool,cere,vtrunk",
+    "tags": [
+      "tool",
+      "cere",
+      "vtrunk"
+    ],
+    "target_os": "windows,linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:reproduce-milepost-project"
+  }
+}

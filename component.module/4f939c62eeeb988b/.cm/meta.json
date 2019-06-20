@@ -1,0 +1,25 @@
+{
+  "dict": {
+    "actions": {},
+    "copyright": "See CK-WA COPYRIGHT.txt for copyright details",
+    "desc": "WA tool (instrument) in CK format",
+    "developer": "Grigori Fursin, cTuning foundation",
+    "developer_email": "grigori.fursin@cTuning.org",
+    "developer_webpage": "http://cTuning.org",
+    "license": "See CK-WA LICENSE.txt for licensing details"
+  },
+  "misc": {
+    "actions": {},
+    "data_uid": "4f939c62eeeb988b",
+    "data_uoa": "wa-tool",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "410382d03df408ec",
+    "repo_uoa": "ck-wa",
+    "repo_url1": "https://github.com/dividiti/ck-wa/tree/master/module/wa-tool/module.py",
+    "repo_url2": "https://github.com/dividiti/ck-wa/tree/master/module/wa-tool/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-wa",
+    "workflow": ""
+  }
+}

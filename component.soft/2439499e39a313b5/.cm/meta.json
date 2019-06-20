@@ -1,0 +1,51 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_DATASET_COCO",
+      "limit_recursion_dir_search": {
+        "linux": 5
+      },
+      "soft_file": {
+        "linux": "COCO_val2014_000000000042.jpg"
+      }
+    },
+    "deps": {},
+    "soft_name": "COCO dataset",
+    "tags": [
+      "dataset",
+      "coco",
+      "COCO",
+      "object-detection",
+      "images"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "2439499e39a313b5",
+    "data_uoa": "dataset.coco",
+    "env_prefix": "CK_ENV_DATASET_COCO",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/dataset.coco/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/dataset.coco",
+    "soft_name": "COCO dataset",
+    "stags": "dataset,coco,COCO,object-detection,images",
+    "tags": [
+      "dataset",
+      "coco",
+      "COCO",
+      "object-detection",
+      "images"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

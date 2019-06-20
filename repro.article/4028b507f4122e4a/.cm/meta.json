@@ -1,0 +1,32 @@
+{
+  "misc": {
+    "artifact_doi_url": "",
+    "artifact_sources": "GitHub",
+    "artifact_sources_url": "https://github.com/jdoerfert/CGO17_ArtifactEvaluation",
+    "authors": "Johannes Doerfert, Tobias Grosser and Sebastian Hack",
+    "badge_acm_artifact_available": "",
+    "badge_acm_artifact_functional": "",
+    "badge_acm_artifact_reusable": "",
+    "badge_acm_results_replicated": "",
+    "badge_acm_results_reproduced": "",
+    "ck_repo_uid": "",
+    "paper_doi_url": "https://dl.acm.org/citation.cfm?id=3049864",
+    "paper_pdf_url": "",
+    "reproducibility_url": "http://ctuning.org/ae/cgo2017.html",
+    "results": "",
+    "results_dashboard_url": "",
+    "results_url": "",
+    "some_results_replicated": "yes",
+    "title": "Optimistic Loop Optimization",
+    "unified_artifact_appendix": "https://github.com/ctuning/ck-artifact-evaluation/tree/master/wfe/artifact-evaluation/templates",
+    "where": "CGO'17",
+    "where_url": "http://cgo.org/cgo2017",
+    "workflow": "",
+    "workflow_url": ""
+  },
+  "tags": [
+    "papers",
+    "papers-cgo",
+    "papers-cgo-2017"
+  ]
+}

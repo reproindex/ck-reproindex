@@ -1,0 +1,66 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {
+      "install_env": {
+        "PIP_INSTALL_OPTIONS": "--ignore-installed",
+        "PYTHON_PACKAGE_NAME": "matplotlib"
+      }
+    },
+    "deps": {
+      "python": {
+        "add_to_path": "yes",
+        "local": "yes",
+        "name": "Python interpreter",
+        "sort": 10,
+        "tags": "compiler,python"
+      }
+    },
+    "end_full_path_universal": "build$#sep#$matplotlib$#sep#$__init__.py",
+    "only_for_host_os_tags": [],
+    "only_for_target_os_tags": [
+      "windows",
+      "linux"
+    ],
+    "process_script": "install",
+    "soft_uoa": "22a1d0f46439f9a5",
+    "suggested_path": "lib-python-matplotlib",
+    "tags": [
+      "lib",
+      "python-package",
+      "matplotlib",
+      "vmaster"
+    ],
+    "template": "yes",
+    "template_type": "Python package",
+    "use_scripts_from_another_entry": {
+      "data_uoa": "e4d8d3d2c4c67902",
+      "module_uoa": "package"
+    }
+  },
+  "misc": {
+    "data_uid": "79a67388f8474548",
+    "data_uoa": "lib-python-matplotlib",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/lib-python-matplotlib/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/lib-python-matplotlib",
+    "soft_name": "Matplotlib Python library",
+    "soft_uid": "22a1d0f46439f9a5",
+    "soft_uoa": "lib.python.matplotlib",
+    "stags": "lib,python-package,matplotlib,vmaster",
+    "tags": [
+      "lib",
+      "python-package",
+      "matplotlib",
+      "vmaster"
+    ],
+    "target_os": "windows,linux,macos",
+    "template": "Python package",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "version": "2012"
+    },
+    "deps": {
+      "compiler": {
+        "local": "yes",
+        "name": "C compiler",
+        "tags": "compiler,lang-c"
+      }
+    },
+    "end_full_path": {
+      "android": "lib$#sep#$librtlpolybench.a",
+      "linux": "lib/librtlpolybench.a",
+      "mingw": "lib\\librtlpolybench.a",
+      "win": "lib\\librtlpolybench.lib"
+    },
+    "process_script": "process",
+    "soft_uoa": "ac25cef24e429b24",
+    "suggested_path": "lib-rtl-polybench",
+    "tags": [
+      "lib",
+      "rtl",
+      "polybench",
+      "channel-stable"
+    ]
+  },
+  "misc": {
+    "data_uid": "ef82449518b55218",
+    "data_uoa": "lib-rtl-polybench",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "a4328ba99679e0d1",
+    "repo_uoa": "ck-autotuning",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-autotuning/tree/master/package/lib-rtl-polybench/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-autotuning/tree/master/package/lib-rtl-polybench",
+    "soft_name": "Polybench run-time library (outdated)",
+    "soft_uid": "ac25cef24e429b24",
+    "soft_uoa": "lib.rtl.polybench",
+    "stags": "lib,rtl,polybench,channel-stable",
+    "tags": [
+      "lib",
+      "rtl",
+      "polybench",
+      "channel-stable"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-autotuning"
+  }
+}

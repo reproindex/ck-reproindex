@@ -1,0 +1,97 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "comment": "install VTA server from master",
+    "customize": {
+      "extra_dir": "",
+      "git_src_dir": "src",
+      "install_env": {
+        "PACKAGE_BUILD_TYPE": "make",
+        "PACKAGE_CONFIGURE_FLAGS": "",
+        "PACKAGE_CONFIGURE_FLAGS_LINUX": "",
+        "PACKAGE_COPY": "NO",
+        "PACKAGE_GIT": "YES",
+        "PACKAGE_GIT_CHECKOUT": "",
+        "PACKAGE_GIT_CLONE_FLAGS": "--recursive",
+        "PACKAGE_PATCH": "NO",
+        "PACKAGE_SKIP_BUILD_ERROR": "NO",
+        "PACKAGE_SKIP_CLEAN_INSTALL": "NO",
+        "PACKAGE_SKIP_CLEAN_OBJ": "NO",
+        "PACKAGE_SKIP_CLEAN_SRC_DIR": "NO",
+        "PACKAGE_SKIP_LINUX_MAKE": "YES",
+        "PACKAGE_SUB_DIR": "src",
+        "PACKAGE_URL": "https://github.com/uwsaml/vta.git",
+        "PYTHON_EXE": "python"
+      },
+      "no_ver_in_suggested_path": "yes",
+      "use_git_revision": "yes",
+      "version": "master"
+    },
+    "deps": {
+      "compiler": {
+        "local": "yes",
+        "name": "Compiler",
+        "sort": 10,
+        "tags": "compiler, lang-c"
+      },
+      "lib-pynq-dma": {
+        "local": "yes",
+        "name": "PYNQ DMA library",
+        "sort": 15,
+        "tags": "lib,pynq-dma"
+      },
+      "python": {
+        "local": "yes",
+        "name": "Python",
+        "sort": 5,
+        "tags": "compiler,python"
+      }
+    },
+    "end_full_path_universal": "src$#sep#$lib$#sep#$libvta$#file_ext_dll#$",
+    "need_cpu_info": "yes",
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "process_script": "install",
+    "soft_uoa": "5422a92be021d21f",
+    "suggested_path": "lib-vta",
+    "tags": [
+      "lib",
+      "vta-server",
+      "vmaster",
+      "vpython"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "cd9ccc74060b3d18",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "ac4a3d9ebc6e4409",
+    "data_uoa": "lib-vta-server-master-pynq",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "a1294586bce671ba",
+    "repo_uoa": "ck-request-asplos18-resnet-tvm-fpga",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-request-asplos18-resnet-tvm-fpga/tree/master/package/lib-vta-server-master-pynq/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-request-asplos18-resnet-tvm-fpga/tree/master/package/lib-vta-server-master-pynq",
+    "soft_name": "VTA server",
+    "soft_uid": "5422a92be021d21f",
+    "soft_uoa": "lib.vta.server",
+    "stags": "lib,vta-server,vmaster,vpython",
+    "tags": [
+      "lib",
+      "vta-server",
+      "vmaster",
+      "vpython"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:ck-request-asplos18-resnet-tvm-fpga"
+  }
+}

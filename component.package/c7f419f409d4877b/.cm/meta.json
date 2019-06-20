@@ -1,0 +1,55 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "comment": "CAREFUL - requires more the 1GB of free space",
+    "customize": {
+      "extra_dir": "",
+      "force_ask_path": "yes",
+      "install_env": {
+        "COM_YOUTUBE": 1,
+        "EGO_FACEBOOK": 1
+      },
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "yes",
+      "version": "1.0"
+    },
+    "end_full_path": {
+      "linux": "list.txt"
+    },
+    "package_extra_name": " (SNAP Graphs)",
+    "process_script": "install",
+    "soft_uoa": "044f7304f07a7c34",
+    "suggested_path": "dataset-snap",
+    "tags": [
+      "dataset",
+      "graph",
+      "real-world",
+      "snap"
+    ]
+  },
+  "misc": {
+    "data_uid": "c7f419f409d4877b",
+    "data_uoa": "dataset-snap",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "68121412a8ff317c",
+    "repo_uoa": "ck-graph-analytics",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-graph-analytics/tree/master/package/dataset-snap/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-graph-analytics/tree/master/package/dataset-snap",
+    "soft_name": "SNAP graph dataset",
+    "soft_uid": "044f7304f07a7c34",
+    "soft_uoa": "dataset.snap",
+    "stags": "dataset,graph,real-world,snap",
+    "tags": [
+      "dataset",
+      "graph",
+      "real-world",
+      "snap"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-graph-analytics"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dict": {
+    "actions": {
+      "convert": {
+        "desc": "convert to various format"
+      },
+      "copy_file": {
+        "desc": "copy file to slide"
+      },
+      "prepare_for_latex": {
+        "desc": "prepare slide for latex"
+      }
+    },
+    "copyright": "See CK COPYRIGHT.txt for copyright details",
+    "desc": "individual slides",
+    "developer": "Grigori Fursin",
+    "developer_email": "Grigori.Fursin@cTuning.org",
+    "developer_webpage": "http://fursin.net",
+    "license": "See CK LICENSE.txt for licensing details"
+  },
+  "misc": {
+    "actions": {
+      "convert": {
+        "url_api": "https://github.com/ctuning/ck-dissemination-modules/tree/master/module/slide/module.py#L120"
+      },
+      "copy_file": {
+        "url_api": "https://github.com/ctuning/ck-dissemination-modules/tree/master/module/slide/module.py#L219"
+      },
+      "prepare_for_latex": {
+        "url_api": "https://github.com/ctuning/ck-dissemination-modules/tree/master/module/slide/module.py#L33"
+      }
+    },
+    "data_uid": "757c34ce8a0a808d",
+    "data_uoa": "slide",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "62a4f46acf5ff29e",
+    "repo_uoa": "ck-dissemination-modules",
+    "repo_url1": "https://github.com/ctuning/ck-dissemination-modules/tree/master/module/slide/module.py",
+    "repo_url2": "https://github.com/ctuning/ck-dissemination-modules/tree/master/module/slide/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:ck-dissemination-modules",
+    "workflow": ""
+  }
+}

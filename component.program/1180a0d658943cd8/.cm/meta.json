@@ -1,0 +1,99 @@
+{
+  "dict": {
+    "backup_data_uid": "1180a0d658943cd8",
+    "compile_cmds": {
+      "default": {
+        "cmd": "../ck-compile$#script_ext#$"
+      }
+    },
+    "compile_deps": {
+      "compiler": {
+        "local": "yes",
+        "name": "C++ compiler",
+        "sort": 0,
+        "tags": "compiler,lang-cpp"
+      },
+      "lib-orion-qt": {
+        "local": "yes",
+        "name": "orion-qt library",
+        "sort": 2,
+        "tags": "lib,orion-qt"
+      },
+      "lib-qscintilla": {
+        "local": "yes",
+        "name": "QScintilla library",
+        "sort": 3,
+        "tags": "lib,qscintilla,vqt5"
+      },
+      "lib-qt": {
+        "local": "yes",
+        "name": "Qt library",
+        "sort": 1,
+        "tags": "lib,qt",
+        "version_from": [
+          5,
+          5
+        ],
+        "version_to": [
+          5,
+          999
+        ]
+      }
+    },
+    "compiler_env": "CK_CXX",
+    "data_name": "ck-gui-qt",
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "run_cmds": {
+      "default": {
+        "run_time": {
+          "run_cmd_main": "$#BIN_FILE#$"
+        }
+      }
+    },
+    "run_deps": {
+      "lib-qscintilla": {
+        "local": "yes",
+        "name": "QScintilla library",
+        "sort": 2,
+        "tags": "lib,qscintilla,vqt5"
+      },
+      "lib-qt": {
+        "local": "yes",
+        "name": "Qt library",
+        "sort": 1,
+        "tags": "lib,qt"
+      }
+    },
+    "run_vars": {},
+    "skip_bin_ext": "yes",
+    "tags": [
+      "ck-gui",
+      "vqt"
+    ],
+    "target_file": "ck-gui",
+    "use_compile_script": "yes"
+  },
+  "misc": {
+    "data_uid": "1180a0d658943cd8",
+    "data_uoa": "ck-gui-qt",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "4ae7df4c1a806867",
+    "repo_uoa": "ck-gui",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/Chunosov/ck-gui/tree/master/program/ck-gui-qt/.cm/meta.json",
+    "repo_url3": "https://github.com/Chunosov/ck-gui/tree/master/program/ck-gui-qt",
+    "soft_name": "",
+    "stags": "ck-gui,vqt",
+    "tags": [
+      "ck-gui",
+      "vqt"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo --url=https://github.com/Chunosov/ck-gui",
+    "version": ""
+  }
+}

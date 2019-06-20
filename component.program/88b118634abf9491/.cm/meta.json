@@ -1,0 +1,194 @@
+{
+  "dict": {
+    "backup_data_uid": "88b118634abf9491",
+    "data_name": "request-iot-benchmark",
+    "no_compile": "yes",
+    "no_target_file": "yes",
+    "print_files_after_run": [
+      "tmp-stdout.tmp",
+      "tmp-stderr.tmp"
+    ],
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "run_cmds": {
+      "benchmark-alexnet-farm-5-nodes": {
+        "ignore_return_code": "yes",
+        "run_time": {
+          "fine_grain_timer_file": "tmp-ck-timer.json",
+          "run_cmd_main": "$<<CK_ENV_COMPILER_PYTHON_FILE>>$ ../multiple-devices/alexnet/initial.py",
+          "run_output_files": [
+            "tmp-ck-timer.json",
+            "tmp-ck-output.json"
+          ]
+        }
+      },
+      "benchmark-alexnet-farm-5-nodes-start-server": {
+        "ignore_return_code": "yes",
+        "run_time": {
+          "run_cmd_main": "$<<CK_ENV_COMPILER_PYTHON_FILE>>$ ../multiple-devices/alexnet/node.py",
+          "run_output_files": [
+            "tmp-stdout.tmp",
+            "tmp-stderr.tmp"
+          ]
+        }
+      },
+      "benchmark-alexnet-single-device-cpu": {
+        "ignore_return_code": "yes",
+        "run_time": {
+          "fine_grain_timer_file": "tmp-ck-timer.json",
+          "output_invariant_of_repeat": "yes",
+          "run_cmd_main": "$<<CK_ENV_COMPILER_PYTHON_FILE>>$ ../single-device/alexnet/predict.py",
+          "run_cmd_out1": "tmp-stdout.tmp",
+          "run_cmd_out2": "tmp-stderr.tmp",
+          "run_output_files": [
+            "tmp-ck-timer.json",
+            "tmp-ck-output.json"
+          ],
+          "run_set_env2": {
+            "CUDA_VISIBLE_DEVICES": ""
+          }
+        }
+      },
+      "benchmark-alexnet-single-device-gpu": {
+        "ignore_return_code": "yes",
+        "run_time": {
+          "fine_grain_timer_file": "tmp-ck-timer.json",
+          "output_invariant_of_repeat": "yes",
+          "run_cmd_main": "$<<CK_ENV_COMPILER_PYTHON_FILE>>$ ../single-device/alexnet/predict.py",
+          "run_cmd_out1": "tmp-stdout.tmp",
+          "run_cmd_out2": "tmp-stderr.tmp",
+          "run_output_files": [
+            "tmp-ck-timer.json",
+            "tmp-ck-output.json"
+          ]
+        }
+      },
+      "benchmark-vgg16-farm-11-nodes": {
+        "ignore_return_code": "yes",
+        "run_time": {
+          "fine_grain_timer_file": "tmp-ck-timer.json",
+          "run_cmd_main": "$<<CK_ENV_COMPILER_PYTHON_FILE>>$ ../multiple-devices/vgg16/11-nodes/initial.py",
+          "run_output_files": [
+            "tmp-ck-timer.json",
+            "tmp-ck-output.json"
+          ]
+        }
+      },
+      "benchmark-vgg16-farm-11-nodes-start-server": {
+        "ignore_return_code": "yes",
+        "run_time": {
+          "run_cmd_main": "$<<CK_ENV_COMPILER_PYTHON_FILE>>$ ../multiple-devices/vgg16/11-nodes/node.py",
+          "run_output_files": [
+            "tmp-stdout.tmp",
+            "tmp-stderr.tmp"
+          ]
+        }
+      },
+      "benchmark-vgg16-farm-9-nodes": {
+        "ignore_return_code": "yes",
+        "run_time": {
+          "fine_grain_timer_file": "tmp-ck-timer.json",
+          "run_cmd_main": "$<<CK_ENV_COMPILER_PYTHON_FILE>>$ ../multiple-devices/vgg16/9-nodes/initial.py",
+          "run_output_files": [
+            "tmp-ck-timer.json",
+            "tmp-ck-output.json"
+          ]
+        }
+      },
+      "benchmark-vgg16-farm-9-nodes-start-server": {
+        "ignore_return_code": "yes",
+        "run_time": {
+          "run_cmd_main": "$<<CK_ENV_COMPILER_PYTHON_FILE>>$ ../multiple-devices/vgg16/9-nodes/node.py",
+          "run_output_files": [
+            "tmp-stdout.tmp",
+            "tmp-stderr.tmp"
+          ]
+        }
+      },
+      "benchmark-vgg16-single-device-cpu": {
+        "ignore_return_code": "yes",
+        "run_time": {
+          "fine_grain_timer_file": "tmp-ck-timer.json",
+          "output_invariant_of_repeat": "yes",
+          "run_cmd_main": "$<<CK_ENV_COMPILER_PYTHON_FILE>>$ ../single-device/vgg16/predict.py",
+          "run_cmd_out1": "tmp-stdout.tmp",
+          "run_cmd_out2": "tmp-stderr.tmp",
+          "run_output_files": [
+            "tmp-ck-timer.json",
+            "tmp-ck-output.json"
+          ],
+          "run_set_env2": {
+            "CUDA_VISIBLE_DEVICES": ""
+          }
+        }
+      },
+      "benchmark-vgg16-single-device-gpu": {
+        "ignore_return_code": "yes",
+        "run_time": {
+          "fine_grain_timer_file": "tmp-ck-timer.json",
+          "output_invariant_of_repeat": "yes",
+          "run_cmd_main": "$<<CK_ENV_COMPILER_PYTHON_FILE>>$ ../single-device/vgg16/predict.py",
+          "run_cmd_out1": "tmp-stdout.tmp",
+          "run_cmd_out2": "tmp-stderr.tmp",
+          "run_output_files": [
+            "tmp-ck-timer.json",
+            "tmp-ck-output.json"
+          ]
+        }
+      }
+    },
+    "run_deps": {
+      "lib-keras": {
+        "local": "yes",
+        "name": "Keras library with ReQuEst artifact deps",
+        "sort": 10,
+        "tags": "lib,keras-request"
+      },
+      "lib-tensorflow": {
+        "local": "yes",
+        "name": "TensorFlow library",
+        "sort": 20,
+        "tags": "lib,tensorflow"
+      },
+      "python": {
+        "local": "yes",
+        "name": "python",
+        "sort": 8,
+        "tags": "compiler,lang-python,python"
+      }
+    },
+    "run_vars": {},
+    "tags": [
+      "program",
+      "request",
+      "request-tournament",
+      "request-asplos18",
+      "iot-farm"
+    ]
+  },
+  "misc": {
+    "data_uid": "88b118634abf9491",
+    "data_uoa": "request-iot-benchmark",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "9bb172637b2083c2",
+    "repo_uoa": "ck-request-asplos18-iot-farm",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-request-asplos18-iot-farm/tree/master/program/request-iot-benchmark/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-request-asplos18-iot-farm/tree/master/program/request-iot-benchmark",
+    "soft_name": "",
+    "stags": "program,request,request-tournament,request-asplos18,iot-farm",
+    "tags": [
+      "program",
+      "request",
+      "request-tournament",
+      "request-asplos18",
+      "iot-farm"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-request-asplos18-iot-farm",
+    "version": ""
+  }
+}

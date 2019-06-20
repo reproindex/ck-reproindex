@@ -1,0 +1,39 @@
+{
+  "dict": {
+    "customize": {
+      "env_prefix": "CK_ENV_LIB_RTL_MILEPOST_CODELET"
+    },
+    "soft_name": "MILEPOST codelet run-time library",
+    "tags": [
+      "lib",
+      "rtl",
+      "milepost",
+      "codelet"
+    ]
+  },
+  "misc": {
+    "auto_detect": "no",
+    "data_uid": "4a0ba606d7cee653",
+    "data_uoa": "lib.rtl.milepost.codelet",
+    "env_prefix": "CK_ENV_LIB_RTL_MILEPOST_CODELET",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/lib.rtl.milepost.codelet/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/lib.rtl.milepost.codelet",
+    "soft_name": "MILEPOST codelet run-time library",
+    "stags": "lib,rtl,milepost,codelet",
+    "tags": [
+      "lib",
+      "rtl",
+      "milepost",
+      "codelet"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

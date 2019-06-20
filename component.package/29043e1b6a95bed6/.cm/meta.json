@@ -1,0 +1,114 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {
+      "extra_dir": "",
+      "file_with_weights": "bvlc_alexnet.caffemodel",
+      "force_ask_path": "yes",
+      "install_env": {
+        "MODEL_FILE": "bvlc_alexnet.caffemodel",
+        "MODEL_HASH_CALCULATOR": "sha1sum",
+        "MODEL_HASH_REF": "9116a64c0fbe4459d18f4bb6b56d647b63920377",
+        "MODEL_URL": "https://nvidia.box.com/shared/static/5j264j7mky11q8emy4q14w3r8hl5v6zh.caffemodel"
+      },
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "yes",
+      "params": {
+        "deploy": {
+          "substitute": {
+            "batch_size": 10
+          },
+          "template": "deploy.prototxt"
+        },
+        "train": {
+          "substitute": {
+            "train_batch_size": 256,
+            "train_mean": "$#path_to_imagenet_aux#$imagenet_mean.binaryproto",
+            "val_batch_size": 50,
+            "val_mean": "$#path_to_imagenet_aux#$imagenet_mean.binaryproto"
+          },
+          "template": "train_val.prototxt"
+        },
+        "val": {
+          "accuracy_layers": [
+            "accuracy",
+            "accuracy_top5",
+            "loss"
+          ],
+          "substitute": {
+            "train_batch_size": 256,
+            "train_mean": "$#path_to_imagenet_aux#$imagenet_mean.binaryproto",
+            "val_batch_size": 50,
+            "val_mean": "$#path_to_imagenet_aux#$imagenet_mean.binaryproto"
+          },
+          "template": "train_val.prototxt"
+        }
+      },
+      "skip_file_check": "yes",
+      "version": "trunk"
+    },
+    "end_full_path": {
+      "linux": "bvlc_alexnet.caffemodel",
+      "win": "bvlc_alexnet.caffemodel"
+    },
+    "features": {
+      "accuracy": 0.568279,
+      "accuracy_top5": 0.799501,
+      "model_size_mb": 244
+    },
+    "only_for_host_os_tags": [
+      "windows",
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "windows",
+      "linux"
+    ],
+    "package_extra_name": " (bvlc, alexnet)",
+    "process_script": "download",
+    "soft_uoa": "e2400aabc11d6cd1",
+    "suggested_path": "caffemodel-bvlc-alexnet-fast-mirror",
+    "tags": [
+      "caffe",
+      "weights",
+      "caffemodel",
+      "bvlc",
+      "alexnet",
+      "mirror",
+      "channel-stable"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "download-caffemodel",
+      "module_uoa": "script",
+      "repo_uoa": "ck-caffe"
+    }
+  },
+  "misc": {
+    "data_uid": "29043e1b6a95bed6",
+    "data_uoa": "caffemodel-bvlc-alexnet-fast-mirror",
+    "host_os": "windows,linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "57e83bca8a5a4344",
+    "repo_uoa": "ck-caffe",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/dividiti/ck-caffe/tree/master/package/caffemodel-bvlc-alexnet-fast-mirror/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/ck-caffe/tree/master/package/caffemodel-bvlc-alexnet-fast-mirror",
+    "soft_name": "Caffe model (net and weights)",
+    "soft_uid": "e2400aabc11d6cd1",
+    "soft_uoa": "model.caffe",
+    "stags": "caffe,weights,caffemodel,bvlc,alexnet,mirror,channel-stable",
+    "tags": [
+      "caffe",
+      "weights",
+      "caffemodel",
+      "bvlc",
+      "alexnet",
+      "mirror",
+      "channel-stable"
+    ],
+    "target_os": "windows,linux,macos",
+    "template": "",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-caffe.git"
+  }
+}

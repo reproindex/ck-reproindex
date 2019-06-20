@@ -1,0 +1,51 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_LIB_CAFFE",
+      "limit_recursion_dir_search": {
+        "linux": 4,
+        "win": 4
+      },
+      "soft_file": {
+        "linux": "libcaffe.so",
+        "win": "caffe.exe"
+      }
+    },
+    "deps": {},
+    "soft_name": "BVLC Caffe framework",
+    "tags": [
+      "lib",
+      "caffe",
+      "bvlc"
+    ],
+    "template": "yes",
+    "template_type": "caffe library"
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "04ab08137582bd03",
+    "data_uoa": "lib.caffe",
+    "env_prefix": "CK_ENV_LIB_CAFFE",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "57e83bca8a5a4344",
+    "repo_uoa": "ck-caffe",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/dividiti/ck-caffe/tree/master/soft/lib.caffe/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/ck-caffe/tree/master/soft/lib.caffe",
+    "soft_name": "BVLC Caffe framework",
+    "stags": "lib,caffe,bvlc",
+    "tags": [
+      "lib",
+      "caffe",
+      "bvlc"
+    ],
+    "target_os": "any",
+    "template": "caffe library",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-caffe.git"
+  }
+}

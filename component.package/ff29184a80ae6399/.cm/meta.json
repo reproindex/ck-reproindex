@@ -1,0 +1,61 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "git_src_dir": "src",
+      "install_env": {
+        "PACKAGE_AUTOGEN": "NO",
+        "PACKAGE_GIT": "YES",
+        "PACKAGE_SKIP_LINUX_MAKE": "YES",
+        "PACKAGE_SUB_DIR": "src",
+        "PACKAGE_SUB_DIR1": "src",
+        "PACKAGE_URL": "https://github.com/rai-project/mlmodelscope"
+      },
+      "use_git_revision": "yes",
+      "version": "master"
+    },
+    "end_full_path_universal": "src$#sep#$package.json",
+    "need_cpu_info": "no",
+    "only_for_host_os_tags": [
+      "linux",
+      "windows"
+    ],
+    "package_extra_name": "",
+    "process_script": "install",
+    "soft_uoa": "bd45429bee5fd779",
+    "suggested_path": "bench-mlmodelscope",
+    "tags": [
+      "bench",
+      "mlmodelscope",
+      "vmaster"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "cd9ccc74060b3d18",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "ff29184a80ae6399",
+    "data_uoa": "bench-mlmodelscope-master",
+    "host_os": "linux,macos,windows",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "1be6d862d67244da",
+    "repo_uoa": "ck-mlperf",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-mlperf/tree/master/package/bench-mlmodelscope-master/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-mlperf/tree/master/package/bench-mlmodelscope-master",
+    "soft_name": "MLModelScope",
+    "soft_uid": "bd45429bee5fd779",
+    "soft_uoa": "bench.mlmodelscope",
+    "stags": "bench,mlmodelscope,vmaster",
+    "tags": [
+      "bench",
+      "mlmodelscope",
+      "vmaster"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-mlperf"
+  }
+}

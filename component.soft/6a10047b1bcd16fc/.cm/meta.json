@@ -1,0 +1,52 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "env_prefix": "CK_ENV_PYTHON_PACKAGE_NUMPY",
+      "limit_recursion_dir_search": {
+        "linux": 5,
+        "win": 5
+      },
+      "soft_file_universal": "numpy$#sep#$__init__.py",
+      "version_module_name": "version",
+      "version_variable_name": "version"
+    },
+    "soft_name": "NumPy Python library",
+    "tags": [
+      "lib",
+      "python-package",
+      "numpy"
+    ],
+    "template": "yes",
+    "template_type": "Python library (numpy)",
+    "use_customize_script_from_another_entry": {
+      "data_uoa": "4460bdb0ade2a3df",
+      "module_uoa": "soft"
+    }
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "6a10047b1bcd16fc",
+    "data_uoa": "lib.python.numpy",
+    "env_prefix": "CK_ENV_PYTHON_PACKAGE_NUMPY",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/lib.python.numpy/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/lib.python.numpy",
+    "soft_name": "NumPy Python library",
+    "stags": "lib,python-package,numpy",
+    "tags": [
+      "lib",
+      "python-package",
+      "numpy"
+    ],
+    "target_os": "any",
+    "template": "Python library (numpy)",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

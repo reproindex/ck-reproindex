@@ -1,0 +1,99 @@
+{
+  "dict": {
+    "backup_data_uid": "079c1ff2d6432f96",
+    "data_name": "seissol-demo",
+    "no_compile": "yes",
+    "no_target_file": "yes",
+    "print_files_after_run": [
+      "stderr.log",
+      "stdout.log"
+    ],
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "run_cmds": {
+      "default": {
+        "dataset_tags": [
+          "seissol",
+          "parameters",
+          "dataset"
+        ],
+        "ignore_return_code": "no",
+        "run_time": {
+          "fine_grain_timer_file": "tmp-ck-timer.json",
+          "post_process_via_ck": "yes",
+          "run_cmd_main": "$<<CK_ENV_LIB_MPI_BIN>>$/mpirun -np $<<CK_MPI_PROCESS>>$ ./SeisSol $#dataset_path#$$#dataset_filename#$",
+          "run_cmd_out1": "stdout.log",
+          "run_cmd_out2": "stderr.log",
+          "run_output_files": [
+            "stdout.log",
+            "stderr.log",
+            "tmp-ck-timer.json"
+          ]
+        }
+      },
+      "no-mpi": {
+        "dataset_tags": [
+          "seissol",
+          "parameters",
+          "dataset"
+        ],
+        "ignore_return_code": "no",
+        "run_time": {
+          "fine_grain_timer_file": "tmp-ck-timer.json",
+          "post_process_via_ck": "yes",
+          "pre_process_via_ck": {
+            "script_name": "ck_preprocess"
+          },
+          "run_cmd_main": "./SeisSol $#dataset_path#$$#dataset_filename#$",
+          "run_cmd_out1": "stdout.log",
+          "run_cmd_out2": "stderr.log",
+          "run_output_files": [
+            "stdout.log",
+            "stderr.log",
+            "tmp-ck-timer.json"
+          ]
+        }
+      }
+    },
+    "run_deps": {
+      "lib-seissol": {
+        "local": "yes",
+        "name": "SeisSol Library",
+        "sort": 10,
+        "tags": "lib,seissol"
+      }
+    },
+    "run_vars": {
+      "CK_MPI_PROCESS": 1,
+      "OMP_NUM_THREADS": 1
+    },
+    "tags": [
+      "scientific",
+      "cluster",
+      "cluster-competition"
+    ]
+  },
+  "misc": {
+    "data_uid": "079c1ff2d6432f96",
+    "data_uoa": "seissol-demo",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "68121412a8ff317c",
+    "repo_uoa": "ck-graph-analytics",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-graph-analytics/tree/master/program/seissol-demo/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-graph-analytics/tree/master/program/seissol-demo",
+    "soft_name": "",
+    "stags": "scientific,cluster,cluster-competition",
+    "tags": [
+      "scientific",
+      "cluster",
+      "cluster-competition"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-graph-analytics",
+    "version": ""
+  }
+}

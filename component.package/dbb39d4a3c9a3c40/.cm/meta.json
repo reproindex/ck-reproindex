@@ -1,0 +1,72 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "install_env": {
+        "PACKAGE_URL": "https://github.com/pytorch/vision"
+      },
+      "use_git_revision": "yes",
+      "version": "master"
+    },
+    "deps": {
+      "lib.pytorch": {
+        "local": "yes",
+        "name": "PyTorch library",
+        "sort": 30,
+        "tags": "lib,pytorch"
+      },
+      "python": {
+        "add_to_path": "yes",
+        "local": "yes",
+        "name": "Python",
+        "sort": 20,
+        "tags": "compiler,python"
+      }
+    },
+    "end_full_path_universal": "lib$#sep#$torchvision$#sep#$__init__.py",
+    "need_cpu_info": "yes",
+    "only_for_host_os_tags": [
+      "linux",
+      "windows"
+    ],
+    "only_for_target_os_tags": [
+      "linux",
+      "windows"
+    ],
+    "package_extra_name": "",
+    "process_script": "install",
+    "soft_uoa": "9909041c40c481d9",
+    "suggested_path": "pytorch-vision",
+    "tags": [
+      "lib",
+      "pytorch-vision",
+      "vmaster",
+      "channel-stable"
+    ]
+  },
+  "misc": {
+    "data_uid": "dbb39d4a3c9a3c40",
+    "data_uoa": "lib-pytorch-vision-master",
+    "host_os": "linux,macos,windows",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "9116e3c9d3784902",
+    "repo_uoa": "ck-pytorch",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-pytorch/tree/master/package/lib-pytorch-vision-master/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-pytorch/tree/master/package/lib-pytorch-vision-master",
+    "soft_name": "PyTorch Vision library",
+    "soft_uid": "9909041c40c481d9",
+    "soft_uoa": "lib.pytorch.vision",
+    "stags": "lib,pytorch-vision,vmaster,channel-stable",
+    "tags": [
+      "lib",
+      "pytorch-vision",
+      "vmaster",
+      "channel-stable"
+    ],
+    "target_os": "linux,macos,windows",
+    "template": "",
+    "to_get": "ck pull repo:ck-pytorch"
+  }
+}

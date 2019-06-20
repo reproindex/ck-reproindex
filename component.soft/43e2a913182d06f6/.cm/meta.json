@@ -1,0 +1,45 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_LIB_MLFLOW",
+      "limit_recursion_dir_search": {
+        "linux": 4
+      },
+      "soft_file": {
+        "linux": "mlflow/__init__.py",
+        "win": "mlflow/__init__.py"
+      }
+    },
+    "soft_name": "MLFlow",
+    "tags": [
+      "tool",
+      "mlflow"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "43e2a913182d06f6",
+    "data_uoa": "mlflow",
+    "env_prefix": "CK_ENV_LIB_MLFLOW",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "23dd4b94ab240d29",
+    "repo_uoa": "ck-mlflow",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-mlflow/tree/master/soft/mlflow/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-mlflow/tree/master/soft/mlflow",
+    "soft_name": "MLFlow",
+    "stags": "tool,mlflow",
+    "tags": [
+      "tool",
+      "mlflow"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-mlflow"
+  }
+}

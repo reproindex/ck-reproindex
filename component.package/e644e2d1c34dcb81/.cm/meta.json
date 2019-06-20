@@ -1,0 +1,46 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "version": "1.0"
+    },
+    "only_for_host_os_tags": [
+      "windows",
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "windows",
+      "linux"
+    ],
+    "process_script": "process",
+    "soft_uoa": "bafd1045d2b025f8",
+    "suggested_path": "script-ck",
+    "tags": [
+      "script",
+      "ck"
+    ]
+  },
+  "misc": {
+    "data_uid": "e644e2d1c34dcb81",
+    "data_uoa": "script-ck",
+    "host_os": "windows,linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "6d04bb400f29474d",
+    "repo_uoa": "ck-old-packages",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-old-packages/tree/master/package/script-ck/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-old-packages/tree/master/package/script-ck",
+    "soft_name": "CK misc script (outdated)",
+    "soft_uid": "bafd1045d2b025f8",
+    "soft_uoa": "script.ck",
+    "stags": "script,ck",
+    "tags": [
+      "script",
+      "ck"
+    ],
+    "target_os": "windows,linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:ck-old-packages"
+  }
+}

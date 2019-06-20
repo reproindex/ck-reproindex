@@ -1,0 +1,49 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "add_to_path": "yes",
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_LIB_XML2",
+      "limit_recursion_dir_search": {
+        "linux": 3
+      },
+      "soft_file": {
+        "linux": "liblmdb.so"
+      },
+      "soft_path_example": {
+        "linux": "/usr/lib/libxml2.so"
+      }
+    },
+    "deps": {},
+    "soft_name": "XML2 library",
+    "tags": [
+      "lib",
+      "xml2"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "46b34706d34bb7bf",
+    "data_uoa": "lib.xml2",
+    "env_prefix": "CK_ENV_LIB_XML2",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/lib.xml2/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/lib.xml2",
+    "soft_name": "XML2 library",
+    "stags": "lib,xml2",
+    "tags": [
+      "lib",
+      "xml2"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

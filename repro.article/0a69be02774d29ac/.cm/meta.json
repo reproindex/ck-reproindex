@@ -1,0 +1,37 @@
+{
+  "misc": {
+    "artifact_doi_url": "",
+    "artifact_sources": "GitHub",
+    "artifact_sources_url": "https://github.com/ctuning/reproduce-milepost-project",
+    "authors": "Grigori Fursin, Yuriy Kashnikov, Abdul Wahid Memon, Zbigniew Chamski, Olivier Temam, Mircea Namolaru, Elad Yom-Tov, Bilha Mendelson, Ayal Zaks, Eric Courtois, Francois Bodin, Phil Barnard, Elton Ashton, Edwin Bonilla, John Thomson, Christopher K. I. Williams, Michael O’Boyle",
+    "badge_acm_artifact_available": "",
+    "badge_acm_artifact_functional": "",
+    "badge_acm_artifact_reusable": "",
+    "badge_acm_results_replicated": "",
+    "badge_acm_results_reproduced": "",
+    "ck_repo_uid": "9482c22d7601b0df",
+    "paper_doi_url": "https://doi.org/10.1007/s10766-010-0161-2",
+    "paper_pdf_url": "",
+    "reproducibility_url": "",
+    "results": "",
+    "results_dashboard_url": "http://cKnowledge.org/repo",
+    "results_url": "",
+    "some_results_replicated": "yes",
+    "tasks": {
+      "16a12a3fee44b659": {
+        "data_uoa": "sample-milepost-codelet"
+      }
+    },
+    "title": "Milepost GCC: Machine Learning Enabled Self-tuning Compiler",
+    "unified_artifact_appendix": "",
+    "where": "IJPP'11",
+    "where_url": "",
+    "workflow": "CK",
+    "workflow_url": "https://github.com/ctuning/reproduce-milepost-project"
+  },
+  "tags": [
+    "papers",
+    "papers-ijpp",
+    "papers-ijpp-2011"
+  ]
+}

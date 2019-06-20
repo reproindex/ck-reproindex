@@ -1,0 +1,69 @@
+{
+  "dict": {
+    "backup_data_uid": "14e73b62d57d4cd0",
+    "data_name": "mgbc-demo",
+    "no_compile": "yes",
+    "no_target_file": "yes",
+    "print_files_after_run": [
+      "stderr.log",
+      "stdout.log"
+    ],
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "run_cmds": {
+      "default": {
+        "ignore_return_code": "no",
+        "run_time": {
+          "fine_grain_timer_file": "tmp-ck-timer.json",
+          "post_process_via_ck": "yes",
+          "run_cmd_main": "mpirun -np $<<CK_MPI_PROCESS>>$ $<<CK_ENV_BC_BIN>>$ -S $<<CK_RMAT_SCALE>>$  -E $<<CK_RMAT_EF>>$ -p 1x1 -N 1024 -H 0 -o $<<CK_GRAPH_NAME>>$",
+          "run_cmd_out1": "stdout.log",
+          "run_cmd_out2": "stderr.log",
+          "run_output_files": [
+            "stdout.log",
+            "stderr.log",
+            "tmp-ck-timer.json"
+          ]
+        }
+      }
+    },
+    "run_deps": {
+      "lib-axbc": {
+        "local": "yes",
+        "name": "MGBC",
+        "sort": 10,
+        "tags": "lib,bc,exact"
+      }
+    },
+    "run_vars": {
+      "CK_GRAPH_NAME": "RMAT-10-4",
+      "CK_MPI_PROCESS": 1,
+      "CK_RMAT_EF": 4,
+      "CK_RMAT_SCALE": 10
+    },
+    "tags": [
+      "graph"
+    ]
+  },
+  "misc": {
+    "data_uid": "14e73b62d57d4cd0",
+    "data_uoa": "mgbc-demo",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "68121412a8ff317c",
+    "repo_uoa": "ck-graph-analytics",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-graph-analytics/tree/master/program/mgbc-demo/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-graph-analytics/tree/master/program/mgbc-demo",
+    "soft_name": "",
+    "stags": "graph",
+    "tags": [
+      "graph"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-graph-analytics",
+    "version": ""
+  }
+}

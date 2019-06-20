@@ -1,0 +1,174 @@
+{
+  "dict": {
+    "backup_data_uid": "5a9a6915b20ea1bf",
+    "build_compiler_vars": {
+      "ARM_COMPUTE_CL": 1
+    },
+    "compile_deps": {
+      "compiler": {
+        "local": "yes",
+        "name": "C++ compiler",
+        "sort": 10,
+        "tags": "compiler,lang-cpp"
+      },
+      "library": {
+        "extra_ld_vars": "$<<CK_ENV_LIB_ARMCL_LFLAG_CORE>>$",
+        "local": "yes",
+        "name": "Arm Compute Library (OpenCL & Graph APIs)",
+        "sort": 5,
+        "tags": "lib,armcl,vopencl,vgraph"
+      },
+      "opencl": {
+        "local": "yes",
+        "name": "OpenCL library",
+        "skip_installed": {
+          "android": "yes"
+        },
+        "sort": 20,
+        "tags": "lib,opencl"
+      },
+      "xopenme": {
+        "local": "yes",
+        "name": "xOpenME library",
+        "sort": 100,
+        "tags": "lib,xopenme"
+      }
+    },
+    "compiler_add_include_as_env_from_deps": [
+      "CK_ENV_LIB_STDCPP_INCLUDE",
+      "CK_ENV_LIB_STDCPP_INCLUDE_EXTRA",
+      "CK_ENV_LIB_ARMCL_INCLUDE",
+      "CK_ENV_LIB_ARMCL_UTILS"
+    ],
+    "compiler_env": "CK_CXX",
+    "compiler_flags_as_env": "$<<CK_COMPILER_FLAG_CPP11>>$ -Wno-ignored-attributes",
+    "data_name": "mobilenets-armcl-opencl",
+    "extra_ld_vars": "$<<CK_ENV_LIB_STDCPP_DYNAMIC>>$",
+    "main_language": "cpp",
+    "only_for_target_os_tags": [
+      "android",
+      "linux"
+    ],
+    "print_files_after_run": [
+      "tmp-stdout.tmp",
+      "tmp-stderr.tmp"
+    ],
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "run_cmds": {
+      "default": {
+        "ignore_return_code": "yes",
+        "run_time": {
+          "fine_grain_timer_file": "tmp-ck-timer.json",
+          "need_compute_device": "opencl",
+          "output_invariant_of_repeat": "yes",
+          "post_process_cmds": [
+            "python $#ck_take_from_{script:689867d1939a781d}#$postprocess.py"
+          ],
+          "post_process_via_ck": "yes",
+          "pre_process_via_ck": {
+            "data_uoa": "689867d1939a781d",
+            "module_uoa": "script",
+            "script_name": "preprocess"
+          },
+          "run_cmd_main": "$#BIN_FILE#$",
+          "run_cmd_out1": "tmp-stdout.tmp",
+          "run_cmd_out2": "tmp-stderr.tmp",
+          "run_output_files": [
+            "tmp-ck-timer.json",
+            "tmp-stdout.tmp",
+            "tmp-stderr.tmp"
+          ]
+        }
+      }
+    },
+    "run_deps": {
+      "imagenet-aux": {
+        "force_target_as_host": "yes",
+        "local": "yes",
+        "name": "ImageNet dataset (aux)",
+        "sort": 20,
+        "tags": "dataset,imagenet,aux"
+      },
+      "imagenet-val": {
+        "force_target_as_host": "yes",
+        "local": "yes",
+        "name": "ImageNet dataset (val)",
+        "sort": 30,
+        "tags": "dataset,imagenet,raw,val"
+      },
+      "weights": {
+        "force_target_as_host": "yes",
+        "local": "yes",
+        "name": "MobileNet weights (as NumPy arrays)",
+        "no_tags": "mobilenet-all",
+        "sort": 10,
+        "tags": "mobilenet,weights,npy"
+      }
+    },
+    "run_vars": {
+      "CK_BATCH_COUNT": 1,
+      "CK_BATCH_SIZE": 1,
+      "CK_CROP_PERCENT": 87.5,
+      "CK_IMAGE_FILE": "",
+      "CK_NORMALIZE_DATA": "YES",
+      "CK_RECREATE_CACHE": "NO",
+      "CK_SKIP_IMAGES": 0,
+      "CK_SUBTRACT_MEAN": "YES",
+      "CK_TMP_IMAGE_SIZE": 0
+    },
+    "skip_bin_ext": "yes",
+    "source_files": [
+      "benchmark.cpp",
+      "mobilenet.cpp",
+      "$<<CK_ENV_LIB_ARMCL_UTILS>>$/GraphUtils.cpp",
+      "$<<CK_ENV_LIB_ARMCL_UTILS>>$/Utils.cpp"
+    ],
+    "tags": [
+      "armcl",
+      "benchmark",
+      "mobilenet",
+      "mobilenets",
+      "float",
+      "f32",
+      "vopencl"
+    ],
+    "target_file": "benchmark",
+    "template": "yes",
+    "template_type": "image classification via ArmCL",
+    "use_preprocess_compilation_scripts": {
+      "data_uoa": "3144372763a44cd2",
+      "module_uoa": "84e27ad9dd12e734",
+      "script_func": "ck_preprocess",
+      "script_name": "compile-preprocess"
+    },
+    "version": "1.0.0"
+  },
+  "misc": {
+    "data_uid": "5a9a6915b20ea1bf",
+    "data_uoa": "mobilenets-armcl-opencl",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "7698eaf859b79f2b",
+    "repo_uoa": "ck-request-asplos18-mobilenets-armcl-opencl",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl/tree/master/program/mobilenets-armcl-opencl/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl/tree/master/program/mobilenets-armcl-opencl",
+    "soft_name": "",
+    "stags": "armcl,benchmark,mobilenet,mobilenets,float,f32,vopencl",
+    "tags": [
+      "armcl",
+      "benchmark",
+      "mobilenet",
+      "mobilenets",
+      "float",
+      "f32",
+      "vopencl"
+    ],
+    "target_os": "android,linux,macos",
+    "template": "image classification via ArmCL",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl",
+    "version": ""
+  }
+}

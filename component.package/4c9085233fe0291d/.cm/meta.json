@@ -1,0 +1,67 @@
+{
+  "dict": {
+    "comment": "only sources without building",
+    "customize": {
+      "extra_dir": "",
+      "install_env": {
+        "VIENNACL_TAG": "release-1.7.1",
+        "VIENNACL_URL": "https://github.com/viennacl/viennacl-dev"
+      },
+      "version": "1.7.1"
+    },
+    "deps": {},
+    "end_full_path": {
+      "android": "src$#sep#$viennacl$#sep#$version.hpp",
+      "linux": "src/viennacl/version.hpp",
+      "mingw": "src\\viennacl\\version.hpp",
+      "win": "src\\viennacl\\version.hpp"
+    },
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "process_script": "install",
+    "soft_uoa": "f41d49bd23afa84b",
+    "suggested_path": "lib-viennacl",
+    "tags": [
+      "vsrc",
+      "lib",
+      "blas",
+      "opencl-blas",
+      "viennacl",
+      "v1.7.1",
+      "v1.7",
+      "v1",
+      "channel-stable"
+    ]
+  },
+  "misc": {
+    "data_uid": "4c9085233fe0291d",
+    "data_uoa": "lib-viennacl-1.7.1-src",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "d94a45b5be3072ba",
+    "repo_uoa": "ck-math",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-math/tree/master/package/lib-viennacl-1.7.1-src/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-math/tree/master/package/lib-viennacl-1.7.1-src",
+    "soft_name": "ViennaCL library",
+    "soft_uid": "f41d49bd23afa84b",
+    "soft_uoa": "lib.viennacl.src",
+    "stags": "vsrc,lib,blas,opencl-blas,viennacl,v1.7.1,v1.7,v1,channel-stable",
+    "tags": [
+      "vsrc",
+      "lib",
+      "blas",
+      "opencl-blas",
+      "viennacl",
+      "v1.7.1",
+      "v1.7",
+      "v1",
+      "channel-stable"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-math"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "dict": {
+    "backup_data_uid": "64769bf4da7e874e",
+    "compile_cmds": {
+      "default": {
+        "cmd": "../ck-compile$#script_ext#$"
+      }
+    },
+    "compile_deps": {
+      "compiler": {
+        "local": "yes",
+        "name": "C++ compiler",
+        "sort": 0,
+        "tags": "compiler,lang-cpp"
+      },
+      "lib-qt": {
+        "local": "yes",
+        "name": "Qt library",
+        "sort": 1,
+        "tags": "lib,qt"
+      }
+    },
+    "compiler_env": "CK_CXX",
+    "data_name": "dnn-desktop-demo",
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "run_cmds": {
+      "default": {
+        "dataset_tags": [],
+        "ignore_return_code": "no",
+        "run_time": {
+          "pre_process_via_ck": {
+            "script_name": "preprocess"
+          },
+          "run_cmd_main": "$#BIN_FILE#$",
+          "run_correctness_output_files": [],
+          "run_output_files": []
+        }
+      }
+    },
+    "run_deps": {
+      "lib-qt": {
+        "local": "yes",
+        "name": "Qt library",
+        "sort": 1,
+        "tags": "lib,qt"
+      }
+    },
+    "run_vars": {},
+    "tags": [
+      "dnn-desktop-demo"
+    ],
+    "target_file": "crowdsource-video-experiments-on-desktop",
+    "use_compile_script": "yes"
+  },
+  "misc": {
+    "data_uid": "64769bf4da7e874e",
+    "data_uoa": "dnn-desktop-demo",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "447abab2183bf4b5",
+    "repo_uoa": "ck-crowdsource-dnn-optimization",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/dividiti/ck-crowdsource-dnn-optimization/tree/master/program/dnn-desktop-demo/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/ck-crowdsource-dnn-optimization/tree/master/program/dnn-desktop-demo",
+    "soft_name": "",
+    "stags": "dnn-desktop-demo",
+    "tags": [
+      "dnn-desktop-demo"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-crowdsource-dnn-optimization",
+    "version": ""
+  }
+}

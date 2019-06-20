@@ -1,0 +1,49 @@
+{
+  "dict": {
+    "auto_detect": "no",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_TOOL_SYSML19_P3",
+      "only_for_host_os_tags": [
+        "linux"
+      ],
+      "soft_file": {
+        "linux": "runner.py"
+      },
+      "soft_path_example": {
+        "linux": "run_exp.sh"
+      }
+    },
+    "soft_name": "SysML'19 P3",
+    "tags": [
+      "tool",
+      "sysml19",
+      "p3"
+    ]
+  },
+  "misc": {
+    "auto_detect": "no",
+    "data_uid": "e8ad4fd0a0ebc4f7",
+    "data_uoa": "sysml19-p3",
+    "env_prefix": "CK_ENV_TOOL_SYSML19_P3",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ddab3e1f40f7b8c",
+    "repo_uoa": "reproduce-sysml19-paper-p3",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-sysml19-paper-p3/tree/master/soft/sysml19-p3/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-sysml19-paper-p3/tree/master/soft/sysml19-p3",
+    "soft_name": "SysML'19 P3",
+    "stags": "tool,sysml19,p3",
+    "tags": [
+      "tool",
+      "sysml19",
+      "p3"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:reproduce-sysml19-paper-p3"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "version": "1.0"
+    },
+    "end_full_path": {
+      "android": "bin$#sep#$show-cuda-devices",
+      "linux": "bin/show-cuda-devices",
+      "mingw": "bin\\show-cuda-devices.exe",
+      "win": "bin\\show-cuda-devices.exe"
+    },
+    "soft_uoa": "2d23c0324a4ca3bb",
+    "suggested_path": "show-cuda-devices",
+    "tags": [
+      "tool",
+      "show-cuda-devices",
+      "channel-stable"
+    ],
+    "template": "yes",
+    "template_type": "tool to show CUDA devices"
+  },
+  "misc": {
+    "data_uid": "0d85e5904e452202",
+    "data_uoa": "tool-show-cuda-devices",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/tool-show-cuda-devices/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/tool-show-cuda-devices",
+    "soft_name": "show-cuda-devices",
+    "soft_uid": "2d23c0324a4ca3bb",
+    "soft_uoa": "tool.show-cuda-devices",
+    "stags": "tool,show-cuda-devices,channel-stable",
+    "tags": [
+      "tool",
+      "show-cuda-devices",
+      "channel-stable"
+    ],
+    "target_os": "any",
+    "template": "tool to show CUDA devices",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_params_file": "ck-params.json",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_MODEL_CAFFE2",
+      "limit_recursion_dir_search": {
+        "linux": 3,
+        "win": 3
+      },
+      "soft_file": {
+        "linux": "predict_net.pb",
+        "win": "predict_net.pb"
+      }
+    },
+    "soft_name": "Caffe2 model (net and weights)",
+    "tags": [
+      "caffe2",
+      "net",
+      "weights",
+      "caffemodel2",
+      "bvlc"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "0512081c543edb2e",
+    "data_uoa": "model.caffe2",
+    "env_prefix": "CK_ENV_MODEL_CAFFE2",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "b8adffa0791cb38a",
+    "repo_uoa": "ck-caffe2",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-caffe2/tree/master/soft/model.caffe2/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-caffe2/tree/master/soft/model.caffe2",
+    "soft_name": "Caffe2 model (net and weights)",
+    "stags": "caffe2,net,weights,caffemodel2,bvlc",
+    "tags": [
+      "caffe2",
+      "net",
+      "weights",
+      "caffemodel2",
+      "bvlc"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-caffe2"
+  }
+}

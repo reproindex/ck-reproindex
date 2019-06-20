@@ -1,0 +1,129 @@
+{
+  "dict": {
+    "backup_data_uid": "a53400ba790a753f",
+    "data_name": "egsolver",
+    "no_compile": "yes",
+    "no_target_file": "yes",
+    "print_files_after_run": [
+      "stderr.log",
+      "stdout.log"
+    ],
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "run_cmds": {
+      "cpu-eg0": {
+        "ignore_return_code": "no",
+        "run_time": {
+          "post_process_via_ck": "no",
+          "run_cmd_main": "$<<CK_ENV_EG_BIN>>$ --input $<<CK_EG_INPUT>>$ --eg0 --cpu --timeout $<<CK_EG_TIMEOUT>>$ --noout",
+          "run_cmd_out1": "stdout.log",
+          "run_cmd_out2": "stderr.log",
+          "run_output_files": [
+            "stdout.log",
+            "stderr.log"
+          ]
+        }
+      },
+      "default": {
+        "ignore_return_code": "no",
+        "run_time": {
+          "post_process_cmds": [
+            "grep Solving stdout.log > test-postp.txt"
+          ],
+          "post_process_via_ck": "no",
+          "run_cmd_main": "$<<CK_ENV_EG_BIN>>$ --input $<<CK_EG_INPUT>>$ --eg --gpu --timeout $<<CK_EG_TIMEOUT>>$ --noout --tb $<<CK_EG_GPU_TB>>$",
+          "run_cmd_out1": "stdout.log",
+          "run_cmd_out2": "stderr.log",
+          "run_output_files": [
+            "stdout.log",
+            "stderr.log"
+          ]
+        }
+      },
+      "run-egsolver-experiment-cpu": {
+        "ignore_return_code": "no",
+        "run_deps": {
+          "dataset-egsolver": {
+            "local": "yes",
+            "name": "EGSolver",
+            "sort": 10,
+            "tags": "dataset,egsolver,graphs"
+          }
+        },
+        "run_time": {
+          "post_process_via_ck": "no",
+          "run_cmd_main": "../runner_cpu",
+          "run_cmd_out1": "stdout.log",
+          "run_cmd_out2": "stderr.log",
+          "run_output_files": [
+            "stdout.log",
+            "stderr.log"
+          ]
+        }
+      },
+      "run-egsolver-experiment-gpu": {
+        "ignore_return_code": "no",
+        "run_deps": {
+          "dataset-egsolver": {
+            "local": "yes",
+            "name": "EGSolver",
+            "sort": 10,
+            "tags": "dataset,egsolver,graphs"
+          }
+        },
+        "run_time": {
+          "post_process_via_ck": "no",
+          "run_cmd_main": "../runner_gpu",
+          "run_cmd_out1": "stdout.log",
+          "run_cmd_out2": "stderr.log",
+          "run_output_files": [
+            "stdout.log",
+            "stderr.log"
+          ]
+        }
+      }
+    },
+    "run_deps": {
+      "lib-egsolver": {
+        "local": "yes",
+        "name": "EGSolver",
+        "sort": 10,
+        "tags": "lib,egsolver,energy-games"
+      }
+    },
+    "run_vars": {
+      "CK_EG_ALG": "eg0",
+      "CK_EG_CPU_OMP_THREADS": 4,
+      "CK_EG_DATASET_PATH": "$CK_ENV_DATASET_EGSOLVER",
+      "CK_EG_DATASET_PATH_OUPUT": "",
+      "CK_EG_GPU_TB": 256,
+      "CK_EG_INPUT": "../prova.mpg.gz",
+      "CK_EG_TIMEOUT": 600,
+      "CK_EXTRA_OPT": "--noout"
+    },
+    "tags": [
+      "graph"
+    ]
+  },
+  "misc": {
+    "data_uid": "a53400ba790a753f",
+    "data_uoa": "egsolver",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "68121412a8ff317c",
+    "repo_uoa": "ck-graph-analytics",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-graph-analytics/tree/master/program/egsolver/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-graph-analytics/tree/master/program/egsolver",
+    "soft_name": "",
+    "stags": "graph",
+    "tags": [
+      "graph"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-graph-analytics",
+    "version": ""
+  }
+}

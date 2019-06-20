@@ -1,0 +1,40 @@
+{
+  "dict": {
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-rpi-optimization-results"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "4439c9443bbab749",
+          "repo_uoa": "ck-rpi-optimization",
+          "repo_url": "http://github.com/dividiti/ck-rpi-optimization"
+        },
+        {
+          "repo_uid": "4784a9da122ed85c",
+          "repo_uoa": "ck-assets"
+        },
+        {
+          "repo_uid": "18bb3d4130a4aaf9",
+          "repo_uoa": "ck-docker"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-rpi-optimization-results"
+    },
+    "data_uid": "147d284ae646bb5a",
+    "data_uoa": "ck-rpi-optimization-results",
+    "desc": "CK workflows, components, experimental results and interactive article about program crowd-tuning across Rapsberry Pi devices (see <a href=\"http://cKnowledge.org/rpi-crowd-tuning\">interactive report</a>).",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-rpi-optimization-results/tree/master/repo/ck-rpi-optimization-results/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-rpi-optimization-results/tree/master/repo/ck-rpi-optimization-results",
+    "tasks": {},
+    "to_get": "ck pull repo:ck-rpi-optimization-results",
+    "workflow_desc": "reproducible&nbsp;paper\n"
+  }
+}

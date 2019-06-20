@@ -1,0 +1,35 @@
+{
+  "dict": {
+    "actions": {
+      "process_hotcrp": {
+        "desc": "process JSON file from HOTCRP and generate table of artifacts"
+      }
+    },
+    "copyright": "See CK COPYRIGHT.txt for copyright details",
+    "desc": "automating artifact evaluation",
+    "developer": "Grigori Fursin",
+    "developer_email": "Grigori.Fursin@cTuning.org",
+    "developer_webpage": "http://fursin.net",
+    "license": "See CK LICENSE.txt for licensing details",
+    "workflow": "yes",
+    "workflow_type": "HotCRP automation pipeline"
+  },
+  "misc": {
+    "actions": {
+      "process_hotcrp": {
+        "url_api": "https://github.com/ctuning/ck-artifact-evaluation/tree/master/module/ae/module.py#L33"
+      }
+    },
+    "data_uid": "3d1704e44d9afc36",
+    "data_uoa": "ae",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "1b8b35474438bdbc",
+    "repo_uoa": "ck-artifact-evaluation",
+    "repo_url1": "https://github.com/ctuning/ck-artifact-evaluation/tree/master/module/ae/module.py",
+    "repo_url2": "https://github.com/ctuning/ck-artifact-evaluation/tree/master/module/ae/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:ck-artifact-evaluation",
+    "workflow": "HotCRP automation pipeline"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "comment": "CAREFUL - requires more the 1GB of free space",
+    "customize": {
+      "extra_dir": "",
+      "force_ask_path": "yes",
+      "install_env": {
+        "DATASET_FILE_NAME": "equiv-chekcing.tar.gz",
+        "DATASET_NAME": "equivalent-checking",
+        "NUM_OF_GRAPHS": "45",
+        "SRC_PATH": ""
+      },
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "yes",
+      "version": "1.0"
+    },
+    "end_full_path": {
+      "linux": "ABP_Onebit__datasize2_capacity1_windowsize1_eqbranching-bisim.mpg.gz"
+    },
+    "package_extra_name": " (EGSolver Graphs Equivalent Checking)",
+    "process_script": "install",
+    "soft_uoa": "04a7a93a5b1436a6",
+    "suggested_path": "dataset-egsolver-equiv-checking",
+    "tags": [
+      "dataset",
+      "graph",
+      "egsolver",
+      "large",
+      "realworld",
+      "equivalent"
+    ]
+  },
+  "misc": {
+    "data_uid": "88e4c62806d55c52",
+    "data_uoa": "dataset-egsolver-equiv-checking",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "68121412a8ff317c",
+    "repo_uoa": "ck-graph-analytics",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-graph-analytics/tree/master/package/dataset-egsolver-equiv-checking/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-graph-analytics/tree/master/package/dataset-egsolver-equiv-checking",
+    "soft_name": "EGSolver graph dataset",
+    "soft_uid": "04a7a93a5b1436a6",
+    "soft_uoa": "dataset.egsolver",
+    "stags": "dataset,graph,egsolver,large,realworld,equivalent",
+    "tags": [
+      "dataset",
+      "graph",
+      "egsolver",
+      "large",
+      "realworld",
+      "equivalent"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-graph-analytics"
+  }
+}

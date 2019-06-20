@@ -1,0 +1,76 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "install_env": {
+        "PACKAGE_SUB_DIR1": "lib"
+      },
+      "supported_python_ver2_on_linux": [
+        4,
+        5
+      ],
+      "supported_python_ver2_on_mac": [
+        4,
+        5
+      ],
+      "supported_python_ver2_on_win": [
+        5
+      ],
+      "version": "1.0"
+    },
+    "deps": {
+      "lib-python-scipy": {
+        "local": "yes",
+        "name": "SciPy Python library",
+        "sort": 10,
+        "tags": "lib,scipy,python-package"
+      }
+    },
+    "end_full_path_universal": "lib$#sep#$__init__.py",
+    "need_cpu_info": "yes",
+    "only_for_host_os_tags": [
+      "linux",
+      "windows"
+    ],
+    "only_for_target_os_tags": [
+      "linux",
+      "windows"
+    ],
+    "process_script": "install",
+    "soft_uoa": "f0a25d64c3891b4f",
+    "suggested_path": "hackathon",
+    "tags": [
+      "tool",
+      "hackathon",
+      "ck-quantum",
+      "quantum",
+      "v1"
+    ]
+  },
+  "misc": {
+    "data_uid": "e2bbefdc54d9cadd",
+    "data_uoa": "tool-hackathon",
+    "host_os": "linux,macos,windows",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "de640faafc01c0a0",
+    "repo_uoa": "ck-quantum",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-quantum/tree/master/package/tool-hackathon/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-quantum/tree/master/package/tool-hackathon",
+    "soft_name": "CK-Quantum Hackathon Module",
+    "soft_uid": "f0a25d64c3891b4f",
+    "soft_uoa": "lib.hackathon",
+    "stags": "tool,hackathon,ck-quantum,quantum,v1",
+    "tags": [
+      "tool",
+      "hackathon",
+      "ck-quantum",
+      "quantum",
+      "v1"
+    ],
+    "target_os": "linux,macos,windows",
+    "template": "",
+    "to_get": "ck pull repo:ck-quantum"
+  }
+}

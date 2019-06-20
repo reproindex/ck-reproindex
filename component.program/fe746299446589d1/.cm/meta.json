@@ -1,0 +1,108 @@
+{
+  "dict": {
+    "backup_data_uid": "fe746299446589d1",
+    "ck_to_env": {
+      "CK_AUX_TBD_SCRIPT": "script:1f6137fa79934028"
+    },
+    "data_name": "image-classification-resnet-tf",
+    "no_compile": "yes",
+    "no_target_file": "yes",
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "run_cmds": {
+      "train": {
+        "ignore_return_code": "no",
+        "run_deps": {
+          "lib-tensorflow": {
+            "local": "yes",
+            "name": "TensorFlow library",
+            "sort": 10,
+            "tags": "lib,tensorflow"
+          }
+        },
+        "run_time": {
+          "run_cmd_main": "$<<CK_AUX_TBD_SCRIPT>>$/scripts/imagenet-tf$#script_ext#$ resnet_v2_50"
+        }
+      },
+      "train-and-profile": {
+        "ignore_return_code": "no",
+        "run_deps": {
+          "lib-tensorflow": {
+            "local": "yes",
+            "name": "TensorFlow library (CUDA)",
+            "sort": 10,
+            "tags": "lib,tensorflow,vcuda"
+          }
+        },
+        "run_time": {
+          "run_cmd_main": "$<<CK_AUX_TBD_SCRIPT>>$/scripts/imagenet-tf$#script_ext#$ resnet_v2_50 --profile"
+        }
+      },
+      "train-and-profile-fp32": {
+        "ignore_return_code": "no",
+        "run_deps": {
+          "lib-tensorflow": {
+            "local": "yes",
+            "name": "TensorFlow library (CUDA)",
+            "sort": 10,
+            "tags": "lib,tensorflow,vcuda"
+          }
+        },
+        "run_time": {
+          "run_cmd_main": "$<<CK_AUX_TBD_SCRIPT>>$/scripts/imagenet-tf$#script_ext#$ resnet_v2_50 --profile-fp32"
+        }
+      }
+    },
+    "run_deps": {
+      "imagenet-train": {
+        "local": "yes",
+        "name": "ImageNet dataset (train, TensorFlow)",
+        "sort": 10,
+        "tags": "dataset,imagenet,raw,train-tf"
+      },
+      "python": {
+        "local": "yes",
+        "name": "Python interpreter (v3+)",
+        "sort": 5,
+        "tags": "compiler,python",
+        "version_from": [
+          3
+        ]
+      }
+    },
+    "run_vars": {
+      "BATCH_SIZE": 32,
+      "LEARNING_OPTIMIZER": "sgd",
+      "LEARNING_RATE": 0.1,
+      "LEARNING_RATE_DECAY_FACTOR": 0.1,
+      "NUM_EPOCHS_PER_DECAY": 30,
+      "WEIGHT_DECAY": 0.0001
+    },
+    "tags": [
+      "image-classification",
+      "tensorflow-image-classification"
+    ]
+  },
+  "misc": {
+    "data_uid": "fe746299446589d1",
+    "data_uoa": "image-classification-resnet-50-tf",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "90009e454e059d40",
+    "repo_uoa": "ck-tbd-suite",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tbd-suite/tree/master/program/image-classification-resnet-50-tf/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tbd-suite/tree/master/program/image-classification-resnet-50-tf",
+    "soft_name": "",
+    "stags": "image-classification,tensorflow-image-classification",
+    "tags": [
+      "image-classification",
+      "tensorflow-image-classification"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-tbd-suite",
+    "version": ""
+  }
+}

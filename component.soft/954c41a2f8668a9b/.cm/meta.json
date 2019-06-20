@@ -1,0 +1,43 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_LIB_PYTORCH",
+      "limit_recursion_dir_search": {
+        "linux": 5,
+        "win": 5
+      },
+      "soft_file_universal": "torch$#sep#$__init__.py"
+    },
+    "soft_name": "PyTorch library",
+    "tags": [
+      "lib",
+      "pytorch"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "954c41a2f8668a9b",
+    "data_uoa": "lib.pytorch",
+    "env_prefix": "CK_ENV_LIB_PYTORCH",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "9116e3c9d3784902",
+    "repo_uoa": "ck-pytorch",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-pytorch/tree/master/soft/lib.pytorch/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-pytorch/tree/master/soft/lib.pytorch",
+    "soft_name": "PyTorch library",
+    "stags": "lib,pytorch",
+    "tags": [
+      "lib",
+      "pytorch"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-pytorch"
+  }
+}

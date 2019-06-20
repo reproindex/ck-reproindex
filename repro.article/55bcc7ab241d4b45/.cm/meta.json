@@ -1,0 +1,40 @@
+{
+  "misc": {
+    "artifact_doi_url": "https://doi.org/10.1145/3229772",
+    "artifact_sources": "GitHub",
+    "artifact_sources_url": "https://github.com/uwsaml/vta",
+    "authors": "Thierry Moreau, Tianqi Chen, Luis Ceze",
+    "badge_acm_artifact_available": "",
+    "badge_acm_artifact_functional": "yes",
+    "badge_acm_artifact_reusable": "",
+    "badge_acm_results_replicated": "yes",
+    "badge_acm_results_reproduced": "",
+    "ck_repo_uid": "a1294586bce671ba",
+    "paper_doi_url": "https://doi.org/10.1145/3229762.3229766",
+    "paper_pdf_url": "",
+    "reproducibility_url": "http://cknowledge.org/request-cfp-asplos2018.html",
+    "results": "CK format",
+    "results_dashboard_url": "http://cKnowledge.org/dashboard/request.asplos18",
+    "results_url": "https://github.com/ctuning/ck-request-asplos18-results-resnet-tvm-fpga",
+    "tasks": {
+      "22a7270418ba03af": {
+        "data_uoa": "request-tvm-vta-pynq"
+      },
+      "5a91d416d88bb665": {
+        "data_uoa": "vta-pynq-server"
+      }
+    },
+    "title": "Leveraging the VTA-TVM Hardware-Software Stack for FPGA Acceleration of 8-bit ResNet-18 Inference",
+    "unified_artifact_appendix": "https://github.com/ctuning/ck-artifact-evaluation/tree/master/wfe/artifact-evaluation/templates",
+    "where": "ReQuEST-ASPLOS'18",
+    "where_url": "http://cKnowledge.org/request-cfp-asplos2018.html",
+    "workflow": "CK",
+    "workflow_url": "https://github.com/ctuning/ck-request-asplos18-resnet-tvm-fpga"
+  },
+  "tags": [
+    "papers",
+    "papers-request",
+    "papers-request-asplos",
+    "papers-request-asplos-2018"
+  ]
+}

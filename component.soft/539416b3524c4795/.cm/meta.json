@@ -1,0 +1,38 @@
+{
+  "dict": {
+    "auto_detect": "no",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_MODEL_MXNET"
+    },
+    "soft_name": "MXNet model (net and weights)",
+    "tags": [
+      "mxnetmodel"
+    ],
+    "template": "yes",
+    "template_type": "MXNet model"
+  },
+  "misc": {
+    "auto_detect": "no",
+    "data_uid": "539416b3524c4795",
+    "data_uoa": "model.mxnet",
+    "env_prefix": "CK_ENV_MODEL_MXNET",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "678494f8b520000f",
+    "repo_uoa": "ck-mxnet",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-mxnet/tree/master/soft/model.mxnet/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-mxnet/tree/master/soft/model.mxnet",
+    "soft_name": "MXNet model (net and weights)",
+    "stags": "mxnetmodel",
+    "tags": [
+      "mxnetmodel"
+    ],
+    "target_os": "any",
+    "template": "MXNet model",
+    "to_get": "ck pull repo:ck-mxnet"
+  }
+}

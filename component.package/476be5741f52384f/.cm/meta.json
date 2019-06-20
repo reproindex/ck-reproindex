@@ -1,0 +1,70 @@
+{
+  "dict": {
+    "aux_uoa": "4e3e9dd897f125bb",
+    "check_exit_status": "yes",
+    "customize": {
+      "extra_dir": "",
+      "install_env": {
+        "IMAGENET_VAL_MD5": "8627befdd8c2bcf305729020e9db354e",
+        "IMAGENET_VAL_URL": "http://cKnowledge.org/ai/data/ILSVRC2012_img_val_500_resized.tar"
+      },
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "yes",
+      "version": "2012"
+    },
+    "deps": {},
+    "end_full_path": {
+      "linux": "ILSVRC2012_val_00000001.JPEG",
+      "win": "ILSVRC2012_val_00000001.JPEG"
+    },
+    "need_cpu_info": "no",
+    "process_script": "install",
+    "soft_uoa": "ff47fc6a33b4b03b",
+    "suggested_path": "dataset-imagenet-ilsvrc2012-val-min-resized",
+    "tags": [
+      "dataset",
+      "imagenet",
+      "raw",
+      "val",
+      "caffe",
+      "ilsvrc2012",
+      "ilsvrc2012min",
+      "ilsvrc2012resized",
+      "small_dataset",
+      "resized",
+      "channel-stable"
+    ]
+  },
+  "misc": {
+    "data_uid": "476be5741f52384f",
+    "data_uoa": "imagenet-2012-val-min-resized",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/imagenet-2012-val-min-resized/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/imagenet-2012-val-min-resized",
+    "soft_name": "ImageNet dataset (validation)",
+    "soft_uid": "ff47fc6a33b4b03b",
+    "soft_uoa": "dataset.imagenet.val",
+    "stags": "dataset,imagenet,raw,val,caffe,ilsvrc2012,ilsvrc2012min,ilsvrc2012resized,small_dataset,resized,channel-stable",
+    "tags": [
+      "dataset",
+      "imagenet",
+      "raw",
+      "val",
+      "caffe",
+      "ilsvrc2012",
+      "ilsvrc2012min",
+      "ilsvrc2012resized",
+      "small_dataset",
+      "resized",
+      "channel-stable"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

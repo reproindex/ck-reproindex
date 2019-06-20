@@ -1,0 +1,45 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_BENCH_SYLT",
+      "limit_recursion_dir_search": {
+        "linux": 4,
+        "win": 4
+      },
+      "soft_file_universal": "trace_generator/trace_generator.h"
+    },
+    "soft_name": "Trace Generation and Replay Harness",
+    "tags": [
+      "bench",
+      "google",
+      "sylt"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "b50bf41c6bda616e",
+    "data_uoa": "bench.sylt",
+    "env_prefix": "CK_ENV_BENCH_SYLT",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1be6d862d67244da",
+    "repo_uoa": "ck-mlperf",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-mlperf/tree/master/soft/bench.sylt/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-mlperf/tree/master/soft/bench.sylt",
+    "soft_name": "Trace Generation and Replay Harness",
+    "stags": "bench,google,sylt",
+    "tags": [
+      "bench",
+      "google",
+      "sylt"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-mlperf"
+  }
+}

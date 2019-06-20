@@ -1,0 +1,47 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_LIB_HACKATHON",
+      "limit_recursion_dir_search": {
+        "linux": 5,
+        "win": 5
+      },
+      "soft_file": {
+        "linux": "hackathon/lib/hackathon.py"
+      }
+    },
+    "soft_name": "CK-Quantum Hackathon Module",
+    "tags": [
+      "tool",
+      "ck-quantum",
+      "hackathon"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "f0a25d64c3891b4f",
+    "data_uoa": "lib.hackathon",
+    "env_prefix": "CK_ENV_LIB_HACKATHON",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "de640faafc01c0a0",
+    "repo_uoa": "ck-quantum",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-quantum/tree/master/soft/lib.hackathon/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-quantum/tree/master/soft/lib.hackathon",
+    "soft_name": "CK-Quantum Hackathon Module",
+    "stags": "tool,ck-quantum,hackathon",
+    "tags": [
+      "tool",
+      "ck-quantum",
+      "hackathon"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-quantum"
+  }
+}

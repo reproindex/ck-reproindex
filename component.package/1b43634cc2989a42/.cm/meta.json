@@ -1,0 +1,67 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "git_src_dir": "src",
+      "install_env": {
+        "BAZEL_PATCH1": "aarch64.patch",
+        "BAZEL_PATCH2": "aarch64-is-64bit.patch",
+        "BAZEL_PATCH3": "javac-max-heap-500mb.patch",
+        "BAZEL_PATCH4": "non-64bit-unix-warning.patch",
+        "BAZEL_URL": "https://github.com/bazelbuild/bazel/releases/download/0.11.1/bazel-0.11.1-dist.zip",
+        "BAZEL_ZIP": "bazel-0.11.1-dist.zip"
+      },
+      "use_git_revision": "no",
+      "version": "0.11.1"
+    },
+    "deps": {},
+    "end_full_path": {
+      "linux": "install/bin/bazel"
+    },
+    "need_cpu_info": "yes",
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "process_script": "install",
+    "soft_uoa": "359f7730bd23ec60",
+    "suggested_path": "tool-bazel",
+    "tags": [
+      "tool",
+      "bazel",
+      "v0.11.1",
+      "v0.11",
+      "v0",
+      "channel-stable"
+    ]
+  },
+  "misc": {
+    "data_uid": "1b43634cc2989a42",
+    "data_uoa": "tool-bazel-0.11.1-linux",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/tool-bazel-0.11.1-linux/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/tool-bazel-0.11.1-linux",
+    "soft_name": "bazel",
+    "soft_uid": "359f7730bd23ec60",
+    "soft_uoa": "tool.bazel",
+    "stags": "tool,bazel,v0.11.1,v0.11,v0,channel-stable",
+    "tags": [
+      "tool",
+      "bazel",
+      "v0.11.1",
+      "v0.11",
+      "v0",
+      "channel-stable"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

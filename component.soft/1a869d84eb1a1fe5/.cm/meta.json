@@ -1,0 +1,45 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_BENCH_FAI_PEP",
+      "limit_recursion_dir_search": {
+        "linux": 4,
+        "win": 4
+      },
+      "soft_file_universal": "benchmarking/run_bench.py"
+    },
+    "soft_name": "AI benchmark from Facebook (FEI-PEP)",
+    "tags": [
+      "bench",
+      "facebook",
+      "fai-pep"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "1a869d84eb1a1fe5",
+    "data_uoa": "bench.fai-pep",
+    "env_prefix": "CK_ENV_BENCH_FAI_PEP",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1be6d862d67244da",
+    "repo_uoa": "ck-mlperf",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-mlperf/tree/master/soft/bench.fai-pep/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-mlperf/tree/master/soft/bench.fai-pep",
+    "soft_name": "AI benchmark from Facebook (FEI-PEP)",
+    "stags": "bench,facebook,fai-pep",
+    "tags": [
+      "bench",
+      "facebook",
+      "fai-pep"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-mlperf"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "install_env": {
+        "MXNET_PACKAGE_VER": "0.11.0"
+      },
+      "version": "0.11.0"
+    },
+    "deps": {
+      "python": {
+        "local": "yes",
+        "name": "Python",
+        "sort": 20,
+        "tags": "compiler,python"
+      }
+    },
+    "end_full_path_universal": "lib$#sep#$mxnet$#sep#$__init__.py",
+    "need_cpu_info": "yes",
+    "only_for_host_os_tags": [
+      "linux",
+      "windows"
+    ],
+    "only_for_target_os_tags": [
+      "linux",
+      "windows"
+    ],
+    "package_extra_name": " (prebuilt, cpu)",
+    "process_script": "install",
+    "soft_uoa": "73c2ba9aa134e3da",
+    "suggested_path": "mxnet-prebuilt-cpu",
+    "tags": [
+      "lib",
+      "mxnet",
+      "mxnet-cpu",
+      "v0.11.0",
+      "v0.11",
+      "v0",
+      "vprebuilt",
+      "vcpu",
+      "channel-stable"
+    ]
+  },
+  "misc": {
+    "data_uid": "720d42842c47ec84",
+    "data_uoa": "lib-mxnet-0.11.0-cpu",
+    "host_os": "linux,macos,windows",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "678494f8b520000f",
+    "repo_uoa": "ck-mxnet",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-mxnet/tree/master/package/lib-mxnet-0.11.0-cpu/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-mxnet/tree/master/package/lib-mxnet-0.11.0-cpu",
+    "soft_name": "MXNet library",
+    "soft_uid": "73c2ba9aa134e3da",
+    "soft_uoa": "lib.mxnet",
+    "stags": "lib,mxnet,mxnet-cpu,v0.11.0,v0.11,v0,vprebuilt,vcpu,channel-stable",
+    "tags": [
+      "lib",
+      "mxnet",
+      "mxnet-cpu",
+      "v0.11.0",
+      "v0.11",
+      "v0",
+      "vprebuilt",
+      "vcpu",
+      "channel-stable"
+    ],
+    "target_os": "linux,macos,windows",
+    "template": "",
+    "to_get": "ck pull repo:ck-mxnet"
+  }
+}

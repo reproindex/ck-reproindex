@@ -1,0 +1,92 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "git_src_dir": "src",
+      "install_env": {
+        "CK_TF_NEED_OPENCL": "NO",
+        "PACKAGE_GIT": "YES",
+        "PACKAGE_GIT_CHECKOUT": "eigen_sycl",
+        "PACKAGE_PATCH": "YES",
+        "PACKAGE_SUB_DIR": "src",
+        "PACKAGE_URL": "https://github.com/codeplaysoftware/tensorflow"
+      },
+      "version": "master"
+    },
+    "deps": {
+      "bazel": {
+        "local": "yes",
+        "name": "Bazel",
+        "sort": 10,
+        "tags": "tool,bazel",
+        "version_from": [
+          0,
+          10
+        ],
+        "version_to": [
+          0,
+          11,
+          99
+        ]
+      },
+      "python": {
+        "add_to_path": "yes",
+        "local": "yes",
+        "name": "Python",
+        "sort": 20,
+        "tags": "compiler,python"
+      }
+    },
+    "end_full_path": {
+      "linux": "lib/tensorflow/__init__.py"
+    },
+    "need_cpu_info": "yes",
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "package_extra_name": " (sycl, cpu)",
+    "process_script": "install",
+    "soft_uoa": "30db354f469bb178",
+    "suggested_path": "lib-tensorflow-sycl-cpu",
+    "tags": [
+      "lib",
+      "tensorflow",
+      "tensorflow-sycl",
+      "vcpu",
+      "vsrc"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "882656604ea47304",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "607a619656748d29",
+    "data_uoa": "lib-tensorflow-sycl-cpu",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "acb7cea44acac9c9",
+    "repo_uoa": "ck-tensorflow",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/lib-tensorflow-sycl-cpu/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/lib-tensorflow-sycl-cpu",
+    "soft_name": "TensorFlow library",
+    "soft_uid": "30db354f469bb178",
+    "soft_uoa": "lib.tensorflow",
+    "stags": "lib,tensorflow,tensorflow-sycl,vcpu,vsrc",
+    "tags": [
+      "lib",
+      "tensorflow",
+      "tensorflow-sycl",
+      "vcpu",
+      "vsrc"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:ck-tensorflow"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "actions": {
+    "add_index": {
+      "desc": "add index"
+    },
+    "get": {
+      "desc": "find specific components"
+    },
+    "html": {
+      "desc": "generate html"
+    },
+    "index": {
+      "desc": "index components"
+    }
+  },
+  "cfg-list-of-repos":"list-of-repos",
+  "desc": "index of CK repositories",
+  "module_deps": {
+    "component":"bd4513457990ba8f",
+    "program":"b0ac08fe1d3c2615",
+    "component.program": "37b8fd897f14d213",
+    "repo":"befd7892b0d469e9",
+    "cfg":"b34231a3467566f8"
+  }
+}

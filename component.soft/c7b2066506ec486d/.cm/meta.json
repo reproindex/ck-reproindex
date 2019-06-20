@@ -1,0 +1,39 @@
+{
+  "dict": {
+    "customize": {
+      "env_prefix": "CK_ENV_EG"
+    },
+    "soft_name": "EG Solver on Modern Parallel Architecture",
+    "tags": [
+      "lib",
+      "energy-games",
+      "games",
+      "gpu"
+    ]
+  },
+  "misc": {
+    "auto_detect": "no",
+    "data_uid": "c7b2066506ec486d",
+    "data_uoa": "lib.egsolver",
+    "env_prefix": "CK_ENV_EG",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "68121412a8ff317c",
+    "repo_uoa": "ck-graph-analytics",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-graph-analytics/tree/master/soft/lib.egsolver/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-graph-analytics/tree/master/soft/lib.egsolver",
+    "soft_name": "EG Solver on Modern Parallel Architecture",
+    "stags": "lib,energy-games,games,gpu",
+    "tags": [
+      "lib",
+      "energy-games",
+      "games",
+      "gpu"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-graph-analytics"
+  }
+}

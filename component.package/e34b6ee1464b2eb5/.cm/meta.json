@@ -1,0 +1,61 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "version": "0.16.2"
+    },
+    "deps": {
+      "lib-gmp": {
+        "local": "yes",
+        "name": "GMP library",
+        "tags": "lib,gmp"
+      }
+    },
+    "end_full_path": {
+      "linux": "lib/libcloog-isl.a",
+      "mingw": "lib\\libcloog-isl.a"
+    },
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "process_script": "process",
+    "soft_uoa": "7dadf96440b48611",
+    "suggested_path": "cloog",
+    "tags": [
+      "lib",
+      "cloog",
+      "v0.16.2",
+      "v0.16",
+      "v0"
+    ]
+  },
+  "misc": {
+    "data_uid": "e34b6ee1464b2eb5",
+    "data_uoa": "lib-cloog-0.16.2-isl",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "9482c22d7601b0df",
+    "repo_uoa": "reproduce-milepost-project",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/lib-cloog-0.16.2-isl/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/lib-cloog-0.16.2-isl",
+    "soft_name": "CLOOG library",
+    "soft_uid": "7dadf96440b48611",
+    "soft_uoa": "lib.cloog",
+    "stags": "lib,cloog,v0.16.2,v0.16,v0",
+    "tags": [
+      "lib",
+      "cloog",
+      "v0.16.2",
+      "v0.16",
+      "v0"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:reproduce-milepost-project"
+  }
+}

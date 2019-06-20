@@ -1,0 +1,72 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "comment": "MAY FAIL on Windows",
+    "customize": {
+      "extra_dir": "",
+      "force_ask_path": "yes",
+      "install_env": {
+        "PACKAGE_NAME": "VGG16.zip",
+        "PACKAGE_SKIP_LINUX_MAKE": "YES",
+        "PACKAGE_UNZIP": "YES",
+        "PACKAGE_URL": "https://www.dropbox.com/s/ztg6id2hn1i99bh",
+        "PACKAGE_WGET": "YES",
+        "PACKAGE_WGET_EXTRA": "-O VGG16.zip"
+      },
+      "meta_file": "model.ckpt-101500.meta",
+      "model_file": "model.ckpt-101500",
+      "model_id": "vgg16",
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "yes",
+      "sort": 100,
+      "version": "20161209"
+    },
+    "end_full_path": {
+      "linux": "model.ckpt-101500",
+      "win": "model.ckpt-101500"
+    },
+    "package_extra_name": " (VGG16)",
+    "process_script": "install",
+    "soft_uoa": "00ea54addb99aab8",
+    "suggested_path": "squeezedetmodel-vgg16",
+    "tags": [
+      "tensorflow",
+      "model",
+      "vgg16",
+      "vgg",
+      "squeezedetmodel",
+      "channel-stable"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "cd9ccc74060b3d18",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "e400e12234c049ce",
+    "data_uoa": "squeezedetmodel-vgg16",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "acb7cea44acac9c9",
+    "repo_uoa": "ck-tensorflow",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/squeezedetmodel-vgg16/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/squeezedetmodel-vgg16",
+    "soft_name": "TensorFlow model - SqueezeDet",
+    "soft_uid": "00ea54addb99aab8",
+    "soft_uoa": "model.squeezedet",
+    "stags": "tensorflow,model,vgg16,vgg,squeezedetmodel,channel-stable",
+    "tags": [
+      "tensorflow",
+      "model",
+      "vgg16",
+      "vgg",
+      "squeezedetmodel",
+      "channel-stable"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-tensorflow"
+  }
+}

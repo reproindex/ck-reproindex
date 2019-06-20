@@ -1,0 +1,57 @@
+{
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-autotuning"
+      },
+      {
+        "repo_uoa": "ck-dissemination-modules"
+      },
+      {
+        "repo_uoa": "ck-artifact-evaluation"
+      },
+      {
+        "repo_uoa": "ck-docker"
+      }
+    ],
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-request"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "a4328ba99679e0d1",
+          "repo_uoa": "ck-autotuning"
+        },
+        {
+          "repo_uid": "62a4f46acf5ff29e",
+          "repo_uoa": "ck-dissemination-modules"
+        },
+        {
+          "repo_uid": "1b8b35474438bdbc",
+          "repo_uoa": "ck-artifact-evaluation"
+        },
+        {
+          "repo_uid": "18bb3d4130a4aaf9",
+          "repo_uoa": "ck-docker"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-request"
+    },
+    "data_uid": "c51322a8eae14587",
+    "data_uoa": "ck-request",
+    "desc": "CK workflows, packages and components for <a href=\"http://cKnowledge.org/request\">ACM ReQuEST tournaments</a> on software/hardware co-design of Pareto-efficient deep learning and other emerging workloads.",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-request/tree/master/repo/ck-request/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-request/tree/master/repo/ck-request",
+    "tasks": {},
+    "to_get": "ck pull repo:ck-request",
+    "workflow_desc": ""
+  }
+}

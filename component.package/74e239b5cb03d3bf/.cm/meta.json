@@ -1,0 +1,86 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "git_src_dir": "src",
+      "install_env": {
+        "CLBLAST_URL": "https://github.com/DVEfremov/CLBlast"
+      },
+      "use_git_revision": "yes",
+      "version": "development"
+    },
+    "deps": {
+      "cmake": {
+        "local": "yes",
+        "name": "cmake",
+        "sort": 5,
+        "tags": "tool,cmake"
+      },
+      "compiler": {
+        "local": "yes",
+        "name": "C++ compiler",
+        "sort": 10,
+        "tags": "compiler,lang-cpp"
+      },
+      "opencl": {
+        "local": "yes",
+        "name": "OpenCL library",
+        "skip_default": "yes",
+        "sort": 20,
+        "tags": "lib,opencl"
+      }
+    },
+    "end_full_path": {
+      "android": "install$#sep#$lib$#sep#$libclblast.a"
+    },
+    "need_cpu_info": "yes",
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "android"
+    ],
+    "process_script": "install",
+    "soft_uoa": "7b81c6ad862f4b38",
+    "suggested_path": "lib-clblast",
+    "tags": [
+      "lib",
+      "blas",
+      "opencl-blas",
+      "clblast",
+      "vtrunk",
+      "vdev"
+    ],
+    "use_preprocess_scripts_from_another_entry": {
+      "data_uoa": "fd44428fbc77f77f",
+      "module_uoa": "84e27ad9dd12e734"
+    }
+  },
+  "misc": {
+    "data_uid": "74e239b5cb03d3bf",
+    "data_uoa": "lib-clblast-trunk-android",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "6d04bb400f29474d",
+    "repo_uoa": "ck-old-packages",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-old-packages/tree/master/package/lib-clblast-trunk-android/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-old-packages/tree/master/package/lib-clblast-trunk-android",
+    "soft_name": "CLBlast library",
+    "soft_uid": "7b81c6ad862f4b38",
+    "soft_uoa": "lib.clblast",
+    "stags": "lib,blas,opencl-blas,clblast,vtrunk,vdev",
+    "tags": [
+      "lib",
+      "blas",
+      "opencl-blas",
+      "clblast",
+      "vtrunk",
+      "vdev"
+    ],
+    "target_os": "android",
+    "template": "",
+    "to_get": "ck pull repo:ck-old-packages"
+  }
+}

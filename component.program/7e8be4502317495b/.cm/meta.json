@@ -1,0 +1,181 @@
+{
+  "dict": {
+    "backup_data_uid": "7e8be4502317495b",
+    "data_name": "sysml19-p3",
+    "main_language": "python",
+    "no_compile": "yes",
+    "no_target_file": "yes",
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "run_cmds": {
+      "inception-v3": {
+        "ignore_return_code": "no",
+        "print_files_after_run": [
+          "stderr.log",
+          "stdout.log"
+        ],
+        "run_deps": {
+          "imagenet-train-p3": {
+            "local": "yes",
+            "name": "ImageNet dataset (train, P3)",
+            "skip_from_bat": "yes",
+            "sort": 20,
+            "tags": "dataset,imagenet,raw,train-p3"
+          }
+        },
+        "run_time": {
+          "post_process_cmds": [
+            "python ../postprocess.py"
+          ],
+          "post_process_via_ck": "yes",
+          "pre_process_via_ck": {
+            "script_name": "preprocess"
+          },
+          "run_cmd_main": "..$#dir_sep#$ck_run$#script_ext#$",
+          "run_cmd_out1": "stdout.log",
+          "run_cmd_out2": "stderr.log",
+          "run_output_files": [
+            "stdout.log",
+            "stderr.log"
+          ],
+          "run_set_env2": {
+            "EXTRA_OPTS": "",
+            "IMAGE_SHAPE": "3,299,299",
+            "MODEL": "inception-v3"
+          }
+        }
+      },
+      "resnet": {
+        "ignore_return_code": "no",
+        "print_files_after_run": [
+          "stderr.log",
+          "stdout.log"
+        ],
+        "run_deps": {
+          "imagenet-train-p3": {
+            "local": "yes",
+            "name": "ImageNet dataset (train, P3)",
+            "skip_from_bat": "yes",
+            "sort": 20,
+            "tags": "dataset,imagenet,raw,train-p3"
+          }
+        },
+        "run_time": {
+          "post_process_cmds": [
+            "python ../postprocess.py"
+          ],
+          "post_process_via_ck": "yes",
+          "pre_process_via_ck": {
+            "script_name": "preprocess"
+          },
+          "run_cmd_main": "..$#dir_sep#$ck_run$#script_ext#$",
+          "run_cmd_out1": "stdout.log",
+          "run_cmd_out2": "stderr.log",
+          "run_output_files": [
+            "stdout.log",
+            "stderr.log"
+          ],
+          "run_set_env2": {
+            "EXTRA_OPTS": "--num-layers 50",
+            "IMAGE_SHAPE": "3,224,224",
+            "MODEL": "resnet"
+          }
+        }
+      },
+      "sockeye": {
+        "ignore_return_code": "no",
+        "run_time": {
+          "pre_process_via_ck": {
+            "script_name": "preprocess"
+          },
+          "run_cmd_main": "..$#dir_sep#$ck_run_sockeye$#script_ext#$",
+          "run_output_files": [
+            "stdout.log",
+            "stderr.log"
+          ],
+          "run_set_env2": {}
+        },
+        "sort": -100
+      },
+      "vgg": {
+        "ignore_return_code": "no",
+        "print_files_after_run": [
+          "stderr.log",
+          "stdout.log"
+        ],
+        "run_deps": {
+          "imagenet-train-p3": {
+            "local": "yes",
+            "name": "ImageNet dataset (train, P3)",
+            "skip_from_bat": "yes",
+            "sort": 20,
+            "tags": "dataset,imagenet,raw,train-p3"
+          }
+        },
+        "run_time": {
+          "post_process_cmds": [
+            "python ../postprocess.py"
+          ],
+          "post_process_via_ck": "yes",
+          "pre_process_via_ck": {
+            "script_name": "preprocess"
+          },
+          "run_cmd_main": "..$#dir_sep#$ck_run$#script_ext#$",
+          "run_cmd_out1": "stdout.log",
+          "run_cmd_out2": "stderr.log",
+          "run_output_files": [
+            "stdout.log",
+            "stderr.log"
+          ],
+          "run_set_env2": {
+            "EXTRA_OPTS": "--num-layers 19",
+            "IMAGE_SHAPE": "3,224,224",
+            "MODEL": "vgg"
+          }
+        },
+        "sort": 100
+      }
+    },
+    "run_deps": {
+      "tool-p3": {
+        "local": "yes",
+        "name": "SysML'19 P3 library",
+        "skip_from_bat": "yes",
+        "sort": 10,
+        "tags": "tool,p3"
+      }
+    },
+    "run_vars": {
+      "BATCH_SIZE": 32,
+      "OUTPUT_FILE": "../models/sockeye_1.5-iwslt15_en-vi.sh"
+    },
+    "tags": [
+      "program",
+      "sysml19",
+      "p3"
+    ]
+  },
+  "misc": {
+    "data_uid": "7e8be4502317495b",
+    "data_uoa": "sysml19-p3",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "1ddab3e1f40f7b8c",
+    "repo_uoa": "reproduce-sysml19-paper-p3",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-sysml19-paper-p3/tree/master/program/sysml19-p3/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-sysml19-paper-p3/tree/master/program/sysml19-p3",
+    "soft_name": "",
+    "stags": "program,sysml19,p3",
+    "tags": [
+      "program",
+      "sysml19",
+      "p3"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:reproduce-sysml19-paper-p3",
+    "version": ""
+  }
+}

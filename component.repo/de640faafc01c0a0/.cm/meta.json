@@ -1,0 +1,68 @@
+{
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-env",
+        "repo_url": "https://github.com/ctuning/ck-env"
+      },
+      {
+        "repo_uoa": "ck-rigetti",
+        "repo_url": "https://github.com/ctuning/ck-rigetti"
+      },
+      {
+        "repo_uoa": "ck-qiskit",
+        "repo_url": "https://github.com/ctuning/ck-qiskit"
+      }
+    ],
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-quantum"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "1ff43ae88715a8c1",
+          "repo_uoa": "ck-env",
+          "repo_url": "https://github.com/ctuning/ck-env"
+        },
+        {
+          "repo_uid": "18bb3d4130a4aaf9",
+          "repo_uoa": "ck-docker",
+          "repo_url": "https://github.com/ctuning/ck-docker"
+        },
+        {
+          "repo_uid": "6456e78d8c044a88",
+          "repo_uoa": "ck-rigetti",
+          "repo_url": "https://github.com/ctuning/ck-rigetti"
+        },
+        {
+          "repo_uid": "4f49a0bdde6167b4",
+          "repo_uoa": "ck-qiskit",
+          "repo_url": "https://github.com/ctuning/ck-qiskit"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-quantum"
+    },
+    "data_uid": "de640faafc01c0a0",
+    "data_uoa": "ck-quantum",
+    "desc": "CK workflows and components for open and reproducible <a href=\"http://cKnowledge.org/quantum\">Quantum hackathons</a>.",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-quantum/tree/master/repo/ck-quantum/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-quantum/tree/master/repo/ck-quantum",
+    "tasks": {
+      "89983c43e0ad01ac": {
+        "data_uoa": "benchmark-helper"
+      },
+      "c707814bd9b2f9e3": {
+        "data_uoa": "visualize-convergence"
+      }
+    },
+    "to_get": "ck pull repo:ck-quantum",
+    "workflow_desc": "programs"
+  }
+}

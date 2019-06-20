@@ -1,0 +1,84 @@
+{
+  "dict": {
+    "customize": {
+      "add_m32": "no",
+      "bugfix1": "yes",
+      "extra_dir": "",
+      "retarget": "no",
+      "tool_prefix_configured": "yes",
+      "version": "trunk"
+    },
+    "deps": {
+      "lib-cloog": {
+        "local": "yes",
+        "name": "Cloog library",
+        "sort": 50,
+        "tags": "lib,cloog"
+      },
+      "lib-gmp": {
+        "local": "yes",
+        "name": "GMP library",
+        "sort": 10,
+        "tags": "lib,gmp"
+      },
+      "lib-isl": {
+        "local": "yes",
+        "name": "ISL library",
+        "sort": 60,
+        "tags": "lib,isl"
+      },
+      "lib-mpc": {
+        "local": "yes",
+        "name": "MPC library",
+        "sort": 30,
+        "tags": "lib,mpc"
+      },
+      "lib-mpfr": {
+        "local": "yes",
+        "name": "MPFR library",
+        "sort": 20,
+        "tags": "lib,mpfr"
+      }
+    },
+    "end_full_path": {
+      "linux": "bin/gcc"
+    },
+    "need_cpu_info": "yes",
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "process_script": "process",
+    "soft_uoa": "3a8a82fa40bf992d",
+    "suggested_path": "gcc",
+    "tags": [
+      "compiler",
+      "gcc"
+    ]
+  },
+  "misc": {
+    "data_uid": "8f6b63e14d809ed7",
+    "data_uoa": "compiler-gcc-trunk-src-linux64",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "944d5b8a6b4ba2f8",
+    "repo_uoa": "ck-dev-compilers",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-dev-compilers/tree/master/package/compiler-gcc-trunk-src-linux64/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-dev-compilers/tree/master/package/compiler-gcc-trunk-src-linux64",
+    "soft_name": "GNU C compiler",
+    "soft_uid": "3a8a82fa40bf992d",
+    "soft_uoa": "compiler.gcc",
+    "stags": "compiler,gcc",
+    "tags": [
+      "compiler",
+      "gcc"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:ck-dev-compilers"
+  }
+}

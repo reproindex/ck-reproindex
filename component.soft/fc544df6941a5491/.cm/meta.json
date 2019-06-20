@@ -1,0 +1,53 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_LIB_ARMCL",
+      "limit_recursion_dir_search": {
+        "linux": 4,
+        "win": 4
+      },
+      "soft_file": {
+        "linux": "libarm_compute.a",
+        "win": "arm_compute.lib"
+      },
+      "soft_path_example": {}
+    },
+    "soft_name": "Arm Compute Library",
+    "tags": [
+      "lib",
+      "arm",
+      "armcl",
+      "arm-compute-library"
+    ],
+    "template": "yes",
+    "template_type": "ArmCL library"
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "fc544df6941a5491",
+    "data_uoa": "lib.armcl",
+    "env_prefix": "CK_ENV_LIB_ARMCL",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/lib.armcl/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/lib.armcl",
+    "soft_name": "Arm Compute Library",
+    "stags": "lib,arm,armcl,arm-compute-library",
+    "tags": [
+      "lib",
+      "arm",
+      "armcl",
+      "arm-compute-library"
+    ],
+    "target_os": "any",
+    "template": "ArmCL library",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "dict": {
+    "auto_detect": "no",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_BENCH_DEEP500",
+      "only_for_host_os_tags": [
+        "linux"
+      ],
+      "skip_version": "yes",
+      "soft_file": {
+        "linux": "setup.py"
+      },
+      "soft_path_example": {
+        "linux": "/usr/bin/deep500/setup.py"
+      }
+    },
+    "soft_name": "deep500",
+    "tags": [
+      "bench",
+      "deep500"
+    ]
+  },
+  "misc": {
+    "auto_detect": "no",
+    "data_uid": "28ae540a4810d8d7",
+    "data_uoa": "bench.deep500",
+    "env_prefix": "CK_ENV_BENCH_DEEP500",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/bench.deep500/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/bench.deep500",
+    "soft_name": "deep500",
+    "stags": "bench,deep500",
+    "tags": [
+      "bench",
+      "deep500"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

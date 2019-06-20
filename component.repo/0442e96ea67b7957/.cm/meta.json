@@ -1,0 +1,52 @@
+{
+  "dict": {
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-tvm"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "a4328ba99679e0d1",
+          "repo_uoa": "ck-autotuning"
+        },
+        {
+          "repo_uid": "d94a45b5be3072ba",
+          "repo_uoa": "ck-math"
+        },
+        {
+          "repo_uid": "4ffcc1307484d840",
+          "repo_uoa": "ctuning-datasets-min"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-tvm"
+    },
+    "data_uid": "0442e96ea67b7957",
+    "data_uoa": "ck-tvm",
+    "desc": "Portable/customizable installation and unified access to TVM/VTA AI frameworks with different workflows and data sets.",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tvm/tree/master/repo/ck-tvm/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tvm/tree/master/repo/ck-tvm",
+    "tasks": {
+      "61234d5d8f0cd62d": {
+        "data_uoa": "image-classification-tvm"
+      },
+      "7f04e452dbbbdbba": {
+        "data_uoa": "image-classification-vta-sim"
+      },
+      "abf64ec4b96612f2": {
+        "data_uoa": "image-classification-vta-pynq"
+      },
+      "c2e8ed8f342a88db": {
+        "data_uoa": "tvm-vta-pynq-server"
+      }
+    },
+    "to_get": "ck pull repo:ck-tvm",
+    "workflow_desc": "programs"
+  }
+}

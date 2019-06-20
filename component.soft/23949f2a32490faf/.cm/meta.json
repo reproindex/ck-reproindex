@@ -1,0 +1,51 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_LIB_BOOST",
+      "limit_recursion_dir_search": {
+        "linux": 3,
+        "win": 4
+      },
+      "soft_file": {
+        "linux": "libboost_system$#file_ext_dll#$",
+        "win": "libboost_system*-mt*$#file_ext_lib#$"
+      },
+      "soft_path_example": {
+        "linux": "/usr/lib/x86_64-linux-gnu/libboost_system.so",
+        "win": ""
+      }
+    },
+    "deps": {},
+    "soft_name": "Boost library",
+    "tags": [
+      "lib",
+      "boost"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "23949f2a32490faf",
+    "data_uoa": "lib.boost",
+    "env_prefix": "CK_ENV_LIB_BOOST",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/lib.boost/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/lib.boost",
+    "soft_name": "Boost library",
+    "stags": "lib,boost",
+    "tags": [
+      "lib",
+      "boost"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

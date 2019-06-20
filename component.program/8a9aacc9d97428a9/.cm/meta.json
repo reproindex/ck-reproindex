@@ -1,0 +1,30 @@
+{
+  "dict": {
+    "run_cmds": {
+      "default": {
+        "run_time": {
+          "run_cmd_main": "$<<CK_CUSTOM_AUTOTUNER_SCRIPT>>$"
+        }
+      }
+    }
+  },
+  "misc": {
+    "data_uid": "8a9aacc9d97428a9",
+    "data_uoa": "custom-autotuning-wrapper",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "a4328ba99679e0d1",
+    "repo_uoa": "ck-autotuning",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-autotuning/tree/master/program/custom-autotuning-wrapper/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-autotuning/tree/master/program/custom-autotuning-wrapper",
+    "soft_name": "",
+    "stags": "",
+    "tags": [],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-autotuning",
+    "version": ""
+  }
+}

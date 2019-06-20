@@ -1,0 +1,75 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {
+      "extra_dir": "",
+      "install_env": {
+        "MXNET_MODEL": "resnet-18",
+        "MXNET_MODEL_ID": "resnet18_v1",
+        "MXNET_MODEL_LABELS": "synset.txt",
+        "MXNET_URL_MODEL_LABELS": "http://data.mxnet.io/models/imagenet-11k"
+      },
+      "no_os_in_suggested_path": "yes",
+      "skip_file_check": "no",
+      "version": "resnet-18"
+    },
+    "deps": {
+      "lib-mxnet": {
+        "local": "yes",
+        "name": "MXNet library",
+        "skip_from_bat": "yes",
+        "sort": 10,
+        "tags": "lib,mxnet"
+      },
+      "python": {
+        "local": "yes",
+        "name": "Python",
+        "sort": 20,
+        "tags": "compiler,python"
+      },
+      "python-requests": {
+        "local": "yes",
+        "name": "requests Python package",
+        "skip_default": "yes",
+        "sort": 30,
+        "tags": "python-package,requests"
+      }
+    },
+    "end_full_path_universal": "synset.txt",
+    "package_extra_name": " (mxnet, resnet-18)",
+    "process_script": "install",
+    "soft_uoa": "539416b3524c4795",
+    "suggested_path": "mxnetmodel",
+    "tags": [
+      "mxnetmodel",
+      "resnet",
+      "resnet-18",
+      "channel-stable"
+    ]
+  },
+  "misc": {
+    "data_uid": "855d41e02d341cc9",
+    "data_uoa": "mxnetmodel-resnet-18",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "678494f8b520000f",
+    "repo_uoa": "ck-mxnet",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-mxnet/tree/master/package/mxnetmodel-resnet-18/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-mxnet/tree/master/package/mxnetmodel-resnet-18",
+    "soft_name": "MXNet model (net and weights)",
+    "soft_uid": "539416b3524c4795",
+    "soft_uoa": "model.mxnet",
+    "stags": "mxnetmodel,resnet,resnet-18,channel-stable",
+    "tags": [
+      "mxnetmodel",
+      "resnet",
+      "resnet-18",
+      "channel-stable"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-mxnet"
+  }
+}

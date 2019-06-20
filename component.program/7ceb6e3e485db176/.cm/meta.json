@@ -1,0 +1,154 @@
+{
+  "dict": {
+    "apk": {
+      "name": "com.antutu.ABenchMark"
+    },
+    "backup_data_uid": "7ceb6e3e485db176",
+    "ck_to_env": {
+      "CK_WA_SCRIPTS_PATH": "script:39157fb314f399ae"
+    },
+    "clean_dirs": [
+      "wa_output"
+    ],
+    "data_name": "WA workload: antutu",
+    "deps": {
+      "wa": {
+        "env_key": "WA",
+        "force_target_as_host": "yes",
+        "local": "yes",
+        "name": "ARM Workload Automation",
+        "sort": 10,
+        "tags": "tool,wa"
+      }
+    },
+    "no_compile": "yes",
+    "no_target_file": "yes",
+    "params": {
+      "check_abi": {
+        "allowed_values": null,
+        "default": false,
+        "desc": "If ``True``, workload will check that the APK matches the target device ABI, otherwise any APK found will be used.",
+        "mandatory": null,
+        "type": "boolean"
+      },
+      "check_apk": {
+        "allowed_values": null,
+        "default": true,
+        "desc": "When set to True the APK file on the host will be prefered if it is a valid version and ABI, if not it will fall back to the version on the targer. When set to False the target version is prefered.",
+        "mandatory": null,
+        "type": "boolean"
+      },
+      "enable_sd_tests": {
+        "allowed_values": null,
+        "default": false,
+        "desc": "If ``True`` enables SD card tests in pre version 4 AnTuTu. These tests were know to cause problems on platforms without an SD card. This parameter will be ignored on AnTuTu version 4 and higher."
+      },
+      "force_install": {
+        "allowed_values": null,
+        "default": false,
+        "desc": "Always re-install the APK, even if matching version is found already installed on the device. Runs ``adb install -r`` to ensure existing APK is replaced. When this is set, check_apk is ignored.",
+        "mandatory": null,
+        "type": "boolean"
+      },
+      "install_timeout": {
+        "allowed_values": null,
+        "default": 300,
+        "desc": "Timeout for the installation of the apk.",
+        "mandatory": null,
+        "type": "integer"
+      },
+      "modules": {
+        "allowed_values": null,
+        "default": null,
+        "desc": "Lists the modules to be loaded by this extension. A module is a plug-in that further extends functionality of an extension.",
+        "mandatory": null,
+        "type": "list"
+      },
+      "times": {
+        "allowed_values": null,
+        "default": 1,
+        "desc": "The number of times the benchmark will be executed in a row (i.e. without going through the full setup/teardown process). Note: this does not work with versions prior to 4.0.3."
+      },
+      "uninstall_apk": {
+        "allowed_values": null,
+        "default": false,
+        "desc": "If ``True``, will uninstall workload's APK as part of teardown.",
+        "mandatory": null,
+        "type": "boolean"
+      },
+      "version": {
+        "allowed_values": [
+          "3.3.2",
+          "4.0.3",
+          "5.3.0",
+          "6.0.1"
+        ],
+        "default": "5.3.0",
+        "desc": "Specify the version of AnTuTu to be run. If not specified, the latest available version will be used."
+      }
+    },
+    "print_files_after_run": [
+      "tmp-output2.tmp",
+      "wa_output/status.txt",
+      "wa_output/antutu_1_1/result.txt"
+    ],
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "required_device_access_type": [
+      "wa_android",
+      "wa_linux"
+    ],
+    "run_cmds": {
+      "default": {
+        "ignore_return_code": "no",
+        "run_time": {
+          "fine_grain_timer_file": "tmp-ck-timer.json",
+          "post_process_cmds": [
+            "python $<<CK_WA_SCRIPTS_PATH>>$$#dir_sep#$postprocess_workload.py"
+          ],
+          "post_process_via_ck": "yes",
+          "pre_process_via_ck": {
+            "data_uoa": "process-wa",
+            "module_uoa": "script",
+            "script_name": "preprocess_workload"
+          },
+          "run_cmd_main": "wa run $<<CK_WA_CMD>>$",
+          "run_cmd_out1": "tmp-output1.tmp",
+          "run_cmd_out2": "tmp-output2.tmp",
+          "run_output_files": []
+        }
+      }
+    },
+    "run_via_third_party": "yes",
+    "tags": [
+      "wa",
+      "workload-automation",
+      "antutu"
+    ],
+    "wa_alias": "antutu",
+    "wa_desc": "AnTuTu Benchmark is an benchmarking tool for Android Mobile Phone/Pad. It can run a full test of a key project, through the \"Memory Performance\",\"CPU Integer Performance\",\"CPU Floating point Performance\",\"2D 3D Graphics Performance\",\"SD card reading/writing speed\",\"Database IO\" performance testing, and gives accurate analysis for Andriod smart phones"
+  },
+  "misc": {
+    "data_uid": "7ceb6e3e485db176",
+    "data_uoa": "wa-antutu",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "cca2211feceec6dc",
+    "repo_uoa": "ck-wa-workloads",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-wa-workloads/tree/master/program/wa-antutu/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-wa-workloads/tree/master/program/wa-antutu",
+    "soft_name": "",
+    "stags": "wa,workload-automation,antutu",
+    "tags": [
+      "wa",
+      "workload-automation",
+      "antutu"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-wa-workloads",
+    "version": ""
+  }
+}

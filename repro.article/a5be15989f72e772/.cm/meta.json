@@ -1,0 +1,36 @@
+{
+  "misc": {
+    "artifact_doi_url": "",
+    "artifact_sources": "GitHub",
+    "artifact_sources_url": "https://github.com/ctuning/reproduce-milepost-project",
+    "authors": "Grigori Fursin, Cupertino Miranda, Olivier Temam, Mircea Namolaru, Elad Yom-Tov, Ayal Zaks, Bilha Mendelson, Edwin Bonilla, John Thomson, Hugh Leather, Chris Williams, Michael O'Boyle, Phil Barnard, Elton Ashton, Eric Courtois, François Bodin",
+    "badge_acm_artifact_available": "",
+    "badge_acm_artifact_functional": "",
+    "badge_acm_artifact_reusable": "",
+    "badge_acm_results_replicated": "",
+    "badge_acm_results_reproduced": "",
+    "ck_repo_uid": "9482c22d7601b0df",
+    "paper_doi_url": "https://hal.inria.fr/inria-00294704",
+    "paper_pdf_url": "https://hal.inria.fr/inria-00294704/document",
+    "reproducibility_url": "",
+    "results": "",
+    "results_dashboard_url": "http://cKnowledge.org/repo",
+    "results_url": "http://ctuning.org/wiki/index.php/CDatabase",
+    "some_results_replicated": "yes",
+    "tasks": {
+      "16a12a3fee44b659": {
+        "data_uoa": "sample-milepost-codelet"
+      }
+    },
+    "title": "MILEPOST GCC: machine learning based research compiler",
+    "unified_artifact_appendix": "",
+    "where": "GCC Summit'08",
+    "where_url": "",
+    "workflow": "CK",
+    "workflow_url": "https://github.com/ctuning/reproduce-milepost-project"
+  },
+  "tags": [
+    "papers",
+    "papers-reports"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "dict": {
+    "cm_data_description": {
+      "##abbreviation": {
+        "desc_text": "abbreviation",
+        "type": "text"
+      },
+      "##country": {
+        "desc_text": "country",
+        "type": "text"
+      },
+      "##name": {
+        "desc_text": "name",
+        "type": "text"
+      },
+      "##type": {
+        "choice": [
+          "university",
+          "company",
+          "governmental organization"
+        ],
+        "desc_text": "type",
+        "has_choice": "yes",
+        "type": "text"
+      },
+      "##urls": {
+        "desc_text": "organizaton URLs",
+        "skip_next_desc": "yes",
+        "type": "list",
+        "type_next": "values"
+      },
+      "##urls@$": {
+        "default_value": "",
+        "type": "url"
+      }
+    },
+    "copyright": "See CK COPYRIGHT.txt for copyright details",
+    "desc": "dissemination: organizations",
+    "developer": "Grigori Fursin",
+    "developer_email": "Grigori.Fursin@cTuning.org",
+    "developer_webpage": "http://fursin.net",
+    "license": "See CK LICENSE.txt for licensing details"
+  },
+  "misc": {
+    "actions": {},
+    "data_uid": "3594786b07dc710d",
+    "data_uoa": "organization",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "62a4f46acf5ff29e",
+    "repo_uoa": "ck-dissemination-modules",
+    "repo_url1": "https://github.com/ctuning/ck-dissemination-modules/tree/master/module/organization/module.py",
+    "repo_url2": "https://github.com/ctuning/ck-dissemination-modules/tree/master/module/organization/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:ck-dissemination-modules",
+    "workflow": ""
+  }
+}

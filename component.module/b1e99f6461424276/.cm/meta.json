@@ -1,0 +1,42 @@
+{
+  "dict": {
+    "actions": {
+      "set": {
+        "desc": "set variable in kernel"
+      },
+      "setup": {
+        "desc": "setup CK (user, license, indexing, web service, etc)"
+      }
+    },
+    "copyright": "See CK COPYRIGHT.txt for copyright details",
+    "desc": "kernel configuration",
+    "developer": "Grigori Fursin",
+    "developer_email": "Grigori.Fursin@cTuning.org",
+    "developer_webpage": "http://cTuning.org/lab/people/gfursin",
+    "license": "See CK LICENSE.txt for licensing details",
+    "module_deps": {
+      "repo": "befd7892b0d469e9"
+    }
+  },
+  "misc": {
+    "actions": {
+      "set": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/kernel/module.py#L463"
+      },
+      "setup": {
+        "url_api": "https://github.com/ctuning/ck/tree/master/ck/repo/module/kernel/module.py#L37"
+      }
+    },
+    "data_uid": "b1e99f6461424276",
+    "data_uoa": "kernel",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "604419a9fcc7a081",
+    "repo_uoa": "default",
+    "repo_url1": "https://github.com/ctuning/ck/tree/master/ck/repo/module/kernel/module.py",
+    "repo_url2": "https://github.com/ctuning/ck/tree/master/ck/repo/module/kernel/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "",
+    "workflow": ""
+  }
+}

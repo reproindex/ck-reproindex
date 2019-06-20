@@ -1,0 +1,56 @@
+{
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-autotuning",
+        "repo_url": "https://github.com/ctuning/ck-autotuning"
+      }
+    ],
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-rigetti"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "de640faafc01c0a0",
+          "repo_uoa": "ck-quantum",
+          "repo_url": "https://github.com/ctuning/ck-quantum"
+        },
+        {
+          "repo_uid": "a4328ba99679e0d1",
+          "repo_uoa": "ck-autotuning",
+          "repo_url": "https://github.com/ctuning/ck-autotuning"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-rigetti"
+    },
+    "data_uid": "6456e78d8c044a88",
+    "data_uoa": "ck-rigetti",
+    "desc": "CK workflow and components from Rigetti",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-rigetti/tree/master/repo/ck-rigetti/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-rigetti/tree/master/repo/ck-rigetti",
+    "tasks": {
+      "08a7c804ac3ab6f5": {
+        "data_uoa": "rigetti-vqe2"
+      },
+      "3e474f96394e39f4": {
+        "data_uoa": "qvm-server"
+      },
+      "8d1c41306f46808e": {
+        "data_uoa": "pyquil-demo"
+      },
+      "ae41be73ab84d73a": {
+        "data_uoa": "rigetti-vqe"
+      }
+    },
+    "to_get": "ck pull repo:ck-rigetti",
+    "workflow_desc": "programs"
+  }
+}

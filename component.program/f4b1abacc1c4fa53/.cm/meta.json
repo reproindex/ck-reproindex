@@ -1,0 +1,145 @@
+{
+  "dict": {
+    "backup_data_uid": "f4b1abacc1c4fa53",
+    "ck_to_env": {
+      "CK_WA_SCRIPTS_PATH": "script:39157fb314f399ae"
+    },
+    "clean_dirs": [
+      "wa_output"
+    ],
+    "data_name": "WA workload: dhrystone",
+    "deps": {
+      "android-sdk": {
+        "android-sdk": {
+          "force_target_as_host": "yes",
+          "local": "yes",
+          "name": "Android SDK",
+          "sort": 5,
+          "tags": "android,sdk"
+        },
+        "force_target_as_host": "yes",
+        "local": "yes",
+        "name": "Android SDK",
+        "sort": 5,
+        "tags": "android,sdk"
+      },
+      "wa": {
+        "env_key": "WA",
+        "force_target_as_host": "yes",
+        "local": "yes",
+        "name": "ARM Workload Automation",
+        "sort": 20,
+        "tags": "tool,wa"
+      }
+    },
+    "no_compile": "yes",
+    "no_target_file": "yes",
+    "params": {
+      "delay": {
+        "allowed_values": null,
+        "default": 0,
+        "desc": "The delay, in seconds, between kicking off of dhrystone threads (if ``threads`` > 1).",
+        "mandatory": null,
+        "type": "integer"
+      },
+      "duration": {
+        "allowed_values": null,
+        "default": 0,
+        "desc": "The duration, in seconds, for which dhrystone will be executed. Either this or ``mloops`` should be specified but not both.",
+        "mandatory": null,
+        "type": "integer"
+      },
+      "mloops": {
+        "allowed_values": null,
+        "default": 0,
+        "desc": "Millions of loops to run. Either this or ``duration`` should be specified, but not both. If neither is specified, this will default to ``100``",
+        "mandatory": null,
+        "type": "integer"
+      },
+      "modules": {
+        "allowed_values": null,
+        "default": null,
+        "desc": "Lists the modules to be loaded by this extension. A module is a plug-in that further extends functionality of an extension.",
+        "mandatory": null,
+        "type": "list"
+      },
+      "taskset_mask": {
+        "allowed_values": null,
+        "default": 0,
+        "desc": "The processes spawned by the workload will be pinned to cores as specified by this parameter",
+        "mandatory": null,
+        "type": "integer"
+      },
+      "threads": {
+        "allowed_values": null,
+        "default": 4,
+        "desc": "The number of separate dhrystone \"threads\" that will be forked.",
+        "mandatory": null,
+        "type": "integer"
+      }
+    },
+    "print_files_after_run": [
+      "tmp-output2.tmp",
+      "wa_output/status.txt",
+      "wa_output/dhrystone_1_1/result.txt"
+    ],
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "required_device_access_type": [
+      "wa_android",
+      "wa_linux"
+    ],
+    "run_cmds": {
+      "default": {
+        "ignore_return_code": "no",
+        "run_time": {
+          "fine_grain_timer_file": "tmp-ck-timer.json",
+          "post_process_cmds": [
+            "python $<<CK_WA_SCRIPTS_PATH>>$$#dir_sep#$postprocess_workload.py"
+          ],
+          "post_process_via_ck": "yes",
+          "pre_process_via_ck": {
+            "data_uoa": "process-wa",
+            "module_uoa": "script",
+            "script_name": "preprocess_workload"
+          },
+          "run_cmd_main": "wa run $<<CK_WA_CMD>>$",
+          "run_cmd_out1": "tmp-output1.tmp",
+          "run_cmd_out2": "tmp-output2.tmp",
+          "run_output_files": []
+        }
+      }
+    },
+    "run_via_third_party": "yes",
+    "tags": [
+      "wa",
+      "workload-automation",
+      "dhrystone"
+    ],
+    "wa_alias": "dhrystone",
+    "wa_desc": "Dhrystone benchmark"
+  },
+  "misc": {
+    "data_uid": "f4b1abacc1c4fa53",
+    "data_uoa": "wa-dhrystone",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "cca2211feceec6dc",
+    "repo_uoa": "ck-wa-workloads",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-wa-workloads/tree/master/program/wa-dhrystone/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-wa-workloads/tree/master/program/wa-dhrystone",
+    "soft_name": "",
+    "stags": "wa,workload-automation,dhrystone",
+    "tags": [
+      "wa",
+      "workload-automation",
+      "dhrystone"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-wa-workloads",
+    "version": ""
+  }
+}

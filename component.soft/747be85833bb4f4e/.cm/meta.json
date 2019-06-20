@@ -1,0 +1,51 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_DATASET_PET",
+      "limit_recursion_dir_search": {
+        "linux": 5
+      },
+      "soft_file": {
+        "linux": ""
+      }
+    },
+    "deps": {},
+    "soft_name": "The Oxford-IIIT PET Dataset",
+    "tags": [
+      "dataset",
+      "pet",
+      "oxford-iii",
+      "object-detection",
+      "images"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "747be85833bb4f4e",
+    "data_uoa": "dataset.pet",
+    "env_prefix": "CK_ENV_DATASET_PET",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "acb7cea44acac9c9",
+    "repo_uoa": "ck-tensorflow",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/soft/dataset.pet/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/soft/dataset.pet",
+    "soft_name": "The Oxford-IIIT PET Dataset",
+    "stags": "dataset,pet,oxford-iii,object-detection,images",
+    "tags": [
+      "dataset",
+      "pet",
+      "oxford-iii",
+      "object-detection",
+      "images"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-tensorflow"
+  }
+}

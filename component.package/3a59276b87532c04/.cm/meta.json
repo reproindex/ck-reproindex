@@ -1,0 +1,92 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "install_env": {
+        "PACKAGE_GIT": "YES",
+        "PACKAGE_NAME": "tool-coco",
+        "PACKAGE_SKIP_LINUX_MAKE": "YES",
+        "PACKAGE_SUB_DIR": "src",
+        "PACKAGE_URL": "https://github.com/cocodataset/cocoapi.git",
+        "TOOL_NAME": "tool-coco"
+      },
+      "version": "master"
+    },
+    "deps": {
+      "compiler": {
+        "local": "yes",
+        "name": "C compiler",
+        "sort": 0,
+        "tags": "compiler,lang-c,gcc"
+      },
+      "lib-python-matplotlib": {
+        "local": "yes",
+        "name": "Matplotlib python library",
+        "sort": 60,
+        "tags": "lib,python-package,matplotlib"
+      },
+      "lib-python-numpy": {
+        "local": "yes",
+        "name": "NumPy python library",
+        "sort": 60,
+        "tags": "lib,python-package,numpy"
+      },
+      "python": {
+        "add_to_path": "yes",
+        "local": "yes",
+        "name": "Python interpreter",
+        "sort": 10,
+        "tags": "compiler,python"
+      }
+    },
+    "end_full_path": {
+      "linux": "pycocotools/__init__.py"
+    },
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "process_script": "install",
+    "soft_uoa": "7432c898273fe70d",
+    "suggested_path": "tool-coco",
+    "tags": [
+      "tool",
+      "coco",
+      "api",
+      "vtrunk",
+      "vmaster"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "cd9ccc74060b3d18",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "3a59276b87532c04",
+    "data_uoa": "tool-coco",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/tool-coco/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/tool-coco",
+    "soft_name": "COCO dataset API",
+    "soft_uid": "7432c898273fe70d",
+    "soft_uoa": "tool.coco",
+    "stags": "tool,coco,api,vtrunk,vmaster",
+    "tags": [
+      "tool",
+      "coco",
+      "api",
+      "vtrunk",
+      "vmaster"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

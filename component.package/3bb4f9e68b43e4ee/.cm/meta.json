@@ -1,0 +1,92 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "git_src_dir": "src",
+      "install_env": {
+        "PACKAGE_NAME": "AggregaThor.zip",
+        "PACKAGE_URL": "https://zenodo.org/record/2548779/files",
+        "PACKAGE_WORK_DIR": "AggregaThor"
+      },
+      "version": "sysml19"
+    },
+    "deps": {
+      "lib-tensorflow": {
+        "add_to_path": "yes",
+        "local": "yes",
+        "name": "TensorFlow",
+        "sort": 20,
+        "tags": "lib,tensorflow,vprebuilt",
+        "version_from": [
+          1,
+          10,
+          1
+        ],
+        "version_to": [
+          1,
+          11,
+          999
+        ]
+      },
+      "python": {
+        "add_to_path": "yes",
+        "local": "yes",
+        "name": "Python",
+        "sort": 10,
+        "tags": "compiler,python",
+        "version_from": [
+          3,
+          5,
+          0
+        ]
+      }
+    },
+    "end_full_path": {
+      "linux": "AggregaThor/runner.py"
+    },
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "package_extra_name": " (zenodo snapshot for SysML'19 paper)",
+    "process_script": "install",
+    "soft_uoa": "ae86f545d6a4737f",
+    "sort": -100,
+    "suggested_path": "tool-sysml19-aggregathor-zenodo",
+    "tags": [
+      "tool",
+      "sysml19",
+      "aggregathor",
+      "vzenodo"
+    ],
+    "template": "yes",
+    "template_type": "simple package for artifact evaluation (SysML'19)"
+  },
+  "misc": {
+    "data_uid": "3bb4f9e68b43e4ee",
+    "data_uoa": "sysml19-aggregathor-zenodo",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "76d81ee9a38d4679",
+    "repo_uoa": "reproduce-sysml19-paper-aggregathor",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-sysml19-paper-aggregathor/tree/master/package/sysml19-aggregathor-zenodo/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-sysml19-paper-aggregathor/tree/master/package/sysml19-aggregathor-zenodo",
+    "soft_name": "SysML'19 AggregaThor",
+    "soft_uid": "ae86f545d6a4737f",
+    "soft_uoa": "sysml19-aggregathor",
+    "stags": "tool,sysml19,aggregathor,vzenodo",
+    "tags": [
+      "tool",
+      "sysml19",
+      "aggregathor",
+      "vzenodo"
+    ],
+    "target_os": "linux,macos",
+    "template": "simple package for artifact evaluation (SysML'19)",
+    "to_get": "ck pull repo:reproduce-sysml19-paper-aggregathor"
+  }
+}

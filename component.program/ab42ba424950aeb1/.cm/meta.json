@@ -1,0 +1,176 @@
+{
+  "dict": {
+    "apk": {
+      "name": "com.google.android.apps.books"
+    },
+    "backup_data_uid": "ab42ba424950aeb1",
+    "ck_to_env": {
+      "CK_WA_SCRIPTS_PATH": "script:39157fb314f399ae"
+    },
+    "clean_dirs": [
+      "wa_output"
+    ],
+    "data_name": "WA workload: googleplaybooks",
+    "deps": {
+      "wa": {
+        "env_key": "WA",
+        "force_target_as_host": "yes",
+        "local": "yes",
+        "name": "ARM Workload Automation",
+        "sort": 10,
+        "tags": "tool,wa"
+      }
+    },
+    "no_compile": "yes",
+    "no_target_file": "yes",
+    "params": {
+      "check_abi": {
+        "allowed_values": null,
+        "default": false,
+        "desc": "If ``True``, workload will check that the APK matches the target device ABI, otherwise any APK found will be used.",
+        "mandatory": null,
+        "type": "boolean"
+      },
+      "check_apk": {
+        "allowed_values": null,
+        "default": true,
+        "desc": "When set to True the APK file on the host will be prefered if it is a valid version and ABI, if not it will fall back to the version on the targer. When set to False the target version is prefered.",
+        "mandatory": null,
+        "type": "boolean"
+      },
+      "clean_assets": {
+        "allowed_values": null,
+        "default": false,
+        "desc": "If ``True`` pushed assets will be deleted at the end of each iteration",
+        "mandatory": null,
+        "type": "boolean"
+      },
+      "force_install": {
+        "allowed_values": null,
+        "default": false,
+        "desc": "Always re-install the APK, even if matching version is found already installed on the device. Runs ``adb install -r`` to ensure existing APK is replaced. When this is set, check_apk is ignored.",
+        "mandatory": null,
+        "type": "boolean"
+      },
+      "force_push_assets": {
+        "allowed_values": null,
+        "default": false,
+        "desc": "If ``True`` always push assets on each iteration, even if the assets already exists in the device path",
+        "mandatory": null,
+        "type": "boolean"
+      },
+      "install_timeout": {
+        "allowed_values": null,
+        "default": 300,
+        "desc": "Timeout for the installation of the apk.",
+        "mandatory": null,
+        "type": "integer"
+      },
+      "markers_enabled": {
+        "allowed_values": null,
+        "default": false,
+        "desc": "If ``True``, UX_PERF action markers will be emitted to logcat during the test run.",
+        "mandatory": null,
+        "type": "boolean"
+      },
+      "modules": {
+        "allowed_values": null,
+        "default": null,
+        "desc": "Lists the modules to be loaded by this extension. A module is a plug-in that further extends functionality of an extension.",
+        "mandatory": null,
+        "type": "list"
+      },
+      "search_book_title": {
+        "allowed_values": null,
+        "default": "Hamlet",
+        "desc": "The book title to search for within Google Play Books archive. The book must either be already in the account's library, or free to purchase.",
+        "mandatory": false,
+        "type": "str"
+      },
+      "search_word": {
+        "allowed_values": null,
+        "default": "the",
+        "desc": "The word to search for within a selected book. Note: Accepts single words only.",
+        "mandatory": false,
+        "type": "str"
+      },
+      "select_chapter_page_number": {
+        "allowed_values": null,
+        "default": 22,
+        "desc": "The Page Number to search for within a selected book's Chapter list. Note: Accepts integers only.",
+        "mandatory": false,
+        "type": "integer"
+      },
+      "uninstall_apk": {
+        "allowed_values": null,
+        "default": false,
+        "desc": "If ``True``, will uninstall workload's APK as part of teardown.",
+        "mandatory": null,
+        "type": "boolean"
+      }
+    },
+    "print_files_after_run": [
+      "tmp-output2.tmp",
+      "wa_output/status.txt",
+      "wa_output/googleplaybooks_1_1/result.txt"
+    ],
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "required_device_access_type": [
+      "wa_android",
+      "wa_linux"
+    ],
+    "run_cmds": {
+      "default": {
+        "ignore_return_code": "no",
+        "run_time": {
+          "fine_grain_timer_file": "tmp-ck-timer.json",
+          "post_process_cmds": [
+            "python $<<CK_WA_SCRIPTS_PATH>>$$#dir_sep#$postprocess_workload.py"
+          ],
+          "post_process_via_ck": "yes",
+          "pre_process_via_ck": {
+            "data_uoa": "process-wa",
+            "module_uoa": "script",
+            "script_name": "preprocess_workload"
+          },
+          "run_cmd_main": "wa run $<<CK_WA_CMD>>$",
+          "run_cmd_out1": "tmp-output1.tmp",
+          "run_cmd_out2": "tmp-output2.tmp",
+          "run_output_files": []
+        }
+      }
+    },
+    "run_via_third_party": "yes",
+    "tags": [
+      "wa",
+      "workload-automation",
+      "googleplaybooks"
+    ],
+    "wa_alias": "googleplaybooks",
+    "wa_desc": "A workload to perform standard productivity tasks with googleplaybooks. This workload performs various tasks, such as searching for a book title online, browsing through a book, adding and removing notes, word searching, and querying information about the book"
+  },
+  "misc": {
+    "data_uid": "ab42ba424950aeb1",
+    "data_uoa": "wa-googleplaybooks",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "cca2211feceec6dc",
+    "repo_uoa": "ck-wa-workloads",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-wa-workloads/tree/master/program/wa-googleplaybooks/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-wa-workloads/tree/master/program/wa-googleplaybooks",
+    "soft_name": "",
+    "stags": "wa,workload-automation,googleplaybooks",
+    "tags": [
+      "wa",
+      "workload-automation",
+      "googleplaybooks"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-wa-workloads",
+    "version": ""
+  }
+}

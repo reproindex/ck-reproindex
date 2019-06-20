@@ -1,0 +1,97 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {
+      "extra_dir": "",
+      "force_ask_path": "no",
+      "install_env": {},
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "no",
+      "params": {
+        "deploy": {
+          "substitute": {
+            "batch_size": 1
+          },
+          "template": "deploy.prototxt"
+        }
+      },
+      "skip_file_check": "yes",
+      "version": "bvlc-googlenet"
+    },
+    "deps": {
+      "caffemodel": {
+        "local": "yes",
+        "name": "GoogleNet",
+        "sort": 20,
+        "tags": "caffemodel,bvlc,googlenet"
+      },
+      "dataset-imagenet-aux": {
+        "add_to_path": "no",
+        "local": "yes",
+        "name": "ImageNet dataset (aux)",
+        "sort": 30,
+        "tags": "dataset,imagenet,aux"
+      },
+      "sdk-kann": {
+        "local": "yes",
+        "name": "KaNN Development Package",
+        "sort": 10,
+        "tags": "sdk,kann"
+      }
+    },
+    "end_full_path": {
+      "linux": "generated/multibin_bin.mpk"
+    },
+    "features": {
+      "accuracy": 0.689299,
+      "accuracy_top5": 0.891441,
+      "model_size_mb": 54
+    },
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "package_extra_name": " (bvlc, googlenet)",
+    "process_script": "convert",
+    "soft_uoa": "2025bf79b2048719",
+    "suggested_path": "kannmodel",
+    "tags": [
+      "kann",
+      "kannmodel",
+      "bvlc",
+      "googlenet"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "caffe2kann",
+      "module_uoa": "script",
+      "repo_uoa": "ck-kann"
+    }
+  },
+  "misc": {
+    "data_uid": "b84a2fbb8237805d",
+    "data_uoa": "kannmodel-bvlc-googlenet",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "aa8299de464392e3",
+    "repo_uoa": "ck-kann",
+    "repo_url1": "",
+    "repo_url2": "http://github.com/ctuning/ck-kann/tree/master/package/kannmodel-bvlc-googlenet/.cm/meta.json",
+    "repo_url3": "http://github.com/ctuning/ck-kann/tree/master/package/kannmodel-bvlc-googlenet",
+    "soft_name": "KaNN model (net and weights)",
+    "soft_uid": "2025bf79b2048719",
+    "soft_uoa": "model.kann",
+    "stags": "kann,kannmodel,bvlc,googlenet",
+    "tags": [
+      "kann",
+      "kannmodel",
+      "bvlc",
+      "googlenet"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:ck-kann"
+  }
+}

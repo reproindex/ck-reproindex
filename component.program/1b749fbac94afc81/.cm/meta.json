@@ -1,0 +1,68 @@
+{
+  "dict": {
+    "backup_data_uid": "1b749fbac94afc81",
+    "compile_deps": {
+      "lib-tensorflow": {
+        "local": "yes",
+        "name": "TensorFlow library",
+        "skip_default": "yes",
+        "skip_pruning_by_other_deps": "yes",
+        "sort": 10,
+        "tags": "lib,tensorflow"
+      },
+      "tensorflow-model": {
+        "local": "yes",
+        "name": "TensorFlow model (net and weights)",
+        "sort": 20,
+        "tags": "tensorflowmodel,native"
+      }
+    },
+    "data_name": "tensorflow-classification",
+    "no_compile": "yes",
+    "no_target_file": "yes",
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "run_cmds": {
+      "default": {
+        "dataset_tags": [
+          "image",
+          "jpeg",
+          "dataset"
+        ],
+        "ignore_return_code": "no",
+        "run_time": {
+          "run_cmd_main": "$<<CK_ENV_COMPILER_PYTHON_FILE>>$ ../classify_image.py --model_dir=$<<CK_ENV_MODEL_TENSORFLOW>>$ --image_file=$#dataset_path#$$#dataset_filename#$"
+        }
+      }
+    },
+    "run_vars": {},
+    "tags": [
+      "tensorflow-classification",
+      "ck-ai-image-classification",
+      "demo"
+    ]
+  },
+  "misc": {
+    "data_uid": "1b749fbac94afc81",
+    "data_uoa": "tensorflow-classification",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "acb7cea44acac9c9",
+    "repo_uoa": "ck-tensorflow",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/program/tensorflow-classification/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/program/tensorflow-classification",
+    "soft_name": "",
+    "stags": "tensorflow-classification,ck-ai-image-classification,demo",
+    "tags": [
+      "tensorflow-classification",
+      "ck-ai-image-classification",
+      "demo"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-tensorflow",
+    "version": ""
+  }
+}

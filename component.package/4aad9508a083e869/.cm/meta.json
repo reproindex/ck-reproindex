@@ -1,0 +1,58 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {
+      "extra_dir": "",
+      "install_env": {
+        "PACKAGE_NAME1": "imagenet1k_train.rec",
+        "PACKAGE_NAME2": "imagenet1k_val.rec",
+        "PACKAGE_URL1": "ftp://198.162.52.84/pub",
+        "PACKAGE_URL2": "ftp://198.162.52.84/pub"
+      },
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "yes",
+      "version": "2012"
+    },
+    "end_full_path_universal": "install/imagenet1k_train.rec",
+    "need_cpu_info": "no",
+    "package_extra_name": " (author's FTP, ready, ~46GB)",
+    "process_script": "install",
+    "soft_uoa": "ba4e60824bd329f8",
+    "suggested_path": "dataset-imagenet-ilsvrc2012-train-p3-ready",
+    "tags": [
+      "dataset",
+      "imagenet",
+      "raw",
+      "train-p3",
+      "ilsvrc2012",
+      "ready"
+    ]
+  },
+  "misc": {
+    "data_uid": "4aad9508a083e869",
+    "data_uoa": "dataset-imagenet-2012-train-p3-ready",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "1ddab3e1f40f7b8c",
+    "repo_uoa": "reproduce-sysml19-paper-p3",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-sysml19-paper-p3/tree/master/package/dataset-imagenet-2012-train-p3-ready/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-sysml19-paper-p3/tree/master/package/dataset-imagenet-2012-train-p3-ready",
+    "soft_name": "ImageNet dataset (train, MXNet)",
+    "soft_uid": "ba4e60824bd329f8",
+    "soft_uoa": "dataset.imagenet.train.mxnet",
+    "stags": "dataset,imagenet,raw,train-p3,ilsvrc2012,ready",
+    "tags": [
+      "dataset",
+      "imagenet",
+      "raw",
+      "train-p3",
+      "ilsvrc2012",
+      "ready"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:reproduce-sysml19-paper-p3"
+  }
+}

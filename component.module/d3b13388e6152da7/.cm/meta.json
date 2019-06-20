@@ -1,0 +1,51 @@
+{
+  "dict": {
+    "actions": {
+      "analyze": {
+        "desc": "analyze variation of experimental results including multiple expected values"
+      },
+      "geometric_mean": {
+        "desc": "calculating geometric mean"
+      },
+      "process_plus_minus": {
+        "desc": "convert plus minus vars to user friendly strings"
+      },
+      "speedup": {
+        "desc": "analyze speedup"
+      }
+    },
+    "copyright": "See CK COPYRIGHT.txt for copyright details",
+    "desc": "analyzing variation of experimental results (min,max,average,expected values,etc)",
+    "developer": "Grigori Fursin",
+    "developer_email": "Grigori.Fursin@cTuning.org",
+    "developer_webpage": "http://fursin.net",
+    "license": "See CK LICENSE.txt for licensing details"
+  },
+  "misc": {
+    "actions": {
+      "analyze": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/math.variation/module.py#L33"
+      },
+      "geometric_mean": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/math.variation/module.py#L282"
+      },
+      "process_plus_minus": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/math.variation/module.py#L308"
+      },
+      "speedup": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/math.variation/module.py#L174"
+      }
+    },
+    "data_uid": "d3b13388e6152da7",
+    "data_uoa": "math.variation",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "76c4424a1473c873",
+    "repo_uoa": "ck-analytics",
+    "repo_url1": "https://github.com/ctuning/ck-analytics/tree/master/module/math.variation/module.py",
+    "repo_url2": "https://github.com/ctuning/ck-analytics/tree/master/module/math.variation/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:ck-analytics",
+    "workflow": ""
+  }
+}

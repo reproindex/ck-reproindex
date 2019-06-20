@@ -1,0 +1,65 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {
+      "extra_dir": "",
+      "force_cmd_version_detection": "yes",
+      "git_src_dir": "src",
+      "install_env": {
+        "WA_URL": "https://github.com/ARM-software/workload-automation"
+      },
+      "skip_file_check": "yes",
+      "soft_version_cmd": {
+        "linux": "wa --version > $#filename#$ 2>&1",
+        "win": "wa --version > $#filename#$ 2>&1"
+      },
+      "soft_version_skip_add_target_file": "yes",
+      "use_git_revision": "yes",
+      "version": "trunk"
+    },
+    "end_full_path": {
+      "android": "src$#sep#$scripts$#sep#$wa",
+      "linux": "src/scripts/wa"
+    },
+    "only_for_host_os_tags": [
+      "linux",
+      "windows"
+    ],
+    "only_for_target_os_tags": [
+      "linux",
+      "android"
+    ],
+    "process_script": "process",
+    "soft_uoa": "65d719061a41f7ae",
+    "suggested_path": "tool-arm-wa",
+    "tags": [
+      "tool",
+      "arm",
+      "wa"
+    ]
+  },
+  "misc": {
+    "data_uid": "6976e5ab692baf91",
+    "data_uoa": "arm-wa-github",
+    "host_os": "linux,macos,windows",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "410382d03df408ec",
+    "repo_uoa": "ck-wa",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/dividiti/ck-wa/tree/master/package/arm-wa-github/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/ck-wa/tree/master/package/arm-wa-github",
+    "soft_name": "ARM workload automation tool",
+    "soft_uid": "65d719061a41f7ae",
+    "soft_uoa": "tool.arm.wa",
+    "stags": "tool,arm,wa",
+    "tags": [
+      "tool",
+      "arm",
+      "wa"
+    ],
+    "target_os": "linux,macos,android",
+    "template": "",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-wa"
+  }
+}

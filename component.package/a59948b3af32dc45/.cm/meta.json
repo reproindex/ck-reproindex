@@ -1,0 +1,52 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "version": "4.13"
+    },
+    "end_full_path": {
+      "linux": "bin/info",
+      "mingw": "bin\\info"
+    },
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "process_script": "process",
+    "soft_uoa": "8217f73a34c3ba52",
+    "suggested_path": "texinfo",
+    "tags": [
+      "tool",
+      "texinfo",
+      "v4.13",
+      "v4"
+    ]
+  },
+  "misc": {
+    "data_uid": "a59948b3af32dc45",
+    "data_uoa": "tool-texinfo-4.13a",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "9482c22d7601b0df",
+    "repo_uoa": "reproduce-milepost-project",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/tool-texinfo-4.13a/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/tool-texinfo-4.13a",
+    "soft_name": "texinfo",
+    "soft_uid": "8217f73a34c3ba52",
+    "soft_uoa": "tool.texinfo",
+    "stags": "tool,texinfo,v4.13,v4",
+    "tags": [
+      "tool",
+      "texinfo",
+      "v4.13",
+      "v4"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:reproduce-milepost-project"
+  }
+}

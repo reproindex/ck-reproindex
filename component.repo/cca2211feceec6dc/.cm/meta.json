@@ -1,0 +1,248 @@
+{
+  "dict": {
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-wa-workloads"
+  },
+  "misc": {
+    "ckr": {
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-wa-workloads"
+    },
+    "data_uid": "cca2211feceec6dc",
+    "data_uoa": "ck-wa-workloads",
+    "desc": "ARM's workloads in the universal Collective Knowledge Format with JSON API and JSON meta information to power Workload Automation Framework",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-wa-workloads/tree/master/repo/ck-wa-workloads/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-wa-workloads/tree/master/repo/ck-wa-workloads",
+    "tasks": {
+      "01c87e7efca7e532": {
+        "data_uoa": "wa-hwuitest"
+      },
+      "0db34adba3e54764": {
+        "data_uoa": "wa-googlemap"
+      },
+      "0f3984713a489cd9": {
+        "data_uoa": "wa-spec2000"
+      },
+      "10f44946bd9cfcc4": {
+        "data_uoa": "wa-rt-app"
+      },
+      "1671ce99a635451d": {
+        "data_uoa": "wa-real-linpack"
+      },
+      "19c2194f90a1eac9": {
+        "data_uoa": "wa-angrybirds"
+      },
+      "1b19bfc656ae476d": {
+        "data_uoa": "wa-idle"
+      },
+      "1ec9dd849a7037c9": {
+        "data_uoa": "wa-ebizzy"
+      },
+      "1f0867a77f9a418b": {
+        "data_uoa": "wa-youtube"
+      },
+      "2415143d9ab419d4": {
+        "data_uoa": "wa-sqlitebm"
+      },
+      "27732f48eb946d2a": {
+        "data_uoa": "wa-audio"
+      },
+      "2b4574a5053cda8d": {
+        "data_uoa": "wa-vellamo"
+      },
+      "2c16481bcfd483b8": {
+        "data_uoa": "wa-cyclictest"
+      },
+      "2d34fe461fb1ac23": {
+        "data_uoa": "wa-lmbench"
+      },
+      "307488e813ececa7": {
+        "data_uoa": "wa-manual"
+      },
+      "359cdc36e3384682": {
+        "data_uoa": "wa-googlephotos"
+      },
+      "365446f4a27d5177": {
+        "data_uoa": "wa-smartbench"
+      },
+      "399425451d314999": {
+        "data_uoa": "wa-power_loadtest"
+      },
+      "39b81533ec3ccb56": {
+        "data_uoa": "dhrystone"
+      },
+      "39bf000911eb23f6": {
+        "data_uoa": "wa-recentfling"
+      },
+      "3cd97c0286445686": {
+        "data_uoa": "wa-geekbench"
+      },
+      "4394c4a81b234e44": {
+        "data_uoa": "wa-camerarecord"
+      },
+      "4434ca3faf08a406": {
+        "data_uoa": "wa-facebook"
+      },
+      "446f8b6c918434de": {
+        "data_uoa": "wa-dungeondefenders"
+      },
+      "4b76935a39bb08a7": {
+        "data_uoa": "wa-applaunch"
+      },
+      "4c270dc331e4ed4a": {
+        "data_uoa": "wa-ironman3"
+      },
+      "4c278541b6e6da7c": {
+        "data_uoa": "wa-benchmarkpi"
+      },
+      "4c4a18a8204db9c6": {
+        "data_uoa": "wa-linpack"
+      },
+      "4d32328645fb8e5f": {
+        "data_uoa": "wa-sysbench"
+      },
+      "4f5f809477b7b527": {
+        "data_uoa": "wa-anomaly2"
+      },
+      "4f75900238f7bf1d": {
+        "data_uoa": "wa-stream"
+      },
+      "4f8c55945be9d7b0": {
+        "data_uoa": "wa-telemetry"
+      },
+      "55ac934b35b25132": {
+        "data_uoa": "wa-andebench"
+      },
+      "654d159f0cd11a8a": {
+        "data_uoa": "wa-androbench"
+      },
+      "66433889a428b651": {
+        "data_uoa": "wa-autotest"
+      },
+      "66487b9be96ddeb4": {
+        "data_uoa": "wa-shellscript"
+      },
+      "682b927647864fed": {
+        "data_uoa": "wa-templerun"
+      },
+      "7577b82ede94fb5a": {
+        "data_uoa": "wa-truckerparking3d"
+      },
+      "769195d524bbdbd6": {
+        "data_uoa": "wa-apklaunch"
+      },
+      "77e4340934b4db70": {
+        "data_uoa": "wa-cfbench"
+      },
+      "7b2a3cd561248be8": {
+        "data_uoa": "wa-googleslides"
+      },
+      "7ceb6e3e485db176": {
+        "data_uoa": "wa-antutu"
+      },
+      "808b5cf96d490985": {
+        "data_uoa": "wa-dex2oat"
+      },
+      "80fb14b4232bf50a": {
+        "data_uoa": "memcopy"
+      },
+      "87e6457b8708fb8e": {
+        "data_uoa": "wa-stress_ng"
+      },
+      "88512ecb2184e3fa": {
+        "data_uoa": "wa-gunbros2"
+      },
+      "8feafccf60e0753e": {
+        "data_uoa": "wa-quadrant"
+      },
+      "91f9ae54c4286d6e": {
+        "data_uoa": "wa-nenamark"
+      },
+      "980dfb2a4fed4df5": {
+        "data_uoa": "wa-glb_corporate"
+      },
+      "9c686b9ba24164ad": {
+        "data_uoa": "wa-citadel"
+      },
+      "9c6c77f9f4d94890": {
+        "data_uoa": "wa-memcpy"
+      },
+      "9f204714a34aa699": {
+        "data_uoa": "wa-realracing3"
+      },
+      "a0e434eaf903ef36": {
+        "data_uoa": "wa-castlebuilder"
+      },
+      "a1edecc2e78472e8": {
+        "data_uoa": "wa-adobereader"
+      },
+      "a1fe634a6ca4b977": {
+        "data_uoa": "wa-caffeinemark"
+      },
+      "a9d9f44adff60750": {
+        "data_uoa": "wa-iozone"
+      },
+      "aa81cc48dee40cf9": {
+        "data_uoa": "wa-skype"
+      },
+      "ab42ba424950aeb1": {
+        "data_uoa": "wa-googleplaybooks"
+      },
+      "abc5570f1125ad81": {
+        "data_uoa": "wa-octaned8"
+      },
+      "b883932b06c696cd": {
+        "data_uoa": "wa-krazykart"
+      },
+      "bc58b1ef894f42d3": {
+        "data_uoa": "wa-glbenchmark"
+      },
+      "c15b4c49b42e482a": {
+        "data_uoa": "wa-blogbench"
+      },
+      "c97818734d8c92e9": {
+        "data_uoa": "wa-linpack-cli"
+      },
+      "cb7b975ab9d74fc6": {
+        "data_uoa": "wa-cameracapture"
+      },
+      "ce58457fba6156a5": {
+        "data_uoa": "wa-thechase"
+      },
+      "d33416470f9c7a8e": {
+        "data_uoa": "wa-videostreaming"
+      },
+      "de990a3c2c80027c": {
+        "data_uoa": "wa-hackbench"
+      },
+      "e486ab9230054247": {
+        "data_uoa": "wa-angrybirds_rio"
+      },
+      "e626d2542194646a": {
+        "data_uoa": "wa-homescreen"
+      },
+      "ebd2540ebad1b0e5": {
+        "data_uoa": "wa-castlemaster"
+      },
+      "f485ac43a881585b": {
+        "data_uoa": "wa-video"
+      },
+      "f4b1abacc1c4fa53": {
+        "data_uoa": "wa-dhrystone"
+      },
+      "f6ca4dbc824cbfae": {
+        "data_uoa": "wa-bbench"
+      },
+      "fce4634afd9649d2": {
+        "data_uoa": "wa-peacekeeper"
+      }
+    },
+    "to_get": "ck pull repo:ck-wa-workloads",
+    "workflow_desc": ""
+  }
+}

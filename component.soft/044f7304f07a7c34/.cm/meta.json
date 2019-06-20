@@ -1,0 +1,43 @@
+{
+  "dict": {
+    "auto_detect": "no",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_DATASET_SNAP"
+    },
+    "deps": {},
+    "soft_name": "SNAP graph dataset",
+    "tags": [
+      "dataset",
+      "graphs",
+      "real-world",
+      "snap"
+    ]
+  },
+  "misc": {
+    "auto_detect": "no",
+    "data_uid": "044f7304f07a7c34",
+    "data_uoa": "dataset.snap",
+    "env_prefix": "CK_ENV_DATASET_SNAP",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "68121412a8ff317c",
+    "repo_uoa": "ck-graph-analytics",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-graph-analytics/tree/master/soft/dataset.snap/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-graph-analytics/tree/master/soft/dataset.snap",
+    "soft_name": "SNAP graph dataset",
+    "stags": "dataset,graphs,real-world,snap",
+    "tags": [
+      "dataset",
+      "graphs",
+      "real-world",
+      "snap"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-graph-analytics"
+  }
+}

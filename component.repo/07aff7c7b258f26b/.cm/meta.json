@@ -1,0 +1,38 @@
+{
+  "dict": {
+    "shared": "git",
+    "url": "https://github.com/proywm/ck-ccprof"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "c7e5332641d8922a",
+          "repo_uoa": "ck-crowdtuning"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/proywm/ck-ccprof"
+    },
+    "data_uid": "07aff7c7b258f26b",
+    "data_uoa": "ck-ccprof",
+    "desc": "CK workflow and components for the CGO'18 paper \"CCProf: Lightweight Detection of Cache Conflicts\".",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/proywm/ck-ccprof/tree/master/repo/ck-ccprof/.cm/meta.json",
+    "repo_url3": "https://github.com/proywm/ck-ccprof/tree/master/repo/ck-ccprof",
+    "tasks": {
+      "eba343c39e498453": {
+        "data_uoa": "tinydnn-representative"
+      },
+      "f676f4407b6cf91c": {
+        "data_uoa": "tinydnn-representative-pad"
+      }
+    },
+    "to_get": "ck pull repo --url=https://github.com/proywm/ck-ccprof",
+    "workflow_desc": "reproducible&nbsp;paper\n-&nbsp;passed&nbsp;<a href=\"http://cTuning.org/ae\">Artifact&nbsp;Evaluation</a>:\n<p><center><img src=\"https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_evaluated_reusable_dl.jpg\" width=\"64\"></center>\n"
+  }
+}

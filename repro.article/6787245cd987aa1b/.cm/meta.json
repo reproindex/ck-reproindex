@@ -1,0 +1,32 @@
+{
+  "misc": {
+    "artifact_doi_url": "https://doi.org/10.5281/zenodo.2574996",
+    "artifact_sources": "GitHub",
+    "artifact_sources_url": "https://github.com/EigenPro/EigenPro2",
+    "authors": "Siyuan Ma, Mikhail Belkin",
+    "badge_acm_artifact_available": "yes",
+    "badge_acm_artifact_functional": "",
+    "badge_acm_artifact_reusable": "yes",
+    "badge_acm_results_replicated": "",
+    "badge_acm_results_reproduced": "",
+    "ck_repo_uid": "",
+    "paper_doi_url": "",
+    "paper_pdf_url": "http://www.sysml.cc/doc/2019/171.pdf",
+    "reproducibility_url": "http://ctuning.org/ae/sysml2019.html",
+    "results": "",
+    "results_dashboard_url": "",
+    "results_url": "",
+    "some_results_replicated": "yes",
+    "title": "Kernel machines that adapt to GPUs for effective large batch training",
+    "unified_artifact_appendix": "https://github.com/ctuning/ck-artifact-evaluation/tree/master/wfe/artifact-evaluation/templates",
+    "where": "SysML'19",
+    "where_url": "http://sysml.cc",
+    "workflow": "",
+    "workflow_url": ""
+  },
+  "tags": [
+    "papers",
+    "papers-sysml",
+    "papers-sysml-2019"
+  ]
+}

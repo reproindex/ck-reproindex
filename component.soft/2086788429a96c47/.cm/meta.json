@@ -1,0 +1,48 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_LIB_NNVM",
+      "limit_recursion_dir_search": {
+        "linux": 5,
+        "win": 5
+      },
+      "soft_file": {
+        "linux": "nnvm/__init__.py",
+        "win": "nnvm\\__init__.py"
+      }
+    },
+    "soft_name": "NNVM library",
+    "tags": [
+      "lib",
+      "nnvm",
+      "nnvm-tvm"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "2086788429a96c47",
+    "data_uoa": "lib.nnvm.python",
+    "env_prefix": "CK_ENV_LIB_NNVM",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "c47366a47958ef4b",
+    "repo_uoa": "ck-request-asplos18-mobilenets-tvm-arm",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-request-asplos18-mobilenets-tvm-arm/tree/master/soft/lib.nnvm.python/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-request-asplos18-mobilenets-tvm-arm/tree/master/soft/lib.nnvm.python",
+    "soft_name": "NNVM library",
+    "stags": "lib,nnvm,nnvm-tvm",
+    "tags": [
+      "lib",
+      "nnvm",
+      "nnvm-tvm"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-request-asplos18-mobilenets-tvm-arm"
+  }
+}

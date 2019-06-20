@@ -1,0 +1,61 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "version": "3.1.0"
+    },
+    "deps": {
+      "lib-gmp": {
+        "local": "yes",
+        "name": "GMP library",
+        "tags": "lib,gmp"
+      }
+    },
+    "end_full_path": {
+      "linux": "lib/libmpfr.a",
+      "mingw": "lib\\libmpfr.a"
+    },
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "process_script": "process",
+    "soft_uoa": "b212226b44799964",
+    "suggested_path": "mpfr",
+    "tags": [
+      "lib",
+      "mpfr",
+      "v3.1.0",
+      "v3.1",
+      "v3"
+    ]
+  },
+  "misc": {
+    "data_uid": "8b09042528a59e4b",
+    "data_uoa": "lib-mpfr-3.1.0-linux",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "9482c22d7601b0df",
+    "repo_uoa": "reproduce-milepost-project",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/lib-mpfr-3.1.0-linux/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/lib-mpfr-3.1.0-linux",
+    "soft_name": "MPFR library",
+    "soft_uid": "b212226b44799964",
+    "soft_uoa": "lib.mpfr",
+    "stags": "lib,mpfr,v3.1.0,v3.1,v3",
+    "tags": [
+      "lib",
+      "mpfr",
+      "v3.1.0",
+      "v3.1",
+      "v3"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:reproduce-milepost-project"
+  }
+}

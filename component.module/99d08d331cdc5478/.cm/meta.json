@@ -1,0 +1,33 @@
+{
+  "dict": {
+    "actions": {
+      "filter": {
+        "desc": "filter experiments with multiple characteristics (performance, energy, accuracy, size, etc) to leave only points on a (Pareto) frontier"
+      }
+    },
+    "copyright": "See CK COPYRIGHT.txt for copyright details",
+    "desc": "detecting (Pareto) frontier for multi-objective optimizations",
+    "developer": "Grigori Fursin",
+    "developer_email": "Grigori.Fursin@cTuning.org",
+    "developer_webpage": "http://fursin.net",
+    "license": "See CK LICENSE.txt for licensing details"
+  },
+  "misc": {
+    "actions": {
+      "filter": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/math.frontier/module.py#L33"
+      }
+    },
+    "data_uid": "99d08d331cdc5478",
+    "data_uoa": "math.frontier",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "76c4424a1473c873",
+    "repo_uoa": "ck-analytics",
+    "repo_url1": "https://github.com/ctuning/ck-analytics/tree/master/module/math.frontier/module.py",
+    "repo_url2": "https://github.com/ctuning/ck-analytics/tree/master/module/math.frontier/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:ck-analytics",
+    "workflow": ""
+  }
+}

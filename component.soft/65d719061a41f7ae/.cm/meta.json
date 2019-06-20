@@ -1,0 +1,65 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_TOOL_ARM_WA",
+      "limit_recursion_dir_search": {
+        "linux": 3
+      },
+      "only_for_host_os_tags": [
+        "linux"
+      ],
+      "only_for_target_os_tags": [
+        "linux",
+        "android"
+      ],
+      "soft_file": {
+        "linux": "wa"
+      },
+      "soft_version_cmd": {
+        "linux": "--version > $#filename#$ 2>&1"
+      }
+    },
+    "deps": {
+      "python": {
+        "force_target_as_host": "yes",
+        "local": "yes",
+        "name": "Python compiler (v2.x)",
+        "sort": 10,
+        "tags": "compiler,lang-python"
+      }
+    },
+    "soft_name": "ARM workload automation tool",
+    "tags": [
+      "tool",
+      "arm",
+      "wa"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "65d719061a41f7ae",
+    "data_uoa": "tool.arm.wa",
+    "env_prefix": "CK_ENV_TOOL_ARM_WA",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "410382d03df408ec",
+    "repo_uoa": "ck-wa",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/dividiti/ck-wa/tree/master/soft/tool.arm.wa/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/ck-wa/tree/master/soft/tool.arm.wa",
+    "soft_name": "ARM workload automation tool",
+    "stags": "tool,arm,wa",
+    "tags": [
+      "tool",
+      "arm",
+      "wa"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-wa"
+  }
+}

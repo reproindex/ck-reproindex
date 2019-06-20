@@ -1,0 +1,66 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "skip_copy_to_remote": "yes",
+      "skip_ext": "yes",
+      "version": "1.1"
+    },
+    "deps": {
+      "compiler": {
+        "local": "yes",
+        "name": "C compiler",
+        "sort": 10,
+        "tags": "compiler,lang-c"
+      }
+    },
+    "end_full_path": {
+      "android": "lib$#sep#$libOpenCL.so"
+    },
+    "only_for_host_os_tags": [
+      "windows",
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "android"
+    ],
+    "process_script": "process",
+    "soft_uoa": "6eb9a57038688ad3",
+    "suggested_path": "lib-opencl-stubs",
+    "tags": [
+      "lib",
+      "opencl",
+      "lang-c",
+      "lang-cpp",
+      "v1.1",
+      "v1"
+    ]
+  },
+  "misc": {
+    "data_uid": "51417bde2463db8f",
+    "data_uoa": "lib-opencl-1.1-stubs-android",
+    "host_os": "windows,linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "6d04bb400f29474d",
+    "repo_uoa": "ck-old-packages",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-old-packages/tree/master/package/lib-opencl-1.1-stubs-android/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-old-packages/tree/master/package/lib-opencl-1.1-stubs-android",
+    "soft_name": "OpenCL library",
+    "soft_uid": "6eb9a57038688ad3",
+    "soft_uoa": "lib.opencl",
+    "stags": "lib,opencl,lang-c,lang-cpp,v1.1,v1",
+    "tags": [
+      "lib",
+      "opencl",
+      "lang-c",
+      "lang-cpp",
+      "v1.1",
+      "v1"
+    ],
+    "target_os": "android",
+    "template": "",
+    "to_get": "ck pull repo:ck-old-packages"
+  }
+}

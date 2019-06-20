@@ -1,0 +1,56 @@
+{
+  "dict": {
+    "actions": {
+      "browse": {
+        "desc": "browse platform.os participated in experiment crowdsourcing (crowd-benchmarking and crowd-tuning)"
+      },
+      "detect": {
+        "desc": "detect various properties (features) of a host and target OS"
+      },
+      "show": {
+        "desc": "viewing entries as html",
+        "for_web": "yes"
+      }
+    },
+    "cfg_uoa": "program-crowdtuning",
+    "copyright": "See CK COPYRIGHT.txt for copyright details",
+    "desc": "describing and detecting platform's operating systems",
+    "developer": "Grigori Fursin",
+    "developer_email": "Grigori.Fursin@cTuning.org",
+    "developer_webpage": "http://fursin.net",
+    "lcfg_uoa": "local-platform",
+    "license": "See CK LICENSE.txt for licensing details",
+    "module_deps": {
+      "cfg": "b34231a3467566f8",
+      "env": "9b9b3208ac44b891",
+      "machine": "84be34883a81b2a9",
+      "os": "0440cb72c2bc5cc6",
+      "platform": "707ccdfe444cafac",
+      "platform.init": "38a2f5438d8555b6"
+    }
+  },
+  "misc": {
+    "actions": {
+      "browse": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/platform.os/module.py#L959"
+      },
+      "detect": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/platform.os/module.py#L33"
+      },
+      "show": {
+        "url_api": "https://github.com/ctuning/ck-env/tree/master/module/platform.os/module.py#L844"
+      }
+    },
+    "data_uid": "41e31cc4496b8a8e",
+    "data_uoa": "platform.os",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "https://github.com/ctuning/ck-env/tree/master/module/platform.os/module.py",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/module/platform.os/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:ck-env",
+    "workflow": ""
+  }
+}

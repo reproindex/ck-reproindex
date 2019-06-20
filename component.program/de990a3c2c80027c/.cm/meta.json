@@ -1,0 +1,138 @@
+{
+  "dict": {
+    "backup_data_uid": "de990a3c2c80027c",
+    "ck_to_env": {
+      "CK_WA_SCRIPTS_PATH": "script:39157fb314f399ae"
+    },
+    "clean_dirs": [
+      "wa_output"
+    ],
+    "data_name": "WA workload: hackbench",
+    "deps": {
+      "wa": {
+        "env_key": "WA",
+        "force_target_as_host": "yes",
+        "local": "yes",
+        "name": "ARM Workload Automation",
+        "sort": 10,
+        "tags": "tool,wa"
+      }
+    },
+    "no_compile": "yes",
+    "no_target_file": "yes",
+    "params": {
+      "datasize": {
+        "allowed_values": null,
+        "default": 100,
+        "desc": "Message size in bytes.",
+        "mandatory": null,
+        "type": "integer"
+      },
+      "duration": {
+        "allowed_values": null,
+        "default": 30,
+        "desc": "Test duration in seconds.",
+        "mandatory": null,
+        "type": "integer"
+      },
+      "extra_params": {
+        "allowed_values": null,
+        "default": "",
+        "desc": "Extra parameters to pass in. See the hackbench man page or type `hackbench --help` for list of options.",
+        "mandatory": null,
+        "type": "str"
+      },
+      "fds": {
+        "allowed_values": null,
+        "default": 40,
+        "desc": "Number of file descriptors.",
+        "mandatory": null,
+        "type": "integer"
+      },
+      "groups": {
+        "allowed_values": null,
+        "default": 10,
+        "desc": "Number of groups.",
+        "mandatory": null,
+        "type": "integer"
+      },
+      "loops": {
+        "allowed_values": null,
+        "default": 100,
+        "desc": "Number of loops.",
+        "mandatory": null,
+        "type": "integer"
+      },
+      "modules": {
+        "allowed_values": null,
+        "default": null,
+        "desc": "Lists the modules to be loaded by this extension. A module is a plug-in that further extends functionality of an extension.",
+        "mandatory": null,
+        "type": "list"
+      }
+    },
+    "print_files_after_run": [
+      "tmp-output2.tmp",
+      "wa_output/status.txt",
+      "wa_output/hackbench_1_1/result.txt"
+    ],
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "required_device_access_type": [
+      "wa_android",
+      "wa_linux"
+    ],
+    "run_cmds": {
+      "default": {
+        "ignore_return_code": "no",
+        "run_time": {
+          "fine_grain_timer_file": "tmp-ck-timer.json",
+          "post_process_cmds": [
+            "python $<<CK_WA_SCRIPTS_PATH>>$$#dir_sep#$postprocess_workload.py"
+          ],
+          "post_process_via_ck": "yes",
+          "pre_process_via_ck": {
+            "data_uoa": "process-wa",
+            "module_uoa": "script",
+            "script_name": "preprocess_workload"
+          },
+          "run_cmd_main": "wa run $<<CK_WA_CMD>>$",
+          "run_cmd_out1": "tmp-output1.tmp",
+          "run_cmd_out2": "tmp-output2.tmp",
+          "run_output_files": []
+        }
+      }
+    },
+    "run_via_third_party": "yes",
+    "tags": [
+      "wa",
+      "workload-automation",
+      "hackbench"
+    ],
+    "wa_alias": "hackbench",
+    "wa_desc": "Hackbench runs a series of tests for the Linux scheduler"
+  },
+  "misc": {
+    "data_uid": "de990a3c2c80027c",
+    "data_uoa": "wa-hackbench",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "cca2211feceec6dc",
+    "repo_uoa": "ck-wa-workloads",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-wa-workloads/tree/master/program/wa-hackbench/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-wa-workloads/tree/master/program/wa-hackbench",
+    "soft_name": "",
+    "stags": "wa,workload-automation,hackbench",
+    "tags": [
+      "wa",
+      "workload-automation",
+      "hackbench"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-wa-workloads",
+    "version": ""
+  }
+}

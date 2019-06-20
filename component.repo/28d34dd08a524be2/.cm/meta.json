@@ -1,0 +1,35 @@
+{
+  "dict": {
+    "shared": "git",
+    "url": "https://github.com/arm-software/armnn-mlperf"
+  },
+  "misc": {
+    "ckr": {
+      "shared": "git",
+      "url": "https://github.com/arm-software/armnn-mlperf"
+    },
+    "data_uid": "28d34dd08a524be2",
+    "data_uoa": "armnn-mlperf",
+    "desc": "CK workflows to unify and automate ArmNN preparation and benchmarking for mlperf.org",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/arm-software/armnn-mlperf/tree/master/repo/armnn-mlperf/.cm/meta.json",
+    "repo_url3": "https://github.com/arm-software/armnn-mlperf/tree/master/repo/armnn-mlperf",
+    "tasks": {
+      "c65368449a93e999": {
+        "data_uoa": "image-classification-armnn-onnx"
+      },
+      "d815e1c7562c4c1a": {
+        "data_uoa": "image-classification-armnn-tf"
+      },
+      "f58827594e4d8144": {
+        "data_uoa": "image-classification-armnn-tflite"
+      }
+    },
+    "to_get": "ck pull repo --url=https://github.com/arm-software/armnn-mlperf",
+    "workflow_desc": "programs"
+  }
+}

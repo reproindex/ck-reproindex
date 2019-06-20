@@ -1,0 +1,63 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "install",
+      "version": "trunk.dividiti"
+    },
+    "deps": {
+      "support-compiler": {
+        "local": "yes",
+        "name": "LLVM compiler",
+        "sort": 10,
+        "tags": "compiler,lang-c,llvm"
+      }
+    },
+    "end_full_path": {
+      "linux": "install/bin/ppcg"
+    },
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "process_script": "process",
+    "soft_uoa": "4aff7e7480ae0f6d",
+    "suggested_path": "compiler-pencilcc-dvdt",
+    "tags": [
+      "source-to-source-compiler",
+      "pencilcc",
+      "polyhedral",
+      "lang-c",
+      "lang-cpp",
+      "vtrunk"
+    ]
+  },
+  "misc": {
+    "data_uid": "b21744a23b3d4f8b",
+    "data_uoa": "compiler-pencilcc-trunk-dividiti",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "7d60433aa9fd29fe",
+    "repo_uoa": "reproduce-carp-project",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-carp-project/tree/master/package/compiler-pencilcc-trunk-dividiti/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-carp-project/tree/master/package/compiler-pencilcc-trunk-dividiti",
+    "soft_name": "PENCIL C compiler",
+    "soft_uid": "4aff7e7480ae0f6d",
+    "soft_uoa": "compiler.pencilcc",
+    "stags": "source-to-source-compiler,pencilcc,polyhedral,lang-c,lang-cpp,vtrunk",
+    "tags": [
+      "source-to-source-compiler",
+      "pencilcc",
+      "polyhedral",
+      "lang-c",
+      "lang-cpp",
+      "vtrunk"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:reproduce-carp-project"
+  }
+}

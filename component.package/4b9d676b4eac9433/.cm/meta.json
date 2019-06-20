@@ -1,0 +1,55 @@
+{
+  "dict": {
+    "customize": {
+      "version": "trunk"
+    },
+    "end_full_path": {
+      "android": "pencil-benchmark$#sep#$pencil-benchmarks-imageproc$#sep#$cvt_color$#sep#$cvt_color.c",
+      "linux": "pencil-benchmark/pencil-benchmarks-imageproc/cvt_color/cvt_color.c",
+      "mingw": "pencil-benchmark\\pencil-benchmarks-imageproc\\cvt_color\\cvt_color.c",
+      "win": "pencil-benchmark\\pencil-benchmarks-imageproc\\cvt_color\\cvt_color.c"
+    },
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "process_script": "process",
+    "soft_uoa": "433d85323a5e077d",
+    "suggested_path": "benchmark-pencil-trunk",
+    "tags": [
+      "benchmark",
+      "pencil",
+      "lang-c",
+      "lang-cpp",
+      "vtrunk"
+    ]
+  },
+  "misc": {
+    "data_uid": "4b9d676b4eac9433",
+    "data_uoa": "benchmark-pencil-trunk",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "7d60433aa9fd29fe",
+    "repo_uoa": "reproduce-carp-project",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-carp-project/tree/master/package/benchmark-pencil-trunk/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-carp-project/tree/master/package/benchmark-pencil-trunk",
+    "soft_name": "Pencil benchmark",
+    "soft_uid": "433d85323a5e077d",
+    "soft_uoa": "bench.pencil",
+    "stags": "benchmark,pencil,lang-c,lang-cpp,vtrunk",
+    "tags": [
+      "benchmark",
+      "pencil",
+      "lang-c",
+      "lang-cpp",
+      "vtrunk"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:reproduce-carp-project"
+  }
+}

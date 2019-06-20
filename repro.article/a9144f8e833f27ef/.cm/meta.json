@@ -1,0 +1,37 @@
+{
+  "misc": {
+    "artifact_doi_url": "https://doi.org/10.1145/3229773",
+    "artifact_sources": "GitHub",
+    "artifact_sources_url": "https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl",
+    "authors": "Anton Lokhmotov, Nikolay Chunosov, Flavio Vella, Grigori Fursin",
+    "badge_acm_artifact_available": "yes",
+    "badge_acm_artifact_functional": "",
+    "badge_acm_artifact_reusable": "yes",
+    "badge_acm_results_replicated": "yes",
+    "badge_acm_results_reproduced": "",
+    "ck_repo_uid": "7698eaf859b79f2b",
+    "paper_doi_url": "https://doi.org/10.1145/3229762.3229767",
+    "paper_pdf_url": "",
+    "reproducibility_url": "http://cKnowledge.org/request-cfp-asplos2018.html",
+    "results": "CK format",
+    "results_dashboard_url": "http://cKnowledge.org/dashboard/request.asplos18",
+    "results_url": "https://github.com/ctuning/ck-request-asplos18-results-mobilenets-armcl-opencl",
+    "tasks": {
+      "5a9a6915b20ea1bf": {
+        "data_uoa": "mobilenets-armcl-opencl"
+      }
+    },
+    "title": "Multi-objective autotuning of MobileNets across the full software/hardware stack",
+    "unified_artifact_appendix": "https://github.com/ctuning/ck-artifact-evaluation/tree/master/wfe/artifact-evaluation/templates",
+    "where": "ReQuEST-ASPLOS'18",
+    "where_url": "http://cKnowledge.org/request-cfp-asplos2018.html",
+    "workflow": "CK",
+    "workflow_url": "https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl"
+  },
+  "tags": [
+    "papers",
+    "papers-request",
+    "papers-request-asplos",
+    "papers-request-asplos-2018"
+  ]
+}

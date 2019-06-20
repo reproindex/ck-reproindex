@@ -1,0 +1,36 @@
+{
+  "dict": {
+    "auto_detect": "no",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_MODEL_VTA"
+    },
+    "soft_name": "VTA model (net and weights)",
+    "tags": [
+      "vtamodel"
+    ]
+  },
+  "misc": {
+    "auto_detect": "no",
+    "data_uid": "5cd477e80e72a9dc",
+    "data_uoa": "model.vta",
+    "env_prefix": "CK_ENV_MODEL_VTA",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "0442e96ea67b7957",
+    "repo_uoa": "ck-tvm",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tvm/tree/master/soft/model.vta/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tvm/tree/master/soft/model.vta",
+    "soft_name": "VTA model (net and weights)",
+    "stags": "vtamodel",
+    "tags": [
+      "vtamodel"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-tvm"
+  }
+}

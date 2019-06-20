@@ -1,0 +1,43 @@
+{
+  "dict": {
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-caffe2"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "a4328ba99679e0d1",
+          "repo_uoa": "ck-autotuning"
+        },
+        {
+          "repo_uid": "d94a45b5be3072ba",
+          "repo_uoa": "ck-math"
+        },
+        {
+          "repo_uid": "57e83bca8a5a4344",
+          "repo_uoa": "ck-caffe"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-caffe2"
+    },
+    "data_uid": "b8adffa0791cb38a",
+    "data_uoa": "ck-caffe2",
+    "desc": "[PACKAGES MUST BE UPDATED SINCE CAFFE2 MOVED TO ANOTHER GITHUB REPOSITORY] Portable/customizable installation and unified access to Caffe2 AI framework with different workflows and data sets (see <a href=\"https://arxiv.org/abs/1801.06378\">ReQuEST intro</a>).",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-caffe2/tree/master/repo/ck-caffe2/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-caffe2/tree/master/repo/ck-caffe2",
+    "tasks": {
+      "883cc4dde19eb5b8": {
+        "data_uoa": "caffe2"
+      }
+    },
+    "to_get": "ck pull repo:ck-caffe2",
+    "workflow_desc": "programs"
+  }
+}

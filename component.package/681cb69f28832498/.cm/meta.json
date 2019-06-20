@@ -1,0 +1,70 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {
+      "install_env": {
+        "PACKAGE_URL": "http://releases.llvm.org/5.0.1/",
+        "PACKAGE_WGET": "YES",
+        "PACKAGE_WGET_EXTRA": "--no-cookies"
+      },
+      "version": "5.0.1"
+    },
+    "end_full_path": {
+      "linux": "bin/clang-5.0",
+      "win": "bin\\clang.exe"
+    },
+    "need_cpu_info": "yes",
+    "only_for_target_os_tags": [
+      "linux",
+      "windows"
+    ],
+    "process_script": "install",
+    "soft_uoa": "1c2eb494b8ae3bc4",
+    "suggested_path": "llvm-5.0.1",
+    "tags": [
+      "compiler",
+      "llvm",
+      "lang-c",
+      "lang-cpp",
+      "v5.0.1-ck-package",
+      "v5.0.1",
+      "v5.0",
+      "v5",
+      "channel-stable"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "cd9ccc74060b3d18",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "681cb69f28832498",
+    "data_uoa": "compiler-llvm-5.0.1-universal",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/compiler-llvm-5.0.1-universal/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/compiler-llvm-5.0.1-universal",
+    "soft_name": "LLVM compiler",
+    "soft_uid": "1c2eb494b8ae3bc4",
+    "soft_uoa": "compiler.llvm",
+    "stags": "compiler,llvm,lang-c,lang-cpp,v5.0.1-ck-package,v5.0.1,v5.0,v5,channel-stable",
+    "tags": [
+      "compiler",
+      "llvm",
+      "lang-c",
+      "lang-cpp",
+      "v5.0.1-ck-package",
+      "v5.0.1",
+      "v5.0",
+      "v5",
+      "channel-stable"
+    ],
+    "target_os": "linux,macos,windows",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

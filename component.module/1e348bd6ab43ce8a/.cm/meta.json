@@ -1,0 +1,43 @@
+{
+  "dict": {
+    "actions": {
+      "copy_file": {
+        "desc": "copy file from report entry to current directory"
+      },
+      "html_viewer": {
+        "desc": "view report as html",
+        "for_web": "yes"
+      }
+    },
+    "copyright": "See CK COPYRIGHT.txt for copyright details",
+    "desc": "preparing experimental reports (html)",
+    "developer": "Grigori Fursin",
+    "developer_email": "Grigori.Fursin@cTuning.org",
+    "developer_webpage": "http://fursin.net",
+    "license": "See CK LICENSE.txt for licensing details",
+    "module_deps": {
+      "wfe": "1e4e644996b7f2a0"
+    }
+  },
+  "misc": {
+    "actions": {
+      "copy_file": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/report/module.py#L365"
+      },
+      "html_viewer": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/report/module.py#L35"
+      }
+    },
+    "data_uid": "1e348bd6ab43ce8a",
+    "data_uoa": "report",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "76c4424a1473c873",
+    "repo_uoa": "ck-analytics",
+    "repo_url1": "https://github.com/ctuning/ck-analytics/tree/master/module/report/module.py",
+    "repo_url2": "https://github.com/ctuning/ck-analytics/tree/master/module/report/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:ck-analytics",
+    "workflow": ""
+  }
+}

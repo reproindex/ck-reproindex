@@ -1,0 +1,139 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "install_env": {
+        "PACKAGE_BUILD_TYPE": "",
+        "PACKAGE_NAME": "boost_1_66_0.zip",
+        "PACKAGE_SKIP_CLEAN_INSTALL": "YES",
+        "PACKAGE_SKIP_CLEAN_PACKAGE": "NO",
+        "PACKAGE_SKIP_CLEAN_SRC_DIR": "NO",
+        "PACKAGE_SKIP_LINUX_MAKE": "YES",
+        "PACKAGE_SUB_DIR": "boost_1_66_0",
+        "PACKAGE_SUB_DIR1": "boost_1_66_0",
+        "PACKAGE_UNZIP": "YES",
+        "PACKAGE_URL": "https://dl.bintray.com/boostorg/release/1.66.0/source",
+        "PACKAGE_WGET": "YES",
+        "SUBSTITUTE_ORIGINAL_PACKAGE_DIR": "$#path_to_cid=package:44094af948731a1c#$"
+      },
+      "version": "1.66.0"
+    },
+    "deps": {
+      "cmake": {
+        "force_target_as_host": "yes",
+        "local": "yes",
+        "name": "cmake",
+        "sort": 5,
+        "tags": "tool,cmake"
+      },
+      "compiler": {
+        "local": "yes",
+        "name": "C++ compiler",
+        "sort": 10,
+        "tags": "compiler,lang-cpp"
+      },
+      "host-compiler": {
+        "force_target_as_host": "yes",
+        "local": "yes",
+        "name": "HOST MingW C compiler (to bootstrap)",
+        "only_for_host_os_tags": [
+          "windows"
+        ],
+        "only_for_target_os_tags": [
+          "android"
+        ],
+        "skip_from_bat": "yes",
+        "sort": 7,
+        "tags": "compiler,lang-c,gcc"
+      },
+      "python": {
+        "add_to_path": "yes",
+        "force_target_as_host": "yes",
+        "local": "yes",
+        "name": "Unix Utils for Windows",
+        "only_for_target_os_tags": [
+          "linux",
+          "windows"
+        ],
+        "sort": 0,
+        "tags": "compiler,python"
+      },
+      "utils-unix-win": {
+        "force_target_as_host": "yes",
+        "local": "yes",
+        "name": "Unix Utils for Windows",
+        "only_for_host_os_tags": [
+          "windows"
+        ],
+        "only_for_target_os_tags": [
+          "android"
+        ],
+        "skip_from_bat": "yes",
+        "sort": 6,
+        "tags": "utils,unix-win"
+      }
+    },
+    "end_full_path": {
+      "android": "install$#sep#$lib$#sep#$libboost_system.a",
+      "linux": "install/lib/libboost_system.a",
+      "win": "install\\lib\\boost_system-mt.lib"
+    },
+    "need_cpu_info": "yes",
+    "only_for_host_os_tags": [
+      "linux",
+      "windows"
+    ],
+    "only_for_target_os_tags": [
+      "linux",
+      "windows",
+      "android"
+    ],
+    "process_script": "install",
+    "soft_uoa": "23949f2a32490faf",
+    "suggested_path": "lib-boost",
+    "tags": [
+      "lib",
+      "boost",
+      "v1.66.0",
+      "v1.66",
+      "v1",
+      "channel-stable"
+    ],
+    "template": "yes",
+    "use_preprocess_scripts_from_another_entry": {
+      "data_uoa": "fd44428fbc77f77f",
+      "module_uoa": "84e27ad9dd12e734"
+    },
+    "use_scripts_from_another_entry": {
+      "data_uoa": "cd9ccc74060b3d18",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "0417ba98aa5ca4ad",
+    "data_uoa": "lib-boost-1.66.0",
+    "host_os": "linux,macos,windows",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "d94a45b5be3072ba",
+    "repo_uoa": "ck-math",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-math/tree/master/package/lib-boost-1.66.0/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-math/tree/master/package/lib-boost-1.66.0",
+    "soft_name": "Boost library",
+    "soft_uid": "23949f2a32490faf",
+    "soft_uoa": "lib.boost",
+    "stags": "lib,boost,v1.66.0,v1.66,v1,channel-stable",
+    "tags": [
+      "lib",
+      "boost",
+      "v1.66.0",
+      "v1.66",
+      "v1",
+      "channel-stable"
+    ],
+    "target_os": "linux,macos,windows,android",
+    "template": "yes",
+    "to_get": "ck pull repo:ck-math"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "3.2",
+      "version": "3.2"
+    },
+    "end_full_path": {
+      "linux": "3.2/bin/xsb",
+      "mingw": "Xsb-3-2-7-Windows-Compiled\\bin\\xsb",
+      "win": "Xsb-3-2-7-Windows-Compiled\\bin\\xsb"
+    },
+    "only_for_host_os_tags": [
+      "linux",
+      "windows"
+    ],
+    "only_for_target_os_tags": [
+      "linux",
+      "windows",
+      "mingw"
+    ],
+    "process_script": "process",
+    "soft_uoa": "5ad48e9a7faa2dec",
+    "suggested_path": "xsb",
+    "tags": [
+      "compiler",
+      "xsb",
+      "lang-prolog",
+      "v3.2",
+      "v3"
+    ]
+  },
+  "misc": {
+    "data_uid": "d993c98454abf2ff",
+    "data_uoa": "compiler-xsb-3.2",
+    "host_os": "linux,macos,windows",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "9482c22d7601b0df",
+    "repo_uoa": "reproduce-milepost-project",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/compiler-xsb-3.2/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/compiler-xsb-3.2",
+    "soft_name": "XSB compiler",
+    "soft_uid": "5ad48e9a7faa2dec",
+    "soft_uoa": "compiler.xsb",
+    "stags": "compiler,xsb,lang-prolog,v3.2,v3",
+    "tags": [
+      "compiler",
+      "xsb",
+      "lang-prolog",
+      "v3.2",
+      "v3"
+    ],
+    "target_os": "linux,macos,windows,mingw",
+    "template": "",
+    "to_get": "ck pull repo:reproduce-milepost-project"
+  }
+}

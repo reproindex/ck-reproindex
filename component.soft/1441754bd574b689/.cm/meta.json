@@ -1,0 +1,47 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_LIB_TF",
+      "limit_recursion_dir_search": {
+        "linux": 4,
+        "win": 4
+      },
+      "soft_file": {
+        "android": "tensorflow/contrib/makefile/gen/lib/libtensorflow-core.a",
+        "linux": "tensorflow/contrib/makefile/gen/lib/libtensorflow-core.a",
+        "win": "tensorflow\\contrib\\makefile\\gen\\lib\\libtensorflow-core.a"
+      }
+    },
+    "soft_name": "TensorFlow library (via make)",
+    "tags": [
+      "lib",
+      "tensorflow-make"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "1441754bd574b689",
+    "data_uoa": "lib.tensorflow.make",
+    "env_prefix": "CK_ENV_LIB_TF",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "acb7cea44acac9c9",
+    "repo_uoa": "ck-tensorflow",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/soft/lib.tensorflow.make/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/soft/lib.tensorflow.make",
+    "soft_name": "TensorFlow library (via make)",
+    "stags": "lib,tensorflow-make",
+    "tags": [
+      "lib",
+      "tensorflow-make"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-tensorflow"
+  }
+}

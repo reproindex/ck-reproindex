@@ -1,0 +1,25 @@
+{
+  "dict": {
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-dev-compilers"
+  },
+  "misc": {
+    "ckr": {
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-dev-compilers"
+    },
+    "data_uid": "944d5b8a6b4ba2f8",
+    "data_uoa": "ck-dev-compilers",
+    "desc": "CK packages to rebuild and test different compilers such as GCC and LLVM.",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-dev-compilers/tree/master/repo/ck-dev-compilers/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-dev-compilers/tree/master/repo/ck-dev-compilers",
+    "tasks": {},
+    "to_get": "ck pull repo:ck-dev-compilers",
+    "workflow_desc": ""
+  }
+}

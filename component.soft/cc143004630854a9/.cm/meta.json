@@ -1,0 +1,57 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "detect_in_soft_dir": "yes",
+      "env_mapping": [
+        {
+          "display_name": "your name",
+          "variable": "CK_MY_NAME"
+        },
+        {
+          "display_name": "your age",
+          "variable": "CK_MY_AGE"
+        }
+      ],
+      "env_prefix": "CK_ENV_DIALOGUE_CUSTOM",
+      "limit_recursion_dir_search": {
+        "linux": 0,
+        "win": 0
+      },
+      "soft_file_universal": ".cm/meta.json"
+    },
+    "soft_name": "Example Custom Dialogue",
+    "tags": [
+      "custom",
+      "dialogue"
+    ],
+    "use_customize_script_from_another_entry": {
+      "data_uoa": "f14e1ed51a944f13",
+      "module_uoa": "soft"
+    }
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "cc143004630854a9",
+    "data_uoa": "dialogue.custom",
+    "env_prefix": "CK_ENV_DIALOGUE_CUSTOM",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/dialogue.custom/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/dialogue.custom",
+    "soft_name": "Example Custom Dialogue",
+    "stags": "custom,dialogue",
+    "tags": [
+      "custom",
+      "dialogue"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

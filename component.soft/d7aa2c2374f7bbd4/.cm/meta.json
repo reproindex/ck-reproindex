@@ -1,0 +1,46 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 5,
+      "env_prefix": "CK_ENV_YAD2K",
+      "limit_recursion_dir_search": {
+        "linux": 5
+      },
+      "soft_file": {
+        "linux": "yad2k.py"
+      }
+    },
+    "soft_name": "YAD2K: Yet Another Darknet 2 Keras sources",
+    "tags": [
+      "yad2k-src",
+      "yolo",
+      "keras"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "d7aa2c2374f7bbd4",
+    "data_uoa": "model.yad2k",
+    "env_prefix": "CK_ENV_YAD2K",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "acb7cea44acac9c9",
+    "repo_uoa": "ck-tensorflow",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/soft/model.yad2k/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/soft/model.yad2k",
+    "soft_name": "YAD2K: Yet Another Darknet 2 Keras sources",
+    "stags": "yad2k-src,yolo,keras",
+    "tags": [
+      "yad2k-src",
+      "yolo",
+      "keras"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-tensorflow"
+  }
+}

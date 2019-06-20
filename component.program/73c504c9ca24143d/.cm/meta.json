@@ -1,0 +1,113 @@
+{
+  "dict": {
+    "backup_data_uid": "73c504c9ca24143d",
+    "data_name": "mxnet",
+    "no_compile": "yes",
+    "no_target_file": "yes",
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "run_cmds": {
+      "classify-cpu": {
+        "dataset_tags": [
+          "image",
+          "jpeg",
+          "dataset"
+        ],
+        "ignore_return_code": "no",
+        "run_deps": {
+          "lib-mxnet": {
+            "local": "yes",
+            "name": "MXNet library",
+            "no_tags": "vsrc",
+            "skip_pruning_by_other_deps": "yes",
+            "sort": 10,
+            "tags": "lib,mxnet,vcpu"
+          },
+          "mxnet-model": {
+            "local": "yes",
+            "name": "MXNet model",
+            "skip_pruning_by_other_deps": "yes",
+            "sort": 20,
+            "tags": "mxnetmodel"
+          }
+        },
+        "run_time": {
+          "run_cmd_main": "$<<CK_ENV_COMPILER_PYTHON_FILE>>$ ../classify.py $#dataset_path#$$#dataset_filename#$ 0"
+        }
+      },
+      "classify-gpu": {
+        "dataset_tags": [
+          "image",
+          "jpeg",
+          "dataset"
+        ],
+        "ignore_return_code": "no",
+        "run_deps": {
+          "lib-mxnet": {
+            "local": "yes",
+            "name": "MXNet library",
+            "no_tags": "vsrc",
+            "skip_pruning_by_other_deps": "yes",
+            "sort": 10,
+            "tags": "lib,mxnet,vcuda"
+          },
+          "mxnet-model": {
+            "local": "yes",
+            "name": "MXNet model",
+            "skip_pruning_by_other_deps": "yes",
+            "sort": 20,
+            "tags": "mxnetmodel"
+          }
+        },
+        "run_time": {
+          "run_cmd_main": "$<<CK_ENV_COMPILER_PYTHON_FILE>>$ ../classify.py $#dataset_path#$$#dataset_filename#$ 1"
+        }
+      },
+      "ipython": {
+        "ignore_return_code": "yes",
+        "run_deps": {
+          "lib-mxnet": {
+            "local": "yes",
+            "name": "MXNet library",
+            "no_tags": "vsrc",
+            "skip_pruning_by_other_deps": "yes",
+            "sort": 10,
+            "tags": "lib,mxnet"
+          }
+        },
+        "run_time": {
+          "run_cmd_main": "$<<CK_PYTHON_IPYTHON_BIN_FULL>>$"
+        }
+      }
+    },
+    "run_vars": {},
+    "tags": [
+      "mxnet-demo",
+      "demo"
+    ],
+    "template": "yes",
+    "template_type": "image classification via MXNet"
+  },
+  "misc": {
+    "data_uid": "73c504c9ca24143d",
+    "data_uoa": "mxnet",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "678494f8b520000f",
+    "repo_uoa": "ck-mxnet",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-mxnet/tree/master/program/mxnet/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-mxnet/tree/master/program/mxnet",
+    "soft_name": "",
+    "stags": "mxnet-demo,demo",
+    "tags": [
+      "mxnet-demo",
+      "demo"
+    ],
+    "target_os": "any",
+    "template": "image classification via MXNet",
+    "to_get": "ck pull repo:ck-mxnet",
+    "version": ""
+  }
+}

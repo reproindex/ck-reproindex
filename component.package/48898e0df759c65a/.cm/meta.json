@@ -1,0 +1,73 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {
+      "extra_dir": "",
+      "install_env": {
+        "PACKAGE_BUILD_TYPE": "",
+        "PACKAGE_COPY": "NO",
+        "PACKAGE_GIT": "NO",
+        "PACKAGE_NAME": "Git-2.17.0-32-bit.tar.bz2",
+        "PACKAGE_NAME1": "Git-2.17.0-32-bit.tar",
+        "PACKAGE_NAME2": "Git-2.17.0-32-bit",
+        "PACKAGE_RUN": "NO",
+        "PACKAGE_SKIP_LINUX_MAKE": "YES",
+        "PACKAGE_UNBZIP": "YES",
+        "PACKAGE_UNTAR": "YES",
+        "PACKAGE_URL": "https://github.com/git-for-windows/git/releases/download/v2.17.0.windows.1",
+        "PACKAGE_WGET": "YES"
+      },
+      "version": "2.7.10"
+    },
+    "end_full_path": {
+      "win": "usr\\bin\\expr.exe"
+    },
+    "only_for_host_os_tags": [
+      "windows"
+    ],
+    "process_script": "install",
+    "soft_uoa": "3d7bbd39e4e0400c",
+    "suggested_path": "tool-unix-win-from-git",
+    "tags": [
+      "utils",
+      "unix-win",
+      "git",
+      "v2.7.10",
+      "v2.7",
+      "v2",
+      "channel-stable"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "cd9ccc74060b3d18",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "48898e0df759c65a",
+    "data_uoa": "utils-unix-win-from-git-2.7.10",
+    "host_os": "windows",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/utils-unix-win-from-git-2.7.10/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/utils-unix-win-from-git-2.7.10",
+    "soft_name": "Unix Utils for Windows",
+    "soft_uid": "3d7bbd39e4e0400c",
+    "soft_uoa": "utils.unix.win",
+    "stags": "utils,unix-win,git,v2.7.10,v2.7,v2,channel-stable",
+    "tags": [
+      "utils",
+      "unix-win",
+      "git",
+      "v2.7.10",
+      "v2.7",
+      "v2",
+      "channel-stable"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

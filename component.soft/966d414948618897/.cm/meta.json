@@ -1,0 +1,69 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "add_only_with_version": "yes",
+      "add_to_path": "yes",
+      "build_dir_name": "sbt",
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_TOOL_SBT",
+      "limit_recursion_dir_search": {
+        "linux": 3,
+        "win": 4
+      },
+      "only_for_target_os_tags": [
+        "linux"
+      ],
+      "soft_file": {
+        "linux": "sbt"
+      },
+      "soft_file_from_host_os": "yes",
+      "soft_path_example": {
+        "linux": "/usr/bin/sbt"
+      },
+      "soft_version_cmd": {
+        "linux": "about  > $#filename#$ 2>&1"
+      }
+    },
+    "deps": {
+      "java-compiler": {
+        "local": "yes",
+        "name": "Java compiler",
+        "sort": 10,
+        "tags": "compiler,lang-java"
+      }
+    },
+    "env": {},
+    "soft_name": "Scala SBT tool",
+    "tags": [
+      "tool",
+      "scala",
+      "sbt"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "966d414948618897",
+    "data_uoa": "tool.sbt",
+    "env_prefix": "CK_ENV_TOOL_SBT",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "974c6589e9b66157",
+    "repo_uoa": "ck-lift",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/lift-project/ck-lift/tree/master/soft/tool.sbt/.cm/meta.json",
+    "repo_url3": "https://github.com/lift-project/ck-lift/tree/master/soft/tool.sbt",
+    "soft_name": "Scala SBT tool",
+    "stags": "tool,scala,sbt",
+    "tags": [
+      "tool",
+      "scala",
+      "sbt"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo --url=https://github.com/lift-project/ck-lift"
+  }
+}

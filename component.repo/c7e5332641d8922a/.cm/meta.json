@@ -1,0 +1,50 @@
+{
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ctuning-programs"
+      },
+      {
+        "repo_uoa": "ck-web"
+      },
+      {
+        "repo_uoa": "ck-crowdtuning-platforms"
+      }
+    ],
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-crowdtuning"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "1db88c44a4086634",
+          "repo_uoa": "ctuning-programs"
+        },
+        {
+          "repo_uid": "215d441c19db1fed",
+          "repo_uoa": "ck-web"
+        },
+        {
+          "repo_uid": "168cb19e71ad2493",
+          "repo_uoa": "ck-crowdtuning-platforms"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-crowdtuning"
+    },
+    "data_uid": "c7e5332641d8922a",
+    "data_uoa": "ck-crowdtuning",
+    "desc": "Portable and customizable CK workflow to crowdsource diverse experiments across diverse platforms (cloud, mobile phones, tablets, laptops, data centers, etc) such as multi-objective autotuning (see the <a href=\"http://cKnowledge.org/rpi-crowd-tuning\">real use case</a> and <a href=\"http://cKnowledge.org/repo\">open CK repository</a>).",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-crowdtuning/tree/master/repo/ck-crowdtuning/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-crowdtuning/tree/master/repo/ck-crowdtuning",
+    "tasks": {},
+    "to_get": "ck pull repo:ck-crowdtuning",
+    "workflow_desc": "<a href=\"https://github.com/ctuning/ck-crowdtuning/tree/master/repo/ck-crowdtuning/module\">reusable modules</a>"
+  }
+}

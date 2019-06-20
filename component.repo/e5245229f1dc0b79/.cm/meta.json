@@ -1,0 +1,44 @@
+{
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-autotuning"
+      }
+    ],
+    "shared": "git",
+    "url": "https://github.com/vasupsu/IA3_Paper16_ArtifactEvaluation"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "a4328ba99679e0d1",
+          "repo_uoa": "ck-autotuning"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/vasupsu/IA3_Paper16_ArtifactEvaluation"
+    },
+    "data_uid": "e5245229f1dc0b79",
+    "data_uoa": "IA3_Paper16_ArtifactEvaluation",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/vasupsu/IA3_Paper16_ArtifactEvaluation/tree/master/repo/IA3_Paper16_ArtifactEvaluation/.cm/meta.json",
+    "repo_url3": "https://github.com/vasupsu/IA3_Paper16_ArtifactEvaluation/tree/master/repo/IA3_Paper16_ArtifactEvaluation",
+    "tasks": {
+      "7399410dbd4f3b20": {
+        "data_uoa": "pSGNScc"
+      },
+      "838b3fef1a912e63": {
+        "data_uoa": "pword2vec"
+      },
+      "b9dbe451591cbba4": {
+        "data_uoa": "word2vec"
+      }
+    },
+    "to_get": "ck pull repo --url=https://github.com/vasupsu/IA3_Paper16_ArtifactEvaluation"
+  }
+}

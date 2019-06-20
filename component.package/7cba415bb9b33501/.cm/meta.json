@@ -1,0 +1,91 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "install_env": {
+        "CNTK_PACKAGE_EXT": "",
+        "CNTK_PACKAGE_TYPE": "GPU",
+        "CNTK_PACKAGE_VER": "2.3"
+      },
+      "version": "2.3"
+    },
+    "deps": {
+      "compiler-cuda": {
+        "local": "yes",
+        "name": "CUDA compiler",
+        "sort": 30,
+        "tags": "compiler,lang-c-cuda",
+        "version_from": [
+          8,
+          0,
+          0
+        ]
+      },
+      "python": {
+        "local": "yes",
+        "name": "Python",
+        "sort": 20,
+        "tags": "compiler,python"
+      }
+    },
+    "end_full_path_universal": "lib$#sep#$cntk$#sep#$__init__.py",
+    "need_cpu_info": "yes",
+    "only_for_host_os_tags": [
+      "linux",
+      "windows"
+    ],
+    "only_for_target_os_tags": [
+      "linux",
+      "windows"
+    ],
+    "package_extra_name": " (prebuilt, gpu)",
+    "process_script": "install",
+    "soft_uoa": "71c4a94768b7bbe1",
+    "suggested_path": "cntk-prebuilt-gpu",
+    "tags": [
+      "lib",
+      "cntk",
+      "cntk-gpu",
+      "v2.3",
+      "v2",
+      "vprebuilt",
+      "vgpu",
+      "vcuda",
+      "channel-stable"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "cc81d4c8da7a472e",
+      "module_uoa": "package"
+    }
+  },
+  "misc": {
+    "data_uid": "7cba415bb9b33501",
+    "data_uoa": "lib-cntk-2.3-gpu",
+    "host_os": "linux,macos,windows",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "e593999edb49689a",
+    "repo_uoa": "ck-cntk",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-cntk/tree/master/package/lib-cntk-2.3-gpu/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-cntk/tree/master/package/lib-cntk-2.3-gpu",
+    "soft_name": "CNTK library",
+    "soft_uid": "71c4a94768b7bbe1",
+    "soft_uoa": "lib.cntk",
+    "stags": "lib,cntk,cntk-gpu,v2.3,v2,vprebuilt,vgpu,vcuda,channel-stable",
+    "tags": [
+      "lib",
+      "cntk",
+      "cntk-gpu",
+      "v2.3",
+      "v2",
+      "vprebuilt",
+      "vgpu",
+      "vcuda",
+      "channel-stable"
+    ],
+    "target_os": "linux,macos,windows",
+    "template": "",
+    "to_get": "ck pull repo:ck-cntk"
+  }
+}

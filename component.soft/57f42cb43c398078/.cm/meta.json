@@ -1,0 +1,39 @@
+{
+  "dict": {
+    "auto_detect": "no",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_DATASET_SEISSOL"
+    },
+    "deps": {},
+    "soft_name": "SEISSOL dataset",
+    "tags": [
+      "dataset",
+      "seissol"
+    ]
+  },
+  "misc": {
+    "auto_detect": "no",
+    "data_uid": "57f42cb43c398078",
+    "data_uoa": "dataset.seissol",
+    "env_prefix": "CK_ENV_DATASET_SEISSOL",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ca4108a0485b920",
+    "repo_uoa": "ck-scc18",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-scc18/tree/master/soft/dataset.seissol/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-scc18/tree/master/soft/dataset.seissol",
+    "soft_name": "SEISSOL dataset",
+    "stags": "dataset,seissol",
+    "tags": [
+      "dataset",
+      "seissol"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-scc18"
+  }
+}

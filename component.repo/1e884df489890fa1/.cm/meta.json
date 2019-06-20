@@ -1,0 +1,52 @@
+{
+  "dict": {
+    "shared": "git",
+    "url": "https://github.com/dividiti/gemmbench"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "a4328ba99679e0d1",
+          "repo_uoa": "ck-autotuning"
+        },
+        {
+          "repo_uid": "62a4f46acf5ff29e",
+          "repo_uoa": "ck-dissemination-modules"
+        },
+        {
+          "repo_uid": "d94a45b5be3072ba",
+          "repo_uoa": "ck-math"
+        }
+      ],
+      "shared": "git",
+      "url": "git@github.com:dividiti/gemmbench.git"
+    },
+    "data_uid": "1e884df489890fa1",
+    "data_uoa": "gemmbench",
+    "desc": "Customizable CK workflows and portable packages to crowdsource GEMM benchmarking.",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/dividiti/gemmbench/tree/master/repo/gemmbench/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/gemmbench/tree/master/repo/gemmbench",
+    "tasks": {
+      "0ef9511e3864c67b": {
+        "data_uoa": "clblast-xgemm"
+      },
+      "345594b4ab4624fc": {
+        "data_uoa": "arm-mali-sgemm"
+      },
+      "5dbd24d34a039434": {
+        "data_uoa": "clblast-xgemm-overlay"
+      },
+      "fc41b0a762616427": {
+        "data_uoa": "gemmbench-cl-launcher-1.0"
+      }
+    },
+    "to_get": "ck pull repo --url=https://github.com/dividiti/gemmbench.git",
+    "workflow_desc": "programs"
+  }
+}

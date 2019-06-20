@@ -1,0 +1,52 @@
+{
+  "dict": {
+    "auto_detect": "no",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_TOOL_SYSML19_AGGREGATHOR",
+      "only_for_host_os_tags": [
+        "linux"
+      ],
+      "soft_file": {
+        "linux": "runner.py"
+      },
+      "soft_path_example": {
+        "linux": "/usr/bin/runner.py"
+      }
+    },
+    "soft_name": "SysML'19 AggregaThor",
+    "sort": -100,
+    "tags": [
+      "tool",
+      "sysml19",
+      "aggregathor"
+    ],
+    "template": "yes",
+    "template_type": "simple soft detection plugin for artifact evaluation (SysML'19)"
+  },
+  "misc": {
+    "auto_detect": "no",
+    "data_uid": "ae86f545d6a4737f",
+    "data_uoa": "sysml19-aggregathor",
+    "env_prefix": "CK_ENV_TOOL_SYSML19_AGGREGATHOR",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "76d81ee9a38d4679",
+    "repo_uoa": "reproduce-sysml19-paper-aggregathor",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-sysml19-paper-aggregathor/tree/master/soft/sysml19-aggregathor/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-sysml19-paper-aggregathor/tree/master/soft/sysml19-aggregathor",
+    "soft_name": "SysML'19 AggregaThor",
+    "stags": "tool,sysml19,aggregathor",
+    "tags": [
+      "tool",
+      "sysml19",
+      "aggregathor"
+    ],
+    "target_os": "any",
+    "template": "simple soft detection plugin for artifact evaluation (SysML'19)",
+    "to_get": "ck pull repo:reproduce-sysml19-paper-aggregathor"
+  }
+}

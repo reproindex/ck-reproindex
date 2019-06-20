@@ -1,0 +1,47 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_LIB_TF",
+      "limit_recursion_dir_search": {
+        "linux": 5
+      },
+      "soft_file": {
+        "linux": "tensorflow/__init__.py",
+        "win": "tensorflow/__init__.py"
+      }
+    },
+    "soft_name": "TensorFlow library",
+    "tags": [
+      "lib",
+      "tensorflow"
+    ],
+    "template": "yes",
+    "template_type": "TensorFlow library (Python)"
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "30db354f469bb178",
+    "data_uoa": "lib.tensorflow",
+    "env_prefix": "CK_ENV_LIB_TF",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "acb7cea44acac9c9",
+    "repo_uoa": "ck-tensorflow",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/soft/lib.tensorflow/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/soft/lib.tensorflow",
+    "soft_name": "TensorFlow library",
+    "stags": "lib,tensorflow",
+    "tags": [
+      "lib",
+      "tensorflow"
+    ],
+    "target_os": "any",
+    "template": "TensorFlow library (Python)",
+    "to_get": "ck pull repo:ck-tensorflow"
+  }
+}

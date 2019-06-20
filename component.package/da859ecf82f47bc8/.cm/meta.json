@@ -1,0 +1,62 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "comment": "CAREFUL - requires more the 1GB of free space",
+    "customize": {
+      "extra_dir": "",
+      "force_ask_path": "yes",
+      "install_env": {
+        "GRAPH_NAME": "com-orkut",
+        "MAX_VERTEX_ID": 3072626,
+        "NUM_OF_VERTICES": 3072628
+      },
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "yes",
+      "version": "1.0"
+    },
+    "end_full_path": {
+      "linux": "com-orkut.ungraph.txt"
+    },
+    "package_extra_name": " (SNAP Graphs)",
+    "process_script": "install",
+    "soft_uoa": "044f7304f07a7c34",
+    "suggested_path": "dataset-snap-com-orkut",
+    "tags": [
+      "dataset",
+      "graph",
+      "real-world",
+      "snap",
+      "orkut",
+      "large",
+      "social-network"
+    ]
+  },
+  "misc": {
+    "data_uid": "da859ecf82f47bc8",
+    "data_uoa": "dataset-snap-com-orkut",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "68121412a8ff317c",
+    "repo_uoa": "ck-graph-analytics",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-graph-analytics/tree/master/package/dataset-snap-com-orkut/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-graph-analytics/tree/master/package/dataset-snap-com-orkut",
+    "soft_name": "SNAP graph dataset",
+    "soft_uid": "044f7304f07a7c34",
+    "soft_uoa": "dataset.snap",
+    "stags": "dataset,graph,real-world,snap,orkut,large,social-network",
+    "tags": [
+      "dataset",
+      "graph",
+      "real-world",
+      "snap",
+      "orkut",
+      "large",
+      "social-network"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-graph-analytics"
+  }
+}

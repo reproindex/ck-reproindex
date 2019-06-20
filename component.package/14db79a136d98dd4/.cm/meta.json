@@ -1,0 +1,64 @@
+{
+  "dict": {
+    "aux_uoa": "4e3e9dd897f125bb",
+    "check_exit_status": "yes",
+    "customize": {
+      "extra_dir": "",
+      "install_env": {
+        "IMAGENET_VAL_MD5": "29b22e2961454d5413ddabcf34fc5622",
+        "IMAGENET_VAL_URL": "http://www.image-net.org/challenges/LSVRC/2012/nnoupb/ILSVRC2012_img_val.tar"
+      },
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "yes",
+      "version": "2012"
+    },
+    "deps": {},
+    "end_full_path": {
+      "linux": "ILSVRC2012_val_00000001.JPEG",
+      "win": "ILSVRC2012_val_00000001.JPEG"
+    },
+    "need_cpu_info": "no",
+    "process_script": "install",
+    "soft_uoa": "ff47fc6a33b4b03b",
+    "suggested_path": "dataset-imagenet-ilsvrc2012-val",
+    "tags": [
+      "dataset",
+      "imagenet",
+      "raw",
+      "val",
+      "caffe",
+      "ilsvrc2012",
+      "channel-stable"
+    ],
+    "template": "yes",
+    "template_type": "ImageNet dataset (val)"
+  },
+  "misc": {
+    "data_uid": "14db79a136d98dd4",
+    "data_uoa": "imagenet-2012-val",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/imagenet-2012-val/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/imagenet-2012-val",
+    "soft_name": "ImageNet dataset (validation)",
+    "soft_uid": "ff47fc6a33b4b03b",
+    "soft_uoa": "dataset.imagenet.val",
+    "stags": "dataset,imagenet,raw,val,caffe,ilsvrc2012,channel-stable",
+    "tags": [
+      "dataset",
+      "imagenet",
+      "raw",
+      "val",
+      "caffe",
+      "ilsvrc2012",
+      "channel-stable"
+    ],
+    "target_os": "any",
+    "template": "ImageNet dataset (val)",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

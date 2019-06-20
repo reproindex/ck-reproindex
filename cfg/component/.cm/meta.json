@@ -1,0 +1,34 @@
+{
+  "index": [
+    {"name":"Repositories", "id":"repo", "uid":"4adfaff6d69d41a9", "orig_module_uid":"befd7892b0d469e9"},
+    {"name":"Modules", "id":"module", "uid":"4700aece50b4de77", "orig_module_uid":"032630d041b4fd8a"},
+    {"name":"Tasks (program workflows)", "id":"program", "uid":"37b8fd897f14d213", "orig_module_uid":"b0ac08fe1d3c2615"},
+    {"name":"Software detection plugins", "id":"soft", "uid":"c4746e18ba0d23fe", "orig_module_uid":"5e1100048ab875d7"},
+    {"name":"Packages (code, data, models)", "id":"package", "uid":"5bd40c8c212063a3", "orig_module_uid":"1dc07ee0f4742028"}
+  ],
+  "index_articles": [
+    {"name":"All", "id":"-"},
+    {"name":"Recent", "id":"papers-sysml-2019,papers-request-asplos-2018"},
+    {"name":"SysML'19", "id":"papers-sysml-2019"},
+    {"name":"ReQuEST-ASPLOS'18", "id":"papers-request-asplos-2018"},
+    {"name":"PPoPP'19", "id":"papers-ppopp-2019"},
+    {"name":"CGO'18", "id":"papers-cgo-2018"},
+    {"name":"PPoPP'18", "id":"papers-ppopp-2018"},
+    {"name":"SC'17", "id":"papers-sc-2017"},
+    {"name":"IA3-SC'17", "id":"papers-ia3"},
+    {"name":"CGO'17", "id":"papers-cgo-2017"},
+    {"name":"ADAPT'16", "id":"papers-adapt-2016"},
+    {"name":"PACT'16", "id":"papers-pact-2016"},
+    {"name":"SC'15", "id":"papers-sc-2015"},
+    {"name":"IJPP'11", "id":"papers-ijpp-2011"},
+    {"name":"Reports", "id":"papers-reports"}
+  ],
+  "index_events": [
+    {"name":"All", "id":"-"},
+    {"name":"Upcoming", "id":"events-upcoming"},
+    {"name":"Challenges", "id":"events-challenges"},
+    {"name":"Conferences", "id":"events-conferences"},
+    {"name":"Journals", "id":"events-journals"},
+    {"name":"Workshops", "id":"events-workshops"}
+  ]
+}

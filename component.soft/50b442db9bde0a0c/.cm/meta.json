@@ -1,0 +1,43 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "add_include_path": "yes",
+      "env_prefix": "CK_ENV_MOBILENET",
+      "limit_recursion_dir_search": {
+        "linux": 4,
+        "win": 4
+      },
+      "skip_add_to_bin": "yes",
+      "skip_add_to_path": "yes"
+    },
+    "soft_name": "MobileNet weights",
+    "tags": [
+      "mobilenet",
+      "weights"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "50b442db9bde0a0c",
+    "data_uoa": "weights.mobilenet.armcl",
+    "env_prefix": "CK_ENV_MOBILENET",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "7698eaf859b79f2b",
+    "repo_uoa": "ck-request-asplos18-mobilenets-armcl-opencl",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl/tree/master/soft/weights.mobilenet.armcl/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl/tree/master/soft/weights.mobilenet.armcl",
+    "soft_name": "MobileNet weights",
+    "stags": "mobilenet,weights",
+    "tags": [
+      "mobilenet",
+      "weights"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl"
+  }
+}

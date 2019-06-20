@@ -1,0 +1,55 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "version": "2013"
+    },
+    "deps": {
+      "compiler": {
+        "local": "yes",
+        "name": "C compiler",
+        "tags": "compiler,lang-c"
+      }
+    },
+    "end_full_path": {
+      "android": "lib$#sep#$libcjson.a",
+      "linux": "lib/libcjson.a",
+      "mingw": "lib\\libcjson.a",
+      "win": "lib\\libcjson.lib"
+    },
+    "process_script": "process",
+    "soft_uoa": "59c52485faf01e9a",
+    "suggested_path": "lib-cjson",
+    "tags": [
+      "lib",
+      "cjson",
+      "v2013",
+      "channel-stable"
+    ]
+  },
+  "misc": {
+    "data_uid": "a8b63434956b0c16",
+    "data_uoa": "lib-cjson-2013",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/lib-cjson-2013/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/lib-cjson-2013",
+    "soft_name": "cJSON library",
+    "soft_uid": "59c52485faf01e9a",
+    "soft_uoa": "lib.cjson.2013",
+    "stags": "lib,cjson,v2013,channel-stable",
+    "tags": [
+      "lib",
+      "cjson",
+      "v2013",
+      "channel-stable"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

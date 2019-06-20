@@ -1,0 +1,16 @@
+{
+  "backup_data_uid": "c4746e18ba0d23fe",
+  "backup_module_uid": "032630d041b4fd8a",
+  "backup_module_uoa": "module",
+  "control": {
+    "engine": "CK",
+    "iso_datetime": "2019-03-02T08:12:22.205390",
+    "version": [
+      "1",
+      "9",
+      "7",
+      "1"
+    ]
+  },
+  "data_name": "component.soft"
+}

@@ -1,0 +1,31 @@
+{
+  "dict": {
+    "shared": "git",
+    "url": "https://github.com/ctuning/reproduce-pamela-project-small-dataset"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "208c21b837924601",
+          "repo_uoa": "reproduce-pamela-project"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/reproduce-pamela-project-small-dataset"
+    },
+    "data_uid": "2fbac50a48b19646",
+    "data_uoa": "reproduce-pamela-project-medium-dataset",
+    "desc": "",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-pamela-project-small-dataset/tree/master/repo/reproduce-pamela-project-medium-dataset/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-pamela-project-small-dataset/tree/master/repo/reproduce-pamela-project-medium-dataset",
+    "tasks": {},
+    "to_get": "ck pull repo:reproduce-pamela-project-medium-dataset",
+    "workflow_desc": "programs"
+  }
+}

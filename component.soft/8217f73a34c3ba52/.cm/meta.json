@@ -1,0 +1,64 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "add_only_with_version": "yes",
+      "add_to_path": "yes",
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_TOOL_TEXINFO",
+      "limit_recursion_dir_search": {
+        "linux": 3,
+        "win": 3
+      },
+      "only_for_host_os_tags": [
+        "windows",
+        "linux"
+      ],
+      "only_for_target_os_tags": [
+        "linux"
+      ],
+      "soft_file": {
+        "linux": "info",
+        "win": "info.exe"
+      },
+      "soft_file_from_host_os": "yes",
+      "soft_path_example": {
+        "linux": "/usr/bin/info",
+        "win": "C:\\Program Files (x86)\\texinfo\\bin\\info.exe"
+      },
+      "soft_version_cmd": {
+        "linux": "--version > $#filename#$ 2>&1",
+        "win": "--version > $#filename#$ 2>&1"
+      }
+    },
+    "soft_name": "texinfo",
+    "tags": [
+      "tool",
+      "texinfo"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "8217f73a34c3ba52",
+    "data_uoa": "tool.texinfo",
+    "env_prefix": "CK_ENV_TOOL_TEXINFO",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/tool.texinfo/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/tool.texinfo",
+    "soft_name": "texinfo",
+    "stags": "tool,texinfo",
+    "tags": [
+      "tool",
+      "texinfo"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

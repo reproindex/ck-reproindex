@@ -1,0 +1,85 @@
+{
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-autotuning"
+      },
+      {
+        "repo_uoa": "ck-math"
+      }
+    ],
+    "shared": "git",
+    "sync": "yes",
+    "url": "https://github.com/dividiti/ck-caffe"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "a4328ba99679e0d1",
+          "repo_uoa": "ck-autotuning"
+        },
+        {
+          "repo_uid": "d94a45b5be3072ba",
+          "repo_uoa": "ck-math"
+        }
+      ],
+      "shared": "git",
+      "sync": "yes",
+      "url": "git@github.com:dividiti/ck-caffe.git"
+    },
+    "data_uid": "57e83bca8a5a4344",
+    "data_uoa": "ck-caffe",
+    "desc": "Portable/customizable installation and unified access to Caffe AI framework with different workflows and data sets (see the real use case from the <a href=\"https://github.com/ctuning/ck-request-asplos18-caffe-intel\">ACM ReQuEST tournament</a>).",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/dividiti/ck-caffe/tree/master/repo/ck-caffe/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/ck-caffe/tree/master/repo/ck-caffe",
+    "tasks": {
+      "2b9f71021ffb7681": {
+        "data_uoa": "caffe-time-opencl"
+      },
+      "41ba997a71b3bacd": {
+        "data_uoa": "caffe-time-opencl-armcl"
+      },
+      "473c67d70ebe45a9": {
+        "data_uoa": "caffe-classification"
+      },
+      "4d01855945175f57": {
+        "data_uoa": "caffe-time"
+      },
+      "569404c41618603a": {
+        "data_uoa": "caffe"
+      },
+      "65a1df0f8c542a8a": {
+        "data_uoa": "caffe-detection-ssd-cuda"
+      },
+      "7d0ee244bd8b0b1a": {
+        "data_uoa": "caffe-time-cuda"
+      },
+      "925820da925b422d": {
+        "data_uoa": "caffe-ssd-train-kitti"
+      },
+      "a04a64811e45d288": {
+        "data_uoa": "caffe-classification-opencl"
+      },
+      "caa8ee40c1aa36fd": {
+        "data_uoa": "caffe-detection-ssd"
+      },
+      "ddd837b39cc45fd5": {
+        "data_uoa": "caffe-classification-opencl-armcl"
+      },
+      "ea3c7294f008627b": {
+        "data_uoa": "caffe-time-opencl-cpu"
+      },
+      "f4a92a0b77812d7d": {
+        "data_uoa": "caffe-classification-cuda"
+      }
+    },
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-caffe.git",
+    "workflow_desc": "programs"
+  }
+}

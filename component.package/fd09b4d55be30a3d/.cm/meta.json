@@ -1,0 +1,70 @@
+{
+  "dict": {
+    "customize": {
+      "install_env": {
+        "PACKAGE_GIT": "YES",
+        "PACKAGE_GIT_CHECKOUT": "v0.1",
+        "PACKAGE_PATCH": "YES",
+        "PACKAGE_SKIP_CLEAN_OBJ": "YES",
+        "PACKAGE_SKIP_LINUX_MAKE": "YES",
+        "PACKAGE_SUB_DIR": "src",
+        "PACKAGE_URL": "https://github.com/orion-project/orion-qt"
+      },
+      "version": "0.1"
+    },
+    "end_full_path": {
+      "linux": "src/orion.pri",
+      "win": "src/orion.pri"
+    },
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "process_script": "install",
+    "soft_uoa": "cbb4893bed2c1049",
+    "suggested_path": "lib-orion-qt",
+    "tags": [
+      "lib",
+      "orion-qt",
+      "vqt",
+      "vsrc",
+      "v0.1",
+      "v0",
+      "channel-stable"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "cd9ccc74060b3d18",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "fd09b4d55be30a3d",
+    "data_uoa": "lib-orion-qt",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "4ae7df4c1a806867",
+    "repo_uoa": "ck-gui",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/Chunosov/ck-gui/tree/master/package/lib-orion-qt/.cm/meta.json",
+    "repo_url3": "https://github.com/Chunosov/ck-gui/tree/master/package/lib-orion-qt",
+    "soft_name": "orion-qt development library",
+    "soft_uid": "cbb4893bed2c1049",
+    "soft_uoa": "lib.orion-qt",
+    "stags": "lib,orion-qt,vqt,vsrc,v0.1,v0,channel-stable",
+    "tags": [
+      "lib",
+      "orion-qt",
+      "vqt",
+      "vsrc",
+      "v0.1",
+      "v0",
+      "channel-stable"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo --url=https://github.com/Chunosov/ck-gui"
+  }
+}

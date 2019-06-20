@@ -1,0 +1,81 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "git_src_dir": "src",
+      "install_env": {
+        "PACKAGE_BUILD_TYPE": "",
+        "PACKAGE_CONFIGURE_FLAGS": "CC=gcc",
+        "PACKAGE_GIT": "YES",
+        "PACKAGE_SKIP_CLEAN_SRC_DIR": "YES",
+        "PACKAGE_SKIP_LINUX_MAKE": "YES",
+        "PACKAGE_SUB_DIR": "src",
+        "PACKAGE_SUB_DIR1": "src",
+        "PACKAGE_URL": "https://github.com/HPCToolkit/libmonitor"
+      },
+      "use_git_revision": "yes",
+      "version": "master"
+    },
+    "deps": {
+      "compiler": {
+        "local": "yes",
+        "name": "GCC compiler",
+        "skip_from_bat": "yes",
+        "sort": 10,
+        "tags": "compiler,lang-cpp,gcc"
+      },
+      "lib-papi": {
+        "local": "yes",
+        "name": "PAPI library",
+        "sort": 20,
+        "tags": "lib,papi"
+      }
+    },
+    "end_full_path": {
+      "linux": "install$#sep#$lib$#sep#$libmonitor.so"
+    },
+    "need_cpu_info": "yes",
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "process_script": "install",
+    "soft_uoa": "3445528e05d76d99",
+    "suggested_path": "lib-hpctoolkit-libmonitor",
+    "tags": [
+      "lib",
+      "hpctoolkit-libmonitor",
+      "vmaster"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "cd9ccc74060b3d18",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "7a5caa8f44917b9b",
+    "data_uoa": "lib-hpctoolkit-libmonitor-master",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/lib-hpctoolkit-libmonitor-master/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/lib-hpctoolkit-libmonitor-master",
+    "soft_name": "HPCToolKit libmonitor library",
+    "soft_uid": "3445528e05d76d99",
+    "soft_uoa": "lib.hpctoolkit.libmonitor",
+    "stags": "lib,hpctoolkit-libmonitor,vmaster",
+    "tags": [
+      "lib",
+      "hpctoolkit-libmonitor",
+      "vmaster"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

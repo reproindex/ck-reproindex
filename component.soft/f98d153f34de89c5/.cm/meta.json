@@ -1,0 +1,51 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_LIB_GBENCHMARK",
+      "limit_recursion_dir_search": {
+        "linux": 3,
+        "win": 3
+      },
+      "soft_file": {
+        "linux": "libbenchmark.a",
+        "win": "benchmark.lib"
+      },
+      "soft_path_example": {
+        "linux": "/usr/lib/x86_64-linux-gnu/libbenchmark.a",
+        "win": ""
+      }
+    },
+    "deps": {},
+    "soft_name": "Google Benchmark library",
+    "tags": [
+      "lib",
+      "gbenchmark"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "f98d153f34de89c5",
+    "data_uoa": "lib.gbenchmark",
+    "env_prefix": "CK_ENV_LIB_GBENCHMARK",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/lib.gbenchmark/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/lib.gbenchmark",
+    "soft_name": "Google Benchmark library",
+    "stags": "lib,gbenchmark",
+    "tags": [
+      "lib",
+      "gbenchmark"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

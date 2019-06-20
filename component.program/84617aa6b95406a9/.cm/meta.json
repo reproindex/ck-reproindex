@@ -1,0 +1,100 @@
+{
+  "dict": {
+    "backup_data_uid": "b2f3da085d3c47e7",
+    "data_name": "sequence2sequence-lstm-tf",
+    "no_compile": "yes",
+    "no_target_file": "yes",
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "run_cmds": {
+      "train": {
+        "ignore_return_code": "no",
+        "run_deps": {
+          "lib-tensorflow": {
+            "local": "yes",
+            "name": "TensorFlow library",
+            "sort": 10,
+            "tags": "lib,tensorflow"
+          }
+        },
+        "run_time": {
+          "run_cmd_main": "../scripts/nmt_tf_1.2-iwslt_en_vi$#script_ext#$"
+        }
+      },
+      "train-and-profile": {
+        "ignore_return_code": "no",
+        "run_deps": {
+          "lib-tensorflow": {
+            "local": "yes",
+            "name": "TensorFlow library",
+            "sort": 10,
+            "tags": "lib,tensorflow"
+          }
+        },
+        "run_time": {
+          "run_cmd_main": "../scripts/nmt_tf_1.2-iwslt_en_vi$#script_ext#$ --profile"
+        }
+      },
+      "train-and-profile-fp32": {
+        "ignore_return_code": "no",
+        "run_deps": {
+          "lib-tensorflow": {
+            "local": "yes",
+            "name": "TensorFlow library",
+            "sort": 10,
+            "tags": "lib,tensorflow"
+          }
+        },
+        "run_time": {
+          "run_cmd_main": "../scripts/nmt_tf_1.2-iwslt_en_vi$#script_ext#$ --profile-fp32"
+        }
+      }
+    },
+    "run_deps": {
+      "iwslt15_en-vi": {
+        "local": "yes",
+        "name": "IWSLT15 English-Vietnamese dataset (all)",
+        "sort": 20,
+        "tags": "dataset,translation,raw,train"
+      },
+      "python": {
+        "local": "yes",
+        "name": "Python interpreter (v3+)",
+        "sort": 5,
+        "tags": "compiler,python",
+        "version_to": [
+          2,
+          99
+        ]
+      }
+    },
+    "tags": [
+      "machine-translation",
+      "tensorflow-machine-translation"
+    ],
+    "template": "yes",
+    "template_type": "LSTM via TensorFlow"
+  },
+  "misc": {
+    "data_uid": "84617aa6b95406a9",
+    "data_uoa": "sequence2sequence-lstm-tf",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "90009e454e059d40",
+    "repo_uoa": "ck-tbd-suite",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tbd-suite/tree/master/program/sequence2sequence-lstm-tf/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tbd-suite/tree/master/program/sequence2sequence-lstm-tf",
+    "soft_name": "",
+    "stags": "machine-translation,tensorflow-machine-translation",
+    "tags": [
+      "machine-translation",
+      "tensorflow-machine-translation"
+    ],
+    "target_os": "any",
+    "template": "LSTM via TensorFlow",
+    "to_get": "ck pull repo:ck-tbd-suite",
+    "version": ""
+  }
+}

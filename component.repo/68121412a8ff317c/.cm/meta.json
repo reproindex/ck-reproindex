@@ -1,0 +1,76 @@
+{
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-autotuning"
+      },
+      {
+        "repo_uoa": "ck-dissemination-modules"
+      },
+      {
+        "repo_uoa": "ck-artifact-evaluation"
+      },
+      {
+        "repo_uoa": "ck-docker"
+      }
+    ],
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-graph-analytics"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "a4328ba99679e0d1",
+          "repo_uoa": "ck-autotuning"
+        },
+        {
+          "repo_uid": "62a4f46acf5ff29e",
+          "repo_uoa": "ck-dissemination-modules"
+        },
+        {
+          "repo_uid": "1b8b35474438bdbc",
+          "repo_uoa": "ck-artifact-evaluation"
+        },
+        {
+          "repo_uid": "18bb3d4130a4aaf9",
+          "repo_uoa": "ck-docker"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-graph-analytics"
+    },
+    "data_uid": "68121412a8ff317c",
+    "data_uoa": "ck-graph-analytics",
+    "desc": "Collection of graph analytics packages and application in the CK format.",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-graph-analytics/tree/master/repo/ck-graph-analytics/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-graph-analytics/tree/master/repo/ck-graph-analytics",
+    "tasks": {
+      "079c1ff2d6432f96": {
+        "data_uoa": "seissol-demo"
+      },
+      "14e73b62d57d4cd0": {
+        "data_uoa": "mgbc-demo"
+      },
+      "6a26422187fdfc33": {
+        "data_uoa": "axbc-snap"
+      },
+      "a53400ba790a753f": {
+        "data_uoa": "egsolver"
+      },
+      "b7d96f5078dd48fd": {
+        "data_uoa": "mgbc-snap"
+      },
+      "cf69864428993f52": {
+        "data_uoa": "axbc-demo"
+      }
+    },
+    "to_get": "ck pull repo:ck-graph-analytics",
+    "workflow_desc": "programs"
+  }
+}

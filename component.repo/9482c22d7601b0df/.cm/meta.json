@@ -1,0 +1,47 @@
+{
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-crowdtuning"
+      },
+      {
+        "repo_uoa": "ck-docker"
+      }
+    ],
+    "shared": "git",
+    "url": "https://github.com/ctuning/reproduce-milepost-project"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "c7e5332641d8922a",
+          "repo_uoa": "ck-crowdtuning"
+        },
+        {
+          "repo_uid": "18bb3d4130a4aaf9",
+          "repo_uoa": "ck-docker"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/reproduce-milepost-project"
+    },
+    "data_uid": "9482c22d7601b0df",
+    "data_uoa": "reproduce-milepost-project",
+    "desc": "Customizable CK workflows and portable CK packages for the <a href=\"https://en.wikipedia.org/wiki/MILEPOST_GCC\">MILEPOST project</a>.",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-milepost-project/tree/master/repo/reproduce-milepost-project/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-milepost-project/tree/master/repo/reproduce-milepost-project",
+    "tasks": {
+      "16a12a3fee44b659": {
+        "data_uoa": "sample-milepost-codelet"
+      }
+    },
+    "to_get": "ck pull repo:reproduce-milepost-project",
+    "workflow_desc": "reproducible&nbsp;paper\n"
+  }
+}

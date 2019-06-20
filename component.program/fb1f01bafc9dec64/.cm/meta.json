@@ -1,0 +1,197 @@
+{
+  "dict": {
+    "backup_data_uid": "fb1f01bafc9dec64",
+    "data_name": "sysml19-aggregathor",
+    "main_language": "python",
+    "no_compile": "yes",
+    "no_target_file": "yes",
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "run_cmds": {
+      "distributed-deploy-mnist": {
+        "ignore_return_code": "no",
+        "run_time": {
+          "pre_process_via_ck": {
+            "script_name": "preprocess"
+          },
+          "run_cmd_main": "..$#dir_sep#$ck_deploy$#script_ext#$"
+        },
+        "sort": 300
+      },
+      "distributed-mnist": {
+        "ignore_return_code": "no",
+        "print_files_after_run": [
+          "stderr.log",
+          "stdout.log"
+        ],
+        "run_time": {
+          "post_process_cmds": [
+            "python ../postprocess.py"
+          ],
+          "post_process_via_ck": "yes",
+          "pre_process_via_ck": {
+            "script_name": "preprocess"
+          },
+          "run_cmd_main": "..$#dir_sep#$ck_run_distributed$#script_ext#$",
+          "run_cmd_out1": "stdout.log",
+          "run_cmd_out2": "stderr.log",
+          "run_output_files": [
+            "stdout.log",
+            "stderr.log"
+          ],
+          "run_set_env2": {
+            "EXPERIMENT": "mnist"
+          }
+        }
+      },
+      "local-cifar10": {
+        "ignore_return_code": "no",
+        "print_files_after_run": [
+          "stderr.log",
+          "stdout.log"
+        ],
+        "run_deps": {
+          "dataset-tensorflow-slim-cifar10": {
+            "local": "yes",
+            "name": "CIFAR10 dataset (TensorFlow Slim)",
+            "skip_default": "yes",
+            "sort": 20,
+            "tags": "dataset,tensorflow-slim,cifar10"
+          },
+          "tensorflow-model-api": {
+            "local": "yes",
+            "name": "TensorFlow Models (Source)",
+            "skip_from_bat": "yes",
+            "sort": 10,
+            "tags": "tensorflowmodel,api"
+          }
+        },
+        "run_time": {
+          "post_process_cmds": [
+            "python ../postprocess.py"
+          ],
+          "post_process_via_ck": "yes",
+          "run_cmd_main": "..$#dir_sep#$ck_run_cifar10$#script_ext#$",
+          "run_cmd_out1": "stdout.log",
+          "run_cmd_out2": "stderr.log",
+          "run_output_files": [
+            "stdout.log",
+            "stderr.log"
+          ],
+          "run_set_env2": {
+            "EXPERIMENT": "cnnet"
+          }
+        },
+        "sort": 100
+      },
+      "local-mnist": {
+        "ignore_return_code": "no",
+        "print_files_after_run": [
+          "stderr.log",
+          "stdout.log"
+        ],
+        "run_time": {
+          "post_process_cmds": [
+            "python ../postprocess.py"
+          ],
+          "post_process_via_ck": "yes",
+          "run_cmd_main": "..$#dir_sep#$ck_run$#script_ext#$",
+          "run_cmd_out1": "stdout.log",
+          "run_cmd_out2": "stderr.log",
+          "run_output_files": [
+            "stdout.log",
+            "stderr.log"
+          ],
+          "run_set_env2": {
+            "EXPERIMENT": "mnist"
+          }
+        }
+      },
+      "local-mnist-attack": {
+        "ignore_return_code": "no",
+        "print_files_after_run": [
+          "stderr.log",
+          "stdout.log"
+        ],
+        "run_time": {
+          "post_process_cmds": [
+            "python ../postprocess.py"
+          ],
+          "post_process_via_ck": "yes",
+          "run_cmd_main": "..$#dir_sep#$ck_run$#script_ext#$",
+          "run_cmd_out1": "stdout.log",
+          "run_cmd_out2": "stderr.log",
+          "run_output_files": [
+            "stdout.log",
+            "stderr.log"
+          ],
+          "run_set_env2": {
+            "EXPERIMENT": "mnistAttack"
+          }
+        }
+      },
+      "runner": {
+        "ignore_return_code": "no",
+        "run_time": {
+          "run_cmd_main": "..$#dir_sep#$ck_run$#script_ext#$"
+        },
+        "sort": -100
+      }
+    },
+    "run_deps": {
+      "aggregathor": {
+        "local": "yes",
+        "name": "SysML19 Aggregathor",
+        "skip_default": "yes",
+        "sort": 10,
+        "tags": "tool,sysml19,aggregathor"
+      }
+    },
+    "run_vars": {
+      "AGGREGATOR": "average",
+      "BATCH_SIZE": 50,
+      "CHECKPOINT_DELTA": -1,
+      "CHECKPOINT_PERIOD": -1,
+      "EVALUATION_DELTA": 100,
+      "EVALUATION_PERIOD": -1,
+      "EV_JOB_NAME": "local",
+      "EXPERIMENT": "mnist",
+      "LEARNING_RATE_ARGS": "initial-rate:0.05",
+      "MAX_STEP": 10000,
+      "NB_DECL_BYZ_WORKERS": 0,
+      "NB_WORKERS": 4,
+      "PS_JOB_NAME": "local",
+      "SUMMARY_DELTA": -1,
+      "SUMMARY_PERIOD": -1,
+      "WK_JOB_NAME": "local"
+    },
+    "tags": [
+      "program",
+      "sysml19",
+      "aggregathor"
+    ]
+  },
+  "misc": {
+    "data_uid": "fb1f01bafc9dec64",
+    "data_uoa": "sysml19-aggregathor",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "76d81ee9a38d4679",
+    "repo_uoa": "reproduce-sysml19-paper-aggregathor",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-sysml19-paper-aggregathor/tree/master/program/sysml19-aggregathor/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-sysml19-paper-aggregathor/tree/master/program/sysml19-aggregathor",
+    "soft_name": "",
+    "stags": "program,sysml19,aggregathor",
+    "tags": [
+      "program",
+      "sysml19",
+      "aggregathor"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:reproduce-sysml19-paper-aggregathor",
+    "version": ""
+  }
+}

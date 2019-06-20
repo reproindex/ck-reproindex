@@ -1,0 +1,32 @@
+{
+  "misc": {
+    "artifact_doi_url": "https://doi.org/10.5281/zenodo.1112358",
+    "artifact_sources": "",
+    "artifact_sources_url": "",
+    "authors": "Sebastian Buchwald, Andreas Fried, Sebastian Hack",
+    "badge_acm_artifact_available": "yes",
+    "badge_acm_artifact_functional": "",
+    "badge_acm_artifact_reusable": "yes",
+    "badge_acm_results_replicated": "yes",
+    "badge_acm_results_reproduced": "",
+    "ck_repo_uid": "",
+    "paper_doi_url": "https://doi.org/10.1145/3168821",
+    "paper_pdf_url": "",
+    "reproducibility_url": "http://ctuning.org/ae/cgo2018.html",
+    "results": "",
+    "results_dashboard_url": "",
+    "results_url": "",
+    "some_results_replicated": "",
+    "title": "Synthesizing an instruction selection rule library from semantic specifications",
+    "unified_artifact_appendix": "https://github.com/ctuning/ck-artifact-evaluation/tree/master/wfe/artifact-evaluation/templates",
+    "where": "CGO'18",
+    "where_url": "http://cgo.org/cgo2018",
+    "workflow": "",
+    "workflow_url": ""
+  },
+  "tags": [
+    "papers",
+    "papers-cgo",
+    "papers-cgo-2018"
+  ]
+}

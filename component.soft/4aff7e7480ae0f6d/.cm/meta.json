@@ -1,0 +1,65 @@
+{
+  "dict": {
+    "customize": {
+      "build_dir_name": "pencilcc",
+      "env_prefix": "CK_ENV_COMPILER_PENCIL",
+      "languages": [
+        "C",
+        "CPP"
+      ],
+      "only_for_host_os_tags": [
+        "linux"
+      ],
+      "only_for_target_os_tags": [
+        "linux"
+      ],
+      "source_to_source": "yes"
+    },
+    "env": {
+      "CK_PENCILCC": "pencilcc",
+      "CK_PPCG": "ppcg",
+      "PENCIL_COMPILER_BINARY": "ppcg"
+    },
+    "soft_name": "PENCIL C compiler",
+    "tags": [
+      "source-to-source-compiler",
+      "pencilcc",
+      "polyhedral",
+      "lang-c",
+      "lang-cpp"
+    ],
+    "tool": "pencilcc",
+    "version": {
+      "cmd": "--version > $#filename#$ 2>&1",
+      "split": ".",
+      "string_after": "",
+      "string_before": "version "
+    }
+  },
+  "misc": {
+    "auto_detect": "no",
+    "data_uid": "4aff7e7480ae0f6d",
+    "data_uoa": "compiler.pencilcc",
+    "env_prefix": "CK_ENV_COMPILER_PENCIL",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/compiler.pencilcc/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/compiler.pencilcc",
+    "soft_name": "PENCIL C compiler",
+    "stags": "source-to-source-compiler,pencilcc,polyhedral,lang-c,lang-cpp",
+    "tags": [
+      "source-to-source-compiler",
+      "pencilcc",
+      "polyhedral",
+      "lang-c",
+      "lang-cpp"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "install_env": {
+        "GPU_ENABLED": 0,
+        "TENSORFLOW_PACKAGE_VER": "1.6.0",
+        "TF_CUDA": "NO"
+      },
+      "supported_python_ver2_on_win": [
+        5,
+        6
+      ],
+      "version": "1.6.0"
+    },
+    "deps": {
+      "python": {
+        "add_to_path": "yes",
+        "local": "yes",
+        "name": "Python",
+        "sort": 20,
+        "tags": "compiler,python"
+      }
+    },
+    "end_full_path_universal": "lib$#sep#$tensorflow$#sep#$__init__.py",
+    "need_cpu_info": "yes",
+    "only_for_host_os_tags": [
+      "linux",
+      "windows"
+    ],
+    "only_for_target_os_tags": [
+      "linux",
+      "windows"
+    ],
+    "package_extra_name": " (prebuilt, cpu)",
+    "process_script": "install",
+    "soft_uoa": "30db354f469bb178",
+    "suggested_path": "tensorflow-prebuilt-cpu",
+    "tags": [
+      "lib",
+      "tensorflow",
+      "tensorflow-cpu",
+      "v1",
+      "v1.6",
+      "v1.6.0",
+      "vprebuilt",
+      "vcpu",
+      "channel-stable"
+    ],
+    "use_preprocess_scripts_from_another_entry": {
+      "data_uoa": "lib-tensorflow-1.1.0-cpu",
+      "module_uoa": "package"
+    },
+    "use_scripts_from_another_entry": {
+      "data_uoa": "lib-tensorflow-1.4.0-cpu",
+      "module_uoa": "package"
+    }
+  },
+  "misc": {
+    "data_uid": "f2846be8dbe2cd3b",
+    "data_uoa": "lib-tensorflow-1.6.0-cpu",
+    "host_os": "linux,macos,windows",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "acb7cea44acac9c9",
+    "repo_uoa": "ck-tensorflow",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/lib-tensorflow-1.6.0-cpu/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/lib-tensorflow-1.6.0-cpu",
+    "soft_name": "TensorFlow library",
+    "soft_uid": "30db354f469bb178",
+    "soft_uoa": "lib.tensorflow",
+    "stags": "lib,tensorflow,tensorflow-cpu,v1,v1.6,v1.6.0,vprebuilt,vcpu,channel-stable",
+    "tags": [
+      "lib",
+      "tensorflow",
+      "tensorflow-cpu",
+      "v1",
+      "v1.6",
+      "v1.6.0",
+      "vprebuilt",
+      "vcpu",
+      "channel-stable"
+    ],
+    "target_os": "linux,macos,windows",
+    "template": "",
+    "to_get": "ck pull repo:ck-tensorflow"
+  }
+}

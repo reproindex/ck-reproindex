@@ -1,0 +1,70 @@
+{
+  "dict": {
+    "customize": {
+      "add_only_with_version": "yes",
+      "add_to_path": "yes",
+      "build_dir_name": "php",
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_COMPILER_PHP",
+      "languages": [
+        "PHP"
+      ],
+      "limit_recursion_dir_search": {
+        "linux": 3,
+        "win": 4
+      },
+      "only_for_host_os_tags": [
+        "windows",
+        "linux"
+      ],
+      "only_for_target_os_tags": [
+        "windows",
+        "linux"
+      ],
+      "soft_file": {
+        "linux": "php",
+        "win": "php.exe"
+      },
+      "soft_file_from_host_os": "yes",
+      "soft_version_cmd": {
+        "linux": "--version > $#filename#$ 2>&1",
+        "win": "--version > $#filename#$ 2>&1"
+      }
+    },
+    "env": {
+      "CK_PC": "php",
+      "CK_PHP_RT": "php"
+    },
+    "soft_name": "PHP compiler",
+    "tags": [
+      "compiler",
+      "php",
+      "lang-php"
+    ]
+  },
+  "misc": {
+    "auto_detect": "no",
+    "data_uid": "9017f4c34afcaf33",
+    "data_uoa": "compiler.php",
+    "env_prefix": "CK_ENV_COMPILER_PHP",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/compiler.php/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/compiler.php",
+    "soft_name": "PHP compiler",
+    "stags": "compiler,php,lang-php",
+    "tags": [
+      "compiler",
+      "php",
+      "lang-php"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

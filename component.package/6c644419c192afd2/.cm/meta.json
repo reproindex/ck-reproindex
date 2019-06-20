@@ -1,0 +1,69 @@
+{
+  "dict": {
+    "customize": {
+      "add_m32": "no",
+      "extra_dir": "",
+      "install_env": {
+        "PACKAGE_URL": "http://llvm.org/releases",
+        "PACKAGE_VERSION": "3.9.0"
+      },
+      "retarget": "no",
+      "tool_prefix": "",
+      "version": ""
+    },
+    "deps": {
+      "tool-cmake": {
+        "local": "yes",
+        "name": "cmake",
+        "tags": "tool,cmake"
+      }
+    },
+    "end_full_path": {
+      "android": "bin/clang",
+      "linux": "bin/clang"
+    },
+    "need_cpu_info": "yes",
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "process_script": "process",
+    "soft_uoa": "1c2eb494b8ae3bc4",
+    "suggested_path": "llvm-src-3.9.0",
+    "tags": [
+      "compiler",
+      "llvm",
+      "v3.9.0",
+      "v3.9",
+      "v3"
+    ]
+  },
+  "misc": {
+    "data_uid": "6c644419c192afd2",
+    "data_uoa": "compiler-llvm-3.9.0-src-linux",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "944d5b8a6b4ba2f8",
+    "repo_uoa": "ck-dev-compilers",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-dev-compilers/tree/master/package/compiler-llvm-3.9.0-src-linux/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-dev-compilers/tree/master/package/compiler-llvm-3.9.0-src-linux",
+    "soft_name": "LLVM compiler",
+    "soft_uid": "1c2eb494b8ae3bc4",
+    "soft_uoa": "compiler.llvm",
+    "stags": "compiler,llvm,v3.9.0,v3.9,v3",
+    "tags": [
+      "compiler",
+      "llvm",
+      "v3.9.0",
+      "v3.9",
+      "v3"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:ck-dev-compilers"
+  }
+}

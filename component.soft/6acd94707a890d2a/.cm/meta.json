@@ -1,0 +1,49 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "deployed_name_infix": "optimizer.",
+      "detect_in_soft_dir": "yes",
+      "env_prefix": "CK_ENV_VQE_OPTIMIZER",
+      "limit_recursion_dir_search": {
+        "linux": 2,
+        "win": 2
+      },
+      "soft_file_universal": "custom_optimizer.py",
+      "unsplit_version_to_tags_prefixed_with": "optimizer."
+    },
+    "soft_name": "Optimizer for VQE",
+    "tags": [
+      "quantum",
+      "vqe",
+      "optimizer",
+      "lib"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "6acd94707a890d2a",
+    "data_uoa": "template.optimizer",
+    "env_prefix": "CK_ENV_VQE_OPTIMIZER",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "de640faafc01c0a0",
+    "repo_uoa": "ck-quantum",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-quantum/tree/master/soft/template.optimizer/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-quantum/tree/master/soft/template.optimizer",
+    "soft_name": "Optimizer for VQE",
+    "stags": "quantum,vqe,optimizer,lib",
+    "tags": [
+      "quantum",
+      "vqe",
+      "optimizer",
+      "lib"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-quantum"
+  }
+}

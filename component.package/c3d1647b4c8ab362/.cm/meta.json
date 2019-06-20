@@ -1,0 +1,118 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "comment": "build Approximating BC",
+    "customize": {
+      "extra_dir": "",
+      "git_src_dir": "src",
+      "install_env": {
+        "CUDA_ARC": "-arch=sm_70",
+        "PACKAGE_BUILD_TYPE": "make",
+        "PACKAGE_CONFIGURE_FLAGS": "",
+        "PACKAGE_COPY": "NO",
+        "PACKAGE_GIT": "YES",
+        "PACKAGE_GIT_CHECKOUT": "master",
+        "PACKAGE_PATCH": "NO",
+        "PACKAGE_SKIP_CLEAN_INSTALL": "YES",
+        "PACKAGE_SKIP_CLEAN_OBJ": "NO",
+        "PACKAGE_SKIP_CLEAN_SRC_DIR": "YES",
+        "PACKAGE_SKIP_LINUX_MAKE": "YES",
+        "PACKAGE_SUB_DIR": "src",
+        "PACKAGE_SUB_DIR1": "install",
+        "PACKAGE_URL": "https://github.com/fvella/axbc.git"
+      },
+      "no_ver_in_suggested_path": "yes",
+      "use_git_revision": "yes",
+      "version": "master"
+    },
+    "deps": {
+      "compiler": {
+        "local": "yes",
+        "name": "C++ compiler",
+        "sort": 10,
+        "tags": "compiler,lang-cpp"
+      },
+      "cub": {
+        "local": "yes",
+        "name": "Nvidia CUB",
+        "sort": 2,
+        "tags": "lib,cub"
+      },
+      "cuda": {
+        "local": "yes",
+        "name": "Nvidia CUDA",
+        "sort": 0,
+        "tags": "compiler,cuda,lang-c-cuda"
+      },
+      "lib-graph-generator": {
+        "local": "yes",
+        "name": "Graph Generator",
+        "sort": 5,
+        "tags": "lib,rmat-generator,vcnr"
+      },
+      "lib-openmpi": {
+        "local": "yes",
+        "name": "OpenMPI library",
+        "skip_default": "yes",
+        "sort": 30,
+        "tags": "lib,mpi,openmpi"
+      }
+    },
+    "end_full_path": {
+      "linux": "install/bin/axbc2d"
+    },
+    "need_cpu_info": "yes",
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "process_script": "install",
+    "soft_uoa": "d85b4ece3e9408d5",
+    "suggested_path": "lib-axbc",
+    "tags": [
+      "lib",
+      "bc",
+      "betwenness",
+      "graph",
+      "approximation",
+      "approx",
+      "vabc",
+      "vaxbc"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "cd9ccc74060b3d18",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "c3d1647b4c8ab362",
+    "data_uoa": "lib-axbc",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "68121412a8ff317c",
+    "repo_uoa": "ck-graph-analytics",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-graph-analytics/tree/master/package/lib-axbc/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-graph-analytics/tree/master/package/lib-axbc",
+    "soft_name": "Approximating BC on Multi-GPU",
+    "soft_uid": "d85b4ece3e9408d5",
+    "soft_uoa": "lib.axbc",
+    "stags": "lib,bc,betwenness,graph,approximation,approx,vabc,vaxbc",
+    "tags": [
+      "lib",
+      "bc",
+      "betwenness",
+      "graph",
+      "approximation",
+      "approx",
+      "vabc",
+      "vaxbc"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:ck-graph-analytics"
+  }
+}

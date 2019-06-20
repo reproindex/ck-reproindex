@@ -1,0 +1,51 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "pocc-1.2",
+      "tool_prefix": "",
+      "version": "1.2"
+    },
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "process_script": "process",
+    "soft_uoa": "6b49e0fec6ca9a1c",
+    "suggested_path": "pocc",
+    "tags": [
+      "compiler",
+      "source-to-source",
+      "pocc",
+      "v1.2",
+      "v1"
+    ]
+  },
+  "misc": {
+    "data_uid": "fd8a999f2d024a60",
+    "data_uoa": "compiler-pocc-1.2",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "4e58bd6003fc6875",
+    "repo_uoa": "reproduce-fgg-2010",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-fgg-2010/tree/master/package/compiler-pocc-1.2/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-fgg-2010/tree/master/package/compiler-pocc-1.2",
+    "soft_name": "POCC compiler (outdated)",
+    "soft_uid": "6b49e0fec6ca9a1c",
+    "soft_uoa": "compiler.pocc",
+    "stags": "compiler,source-to-source,pocc,v1.2,v1",
+    "tags": [
+      "compiler",
+      "source-to-source",
+      "pocc",
+      "v1.2",
+      "v1"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:reproduce-fgg-2010"
+  }
+}

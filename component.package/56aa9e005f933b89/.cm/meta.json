@@ -1,0 +1,112 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {
+      "extra_dir": "",
+      "file_with_weights": "bvlc_alexnet.caffemodel2",
+      "force_ask_path": "yes",
+      "install_env": {
+        "MODEL_FILE": "bvlc_alexnet.caffemodel2",
+        "MODEL_HASH_CALCULATOR": "sha1sum",
+        "MODEL_HASH_REF": "c13ab080a5252a5d2e2dbdc17094c62c0a77ffa1",
+        "MODEL_URL": "http://cKnowledge.org/ai/data/bvlc_alexnet.caffemodel2"
+      },
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "yes",
+      "params": {
+        "deploy": {
+          "substitute": {
+            "batch_size": 10
+          },
+          "template": "deploy.prototxt"
+        },
+        "train": {
+          "substitute": {
+            "train_batch_size": 256,
+            "train_mean": "$#path_to_imagenet_aux#$imagenet_mean.binaryproto",
+            "val_batch_size": 50,
+            "val_mean": "$#path_to_imagenet_aux#$imagenet_mean.binaryproto"
+          },
+          "template": "train_val.prototxt"
+        },
+        "val": {
+          "accuracy_layers": [
+            "accuracy",
+            "accuracy_top5",
+            "loss"
+          ],
+          "substitute": {
+            "train_batch_size": 256,
+            "train_mean": "$#path_to_imagenet_aux#$imagenet_mean.binaryproto",
+            "val_batch_size": 50,
+            "val_mean": "$#path_to_imagenet_aux#$imagenet_mean.binaryproto"
+          },
+          "template": "train_val.prototxt"
+        }
+      },
+      "skip_file_check": "yes",
+      "version": "trunk"
+    },
+    "end_full_path": {
+      "linux": "bvlc_alexnet.caffemodel2",
+      "win": "bvlc_alexnet.caffemodel2"
+    },
+    "features": {
+      "accuracy": 0.568279,
+      "accuracy_top5": 0.799501,
+      "model_size_mb": 244
+    },
+    "only_for_host_os_tags": [
+      "windows",
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "windows",
+      "linux"
+    ],
+    "package_extra_name": " (bvlc, alexnet)",
+    "process_script": "download",
+    "soft_uoa": "0512081c543edb2e",
+    "suggested_path": "caffemodel2-bvlc-alexnet",
+    "tags": [
+      "caffe2",
+      "weights",
+      "caffemodel2",
+      "bvlc",
+      "alexnet",
+      "channel-stable"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "download-caffemodel",
+      "module_uoa": "script",
+      "repo_uoa": "ck-caffe"
+    }
+  },
+  "misc": {
+    "data_uid": "56aa9e005f933b89",
+    "data_uoa": "caffemodel2-bvlc-alexnet",
+    "host_os": "windows,linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "b8adffa0791cb38a",
+    "repo_uoa": "ck-caffe2",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-caffe2/tree/master/package/caffemodel2-bvlc-alexnet/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-caffe2/tree/master/package/caffemodel2-bvlc-alexnet",
+    "soft_name": "Caffe2 model (net and weights)",
+    "soft_uid": "0512081c543edb2e",
+    "soft_uoa": "model.caffe2",
+    "stags": "caffe2,weights,caffemodel2,bvlc,alexnet,channel-stable",
+    "tags": [
+      "caffe2",
+      "weights",
+      "caffemodel2",
+      "bvlc",
+      "alexnet",
+      "channel-stable"
+    ],
+    "target_os": "windows,linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:ck-caffe2"
+  }
+}

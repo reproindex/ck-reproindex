@@ -1,0 +1,25 @@
+{
+  "dict": {
+    "shared": "git",
+    "url": "https://github.com/paperasub/reproduce-anon-paper.git"
+  },
+  "misc": {
+    "ckr": {
+      "shared": "git",
+      "url": "https://github.com/paperasub/reproduce-anon-paper.git"
+    },
+    "data_uid": "0e280708076a2427",
+    "data_uoa": "reproduce-anon-paper",
+    "desc": "Testing CK anonymous workflows to run on AWS for <a href=\"http://cTuning.org/ae\">Artifact Evaluation</a>.",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/paperasub/reproduce-anon-paper/tree/master/repo/reproduce-anon-paper/.cm/meta.json",
+    "repo_url3": "https://github.com/paperasub/reproduce-anon-paper/tree/master/repo/reproduce-anon-paper",
+    "tasks": {},
+    "to_get": "ck pull repo --url=https://github.com/paperasub/reproduce-anon-paper.git",
+    "workflow_desc": ""
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "add_to_path": "yes",
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_LIB_SEISSOL_PROXY",
+      "limit_recursion_dir_search": {
+        "linux": 3,
+        "win": 3
+      },
+      "soft_file_universal": "install$#sep#$bin$#sep#$seissol_proxy",
+      "soft_path_example": {
+        "linux": "",
+        "win": ""
+      }
+    },
+    "deps": {},
+    "soft_name": "Seissol proxy",
+    "tags": [
+      "lib",
+      "seissol-proxy"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "0d9ef0591d400f95",
+    "data_uoa": "lib.seissol.proxy",
+    "env_prefix": "CK_ENV_LIB_SEISSOL_PROXY",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ca4108a0485b920",
+    "repo_uoa": "ck-scc18",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-scc18/tree/master/soft/lib.seissol.proxy/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-scc18/tree/master/soft/lib.seissol.proxy",
+    "soft_name": "Seissol proxy",
+    "stags": "lib,seissol-proxy",
+    "tags": [
+      "lib",
+      "seissol-proxy"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-scc18"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_MODEL_TENSORFLOW",
+      "limit_recursion_dir_search": {
+        "android": 3,
+        "linux": 3,
+        "win": 3
+      },
+      "soft_file": {
+        "android": "classify_image_graph_def.pb",
+        "linux": "classify_image_graph_def.pb",
+        "win": "classify_image_graph_def.pb"
+      }
+    },
+    "soft_name": "TensorFlow model (net and weights)",
+    "tags": [
+      "tensorflow",
+      "weights",
+      "tensorflowmodel",
+      "google"
+    ],
+    "template": "yes",
+    "template_type": "TensorFlow model"
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "a8ec2e23cc4027b8",
+    "data_uoa": "model.tensorflow",
+    "env_prefix": "CK_ENV_MODEL_TENSORFLOW",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "acb7cea44acac9c9",
+    "repo_uoa": "ck-tensorflow",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/soft/model.tensorflow/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/soft/model.tensorflow",
+    "soft_name": "TensorFlow model (net and weights)",
+    "stags": "tensorflow,weights,tensorflowmodel,google",
+    "tags": [
+      "tensorflow",
+      "weights",
+      "tensorflowmodel",
+      "google"
+    ],
+    "target_os": "any",
+    "template": "TensorFlow model",
+    "to_get": "ck pull repo:ck-tensorflow"
+  }
+}

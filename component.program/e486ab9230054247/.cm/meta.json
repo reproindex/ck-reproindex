@@ -1,0 +1,155 @@
+{
+  "dict": {
+    "apk": {
+      "name": "com.rovio.angrybirdsrio"
+    },
+    "backup_data_uid": "e486ab9230054247",
+    "ck_to_env": {
+      "CK_WA_SCRIPTS_PATH": "script:39157fb314f399ae"
+    },
+    "clean_dirs": [
+      "wa_output"
+    ],
+    "data_name": "WA workload: angrybirds_rio",
+    "deps": {
+      "wa": {
+        "env_key": "WA",
+        "force_target_as_host": "yes",
+        "local": "yes",
+        "name": "ARM Workload Automation",
+        "sort": 10,
+        "tags": "tool,wa"
+      }
+    },
+    "no_compile": "yes",
+    "no_target_file": "yes",
+    "params": {
+      "assets_push_timeout": {
+        "allowed_values": null,
+        "default": 500,
+        "desc": "Timeout used during deployment of the assets package (if there is one).",
+        "mandatory": null,
+        "type": "integer"
+      },
+      "check_abi": {
+        "allowed_values": null,
+        "default": false,
+        "desc": "If ``True``, workload will check that the APK matches the target device ABI, otherwise any APK found will be used.",
+        "mandatory": null,
+        "type": "boolean"
+      },
+      "check_apk": {
+        "allowed_values": null,
+        "default": true,
+        "desc": "When set to True the APK file on the host will be prefered if it is a valid version and ABI, if not it will fall back to the version on the targer. When set to False the target version is prefered.",
+        "mandatory": null,
+        "type": "boolean"
+      },
+      "check_states": {
+        "allowed_values": null,
+        "default": false,
+        "desc": "Use visual state detection to verify the state of the workload after setup and run",
+        "mandatory": null,
+        "type": "boolean"
+      },
+      "clear_data_on_reset": {
+        "allowed_values": null,
+        "default": true,
+        "desc": "If set to ``False``, this will prevent WA from clearing package data for this workload prior to running it.",
+        "mandatory": null,
+        "type": "boolean"
+      },
+      "force_install": {
+        "allowed_values": null,
+        "default": false,
+        "desc": "Always re-install the APK, even if matching version is found already installed on the device. Runs ``adb install -r`` to ensure existing APK is replaced. When this is set, check_apk is ignored.",
+        "mandatory": null,
+        "type": "boolean"
+      },
+      "install_timeout": {
+        "allowed_values": null,
+        "default": 500,
+        "desc": "Timeout for the installation of the apk.",
+        "mandatory": null,
+        "type": "integer"
+      },
+      "modules": {
+        "allowed_values": null,
+        "default": null,
+        "desc": "Lists the modules to be loaded by this extension. A module is a plug-in that further extends functionality of an extension.",
+        "mandatory": null,
+        "type": "list"
+      },
+      "uninstall_apk": {
+        "allowed_values": null,
+        "default": false,
+        "desc": "If ``True``, will uninstall workload's APK as part of teardown.",
+        "mandatory": null,
+        "type": "boolean"
+      }
+    },
+    "print_files_after_run": [
+      "tmp-output2.tmp",
+      "wa_output/status.txt",
+      "wa_output/angrybirds_rio_1_1/result.txt"
+    ],
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "required_device_access_type": [
+      "wa_android",
+      "wa_linux"
+    ],
+    "run_cmds": {
+      "default": {
+        "ignore_return_code": "no",
+        "run_time": {
+          "fine_grain_timer_file": "tmp-ck-timer.json",
+          "post_process_cmds": [
+            "python $<<CK_WA_SCRIPTS_PATH>>$$#dir_sep#$postprocess_workload.py"
+          ],
+          "post_process_via_ck": "yes",
+          "pre_process_via_ck": {
+            "data_uoa": "process-wa",
+            "module_uoa": "script",
+            "script_name": "preprocess_workload"
+          },
+          "run_cmd_main": "wa run $<<CK_WA_CMD>>$",
+          "run_cmd_out1": "tmp-output1.tmp",
+          "run_cmd_out2": "tmp-output2.tmp",
+          "run_output_files": []
+        }
+      }
+    },
+    "run_via_third_party": "yes",
+    "tags": [
+      "wa",
+      "workload-automation",
+      "angrybirds_rio"
+    ],
+    "wa_alias": "angrybirds_rio",
+    "wa_desc": "Angry Birds Rio game"
+  },
+  "misc": {
+    "data_uid": "e486ab9230054247",
+    "data_uoa": "wa-angrybirds_rio",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "cca2211feceec6dc",
+    "repo_uoa": "ck-wa-workloads",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-wa-workloads/tree/master/program/wa-angrybirds_rio/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-wa-workloads/tree/master/program/wa-angrybirds_rio",
+    "soft_name": "",
+    "stags": "wa,workload-automation,angrybirds_rio",
+    "tags": [
+      "wa",
+      "workload-automation",
+      "angrybirds_rio"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-wa-workloads",
+    "version": ""
+  }
+}

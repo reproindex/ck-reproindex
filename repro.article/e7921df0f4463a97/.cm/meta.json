@@ -1,0 +1,37 @@
+{
+  "misc": {
+    "artifact_doi_url": "https://doi.org/10.5281/zenodo.2549852",
+    "artifact_sources": "GitHub",
+    "artifact_sources_url": "https://github.com/anandj91/p3",
+    "authors": "Anand Jayarajan, Jinliang Wei, Garth Gibson, Alexandra Fedorova, Gennady Pekhimenko",
+    "badge_acm_artifact_available": "yes",
+    "badge_acm_artifact_functional": "",
+    "badge_acm_artifact_reusable": "yes",
+    "badge_acm_results_replicated": "",
+    "badge_acm_results_reproduced": "",
+    "ck_repo_uid": "1ddab3e1f40f7b8c",
+    "paper_doi_url": "",
+    "paper_pdf_url": "http://www.sysml.cc/doc/2019/75.pdf",
+    "reproducibility_url": "http://ctuning.org/ae/sysml2019.html",
+    "results": "https://github.com/ctuning/reproduce-sysml19-paper-p3/issues",
+    "results_dashboard_url": "",
+    "results_url": "Open review via GitHub issues",
+    "some_results_replicated": "yes",
+    "tasks": {
+      "7e8be4502317495b": {
+        "data_uoa": "sysml19-p3"
+      }
+    },
+    "title": "Priority-based Parameter Propagation for Distributed DNN Training",
+    "unified_artifact_appendix": "https://github.com/ctuning/ck-artifact-evaluation/tree/master/wfe/artifact-evaluation/templates",
+    "where": "SysML'19",
+    "where_url": "http://sysml.cc",
+    "workflow": "CK",
+    "workflow_url": "https://github.com/ctuning/reproduce-sysml19-paper-p3"
+  },
+  "tags": [
+    "papers",
+    "papers-sysml",
+    "papers-sysml-2019"
+  ]
+}

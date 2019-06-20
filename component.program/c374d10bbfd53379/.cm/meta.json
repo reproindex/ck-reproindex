@@ -1,0 +1,128 @@
+{
+  "dict": {
+    "backup_data_uid": "c374d10bbfd53379",
+    "data_name": "seissol-netcdf",
+    "no_compile": "yes",
+    "no_target_file": "yes",
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "run_cmds": {
+      "mpi": {
+        "ignore_return_code": "no",
+        "print_files_after_run": [
+          "stderr.log",
+          "stdout.log"
+        ],
+        "run_deps": {
+          "dataset-seissol": {
+            "local": "yes",
+            "name": "SeisSol dataset (netcdf)",
+            "sort": 20,
+            "tags": "dataset,seissol,vnetcdf"
+          },
+          "lib-mpi": {
+            "local": "yes",
+            "name": "MPI Library",
+            "repeat_at_the_end": "yes",
+            "sort": 100,
+            "tags": "lib,mpi"
+          },
+          "lib-seissol": {
+            "local": "yes",
+            "name": "SeisSol Library (netcdf)",
+            "sort": 10,
+            "tags": "lib,seissol,vnetcdf"
+          }
+        },
+        "run_time": {
+          "post_process_cmds": [
+            "python $#src_path_local#$ck_process.py"
+          ],
+          "post_process_via_ck": "yes",
+          "pre_process_via_ck": {
+            "script_name": "ck_process"
+          },
+          "run_cmd_main": "../ck_run$#script_ext#$ mpi",
+          "run_cmd_out1": "stdout.log",
+          "run_cmd_out2": "stderr.log",
+          "run_output_files": [
+            "stdout.log",
+            "stderr.log"
+          ]
+        },
+        "sort": -10
+      },
+      "print-last-job-log-and-validate-results": {
+        "ignore_return_code": "no",
+        "run_time": {
+          "post_process_cmds": [
+            "python $#src_path_local#$ck_print_job_log.py"
+          ],
+          "post_process_via_ck": "yes",
+          "run_cmd_main": " ",
+          "skip_print_execution_time": "yes"
+        }
+      },
+      "print-last-job-status": {
+        "ignore_return_code": "no",
+        "run_time": {
+          "post_process_cmds": [
+            "python $#src_path_local#$ck_print_job_status.py"
+          ],
+          "post_process_via_ck": "yes",
+          "run_cmd_main": " ",
+          "skip_print_execution_time": "yes"
+        }
+      }
+    },
+    "run_vars": {
+      "MPI_NUM_PROCESSES": 1,
+      "OMP_NUM_THREADS": 1,
+      "SBATCH_CONSTRAINT": "mc",
+      "SBATCH_CPU_PER_TASK": 1,
+      "SBATCH_JOB_NAME": "ck-scc18",
+      "SBATCH_MEM": "100000",
+      "SBATCH_NODES": 20,
+      "SBATCH_NTASKS_PER_CORE": 1,
+      "SBATCH_NTASKS_PER_NODE": 1,
+      "SBATCH_PARTITION": "normal",
+      "SBATCH_TIME": "00:05:00"
+    },
+    "tags": [
+      "scientific",
+      "seissol",
+      "supercomputing",
+      "cluster",
+      "cluster-competition",
+      "2018"
+    ],
+    "template": "yes",
+    "template_type": "seissol workflow (seismic wave propagation)"
+  },
+  "misc": {
+    "data_uid": "c374d10bbfd53379",
+    "data_uoa": "seissol-netcdf",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "1ca4108a0485b920",
+    "repo_uoa": "ck-scc18",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-scc18/tree/master/program/seissol-netcdf/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-scc18/tree/master/program/seissol-netcdf",
+    "soft_name": "",
+    "stags": "scientific,seissol,supercomputing,cluster,cluster-competition,2018",
+    "tags": [
+      "scientific",
+      "seissol",
+      "supercomputing",
+      "cluster",
+      "cluster-competition",
+      "2018"
+    ],
+    "target_os": "any",
+    "template": "seissol workflow (seismic wave propagation)",
+    "to_get": "ck pull repo:ck-scc18",
+    "version": ""
+  }
+}

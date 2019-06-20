@@ -1,0 +1,53 @@
+{
+  "dict": {
+    "actions": {
+      "build": {
+        "desc": "build predictive model",
+        "for_web": "yes"
+      },
+      "convert_categories_to_floats": {
+        "desc": "convert categories to floats"
+      },
+      "validate": {
+        "desc": "validate predictive model",
+        "for_web": "yes"
+      }
+    },
+    "author": "Grigori Fursin",
+    "author_email": "Grigori.Fursin@cTuning.org",
+    "author_webpage": "http://fursin.net",
+    "copyright": "See CK COPYRIGHT.txt for copyright details",
+    "desc": "predictive modeling via python-based scikit-learn",
+    "license": "See CK LICENSE.txt for licensing details",
+    "model_code_build": "model_$#model_name#$_build.R",
+    "model_code_predict": "model_$#model_name#$_predict.R",
+    "module_deps": {
+      "experiment": "bc0409fb61f0aa82",
+      "graph.dot": "94a051a40018fcd3"
+    }
+  },
+  "misc": {
+    "actions": {
+      "build": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/model.sklearn/module.py#L33"
+      },
+      "convert_categories_to_floats": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/model.sklearn/module.py#L382"
+      },
+      "validate": {
+        "url_api": "https://github.com/ctuning/ck-analytics/tree/master/module/model.sklearn/module.py#L251"
+      }
+    },
+    "data_uid": "c044a31a47d440c1",
+    "data_uoa": "model.sklearn",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "76c4424a1473c873",
+    "repo_uoa": "ck-analytics",
+    "repo_url1": "https://github.com/ctuning/ck-analytics/tree/master/module/model.sklearn/module.py",
+    "repo_url2": "https://github.com/ctuning/ck-analytics/tree/master/module/model.sklearn/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:ck-analytics",
+    "workflow": ""
+  }
+}

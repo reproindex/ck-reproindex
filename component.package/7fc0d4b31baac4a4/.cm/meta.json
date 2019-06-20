@@ -1,0 +1,97 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "git_src_dir": "src",
+      "install_env": {
+        "CMAKE_CONFIG": "Release",
+        "PACKAGE_BUILD_TYPE": "make",
+        "PACKAGE_CONFIGURE_FLAGS": "",
+        "PACKAGE_NAME": "parmetis-4.0.3.tar.gz",
+        "PACKAGE_NAME1": "parmetis-4.0.3.tar.gz",
+        "PACKAGE_PATCH": "NO",
+        "PACKAGE_RENAME": "NO",
+        "PACKAGE_SKIP_CLEAN_INSTALL": "NO",
+        "PACKAGE_SKIP_CLEAN_OBJ": "NO",
+        "PACKAGE_SKIP_CLEAN_PACKAGE": "NO",
+        "PACKAGE_SKIP_CLEAN_SRC_DIR": "NO",
+        "PACKAGE_SKIP_LINUX_MAKE": "YES",
+        "PACKAGE_SUB_DIR": "parmetis-4.0.3",
+        "PACKAGE_SUB_DIR1": "parmetis-4.0.3",
+        "PACKAGE_UNBZIP": "NO",
+        "PACKAGE_UNGZIP": "NO",
+        "PACKAGE_UNTAR": "YES",
+        "PACKAGE_UNTAR_SKIP_ERROR_WIN": "YES",
+        "PACKAGE_URL": "http://glaros.dtc.umn.edu/gkhome/fetch/sw/parmetis/",
+        "PACKAGE_WGET": "YES"
+      },
+      "version": "4.0.3"
+    },
+    "deps": {
+      "compiler": {
+        "local": "yes",
+        "name": "C++ compiler",
+        "sort": 10,
+        "tags": "compiler,lang-cpp"
+      },
+      "lib-mpi": {
+        "local": "yes",
+        "name": "MPI Library",
+        "sort": 10,
+        "tags": "lib,mpi"
+      }
+    },
+    "end_full_path": {
+      "linux": "install/lib/libparmetis.so"
+    },
+    "need_cpu_info": "yes",
+    "only_for_host_os_tags": [
+      "linux",
+      "windows"
+    ],
+    "only_for_target_os_tags": [
+      "linux",
+      "windows"
+    ],
+    "process_script": "install",
+    "soft_uoa": "5901406bb184088e",
+    "suggested_path": "lib-parmetis",
+    "tags": [
+      "lib",
+      "parmetis",
+      "v4.0.3",
+      "v4.0",
+      "vmaster"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "cd9ccc74060b3d18",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "7fc0d4b31baac4a4",
+    "data_uoa": "lib-parmetis-4.0.3",
+    "host_os": "linux,macos,windows",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/package/lib-parmetis-4.0.3/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/package/lib-parmetis-4.0.3",
+    "soft_name": "ParMetis library",
+    "soft_uid": "5901406bb184088e",
+    "soft_uoa": "lib.parmetis",
+    "stags": "lib,parmetis,v4.0.3,v4.0,vmaster",
+    "tags": [
+      "lib",
+      "parmetis",
+      "v4.0.3",
+      "v4.0",
+      "vmaster"
+    ],
+    "target_os": "linux,macos,windows",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

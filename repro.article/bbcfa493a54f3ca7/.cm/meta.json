@@ -1,0 +1,43 @@
+{
+  "misc": {
+    "artifact_doi_url": "",
+    "artifact_sources": "GitHub",
+    "artifact_sources_url": "https://github.com/vasupsu/IA3_Paper16_ArtifactEvaluation",
+    "authors": "Vasudevan Rengasamy, Tao-Yang Fu, Wang-Chien Lee and Kamesh Madduri",
+    "badge_acm_artifact_available": "yes",
+    "badge_acm_artifact_functional": "",
+    "badge_acm_artifact_reusable": "yes",
+    "badge_acm_results_replicated": "yes",
+    "badge_acm_results_reproduced": "",
+    "ck_repo_uid": "e5245229f1dc0b79",
+    "paper_doi_url": "https://doi.org/10.1145/3149704.3149768",
+    "paper_pdf_url": "",
+    "reproducibility_url": "http://ctuning.org/ae",
+    "results": "",
+    "results_dashboard_url": "",
+    "results_url": "",
+    "some_results_replicated": "",
+    "tasks": {
+      "7399410dbd4f3b20": {
+        "data_uoa": "pSGNScc"
+      },
+      "838b3fef1a912e63": {
+        "data_uoa": "pword2vec"
+      },
+      "b9dbe451591cbba4": {
+        "data_uoa": "word2vec"
+      }
+    },
+    "title": "Optimizing Word2Vec Performance on Multicore Systems",
+    "unified_artifact_appendix": "https://github.com/ctuning/ck-artifact-evaluation/tree/master/wfe/artifact-evaluation/templates",
+    "where": "IA3 at Supercomputing'17",
+    "where_url": "http://hpc.pnl.gov/IA3/IA3/IA3-2017/Program.html",
+    "workflow": "CK",
+    "workflow_url": "https://github.com/vasupsu/IA3_Paper16_ArtifactEvaluation"
+  },
+  "tags": [
+    "papers",
+    "papers-ia3",
+    "papers-ia3-2017"
+  ]
+}

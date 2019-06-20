@@ -1,0 +1,62 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "comment": "CAREFUL - requires more the 1GB of free space",
+    "customize": {
+      "extra_dir": "",
+      "force_ask_path": "yes",
+      "install_env": {
+        "GRAPH_NAME": "facebook",
+        "MAX_VERTEX_ID": 4038,
+        "NUM_OF_VERTICES": 4039
+      },
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "yes",
+      "version": "1.0"
+    },
+    "end_full_path": {
+      "linux": "facebook_combined.txt"
+    },
+    "package_extra_name": " (SNAP Graphs)",
+    "process_script": "install",
+    "soft_uoa": "044f7304f07a7c34",
+    "suggested_path": "dataset-snap-facebook",
+    "tags": [
+      "dataset",
+      "graph",
+      "real-world",
+      "snap",
+      "facebook",
+      "small",
+      "social-network"
+    ]
+  },
+  "misc": {
+    "data_uid": "c48a7b3108b3d4e1",
+    "data_uoa": "dataset-snap-facebook",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "68121412a8ff317c",
+    "repo_uoa": "ck-graph-analytics",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-graph-analytics/tree/master/package/dataset-snap-facebook/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-graph-analytics/tree/master/package/dataset-snap-facebook",
+    "soft_name": "SNAP graph dataset",
+    "soft_uid": "044f7304f07a7c34",
+    "soft_uoa": "dataset.snap",
+    "stags": "dataset,graph,real-world,snap,facebook,small,social-network",
+    "tags": [
+      "dataset",
+      "graph",
+      "real-world",
+      "snap",
+      "facebook",
+      "small",
+      "social-network"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-graph-analytics"
+  }
+}

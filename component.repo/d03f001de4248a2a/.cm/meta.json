@@ -1,0 +1,49 @@
+{
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-autotuning"
+      }
+    ],
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-dnndk"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "a4328ba99679e0d1",
+          "repo_uoa": "ck-autotuning"
+        }
+      ],
+      "shared": "git",
+      "url": "http://github.com/ctuning/ck-dnndk"
+    },
+    "data_uid": "d03f001de4248a2a",
+    "data_uoa": "ck-dnndk",
+    "desc": "",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "http://github.com/ctuning/ck-dnndk/tree/master/repo/ck-dnndk/.cm/meta.json",
+    "repo_url3": "http://github.com/ctuning/ck-dnndk/tree/master/repo/ck-dnndk",
+    "tasks": {
+      "3241089fd1a95a66": {
+        "data_uoa": "image-classification-template-deephi"
+      },
+      "698f4d1babe85aa5": {
+        "data_uoa": "image-classification-inception_v1-deephi"
+      },
+      "940f78403ec557f1": {
+        "data_uoa": "image-classification-resnet50-deephi"
+      },
+      "e224f20d41189604": {
+        "data_uoa": "caffe2deephi"
+      }
+    },
+    "to_get": "ck pull repo:ck-dnndk",
+    "workflow_desc": ""
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "install_env": {
+        "PACKAGE_NAME": "lib-tflite-prebuilt-static-0.1.7-linux-x64.zip",
+        "PACKAGE_SKIP_CLEAN_INSTALL": "YES",
+        "PACKAGE_SKIP_CLEAN_OBJ": "YES",
+        "PACKAGE_SKIP_LINUX_MAKE": "YES",
+        "PACKAGE_UNZIP": "YES",
+        "PACKAGE_URL": "https://www.dropbox.com/s/xpb6sdpzcgqjbyo",
+        "PACKAGE_WGET": "YES"
+      },
+      "version": "0.1.7"
+    },
+    "end_full_path": {
+      "linux": "lib/libtensorflow-lite.a"
+    },
+    "need_cpu_info": "yes",
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "package_extra_name": " (prebuilt, static)",
+    "process_script": "install",
+    "soft_uoa": "22441eac479e90e0",
+    "suggested_path": "lib-tflite-prebuilt-static",
+    "tags": [
+      "lib",
+      "tensorflow",
+      "tensorflow-lite",
+      "tensorflow-static",
+      "prebuilt",
+      "vstatic",
+      "v0.1.7",
+      "v0.1",
+      "v0",
+      "channel-stable"
+    ],
+    "template": "yes",
+    "template_type": "TFLite AI framework",
+    "use_scripts_from_another_entry": {
+      "data_uoa": "cd9ccc74060b3d18",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "414bdebd7ea050e4",
+    "data_uoa": "lib-tflite-prebuilt-0.1.7-linux-x64",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "acb7cea44acac9c9",
+    "repo_uoa": "ck-tensorflow",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/lib-tflite-prebuilt-0.1.7-linux-x64/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/lib-tflite-prebuilt-0.1.7-linux-x64",
+    "soft_name": "TensorFlow Lite API",
+    "soft_uid": "22441eac479e90e0",
+    "soft_uoa": "lib.tflite.static",
+    "stags": "lib,tensorflow,tensorflow-lite,tensorflow-static,prebuilt,vstatic,v0.1.7,v0.1,v0,channel-stable",
+    "tags": [
+      "lib",
+      "tensorflow",
+      "tensorflow-lite",
+      "tensorflow-static",
+      "prebuilt",
+      "vstatic",
+      "v0.1.7",
+      "v0.1",
+      "v0",
+      "channel-stable"
+    ],
+    "target_os": "linux,macos",
+    "template": "TFLite AI framework",
+    "to_get": "ck pull repo:ck-tensorflow"
+  }
+}

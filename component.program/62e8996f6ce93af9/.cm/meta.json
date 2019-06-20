@@ -1,0 +1,64 @@
+{
+  "dict": {
+    "compile_deps": {
+      "compiler": {
+        "local": "yes",
+        "name": "C++ compiler",
+        "sort": 0,
+        "tags": "compiler,lang-cpp"
+      }
+    },
+    "compiler_add_include_as_env_from_deps": [
+      "CK_ENV_LIB_STDCPP_INCLUDE",
+      "CK_ENV_LIB_STDCPP_INCLUDE_EXTRA"
+    ],
+    "compiler_env": "CK_CXX",
+    "compiler_flags_as_env": "$<<CK_COMPILER_FLAG_CPP11>>$",
+    "linker_add_lib_as_env": [
+      "CK_CXX_EXTRA",
+      "CK_ENV_LIB_STDCPP_STATIC"
+    ],
+    "main_language": "cpp",
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "run_cmds": {
+      "default": {
+        "run_time": {
+          "run_cmd_main": "$#BIN_FILE#$"
+        }
+      }
+    },
+    "skip_bin_ext": "yes",
+    "source_files": [
+      "evaluate_object.cpp"
+    ],
+    "tags": [
+      "kitti-eval-tool"
+    ],
+    "target_file": "eval_detection"
+  },
+  "misc": {
+    "data_uid": "62e8996f6ce93af9",
+    "data_uoa": "kitti-eval-tool",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "acb7cea44acac9c9",
+    "repo_uoa": "ck-tensorflow",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/program/kitti-eval-tool/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/program/kitti-eval-tool",
+    "soft_name": "",
+    "stags": "kitti-eval-tool",
+    "tags": [
+      "kitti-eval-tool"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:ck-tensorflow",
+    "version": ""
+  }
+}

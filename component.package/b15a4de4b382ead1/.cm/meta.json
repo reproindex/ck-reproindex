@@ -1,0 +1,70 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {
+      "extra_dir": "",
+      "install_env": {
+        "NUM_THREADS": 28
+      },
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "yes",
+      "version": "2012"
+    },
+    "deps": {
+      "imagenet-train": {
+        "local": "yes",
+        "name": "ImageNet dataset (train)",
+        "skip_from_bat": "yes",
+        "sort": 20,
+        "tags": "dataset,imagenet,raw,train"
+      },
+      "tool-p3": {
+        "local": "yes",
+        "name": "SysML'19 P3 library",
+        "skip_from_bat": "yes",
+        "sort": 10,
+        "tags": "tool,p3"
+      }
+    },
+    "end_full_path_universal": "install/imagenet1k_train.rec",
+    "need_cpu_info": "no",
+    "process_script": "install",
+    "soft_uoa": "ba4e60824bd329f8",
+    "suggested_path": "dataset-imagenet-ilsvrc2012-train-p3",
+    "tags": [
+      "dataset",
+      "imagenet",
+      "raw",
+      "train-p3",
+      "ilsvrc2012",
+      "channel-stable"
+    ]
+  },
+  "misc": {
+    "data_uid": "b15a4de4b382ead1",
+    "data_uoa": "dataset-imagenet-2012-train-p3",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "1ddab3e1f40f7b8c",
+    "repo_uoa": "reproduce-sysml19-paper-p3",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-sysml19-paper-p3/tree/master/package/dataset-imagenet-2012-train-p3/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-sysml19-paper-p3/tree/master/package/dataset-imagenet-2012-train-p3",
+    "soft_name": "ImageNet dataset (train, MXNet)",
+    "soft_uid": "ba4e60824bd329f8",
+    "soft_uoa": "dataset.imagenet.train.mxnet",
+    "stags": "dataset,imagenet,raw,train-p3,ilsvrc2012,channel-stable",
+    "tags": [
+      "dataset",
+      "imagenet",
+      "raw",
+      "train-p3",
+      "ilsvrc2012",
+      "channel-stable"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:reproduce-sysml19-paper-p3"
+  }
+}

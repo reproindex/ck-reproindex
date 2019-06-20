@@ -1,0 +1,104 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {
+      "extra_dir": "",
+      "file_mean_bin": "inceptionv3_mean.binaryproto",
+      "file_with_weights": "inceptionv3.caffemodel",
+      "force_ask_path": "yes",
+      "install_env": {
+        "MODEL_FILE": "inceptionv3.caffemodel",
+        "MODEL_HASH_CALCULATOR": "sha1sum",
+        "MODEL_HASH_REF": "07518e9ab0a6e4eae6690f38776c7db2d0949d9f",
+        "MODEL_URL": "https://www.dropbox.com/s/1iqkultyfpfr1nw/inceptionv3.caffemodel"
+      },
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "no",
+      "params": {
+        "deploy": {
+          "substitute": {
+            "batch_size": 10
+          },
+          "template": "deploy.prototxt"
+        },
+        "val": {
+          "accuracy_layers": [
+            "acc/top-1",
+            "acc/top-5",
+            "loss"
+          ],
+          "substitute": {
+            "train_batch_size": 256,
+            "val_batch_size": 50
+          },
+          "template": "train_val.prototxt"
+        }
+      },
+      "skip_file_check": "yes",
+      "version": "fp32"
+    },
+    "end_full_path": {
+      "linux": "inceptionv3.caffemodel",
+      "win": "inceptionv3.caffemodel"
+    },
+    "features": {
+      "model_size_mb": 91
+    },
+    "only_for_host_os_tags": [
+      "windows",
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "windows",
+      "linux"
+    ],
+    "package_extra_name": " (inception-v3, fp32)",
+    "process_script": "download",
+    "soft_uoa": "e2400aabc11d6cd1",
+    "suggested_path": "caffemodel-inception-v3",
+    "tags": [
+      "caffe",
+      "weights",
+      "caffemodel",
+      "inception",
+      "inception-v3",
+      "vfloat32",
+      "vfp32",
+      "channel-stable"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "download-caffemodel",
+      "module_uoa": "script",
+      "repo_uoa": "ck-caffe"
+    }
+  },
+  "misc": {
+    "data_uid": "6aab061f186710ea",
+    "data_uoa": "caffemodel-inception-v3",
+    "host_os": "windows,linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "57e83bca8a5a4344",
+    "repo_uoa": "ck-caffe",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/dividiti/ck-caffe/tree/master/package/caffemodel-inception-v3/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/ck-caffe/tree/master/package/caffemodel-inception-v3",
+    "soft_name": "Caffe model (net and weights)",
+    "soft_uid": "e2400aabc11d6cd1",
+    "soft_uoa": "model.caffe",
+    "stags": "caffe,weights,caffemodel,inception,inception-v3,vfloat32,vfp32,channel-stable",
+    "tags": [
+      "caffe",
+      "weights",
+      "caffemodel",
+      "inception",
+      "inception-v3",
+      "vfloat32",
+      "vfp32",
+      "channel-stable"
+    ],
+    "target_os": "windows,linux,macos",
+    "template": "",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-caffe.git"
+  }
+}

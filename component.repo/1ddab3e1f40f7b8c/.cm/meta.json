@@ -1,0 +1,39 @@
+{
+  "dict": {
+    "shared": "git",
+    "url": "https://github.com/ctuning/reproduce-sysml19-paper-p3"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "1ff43ae88715a8c1",
+          "repo_uoa": "ck-env"
+        },
+        {
+          "repo_uid": "678494f8b520000f",
+          "repo_uoa": "ck-mxnet"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/reproduce-sysml19-paper-p3"
+    },
+    "data_uid": "1ddab3e1f40f7b8c",
+    "data_uoa": "reproduce-sysml19-paper-p3",
+    "desc": "Reproducibility report and the Collective Knowledge workflow for the SysML'19 paper \"Priority-based Parameter Propagation for Distributed DNN Training\"",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-sysml19-paper-p3/tree/master/repo/reproduce-sysml19-paper-p3/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-sysml19-paper-p3/tree/master/repo/reproduce-sysml19-paper-p3",
+    "tasks": {
+      "7e8be4502317495b": {
+        "data_uoa": "sysml19-p3"
+      }
+    },
+    "to_get": "ck pull repo:reproduce-sysml19-paper-p3",
+    "workflow_desc": "programs"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_LIB_QT",
+      "limit_recursion_dir_search": {
+        "linux": 5,
+        "win": 5
+      },
+      "soft_file": {
+        "linux": "qmake",
+        "win": "qmake.exe"
+      },
+      "soft_path_example": {
+        "linux": "/usr/lib/x86_64-linux-gnu/qt5/bin/qmake",
+        "win": "C:\\Qt\\5.8\\msvc2015_64\\bin\\qmake.exe"
+      },
+      "soft_version_cmd": {
+        "linux": "--version > $#filename#$ 2>&1",
+        "win": " --version > $#filename#$ 2>&1"
+      }
+    },
+    "soft_name": "Qt library",
+    "tags": [
+      "lib",
+      "qt"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "4cae9c62d90f8004",
+    "data_uoa": "lib.qt",
+    "env_prefix": "CK_ENV_LIB_QT",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/lib.qt/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/lib.qt",
+    "soft_name": "Qt library",
+    "stags": "lib,qt",
+    "tags": [
+      "lib",
+      "qt"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

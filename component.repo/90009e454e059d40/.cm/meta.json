@@ -1,0 +1,91 @@
+{
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-caffe",
+        "repo_url": "https://github.com/dividiti/ck-caffe"
+      },
+      {
+        "repo_uoa": "ck-tensorflow"
+      },
+      {
+        "repo_uoa": "ck-mxnet"
+      },
+      {
+        "repo_uoa": "ck-cntk"
+      },
+      {
+        "repo_uoa": "ck-crowdtuning"
+      }
+    ],
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-tbd-suite"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "57e83bca8a5a4344",
+          "repo_uoa": "ck-caffe",
+          "repo_url": "https://github.com/dividiti/ck-caffe"
+        },
+        {
+          "repo_uid": "acb7cea44acac9c9",
+          "repo_uoa": "ck-tensorflow"
+        },
+        {
+          "repo_uid": "678494f8b520000f",
+          "repo_uoa": "ck-mxnet"
+        },
+        {
+          "repo_uid": "e593999edb49689a",
+          "repo_uoa": "ck-cntk"
+        },
+        {
+          "repo_uid": "c7e5332641d8922a",
+          "repo_uoa": "ck-crowdtuning"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-tbd-suite"
+    },
+    "data_uid": "90009e454e059d40",
+    "data_uoa": "ck-tbd-suite",
+    "desc": "[UNDER DEVELOPMENT] Customizable CK workflows and portable CK packages for TBD benchmark.",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tbd-suite/tree/master/repo/ck-tbd-suite/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tbd-suite/tree/master/repo/ck-tbd-suite",
+    "tasks": {
+      "0f7bf209cd44b505": {
+        "data_uoa": "image-classification-resnet-50-cntk"
+      },
+      "19488194da5f3fd5": {
+        "data_uoa": "tensor2tensor-attention-tf"
+      },
+      "5c8859cddd2936cd": {
+        "data_uoa": "image-classification-inception-cntk"
+      },
+      "784ffab4a4d3ff7b": {
+        "data_uoa": "image-classification-inception-tf"
+      },
+      "84617aa6b95406a9": {
+        "data_uoa": "sequence2sequence-lstm-tf"
+      },
+      "c7cd7d34ef29e2e9": {
+        "data_uoa": "image-classification-resnet-50-mxnet"
+      },
+      "f4e6c8467de9f5a5": {
+        "data_uoa": "image-classification-inception-mxnet"
+      },
+      "fe746299446589d1": {
+        "data_uoa": "image-classification-resnet-50-tf"
+      }
+    },
+    "to_get": "ck pull repo:ck-tbd-suite",
+    "workflow_desc": "programs"
+  }
+}

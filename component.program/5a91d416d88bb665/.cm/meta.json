@@ -1,0 +1,63 @@
+{
+  "dict": {
+    "backup_data_uid": "5a91d416d88bb665",
+    "data_name": "vta-pynq-server",
+    "no_compile": "yes",
+    "no_target_file": "yes",
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "run_cmds": {
+      "classify": {
+        "ignore_return_code": "no",
+        "run_deps": {
+          "lib-tvm-runtime": {
+            "local": "yes",
+            "name": "TVM runtime",
+            "sort": 15,
+            "tags": "lib,tvm-runtime"
+          },
+          "lib-vta-server": {
+            "local": "yes",
+            "name": "VTA server",
+            "sort": 10,
+            "tags": "lib,vta-server"
+          }
+        },
+        "run_time": {
+          "run_cmd_main": "../start_rpc_server$#script_ext#$"
+        }
+      }
+    },
+    "run_vars": {},
+    "tags": [
+      "request",
+      "request-tournament",
+      "request-asplos18",
+      "vta-pynq-server"
+    ]
+  },
+  "misc": {
+    "data_uid": "5a91d416d88bb665",
+    "data_uoa": "vta-pynq-server",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "a1294586bce671ba",
+    "repo_uoa": "ck-request-asplos18-resnet-tvm-fpga",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-request-asplos18-resnet-tvm-fpga/tree/master/program/vta-pynq-server/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-request-asplos18-resnet-tvm-fpga/tree/master/program/vta-pynq-server",
+    "soft_name": "",
+    "stags": "request,request-tournament,request-asplos18,vta-pynq-server",
+    "tags": [
+      "request",
+      "request-tournament",
+      "request-asplos18",
+      "vta-pynq-server"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-request-asplos18-resnet-tvm-fpga",
+    "version": ""
+  }
+}

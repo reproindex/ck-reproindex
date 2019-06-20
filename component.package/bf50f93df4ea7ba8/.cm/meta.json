@@ -1,0 +1,65 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "git_src_dir": "src",
+      "install_env": {
+        "PACKAGE_GIT": "YES",
+        "PACKAGE_GIT_CHECKOUT": "e7ba57d",
+        "PACKAGE_SKIP_LINUX_MAKE": "YES",
+        "PACKAGE_SUB_DIR": "src",
+        "PACKAGE_URL": "https://github.com/google/gemmlowp"
+      },
+      "use_git_revision": "yes",
+      "version": "master"
+    },
+    "end_full_path": {
+      "android": "src$#sep#$public$#sep#$gemmlowp.h",
+      "linux": "src/public/gemmlowp.h",
+      "mingw": "src\\public\\gemmlowp.h",
+      "win": "src\\public\\gemmlowp.h"
+    },
+    "process_script": "install",
+    "soft_uoa": "5e5ed4439e89b315",
+    "suggested_path": "lib-gemmlowp-src",
+    "tags": [
+      "lib",
+      "gemmlowp",
+      "lang-cpp",
+      "vsrc",
+      "v20171019",
+      "channel-stable"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "cd9ccc74060b3d18",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "bf50f93df4ea7ba8",
+    "data_uoa": "lib-gemmlowp-src-20171019",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "d94a45b5be3072ba",
+    "repo_uoa": "ck-math",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-math/tree/master/package/lib-gemmlowp-src-20171019/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-math/tree/master/package/lib-gemmlowp-src-20171019",
+    "soft_name": "Gemmlowp library",
+    "soft_uid": "5e5ed4439e89b315",
+    "soft_uoa": "lib.gemmlowp",
+    "stags": "lib,gemmlowp,lang-cpp,vsrc,v20171019,channel-stable",
+    "tags": [
+      "lib",
+      "gemmlowp",
+      "lang-cpp",
+      "vsrc",
+      "v20171019",
+      "channel-stable"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-math"
+  }
+}

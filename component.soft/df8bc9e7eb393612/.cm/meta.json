@@ -1,0 +1,35 @@
+{
+  "dict": {
+    "customize": {
+      "env_prefix": "CK_ENV_TOOL_HPCTOOLKIT_EXTERNALS"
+    },
+    "soft_name": "HPCToolKit (externals)",
+    "tags": [
+      "tool",
+      "hpctoolkit-externals"
+    ]
+  },
+  "misc": {
+    "auto_detect": "no",
+    "data_uid": "df8bc9e7eb393612",
+    "data_uoa": "tool.hpctoolkit.externals",
+    "env_prefix": "CK_ENV_TOOL_HPCTOOLKIT_EXTERNALS",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/tool.hpctoolkit.externals/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/tool.hpctoolkit.externals",
+    "soft_name": "HPCToolKit (externals)",
+    "stags": "tool,hpctoolkit-externals",
+    "tags": [
+      "tool",
+      "hpctoolkit-externals"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

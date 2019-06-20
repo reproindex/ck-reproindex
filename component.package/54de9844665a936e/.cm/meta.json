@@ -1,0 +1,71 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "comment": "Installing QISKit using pip",
+    "customize": {
+      "install_env": {
+        "PIP_INSTALL_OPTIONS": "--ignore-installed",
+        "PYTHON_PACKAGE_NAME": "qiskit"
+      },
+      "supported_versions": [
+        "0.5.5",
+        "0.5.6",
+        "0.5.7",
+        "0.6.0",
+        "0.6.1",
+        "0.7.0"
+      ]
+    },
+    "deps": {
+      "python": {
+        "add_to_path": "yes",
+        "local": "yes",
+        "name": "Python 3",
+        "sort": 10,
+        "tags": "compiler,python",
+        "version_from": [
+          3,
+          5,
+          0
+        ]
+      }
+    },
+    "end_full_path_universal": "build$#sep#$qiskit$#sep#$__init__.py",
+    "process_script": "install",
+    "soft_uoa": "126e8e93a4041e7a",
+    "suggested_path": "lib-python-qiskit",
+    "tags": [
+      "quantum",
+      "lib",
+      "python-package",
+      "multiversion",
+      "qiskit"
+    ]
+  },
+  "misc": {
+    "data_uid": "54de9844665a936e",
+    "data_uoa": "lib-python-qiskit",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "4f49a0bdde6167b4",
+    "repo_uoa": "ck-qiskit",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-qiskit/tree/master/package/lib-python-qiskit/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-qiskit/tree/master/package/lib-python-qiskit",
+    "soft_name": "IBM Quantum Information Science Kit (QISKit)",
+    "soft_uid": "126e8e93a4041e7a",
+    "soft_uoa": "lib.qiskit",
+    "stags": "quantum,lib,python-package,multiversion,qiskit",
+    "tags": [
+      "quantum",
+      "lib",
+      "python-package",
+      "multiversion",
+      "qiskit"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-qiskit"
+  }
+}

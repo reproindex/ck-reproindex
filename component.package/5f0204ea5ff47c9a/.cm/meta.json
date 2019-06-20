@@ -1,0 +1,146 @@
+{
+  "dict": {
+    "customize": {
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "yes",
+      "version": "1_all"
+    },
+    "deps": {
+      "mobilenet-v1-0.25-128": {
+        "local": "yes",
+        "name": "mobilenet-v1-0.25-128",
+        "sort": 0,
+        "tags": "weights,npy,mobilenet-v1-0.25-128"
+      },
+      "mobilenet-v1-0.25-160": {
+        "local": "yes",
+        "name": "mobilenet-v1-0.25-160",
+        "sort": 1,
+        "tags": "weights,npy,mobilenet-v1-0.25-160"
+      },
+      "mobilenet-v1-0.25-192": {
+        "local": "yes",
+        "name": "mobilenet-v1-0.25-192",
+        "sort": 2,
+        "tags": "weights,npy,mobilenet-v1-0.25-192"
+      },
+      "mobilenet-v1-0.25-224": {
+        "local": "yes",
+        "name": "mobilenet-v1-0.25-224",
+        "sort": 3,
+        "tags": "weights,npy,mobilenet-v1-0.25-224"
+      },
+      "mobilenet-v1-0.50-128": {
+        "local": "yes",
+        "name": "mobilenet-v1-0.50-128",
+        "sort": 4,
+        "tags": "weights,npy,mobilenet-v1-0.50-128"
+      },
+      "mobilenet-v1-0.50-160": {
+        "local": "yes",
+        "name": "mobilenet-v1-0.50-160",
+        "sort": 5,
+        "tags": "weights,npy,mobilenet-v1-0.50-160"
+      },
+      "mobilenet-v1-0.50-192": {
+        "local": "yes",
+        "name": "mobilenet-v1-0.50-192",
+        "sort": 6,
+        "tags": "weights,npy,mobilenet-v1-0.50-192"
+      },
+      "mobilenet-v1-0.50-224": {
+        "local": "yes",
+        "name": "mobilenet-v1-0.50-224",
+        "sort": 7,
+        "tags": "weights,npy,mobilenet-v1-0.50-224"
+      },
+      "mobilenet-v1-0.75-128": {
+        "local": "yes",
+        "name": "mobilenet-v1-0.75-128",
+        "sort": 8,
+        "tags": "weights,npy,mobilenet-v1-0.75-128"
+      },
+      "mobilenet-v1-0.75-160": {
+        "local": "yes",
+        "name": "mobilenet-v1-0.75-160",
+        "sort": 9,
+        "tags": "weights,npy,mobilenet-v1-0.75-160"
+      },
+      "mobilenet-v1-0.75-192": {
+        "local": "yes",
+        "name": "mobilenet-v1-0.75-192",
+        "sort": 10,
+        "tags": "weights,npy,mobilenet-v1-0.75-192"
+      },
+      "mobilenet-v1-0.75-224": {
+        "local": "yes",
+        "name": "mobilenet-v1-0.75-224",
+        "sort": 11,
+        "tags": "weights,npy,mobilenet-v1-0.75-224"
+      },
+      "mobilenet-v1-1.0-128": {
+        "local": "yes",
+        "name": "mobilenet-v1-1.0-128",
+        "sort": 12,
+        "tags": "weights,npy,mobilenet-v1-1.0-128"
+      },
+      "mobilenet-v1-1.0-160": {
+        "local": "yes",
+        "name": "mobilenet-v1-1.0-160",
+        "sort": 13,
+        "tags": "weights,npy,mobilenet-v1-1.0-160"
+      },
+      "mobilenet-v1-1.0-192": {
+        "local": "yes",
+        "name": "mobilenet-v1-1.0-192",
+        "sort": 14,
+        "tags": "weights,npy,mobilenet-v1-1.0-192"
+      },
+      "mobilenet-v1-1.0-224": {
+        "local": "yes",
+        "name": "mobilenet-v1-1.0-224",
+        "sort": 15,
+        "tags": "weights,npy,mobilenet-v1-1.0-224"
+      }
+    },
+    "end_full_path_universal": "README.md",
+    "process_script": "install",
+    "soft_uoa": "50b442db9bde0a0c",
+    "suggested_path": "weights-mobilenet-v1-npy",
+    "tags": [
+      "mobilenet",
+      "mobilenet-all",
+      "mobilenet-v1",
+      "mobilenet-v1-all",
+      "weights",
+      "npy"
+    ]
+  },
+  "misc": {
+    "data_uid": "5f0204ea5ff47c9a",
+    "data_uoa": "weights-mobilenet-v1-npy",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "7698eaf859b79f2b",
+    "repo_uoa": "ck-request-asplos18-mobilenets-armcl-opencl",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl/tree/master/package/weights-mobilenet-v1-npy/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl/tree/master/package/weights-mobilenet-v1-npy",
+    "soft_name": "MobileNet weights",
+    "soft_uid": "50b442db9bde0a0c",
+    "soft_uoa": "weights.mobilenet.armcl",
+    "stags": "mobilenet,mobilenet-all,mobilenet-v1,mobilenet-v1-all,weights,npy",
+    "tags": [
+      "mobilenet",
+      "mobilenet-all",
+      "mobilenet-v1",
+      "mobilenet-v1-all",
+      "weights",
+      "npy"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl"
+  }
+}

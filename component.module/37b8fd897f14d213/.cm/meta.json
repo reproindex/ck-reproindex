@@ -1,0 +1,36 @@
+{
+  "actions": {},
+  "desc": "index of CK programs",
+  "dict": {
+    "actions": {
+      "add_index": {
+        "desc": "add index"
+      },
+      "html": {
+        "desc": "generate html"
+      }
+    },
+    "desc": "index of CK programs"
+  },
+  "misc": {
+    "actions": {
+      "add_index": {
+        "url_api": "https://github.com/ctuning/reproindex/tree/master/module/component.program/module.py#L33"
+      },
+      "html": {
+        "url_api": "https://github.com/ctuning/reproindex/tree/master/module/component.program/module.py#L123"
+      }
+    },
+    "data_uid": "37b8fd897f14d213",
+    "data_uoa": "component.program",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "c590dea823213918",
+    "repo_uoa": "reproindex",
+    "repo_url1": "https://github.com/ctuning/reproindex/tree/master/module/component.program/module.py",
+    "repo_url2": "https://github.com/ctuning/reproindex/tree/master/module/component.program/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:reproindex",
+    "workflow": ""
+  }
+}

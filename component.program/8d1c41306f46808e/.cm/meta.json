@@ -1,0 +1,127 @@
+{
+  "dict": {
+    "backup_data_uid": "8d1c41306f46808e",
+    "data_name": "pyquil-demo",
+    "no_compile": "yes",
+    "no_target_file": "yes",
+    "pass_env_to_resolve": "yes",
+    "print_files_after_run": [
+      "tmp-stdout.tmp",
+      "tmp-stderr.tmp"
+    ],
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "run_cmds": {
+      "from-pyquil-examples": {
+        "ignore_return_code": "no",
+        "run_time": {
+          "output_invariant_of_repeat": "yes",
+          "run_cmd_main": "$<<CK_ENV_COMPILER_PYTHON_FILE>>$ $<<CK_ENV_LIB_PYQUIL_EXAMPLES>>$/$<<PYQUIL_EXAMPLE>>$",
+          "run_cmd_out1": "tmp-stdout.tmp",
+          "run_cmd_out2": "tmp-stderr.tmp",
+          "run_output_files": [
+            "tmp-ck-timer.json",
+            "tmp-ck-output.bin",
+            "tmp-ck-output.json"
+          ]
+        }
+      },
+      "from-quil-file": {
+        "ignore_return_code": "no",
+        "run_time": {
+          "output_invariant_of_repeat": "yes",
+          "run_cmd_main": "$<<CK_ENV_COMPILER_PYTHON_FILE>>$ $<<CK_ENV_LIB_PYQUIL_EXAMPLES>>$/run_quil.py $<<QUIL_FILE>>$$<<CK_ENV_LIB_PYQUIL_MAJ_VER>>$",
+          "run_cmd_out1": "tmp-stdout.tmp",
+          "run_cmd_out2": "tmp-stderr.tmp",
+          "run_output_files": [
+            "tmp-ck-timer.json",
+            "tmp-ck-output.bin",
+            "tmp-ck-output.json"
+          ]
+        }
+      },
+      "run-quil-and-parse": {
+        "ignore_return_code": "no",
+        "run_time": {
+          "fine_grain_timer_file": "qvm_output.json",
+          "output_invariant_of_repeat": "yes",
+          "run_cmd_main": "$<<CK_ENV_COMPILER_PYTHON_FILE>>$ ../run_quil_parse_classical_output.py $<<QUIL_FILE>>$$<<CK_ENV_LIB_PYQUIL_MAJ_VER>>$",
+          "run_cmd_out1": "tmp-stdout.tmp",
+          "run_cmd_out2": "tmp-stderr.tmp",
+          "run_output_files": [
+            "qvm_output.json"
+          ]
+        }
+      },
+      "teleportation": {
+        "ignore_return_code": "no",
+        "run_time": {
+          "output_invariant_of_repeat": "yes",
+          "run_cmd_main": "$<<CK_ENV_COMPILER_PYTHON_FILE>>$ $<<CK_ENV_LIB_PYQUIL_EXAMPLES>>$/teleportation.py",
+          "run_cmd_out1": "tmp-stdout.tmp",
+          "run_cmd_out2": "tmp-stderr.tmp",
+          "run_output_files": [
+            "tmp-ck-timer.json",
+            "tmp-ck-output.bin",
+            "tmp-ck-output.json"
+          ]
+        }
+      }
+    },
+    "run_deps": {
+      "forest login": {
+        "disable_if_env": {
+          "CK_RIGETTI_DEVICE": [
+            "local"
+          ]
+        },
+        "local": "yes",
+        "name": "Rigetti Forest credentials",
+        "sort": 5,
+        "tags": "forest,login"
+      },
+      "lib-pyquil": {
+        "local": "yes",
+        "name": "Rigetti pyQuil",
+        "skip_pruning_by_other_deps": "yes",
+        "sort": 20,
+        "tags": "lib,pyquil,quantum,with-examples"
+      }
+    },
+    "run_vars": {
+      "CK_RIGETTI_DEVICE": "local",
+      "PYQUIL_EXAMPLE": "meyer_penny_game.py",
+      "QUIL_FILE": "../hello_world.quil"
+    },
+    "tags": [
+      "pyquil",
+      "rigetti",
+      "demo",
+      "examples"
+    ]
+  },
+  "misc": {
+    "data_uid": "8d1c41306f46808e",
+    "data_uoa": "pyquil-demo",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "6456e78d8c044a88",
+    "repo_uoa": "ck-rigetti",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-rigetti/tree/master/program/pyquil-demo/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-rigetti/tree/master/program/pyquil-demo",
+    "soft_name": "",
+    "stags": "pyquil,rigetti,demo,examples",
+    "tags": [
+      "pyquil",
+      "rigetti",
+      "demo",
+      "examples"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-rigetti",
+    "version": ""
+  }
+}

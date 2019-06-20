@@ -1,0 +1,40 @@
+{
+  "misc": {
+    "artifact_doi_url": "",
+    "artifact_sources": "GitHub",
+    "artifact_sources_url": "https://github.com/SeisSol/SeisSol",
+    "authors": "Carsten Uphoff, Sebastian Rettenberger, Michael Bader, Elizabeth H. Madden, Thomas Ulrich, Stephanie Wollherr, Alice-Agnes Gabriel",
+    "badge_acm_artifact_available": "yes",
+    "badge_acm_artifact_functional": "yes",
+    "badge_acm_artifact_reusable": "",
+    "badge_acm_results_replicated": "",
+    "badge_acm_results_reproduced": "",
+    "ck_repo_uid": "1ca4108a0485b920",
+    "paper_doi_url": "https://doi.org/10.1145/3126908.3126948",
+    "paper_pdf_url": "",
+    "reproducibility_url": "https://sc18.supercomputing.org/submit/sc-reproducibility-initiative",
+    "results": "",
+    "results_dashboard_url": "",
+    "results_url": "",
+    "some_results_replicated": "yes",
+    "tasks": {
+      "c374d10bbfd53379": {
+        "data_uoa": "seissol-netcdf"
+      },
+      "f3429eb04e3556f3": {
+        "data_uoa": "seissol-proxy"
+      }
+    },
+    "title": "Extreme scale multi-physics simulations of the tsunamigenic 2004 sumatra megathrust earthquake",
+    "unified_artifact_appendix": "https://sc18.supercomputing.org/submit/sc-reproducibility-initiative",
+    "where": "SC'17",
+    "where_url": "https://sc17.supercomputing.org",
+    "workflow": "CK",
+    "workflow_url": "https://github.com/ctuning/ck-scc18/wiki"
+  },
+  "tags": [
+    "papers",
+    "papers-sc",
+    "papers-sc-2017"
+  ]
+}

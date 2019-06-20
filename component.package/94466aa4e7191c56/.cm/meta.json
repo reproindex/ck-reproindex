@@ -1,0 +1,58 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "install_env": {
+        "BUILD_SHARED_LIBS": "OFF"
+      },
+      "version": "3.4.2"
+    },
+    "end_full_path": {
+      "linux": "lib/liblapack.a"
+    },
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "process_script": "process",
+    "soft_uoa": "4069972dfce0f22d",
+    "suggested_path": "lapack",
+    "tags": [
+      "lib",
+      "lapack",
+      "v3.4.2",
+      "v3.4",
+      "v3",
+      "channel-stable"
+    ]
+  },
+  "misc": {
+    "data_uid": "94466aa4e7191c56",
+    "data_uoa": "lib-lapack-3.4.2",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "d94a45b5be3072ba",
+    "repo_uoa": "ck-math",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-math/tree/master/package/lib-lapack-3.4.2/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-math/tree/master/package/lib-lapack-3.4.2",
+    "soft_name": "LAPACK library",
+    "soft_uid": "4069972dfce0f22d",
+    "soft_uoa": "lib.lapack",
+    "stags": "lib,lapack,v3.4.2,v3.4,v3,channel-stable",
+    "tags": [
+      "lib",
+      "lapack",
+      "v3.4.2",
+      "v3.4",
+      "v3",
+      "channel-stable"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:ck-math"
+  }
+}

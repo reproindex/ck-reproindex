@@ -1,0 +1,175 @@
+{
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-crowdtuning"
+      },
+      {
+        "repo_uoa": "ck-tensorflow"
+      },
+      {
+        "repo_uoa": "ck-math"
+      },
+      {
+        "repo_uoa": "ck-caffe",
+        "repo_url": "https://github.com/dividiti/ck-caffe"
+      }
+    ],
+    "shared": "git",
+    "url": "https://github.com/dividiti/ck-nntest"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "c7e5332641d8922a",
+          "repo_uoa": "ck-crowdtuning"
+        },
+        {
+          "repo_uid": "acb7cea44acac9c9",
+          "repo_uoa": "ck-tensorflow"
+        },
+        {
+          "repo_uid": "d94a45b5be3072ba",
+          "repo_uoa": "ck-math"
+        },
+        {
+          "repo_uid": "57e83bca8a5a4344",
+          "repo_uoa": "ck-caffe",
+          "repo_url": "https://github.com/dividiti/ck-caffe"
+        }
+      ],
+      "shared": "git",
+      "url": " https://github.com/ctuning/ck-nntest "
+    },
+    "data_uid": "490d7a29be946f5b",
+    "data_uoa": "ck-nntest",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": " https://github.com/ctuning/ck-nntest /tree/master/repo/ck-nntest/.cm/meta.json",
+    "repo_url3": " https://github.com/ctuning/ck-nntest /tree/master/repo/ck-nntest",
+    "tasks": {
+      "0242f89f5d48953d": {
+        "data_uoa": "winogradconv-armcl-opencl"
+      },
+      "088c5a43fc9fb88d": {
+        "data_uoa": "depthwiseconv-armcl-opencl"
+      },
+      "143dea0024ba426a": {
+        "data_uoa": "softmax-armcl-opencl-uint8"
+      },
+      "17771354407da1dd": {
+        "data_uoa": "conv-armcl-opencl"
+      },
+      "32b52f843c59a414": {
+        "data_uoa": "depthwiseconv-tensorflow-cpu"
+      },
+      "3a30549a88058a71": {
+        "data_uoa": "avgpool-armcl-opencl"
+      },
+      "422c20c49af9ec3d": {
+        "data_uoa": "reshape-tensorflow-cpu-uint8"
+      },
+      "437babad6d942f1f": {
+        "data_uoa": "conv-armcl-opencl-uint8"
+      },
+      "44431bf0eafd9ceb": {
+        "data_uoa": "tool-prepare-dataset"
+      },
+      "4a54a1b3326a5957": {
+        "data_uoa": "reshape-armcl-opencl-uint8"
+      },
+      "57504cb3ac9a4300": {
+        "data_uoa": "avgpool-caffe-cpu"
+      },
+      "5ca9381744cef2ee": {
+        "data_uoa": "avgpool-tensorflow-cpu"
+      },
+      "5f7b662fb4730a52": {
+        "data_uoa": "avgpool-armcl-opencl-uint8"
+      },
+      "62d495b804a98912": {
+        "data_uoa": "fullyconnected-armcl-opencl-uint8"
+      },
+      "678ca4901babba64": {
+        "data_uoa": "conv-caffe-cpu"
+      },
+      "682609cfdc81c8e7": {
+        "data_uoa": "avgpool-caffe-opencl"
+      },
+      "69d724b2f232b8a0": {
+        "data_uoa": "softmax-caffe-cpu"
+      },
+      "6a46142cda8a5fd4": {
+        "data_uoa": "directconv-caffe-cpu"
+      },
+      "6fcbd4138ba68cb3": {
+        "data_uoa": "fullyconnected-armcl-opencl"
+      },
+      "704b2340679ffc8b": {
+        "data_uoa": "fullyconnected-caffe-cpu"
+      },
+      "7184ef083693b882": {
+        "data_uoa": "conv-tensorflow-cpu"
+      },
+      "7313c9732c240869": {
+        "data_uoa": "gemm-armcl-opencl"
+      },
+      "7569082bd9524203": {
+        "data_uoa": "conv-caffe-opencl"
+      },
+      "7cb194dd5c90fdc5": {
+        "data_uoa": "reshape-tensorflow-cpu"
+      },
+      "7fd0abe35b874468": {
+        "data_uoa": "benchmark-armcl-opencl"
+      },
+      "877f3755643b1bba": {
+        "data_uoa": "tool-autoformat-code"
+      },
+      "8cdb664e28ae2d5c": {
+        "data_uoa": "softmax-caffe-opencl"
+      },
+      "91541009c70bc24f": {
+        "data_uoa": "directconv-armcl-opencl-uint8"
+      },
+      "a5f548e6b30ce842": {
+        "data_uoa": "reshape-armcl-opencl"
+      },
+      "ca434e8a8384ca23": {
+        "data_uoa": "resizebilinear-tensorflow-cpu"
+      },
+      "cb26580fe0431982": {
+        "data_uoa": "avgpool-tensorflow-cpu-uint8"
+      },
+      "d07055a4a9eb528d": {
+        "data_uoa": "softmax-armcl-opencl"
+      },
+      "d2243358ada43fad": {
+        "data_uoa": "directconv-caffe-opencl"
+      },
+      "da600b1e52b4596a": {
+        "data_uoa": "resizebilinear-armcl-opencl"
+      },
+      "dbdf63771e314e15": {
+        "data_uoa": "resizebilinear-armcl-opencl-uint8"
+      },
+      "e1cb5b26290d2e52": {
+        "data_uoa": "directconv-armcl-opencl"
+      },
+      "e43472a917571dcc": {
+        "data_uoa": "depthwiseconv-armcl-opencl-uint8"
+      },
+      "e5ef536124c10ab8": {
+        "data_uoa": "softmax-tensorflow-cpu"
+      },
+      "f4c64ec7968af5a3": {
+        "data_uoa": "fullyconnected-caffe-opencl"
+      }
+    },
+    "to_get": "ck pull repo:ck-nntest"
+  }
+}

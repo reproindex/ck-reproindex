@@ -1,0 +1,92 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "git_src_dir": "AggregaThor",
+      "install_env": {
+        "PACKAGE_URL": "https://github.com/LPD-EPFL/AggregaThor",
+        "PACKAGE_WORK_DIR": "AggregaThor"
+      },
+      "use_git_revision": "yes",
+      "version": "master"
+    },
+    "deps": {
+      "lib-tensorflow": {
+        "add_to_path": "yes",
+        "local": "yes",
+        "name": "TensorFlow",
+        "sort": 20,
+        "tags": "lib,tensorflow,vprebuilt",
+        "version_from": [
+          1,
+          10,
+          1
+        ],
+        "version_to": [
+          1,
+          11,
+          999
+        ]
+      },
+      "python": {
+        "add_to_path": "yes",
+        "local": "yes",
+        "name": "Python",
+        "sort": 10,
+        "tags": "compiler,python",
+        "version_from": [
+          3,
+          5,
+          0
+        ]
+      }
+    },
+    "end_full_path": {
+      "linux": "AggregaThor/runner.py"
+    },
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "package_extra_name": " (GitHub)",
+    "process_script": "install",
+    "soft_uoa": "ae86f545d6a4737f",
+    "sort": -100,
+    "suggested_path": "tool-sysml19-aggregathor-github",
+    "tags": [
+      "tool",
+      "sysml19",
+      "aggregathor",
+      "vmaster"
+    ],
+    "template": "yes",
+    "template_type": "simple package for artifact evaluation (SysML'19)"
+  },
+  "misc": {
+    "data_uid": "9ccbded133fbd3de",
+    "data_uoa": "sysml19-aggregathor-github",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "76d81ee9a38d4679",
+    "repo_uoa": "reproduce-sysml19-paper-aggregathor",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-sysml19-paper-aggregathor/tree/master/package/sysml19-aggregathor-github/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-sysml19-paper-aggregathor/tree/master/package/sysml19-aggregathor-github",
+    "soft_name": "SysML'19 AggregaThor",
+    "soft_uid": "ae86f545d6a4737f",
+    "soft_uoa": "sysml19-aggregathor",
+    "stags": "tool,sysml19,aggregathor,vmaster",
+    "tags": [
+      "tool",
+      "sysml19",
+      "aggregathor",
+      "vmaster"
+    ],
+    "target_os": "linux,macos",
+    "template": "simple package for artifact evaluation (SysML'19)",
+    "to_get": "ck pull repo:reproduce-sysml19-paper-aggregathor"
+  }
+}

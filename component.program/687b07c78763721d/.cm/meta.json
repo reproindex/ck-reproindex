@@ -1,0 +1,92 @@
+{
+  "dict": {
+    "backup_data_uid": "687b07c78763721d",
+    "build_compiler_vars": {
+      "XOPENME": ""
+    },
+    "compile_deps": {
+      "compiler": {
+        "local": "yes",
+        "name": "C compiler",
+        "sort": 10,
+        "tags": "compiler,lang-c"
+      },
+      "xopenme": {
+        "local": "yes",
+        "name": "xOpenME library",
+        "sort": 20,
+        "tags": "lib,xopenme"
+      }
+    },
+    "compiler_env": "CK_CC",
+    "data_name": "template-hello-world-c-openme",
+    "extra_ld_vars": "$<<CK_EXTRA_LIB_M>>$",
+    "main_language": "c",
+    "print_files_after_run": [
+      "stderr.log",
+      "stdout.log"
+    ],
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "run_cmds": {
+      "default": {
+        "ignore_return_code": "no",
+        "run_time": {
+          "fine_grain_timer_file": "tmp-ck-timer.json",
+          "post_process_via_ck": {
+            "script_name": "postprocess"
+          },
+          "pre_process_via_ck": {
+            "script_name": "preprocess"
+          },
+          "run_cmd_main": "$#BIN_FILE#$ \"$#src_path#$\"",
+          "run_cmd_out1": "stdout.log",
+          "run_cmd_out2": "stderr.log",
+          "run_output_files": [
+            "stdout.log",
+            "stderr.log",
+            "tmp-ck-timer.json"
+          ]
+        }
+      }
+    },
+    "run_vars": {
+      "CK_VAR1": 123,
+      "CK_VAR2": 666
+    },
+    "source_files": [
+      "hello-world.c"
+    ],
+    "tags": [
+      "template",
+      "program",
+      "lang-c"
+    ],
+    "target_file": "a",
+    "template": "yes",
+    "template_type": "C program workflow"
+  },
+  "misc": {
+    "data_uid": "687b07c78763721d",
+    "data_uoa": "template-hello-world-c-openme",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "a4328ba99679e0d1",
+    "repo_uoa": "ck-autotuning",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-autotuning/tree/master/program/template-hello-world-c-openme/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-autotuning/tree/master/program/template-hello-world-c-openme",
+    "soft_name": "",
+    "stags": "template,program,lang-c",
+    "tags": [
+      "template",
+      "program",
+      "lang-c"
+    ],
+    "target_os": "any",
+    "template": "C program workflow",
+    "to_get": "ck pull repo:ck-autotuning",
+    "version": ""
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {
+      "extra_dir": "",
+      "force_ask_path": "yes",
+      "install_env": {
+        "IMAGESETS_DIR": "ImageSets",
+        "IMAGESETS_IMAGE_DIR": "Layout",
+        "IMAGESETS_SEG_DIR": "Segmentation",
+        "IMAGESETS_TESTS_DIR": "Main",
+        "IMAGE_DIR": "JPEGImages",
+        "LABELS_DIR": "Annotations",
+        "SEG_CLASS_DIR": "SegmentationClass",
+        "SEG_OBJ_DIR": "SegmentationObject",
+        "TRAIN_DIR": "train",
+        "VOC_DIR1": "VOCdevkit",
+        "VOC_DIR2": "VOC2012",
+        "VOC_TRAIN_ARCHIVE": "VOCtrainval_11-May-2012.tar",
+        "VOC_TRAIN_URL": "http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar"
+      },
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "yes",
+      "version": "2012"
+    },
+    "deps": {},
+    "end_full_path": {
+      "linux": "train/VOCdevkit/VOC2012/JPEGImages/2007_000123.jpg",
+      "win": "train/VOCdevkit/VOC2012/JPEGImages/2007_000123.jpg"
+    },
+    "need_cpu_info": "no",
+    "process_script": "install",
+    "soft_uoa": "041cf4753bed7c62",
+    "suggested_path": "dataset-voc-2012",
+    "tags": [
+      "dataset",
+      "voc",
+      "VOC",
+      "2012",
+      "val",
+      "full",
+      "channel-stable"
+    ]
+  },
+  "misc": {
+    "data_uid": "f853cd55d34956b4",
+    "data_uoa": "dataset-voc-2012",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "57e83bca8a5a4344",
+    "repo_uoa": "ck-caffe",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/dividiti/ck-caffe/tree/master/package/dataset-voc-2012/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/ck-caffe/tree/master/package/dataset-voc-2012",
+    "soft_name": "VOC dataset",
+    "soft_uid": "041cf4753bed7c62",
+    "soft_uoa": "dataset.voc",
+    "stags": "dataset,voc,VOC,2012,val,full,channel-stable",
+    "tags": [
+      "dataset",
+      "voc",
+      "VOC",
+      "2012",
+      "val",
+      "full",
+      "channel-stable"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-caffe.git"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "git_src_dir": "src",
+      "install_env": {
+        "VIENNACL_TAG": "release-1.7.1",
+        "VIENNACL_URL": "https://github.com/viennacl/viennacl-dev"
+      },
+      "use_git_revision": "yes",
+      "version": "1.7.1"
+    },
+    "deps": {
+      "boost": {
+        "local": "yes",
+        "name": "Boost C++ libraries",
+        "sort": 30,
+        "tags": "lib,boost"
+      },
+      "cmake": {
+        "local": "yes",
+        "name": "CMake tool",
+        "sort": 5,
+        "tags": "cmake"
+      },
+      "compiler": {
+        "local": "yes",
+        "name": "C++ compiler",
+        "sort": 10,
+        "tags": "compiler,lang-cpp"
+      },
+      "opencl": {
+        "local": "yes",
+        "name": "OpenCL library",
+        "sort": 20,
+        "tags": "lib,opencl"
+      }
+    },
+    "end_full_path": {
+      "android": "lib$#sep#$libviennacl.so",
+      "linux": "lib/libviennacl.so",
+      "mingw": "lib\\libviennacl.so",
+      "win": "lib\\libviennacl.so"
+    },
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "process_script": "install",
+    "soft_uoa": "b8319cc532802fe2",
+    "suggested_path": "lib-viennacl",
+    "tags": [
+      "lib",
+      "blas",
+      "opencl-blas",
+      "viennacl",
+      "v1.7.1",
+      "v1.7",
+      "v1",
+      "channel-stable"
+    ]
+  },
+  "misc": {
+    "data_uid": "4f1e8fde6a81e24b",
+    "data_uoa": "lib-viennacl-1.7.1",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "d94a45b5be3072ba",
+    "repo_uoa": "ck-math",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-math/tree/master/package/lib-viennacl-1.7.1/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-math/tree/master/package/lib-viennacl-1.7.1",
+    "soft_name": "ViennaCL library",
+    "soft_uid": "b8319cc532802fe2",
+    "soft_uoa": "lib.viennacl",
+    "stags": "lib,blas,opencl-blas,viennacl,v1.7.1,v1.7,v1,channel-stable",
+    "tags": [
+      "lib",
+      "blas",
+      "opencl-blas",
+      "viennacl",
+      "v1.7.1",
+      "v1.7",
+      "v1",
+      "channel-stable"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-math"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "dict": {
+    "actions": {
+      "get_raw_config": {
+        "desc": "get raw config for repo widget",
+        "for_web": "yes"
+      },
+      "get_raw_data": {
+        "desc": "get raw data for repo-widget",
+        "for_web": "yes"
+      }
+    },
+    "desc": "Raw data access (json)",
+    "workflow": "yes",
+    "workflow_type": "quantum hackathon workflow"
+  },
+  "misc": {
+    "actions": {
+      "get_raw_config": {
+        "url_api": "https://github.com/ctuning/ck-quantum/tree/master/module/hackathon.20180615/module.py#L401"
+      },
+      "get_raw_data": {
+        "url_api": "https://github.com/ctuning/ck-quantum/tree/master/module/hackathon.20180615/module.py#L151"
+      }
+    },
+    "data_uid": "f40e5947238264d1",
+    "data_uoa": "hackathon.20180615",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "de640faafc01c0a0",
+    "repo_uoa": "ck-quantum",
+    "repo_url1": "https://github.com/ctuning/ck-quantum/tree/master/module/hackathon.20180615/module.py",
+    "repo_url2": "https://github.com/ctuning/ck-quantum/tree/master/module/hackathon.20180615/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:ck-quantum",
+    "workflow": "quantum hackathon workflow"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "dict": {
+    "actions": {
+      "run": {
+        "desc": "Run ck-gui program"
+      }
+    },
+    "desc": "ck-gui commands"
+  },
+  "misc": {
+    "actions": {
+      "run": {
+        "url_api": "https://github.com/Chunosov/ck-gui/tree/master/module/gui/module.py#L66"
+      }
+    },
+    "data_uid": "dbf95494d930e5c1",
+    "data_uoa": "gui",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "4ae7df4c1a806867",
+    "repo_uoa": "ck-gui",
+    "repo_url1": "https://github.com/Chunosov/ck-gui/tree/master/module/gui/module.py",
+    "repo_url2": "https://github.com/Chunosov/ck-gui/tree/master/module/gui/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo --url=https://github.com/Chunosov/ck-gui",
+    "workflow": ""
+  }
+}

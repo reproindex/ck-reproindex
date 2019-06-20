@@ -1,0 +1,66 @@
+{
+  "dict": {
+    "backup_data_uid": "246b4593aa8b2a72",
+    "data_name": "tensorflow-freeze",
+    "no_compile": "yes",
+    "no_target_file": "yes",
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "run_cmds": {
+      "default": {
+        "ignore_return_code": "no",
+        "run_time": {
+          "run_cmd_main": "$<<CK_ENV_COMPILER_PYTHON_FILE>>$ ../freeze.py"
+        }
+      }
+    },
+    "run_deps": {
+      "lib-tensorflow": {
+        "local": "yes",
+        "name": "TensorFlow library",
+        "sort": 30,
+        "tags": "lib,tensorflow"
+      },
+      "model-and-weights": {
+        "local": "yes",
+        "name": "TensorFlow-Python model and weights",
+        "sort": 20,
+        "tags": "tensorflow-model,weights,python"
+      },
+      "python": {
+        "local": "yes",
+        "name": "Python",
+        "sort": 10,
+        "tags": "compiler,python"
+      }
+    },
+    "run_vars": {
+      "CK_FREEZE_AS_TEXT": "NO",
+      "CK_TARGET_PB_FILE": ""
+    },
+    "tags": [
+      "tensorflow-freeze"
+    ]
+  },
+  "misc": {
+    "data_uid": "246b4593aa8b2a72",
+    "data_uoa": "tensorflow-freeze",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "acb7cea44acac9c9",
+    "repo_uoa": "ck-tensorflow",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/program/tensorflow-freeze/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/program/tensorflow-freeze",
+    "soft_name": "",
+    "stags": "tensorflow-freeze",
+    "tags": [
+      "tensorflow-freeze"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-tensorflow",
+    "version": ""
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "git_src_dir": "src",
+      "install_env": {
+        "PACKAGE_BUILD_TYPE": "none",
+        "PACKAGE_GIT": "YES",
+        "PACKAGE_SKIP_CLEAN_SRC_DIR": "YES",
+        "PACKAGE_SKIP_LINUX_MAKE": "YES",
+        "PACKAGE_SUB_DIR": "src",
+        "PACKAGE_URL": "https://github.com/tensorflow/tensorflow"
+      },
+      "use_git_revision": "yes"
+    },
+    "end_full_path_universal": "src$#sep#$tensorflow$#sep#$tensorflow.bzl",
+    "package_extra_name": " (source only)",
+    "process_script": "install",
+    "soft_uoa": "lib.tensorflow.source",
+    "suggested_path": "lib-tensorflow-source",
+    "tags": [
+      "lib",
+      "tensorflow",
+      "source"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "cd9ccc74060b3d18",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "e463bb8670e75440",
+    "data_uoa": "lib-tensorflow-source",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "acb7cea44acac9c9",
+    "repo_uoa": "ck-tensorflow",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/lib-tensorflow-source/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/lib-tensorflow-source",
+    "soft_name": "TensorFlow library source",
+    "soft_uid": "92cbe940c7bd37dd",
+    "soft_uoa": "lib.tensorflow.source",
+    "stags": "lib,tensorflow,source",
+    "tags": [
+      "lib",
+      "tensorflow",
+      "source"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-tensorflow"
+  }
+}

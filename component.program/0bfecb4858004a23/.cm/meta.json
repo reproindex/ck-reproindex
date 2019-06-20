@@ -1,0 +1,90 @@
+{
+  "dict": {
+    "backup_data_uid": "0bfecb4858004a23",
+    "data_name": "cntk",
+    "no_compile": "yes",
+    "no_target_file": "yes",
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "run_cmds": {
+      "demo-feed-forward-net": {
+        "ignore_return_code": "no",
+        "run_deps": {
+          "lib-cntk": {
+            "local": "yes",
+            "name": "CNTK library",
+            "no_tags": "vsrc",
+            "skip_pruning_by_other_deps": "yes",
+            "sort": 10,
+            "tags": "lib,cntk"
+          },
+          "lib-mpi": {
+            "local": "yes",
+            "name": "Open MPI library",
+            "only_for_target_os_tags": [
+              "linux"
+            ],
+            "sort": 30,
+            "tags": "lib,openmpi"
+          }
+        },
+        "run_time": {
+          "run_cmd_main": "$<<CK_ENV_COMPILER_PYTHON_FILE>>$ ../FeedForwardNet.py"
+        }
+      },
+      "ipython": {
+        "ignore_return_code": "yes",
+        "run_deps": {
+          "lib-cntk": {
+            "local": "yes",
+            "name": "CNTK library",
+            "no_tags": "vsrc",
+            "skip_pruning_by_other_deps": "yes",
+            "sort": 10,
+            "tags": "lib,cntk"
+          },
+          "lib-mpi": {
+            "local": "yes",
+            "name": "Open MPI library",
+            "only_for_target_os_tags": [
+              "linux"
+            ],
+            "skip_default": "yes",
+            "sort": 30,
+            "tags": "lib,openmpi"
+          }
+        },
+        "run_time": {
+          "run_cmd_main": "$<<CK_PYTHON_IPYTHON_BIN_FULL>>$"
+        }
+      }
+    },
+    "run_vars": {},
+    "tags": [
+      "cntk-demo",
+      "demo"
+    ]
+  },
+  "misc": {
+    "data_uid": "0bfecb4858004a23",
+    "data_uoa": "cntk",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "e593999edb49689a",
+    "repo_uoa": "ck-cntk",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-cntk/tree/master/program/cntk/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-cntk/tree/master/program/cntk",
+    "soft_name": "",
+    "stags": "cntk-demo,demo",
+    "tags": [
+      "cntk-demo",
+      "demo"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-cntk",
+    "version": ""
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "actions": {
+    "get": {
+      "desc": "get index of components"
+    },
+    "index": {
+      "desc": "index components"
+    }
+  },
+  "desc": "indexing reusable research components",
+  "dict": {
+    "actions": {
+      "get": {
+        "desc": "get index of components"
+      },
+      "index": {
+        "desc": "index components"
+      }
+    },
+    "desc": "indexing reusable research components",
+    "module_deps": {
+      "cfg": "b34231a3467566f8",
+      "module": "032630d041b4fd8a"
+    },
+    "url_ck_github_components": "https://github.com/ctuning/ck/wiki/ckb_",
+    "url_rr_github_components": "https://github.com/ctuning/reproindex/tree/master/component"
+  },
+  "misc": {
+    "actions": {
+      "get": {
+        "url_api": "https://github.com/ctuning/reproindex/tree/master/module/component/module.py#L33"
+      },
+      "index": {
+        "url_api": "https://github.com/ctuning/reproindex/tree/master/module/component/module.py#L277"
+      }
+    },
+    "data_uid": "bd4513457990ba8f",
+    "data_uoa": "component",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "c590dea823213918",
+    "repo_uoa": "reproindex",
+    "repo_url1": "https://github.com/ctuning/reproindex/tree/master/module/component/module.py",
+    "repo_url2": "https://github.com/ctuning/reproindex/tree/master/module/component/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo:reproindex",
+    "workflow": ""
+  },
+  "module_deps": {
+    "cfg": "b34231a3467566f8",
+    "module": "032630d041b4fd8a"
+  }
+}

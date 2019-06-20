@@ -1,0 +1,74 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "git_src_dir": "openme",
+      "use_git_revision": "yes",
+      "version": "2015"
+    },
+    "deps": {
+      "compiler": {
+        "local": "yes",
+        "name": "C compiler",
+        "sort": 10,
+        "tags": "compiler,lang-c"
+      }
+    },
+    "end_full_path": {
+      "android": "lib$#sep#$libopenme.a",
+      "linux": "lib/libopenme.a",
+      "mingw": "lib\\libopenme.a",
+      "win": "lib\\libopenme.lib"
+    },
+    "only_for_host_os_tags": [
+      "windows",
+      "linux"
+    ],
+    "process_script": "process",
+    "soft_uoa": "815be64bec1d4613",
+    "suggested_path": "lib-openme",
+    "tags": [
+      "lib",
+      "plugins",
+      "openme",
+      "lang-c",
+      "lang-cpp",
+      "lang-f77",
+      "lang-f90",
+      "lang-f95",
+      "channel-stable"
+    ],
+    "template": "yes",
+    "template_type": "OpenME library (C,C++,Fortran)"
+  },
+  "misc": {
+    "data_uid": "46229d56d87dc51f",
+    "data_uoa": "lib-openme",
+    "host_os": "windows,linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "a4328ba99679e0d1",
+    "repo_uoa": "ck-autotuning",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-autotuning/tree/master/package/lib-openme/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-autotuning/tree/master/package/lib-openme",
+    "soft_name": "OpenME library",
+    "soft_uid": "815be64bec1d4613",
+    "soft_uoa": "lib.openme",
+    "stags": "lib,plugins,openme,lang-c,lang-cpp,lang-f77,lang-f90,lang-f95,channel-stable",
+    "tags": [
+      "lib",
+      "plugins",
+      "openme",
+      "lang-c",
+      "lang-cpp",
+      "lang-f77",
+      "lang-f90",
+      "lang-f95",
+      "channel-stable"
+    ],
+    "target_os": "any",
+    "template": "OpenME library (C,C++,Fortran)",
+    "to_get": "ck pull repo:ck-autotuning"
+  }
+}

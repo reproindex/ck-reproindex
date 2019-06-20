@@ -1,0 +1,22 @@
+{
+  "dict": {},
+  "misc": {
+    "data_uid": "ff8c81f53fd34d28",
+    "data_uoa": "nas-sys",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "640f0b9dadc5bfda",
+    "repo_uoa": "reproduce-cgo2017-paper",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/SamAinsworth/reproduce-cgo2017-paper/tree/master/program/nas-sys/.cm/meta.json",
+    "repo_url3": "https://github.com/SamAinsworth/reproduce-cgo2017-paper/tree/master/program/nas-sys",
+    "soft_name": "",
+    "stags": "",
+    "tags": [],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo --url=https://github.com/SamAinsworth/reproduce-cgo2017-paper",
+    "version": ""
+  }
+}

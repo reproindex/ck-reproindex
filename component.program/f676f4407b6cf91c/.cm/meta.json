@@ -1,0 +1,65 @@
+{
+  "dict": {
+    "backup_data_uid": "f676f4407b6cf91c",
+    "build_compiler_vars": {},
+    "compile_deps": {
+      "compiler": {
+        "local": "yes",
+        "name": "C++ compiler",
+        "tags": "compiler,lang-cpp"
+      }
+    },
+    "compiler_env": "CK_CXX",
+    "data_name": "tinydnn-representative-pad",
+    "extra_ld_vars": "$<<CK_EXTRA_LIB_M>>$",
+    "main_language": "c",
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "run_cmds": {
+      "default": {
+        "hot_functions": [],
+        "ignore_return_code": "no",
+        "run_time": {
+          "run_cmd_main": "$#BIN_FILE#$",
+          "run_cmd_out1": "tmp-output1.tmp",
+          "run_cmd_out2": "tmp-output2.tmp",
+          "run_correctness_output_files": [],
+          "run_output_files": []
+        }
+      }
+    },
+    "run_vars": {},
+    "source_files": [
+      "loop_pad.c"
+    ],
+    "tags": [
+      "ccprof",
+      "tinydnn",
+      "representative-pad"
+    ],
+    "target_file": "a"
+  },
+  "misc": {
+    "data_uid": "f676f4407b6cf91c",
+    "data_uoa": "tinydnn-representative-pad",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "07aff7c7b258f26b",
+    "repo_uoa": "ck-ccprof",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/proywm/ck-ccprof/tree/master/program/tinydnn-representative-pad/.cm/meta.json",
+    "repo_url3": "https://github.com/proywm/ck-ccprof/tree/master/program/tinydnn-representative-pad",
+    "soft_name": "",
+    "stags": "ccprof,tinydnn,representative-pad",
+    "tags": [
+      "ccprof",
+      "tinydnn",
+      "representative-pad"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo --url=https://github.com/proywm/ck-ccprof",
+    "version": ""
+  }
+}

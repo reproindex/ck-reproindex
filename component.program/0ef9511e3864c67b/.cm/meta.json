@@ -1,0 +1,123 @@
+{
+  "dict": {
+    "backup_data_uid": "0ef9511e3864c67b",
+    "compile_deps": {
+      "compiler": {
+        "local": "yes",
+        "name": "C++ compiler",
+        "sort": 10,
+        "tags": "compiler,lang-cpp"
+      },
+      "lib-clblast": {
+        "local": "yes",
+        "name": "CLBlast library",
+        "sort": 20,
+        "tags": "lib,clblast"
+      },
+      "lib-opencl": {
+        "local": "yes",
+        "name": "OpenCL library",
+        "sort": 15,
+        "tags": "lib,opencl"
+      }
+    },
+    "compiler_add_include_as_env_from_deps": [
+      "CK_ENV_LIB_STDCPP_INCLUDE",
+      "CK_ENV_LIB_STDCPP_INCLUDE_EXTRA"
+    ],
+    "compiler_env": "CK_CXX",
+    "compiler_flags_as_env": "$<<CK_COMPILER_FLAG_MFLOAT_ABI_HARD>>$ $<<CK_COMPILER_FLAG_CPP11>>$",
+    "data_name": "clblast-xgemm",
+    "extra_ld_vars": "$<<CK_EXTRA_LIB_M>>$",
+    "linker_add_lib_as_env": [
+      "CK_CXX_EXTRA",
+      "CK_ENV_LIB_STDCPP_STATIC"
+    ],
+    "main_language": "cpp",
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "run_cmds": {
+      "default": {
+        "ignore_return_code": "no",
+        "run_time": {
+          "fine_grain_timer_file": "tmp-ck-timer.json",
+          "need_compute_device": "opencl",
+          "post_process_cmds": [
+            "python $#src_path_local#$ck_postprocess.py"
+          ],
+          "post_process_via_ck": "yes",
+          "run_cmd_main": "$#BIN_FILE#$ -platform $<<CK_COMPUTE_PLATFORM_ID>>$ -device $<<CK_COMPUTE_DEVICE_ID>>$",
+          "run_cmd_out1": "run.stdout",
+          "run_cmd_out2": "run.stderr",
+          "run_correctness_output_files": [],
+          "run_input_files": [],
+          "run_output_files": [
+            "run.stdout",
+            "run.stderr"
+          ]
+        }
+      },
+      "explore-layouts": {
+        "ignore_return_code": "no",
+        "run_time": {
+          "fine_grain_timer_file": "tmp-ck-timer.json",
+          "need_compute_device": "opencl",
+          "post_process_cmds": [
+            "python $#src_path_local#$ck_postprocess.py"
+          ],
+          "post_process_via_ck": "yes",
+          "run_cmd_main": "$#BIN_FILE#$ -platform $<<CK_COMPUTE_PLATFORM_ID>>$ -device $<<CK_COMPUTE_DEVICE_ID>>$ -layout $<<CLBLAST_LAYOUT>>$",
+          "run_cmd_out1": "run.stdout",
+          "run_cmd_out2": "run.stderr",
+          "run_correctness_output_files": [],
+          "run_input_files": [],
+          "run_output_files": [
+            "run.stdout",
+            "run.stderr"
+          ]
+        }
+      }
+    },
+    "run_vars": {
+      "CK_COMPUTE_DEVICE_ID": 0,
+      "CK_COMPUTE_PLATFORM_ID": 0
+    },
+    "source_files": [
+      "client/client.cpp",
+      "utilities/utilities.cpp",
+      "xgemm.cpp"
+    ],
+    "species": [],
+    "tags": [
+      "gemmbench",
+      "program",
+      "clblast",
+      "xgemm"
+    ],
+    "target_file": "clblast_client_xgemm"
+  },
+  "misc": {
+    "data_uid": "0ef9511e3864c67b",
+    "data_uoa": "clblast-xgemm",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "1e884df489890fa1",
+    "repo_uoa": "gemmbench",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/dividiti/gemmbench/tree/master/program/clblast-xgemm/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/gemmbench/tree/master/program/clblast-xgemm",
+    "soft_name": "",
+    "stags": "gemmbench,program,clblast,xgemm",
+    "tags": [
+      "gemmbench",
+      "program",
+      "clblast",
+      "xgemm"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/gemmbench.git",
+    "version": ""
+  }
+}

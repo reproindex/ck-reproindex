@@ -1,0 +1,23 @@
+{
+  "dict": {},
+  "misc": {
+    "auto_detect": "no",
+    "data_uid": "bcf34f8b9de75c13",
+    "data_uoa": "dataset.tensorflow.imagenet.val",
+    "env_prefix": "",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "acb7cea44acac9c9",
+    "repo_uoa": "ck-tensorflow",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/soft/dataset.tensorflow.imagenet.val/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/soft/dataset.tensorflow.imagenet.val",
+    "soft_name": "",
+    "stags": "",
+    "tags": [],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-tensorflow"
+  }
+}

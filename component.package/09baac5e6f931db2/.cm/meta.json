@@ -1,0 +1,85 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "customize": {
+      "extra_dir": "",
+      "install_env": {
+        "DATASET_TYPE": "coco",
+        "FROZEN_GRAPH": "frozen_inference_graph.pb",
+        "LABELMAP_FILE": "mscoco_label_map.pbtxt",
+        "MODEL_NAME": "SSD ResNet50 v1 fpn shared box predictor with COCO 2014 dataset",
+        "PACKAGE_NAME": "ssd_resnet50_v1_fpn_shared_box_predictor_640x640_coco14_sync_2018_07_03.tar.gz",
+        "PACKAGE_NAME1": "ssd_resnet50_v1_fpn_shared_box_predictor_640x640_coco14_sync_2018_07_03",
+        "PACKAGE_URL": "http://download.tensorflow.org/models/object_detection",
+        "WEIGHTS_FILE": "model.ckpt"
+      },
+      "model_id": "resnetnet50_v1",
+      "no_os_in_suggested_path": "yes",
+      "no_ver_in_suggested_path": "yes",
+      "version": "20180703"
+    },
+    "deps": {
+      "tensorflow-model-api": {
+        "local": "yes",
+        "name": "Tensorflow models api",
+        "tags": "tensorflow,model,api"
+      }
+    },
+    "end_full_path": {
+      "linux": "frozen_inference_graph.pb"
+    },
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "package_extra_name": " (SSD ResNet50 v1 fpn shared box predictor, COCO)",
+    "process_script": "install",
+    "soft_uoa": "3fc0c4b9ba63de2f",
+    "suggested_path": "tensorflowmodel-object-detection-ssd-resnet50-v1-fpn-sbp-640x640-coco",
+    "tags": [
+      "tensorflowmodel",
+      "object-detection",
+      "ssd",
+      "resnet",
+      "resnet50",
+      "resnet50-v1",
+      "vcoco",
+      "channel-stable"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "c412930408fb8271",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "09baac5e6f931db2",
+    "data_uoa": "tensorflowmodel-object-detection-ssd-resnet50-v1-fpn-sbp-640x640-coco",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "acb7cea44acac9c9",
+    "repo_uoa": "ck-tensorflow",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tensorflow/tree/master/package/tensorflowmodel-object-detection-ssd-resnet50-v1-fpn-sbp-640x640-coco/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tensorflow/tree/master/package/tensorflowmodel-object-detection-ssd-resnet50-v1-fpn-sbp-640x640-coco",
+    "soft_name": "TensorFlow model (object-detection)",
+    "soft_uid": "3fc0c4b9ba63de2f",
+    "soft_uoa": "model.tensorflow.object-detection",
+    "stags": "tensorflowmodel,object-detection,ssd,resnet,resnet50,resnet50-v1,vcoco,channel-stable",
+    "tags": [
+      "tensorflowmodel",
+      "object-detection",
+      "ssd",
+      "resnet",
+      "resnet50",
+      "resnet50-v1",
+      "vcoco",
+      "channel-stable"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:ck-tensorflow"
+  }
+}

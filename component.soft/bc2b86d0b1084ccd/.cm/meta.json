@@ -1,0 +1,55 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_DATASET_PASCAL_VOC12_TF",
+      "limit_recursion_dir_search": {
+        "linux": 3,
+        "win": 3
+      },
+      "soft_file_universal": "pascal_train_2012.record"
+    },
+    "soft_name": "The PASCAL VOC12 (Object Detection) dataset (train, val, TF)",
+    "tags": [
+      "dataset",
+      "object-detection",
+      "detection",
+      "raw",
+      "train",
+      "val",
+      "voc12",
+      "pascal-voc12"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "bc2b86d0b1084ccd",
+    "data_uoa": "dataset.pascal_voc12",
+    "env_prefix": "CK_ENV_DATASET_PASCAL_VOC12_TF",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "90009e454e059d40",
+    "repo_uoa": "ck-tbd-suite",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-tbd-suite/tree/master/soft/dataset.pascal_voc12/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-tbd-suite/tree/master/soft/dataset.pascal_voc12",
+    "soft_name": "The PASCAL VOC12 (Object Detection) dataset (train, val, TF)",
+    "stags": "dataset,object-detection,detection,raw,train,val,voc12,pascal-voc12",
+    "tags": [
+      "dataset",
+      "object-detection",
+      "detection",
+      "raw",
+      "train",
+      "val",
+      "voc12",
+      "pascal-voc12"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-tbd-suite"
+  }
+}

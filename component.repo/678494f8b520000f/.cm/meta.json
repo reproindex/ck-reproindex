@@ -1,0 +1,35 @@
+{
+  "dict": {
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-mxnet"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "0442e96ea67b7957",
+          "repo_uoa": "ck-tvm"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-mxnet"
+    },
+    "data_uid": "678494f8b520000f",
+    "data_uoa": "ck-mxnet",
+    "desc": "Portable/customizable installation and unified access to MXNet AI frameworks with different workflows and data sets (see the <a href=\"https://github.com/ctuning/ck-request-asplos18-mobilenets-tvm-arm\">use case</a> from ReQuEST tournament).",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-mxnet/tree/master/repo/ck-mxnet/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-mxnet/tree/master/repo/ck-mxnet",
+    "tasks": {
+      "73c504c9ca24143d": {
+        "data_uoa": "mxnet"
+      }
+    },
+    "to_get": "ck pull repo:ck-mxnet",
+    "workflow_desc": "programs"
+  }
+}

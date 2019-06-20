@@ -1,0 +1,25 @@
+{
+  "dict": {
+    "shared": "git",
+    "url": "https://github.com/ctuning/ctuning-datasets-min"
+  },
+  "misc": {
+    "ckr": {
+      "shared": "git",
+      "url": "https://github.com/ctuning/ctuning-datasets-min"
+    },
+    "data_uid": "4ffcc1307484d840",
+    "data_uoa": "ctuning-datasets-min",
+    "desc": "A minimal set of public and reusable data sets in the CK format with unified JSON meta information (used by programs from ctuning-programs repository).",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ctuning-datasets-min/tree/master/repo/ctuning-datasets-min/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ctuning-datasets-min/tree/master/repo/ctuning-datasets-min",
+    "tasks": {},
+    "to_get": "ck pull repo:ctuning-datasets-min",
+    "workflow_desc": ""
+  }
+}

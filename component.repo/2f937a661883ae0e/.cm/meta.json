@@ -1,0 +1,35 @@
+{
+  "dict": {
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-request-asplos18-results-caffe-intel"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "f2be9b14e67b8b23",
+          "repo_uoa": "ck-request-asplos18-results"
+        },
+        {
+          "repo_uid": "0e40b194adc51b5a",
+          "repo_uoa": "ck-request-asplos18-caffe-intel"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-request-asplos18-results-caffe-intel"
+    },
+    "data_uid": "2f937a661883ae0e",
+    "data_uoa": "ck-request-asplos18-results-caffe-intel",
+    "desc": "Collected experimental results in the CK format from the <a href=\"http://cknowledge.org/request-cfp-asplos2018.html\">1st ACM ReQuEST-ASPLOS'18 tournament</a>.",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-request-asplos18-results-caffe-intel/tree/master/repo/ck-request-asplos18-results-caffe-intel/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-request-asplos18-results-caffe-intel/tree/master/repo/ck-request-asplos18-results-caffe-intel",
+    "tasks": {},
+    "to_get": "ck pull repo:ck-request-asplos18-results-caffe-intel",
+    "workflow_desc": ""
+  }
+}

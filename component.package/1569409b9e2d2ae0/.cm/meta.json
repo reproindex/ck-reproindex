@@ -1,0 +1,72 @@
+{
+  "dict": {
+    "check_exit_status": "yes",
+    "comment": "download pre-built Caffe",
+    "customize": {
+      "install_env": {
+        "PACKAGE_NAME": "ck-distro-1c1be4c4592468c7.zip",
+        "PACKAGE_SKIP_CLEAN_INSTALL": "YES",
+        "PACKAGE_UNZIP": "YES",
+        "PACKAGE_URL": "http://cKnowledge.org/packages",
+        "PACKAGE_WGET": "YES",
+        "PACKAGE_WGET_EXTRA": "--no-cookies"
+      },
+      "version": "1c1be4c4592468c7"
+    },
+    "end_full_path": {
+      "win": "install/bin/caffe.exe"
+    },
+    "only_for_target_os_tags": [
+      "windows"
+    ],
+    "package_extra_name": " (cpu)",
+    "process_script": "install",
+    "soft_uoa": "04ab08137582bd03",
+    "suggested_path": "lib-caffe-bvlc-master-cpu-bin",
+    "tags": [
+      "lib",
+      "caffe",
+      "bvlc",
+      "vmaster",
+      "vcpu",
+      "vbin",
+      "v1c1be4c4592468c7",
+      "channel-dev",
+      "channel-stable"
+    ],
+    "use_scripts_from_another_entry": {
+      "data_uoa": "cd9ccc74060b3d18",
+      "module_uoa": "script"
+    }
+  },
+  "misc": {
+    "data_uid": "1569409b9e2d2ae0",
+    "data_uoa": "lib-caffe-bvlc-master-cpu-bin-win",
+    "host_os": "any",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "57e83bca8a5a4344",
+    "repo_uoa": "ck-caffe",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/dividiti/ck-caffe/tree/master/package/lib-caffe-bvlc-master-cpu-bin-win/.cm/meta.json",
+    "repo_url3": "https://github.com/dividiti/ck-caffe/tree/master/package/lib-caffe-bvlc-master-cpu-bin-win",
+    "soft_name": "BVLC Caffe framework",
+    "soft_uid": "04ab08137582bd03",
+    "soft_uoa": "lib.caffe",
+    "stags": "lib,caffe,bvlc,vmaster,vcpu,vbin,v1c1be4c4592468c7,channel-dev,channel-stable",
+    "tags": [
+      "lib",
+      "caffe",
+      "bvlc",
+      "vmaster",
+      "vcpu",
+      "vbin",
+      "v1c1be4c4592468c7",
+      "channel-dev",
+      "channel-stable"
+    ],
+    "target_os": "windows",
+    "template": "",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-caffe.git"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "dict": {
+    "actions": {
+      "show": {
+        "desc": "show results",
+        "for_web": "yes"
+      }
+    },
+    "copyright": "See CK-WA COPYRIGHT.txt for copyright details",
+    "desc": "WA results",
+    "developer": "dividiti",
+    "developer_email": "grigori@dividiti.com",
+    "developer_webpage": "http://dividiti.com",
+    "license": "See CK-WA LICENSE.txt for licensing details",
+    "module_deps": {
+      "graph": "2d41f89bcf32d4d4",
+      "machine": "84be34883a81b2a9",
+      "program": "b0ac08fe1d3c2615",
+      "wa-scenario": "694431881401480c",
+      "wfe": "1e4e644996b7f2a0"
+    }
+  },
+  "misc": {
+    "actions": {
+      "show": {
+        "url_api": "https://github.com/dividiti/ck-wa/tree/master/module/wa-result/module.py#L53"
+      }
+    },
+    "data_uid": "9db0db9369416e1b",
+    "data_uoa": "wa-result",
+    "module_uid": "032630d041b4fd8a",
+    "module_uoa": "module",
+    "repo_uid": "410382d03df408ec",
+    "repo_uoa": "ck-wa",
+    "repo_url1": "https://github.com/dividiti/ck-wa/tree/master/module/wa-result/module.py",
+    "repo_url2": "https://github.com/dividiti/ck-wa/tree/master/module/wa-result/.cm/meta.json",
+    "repo_url3": "",
+    "to_get": "ck pull repo --url=https://github.com/dividiti/ck-wa",
+    "workflow": ""
+  }
+}

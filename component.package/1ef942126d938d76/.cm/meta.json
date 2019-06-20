@@ -1,0 +1,48 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "version": "2.5"
+    },
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "process_script": "process",
+    "soft_uoa": "24fc0bdc87f0f2f9",
+    "suggested_path": "ccc",
+    "tags": [
+      "autotuning",
+      "ccc",
+      "v2.5",
+      "v2"
+    ]
+  },
+  "misc": {
+    "data_uid": "1ef942126d938d76",
+    "data_uoa": "autotuning-ccc-2.5-src-outdated-linux",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "9482c22d7601b0df",
+    "repo_uoa": "reproduce-milepost-project",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/autotuning-ccc-2.5-src-outdated-linux/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/autotuning-ccc-2.5-src-outdated-linux",
+    "soft_name": "Continuous Collective Compilation (autotuning) tool (outdated)",
+    "soft_uid": "24fc0bdc87f0f2f9",
+    "soft_uoa": "autotuning.ccc",
+    "stags": "autotuning,ccc,v2.5,v2",
+    "tags": [
+      "autotuning",
+      "ccc",
+      "v2.5",
+      "v2"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:reproduce-milepost-project"
+  }
+}

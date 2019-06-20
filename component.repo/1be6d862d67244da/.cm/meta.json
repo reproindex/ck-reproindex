@@ -1,0 +1,46 @@
+{
+  "dict": {
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-autotuning"
+      }
+    ],
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-mlperf"
+  },
+  "misc": {
+    "ckr": {
+      "repo_deps": [
+        {
+          "repo_uid": "a4328ba99679e0d1",
+          "repo_uoa": "ck-autotuning"
+        }
+      ],
+      "shared": "git",
+      "url": "https://github.com/ctuning/ck-mlperf"
+    },
+    "data_uid": "1be6d862d67244da",
+    "data_uoa": "ck-mlperf",
+    "desc": "Automated, customizable and portable CK workflows and components for the <a href=\"http://mlperf.org\">MLPerf benchmark</a>.",
+    "module_uid": "befd7892b0d469e9",
+    "module_uoa": "repo",
+    "repo_uid": "9a3280b14a4285c9",
+    "repo_uoa": "local",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-mlperf/tree/master/repo/ck-mlperf/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-mlperf/tree/master/repo/ck-mlperf",
+    "tasks": {
+      "048c03be2f4c7d8b": {
+        "data_uoa": "sylt"
+      },
+      "51b7e87487587f51": {
+        "data_uoa": "image-classification-onnx-py"
+      },
+      "b28273356e4b90a9": {
+        "data_uoa": "fai-pep"
+      }
+    },
+    "to_get": "ck pull repo:ck-mlperf",
+    "workflow_desc": "programs"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "dict": {
+    "auto_detect": "yes",
+    "customize": {
+      "check_that_exists": "yes",
+      "ck_version": 10,
+      "env_prefix": "CK_ENV_DATASET_IMAGENET_TRAIN_TF",
+      "limit_recursion_dir_search": {
+        "linux": 3,
+        "win": 3
+      },
+      "soft_file_universal": "train-00000-of-01024"
+    },
+    "deps": {},
+    "soft_name": "ImageNet dataset (train, TensorFlow)",
+    "tags": [
+      "dataset",
+      "imagenet",
+      "raw",
+      "train-tf"
+    ]
+  },
+  "misc": {
+    "auto_detect": "yes",
+    "data_uid": "5e30307314b4cd58",
+    "data_uoa": "dataset.imagenet.train.tf",
+    "env_prefix": "CK_ENV_DATASET_IMAGENET_TRAIN_TF",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/dataset.imagenet.train.tf/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/dataset.imagenet.train.tf",
+    "soft_name": "ImageNet dataset (train, TensorFlow)",
+    "stags": "dataset,imagenet,raw,train-tf",
+    "tags": [
+      "dataset",
+      "imagenet",
+      "raw",
+      "train-tf"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

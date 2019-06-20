@@ -1,0 +1,53 @@
+{
+  "dict": {
+    "customize": {
+      "env_prefix": "CK_ENV_MATH_ORANGE",
+      "only_for_host_os_tags": [
+        "windows",
+        "linux"
+      ],
+      "only_for_target_os_tags": [
+        "windows",
+        "linux"
+      ]
+    },
+    "soft_name": "Orange analytics",
+    "tags": [
+      "tool",
+      "math",
+      "machine learing",
+      "data mining",
+      "statistics",
+      "predictive analytics",
+      "orange"
+    ]
+  },
+  "misc": {
+    "auto_detect": "no",
+    "data_uid": "1d29c35c5a946058",
+    "data_uoa": "math.orange",
+    "env_prefix": "CK_ENV_MATH_ORANGE",
+    "host_os": "any",
+    "module_uid": "5e1100048ab875d7",
+    "module_uoa": "soft",
+    "repo_uid": "1ff43ae88715a8c1",
+    "repo_uoa": "ck-env",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-env/tree/master/soft/math.orange/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-env/tree/master/soft/math.orange",
+    "soft_name": "Orange analytics",
+    "stags": "tool,math,machine learing,data mining,statistics,predictive analytics,orange",
+    "tags": [
+      "tool",
+      "math",
+      "machine learing",
+      "data mining",
+      "statistics",
+      "predictive analytics",
+      "orange"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-env"
+  }
+}

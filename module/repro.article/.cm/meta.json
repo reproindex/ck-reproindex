@@ -1,0 +1,22 @@
+{
+  "actions": {
+    "add": {
+      "desc": "add new index manually"
+    },
+    "index": {
+      "desc": "add index"
+    },
+    "get": {
+      "desc": "find specific components"
+    },
+    "html": {
+      "desc": "generate html"
+    }
+  },
+  "desc": "index of reproducible articles",
+  "module_deps": {
+    "component": "bd4513457990ba8f",
+    "component.program": "37b8fd897f14d213",
+    "component.repo": "4adfaff6d69d41a9"
+  }
+}

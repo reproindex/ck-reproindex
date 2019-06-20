@@ -1,0 +1,66 @@
+{
+  "dict": {
+    "customize": {
+      "extra_dir": "",
+      "version": "0.9"
+    },
+    "deps": {
+      "lib-gmp": {
+        "local": "yes",
+        "name": "GMP library",
+        "sort": 10,
+        "tags": "lib,gmp"
+      },
+      "lib-mpfr": {
+        "local": "yes",
+        "name": "MPFR library",
+        "sort": 20,
+        "tags": "lib,mpfr"
+      }
+    },
+    "end_full_path": {
+      "linux": "lib/libmpc.a",
+      "mingw": "lib\\libmpc.a"
+    },
+    "only_for_host_os_tags": [
+      "linux"
+    ],
+    "only_for_target_os_tags": [
+      "linux"
+    ],
+    "process_script": "process",
+    "soft_uoa": "067e4f40badd4223",
+    "suggested_path": "mpc",
+    "tags": [
+      "lib",
+      "mpc",
+      "v0.9",
+      "v0"
+    ]
+  },
+  "misc": {
+    "data_uid": "5640341308763040",
+    "data_uoa": "lib-mpc-0.9-linux",
+    "host_os": "linux,macos",
+    "module_uid": "1dc07ee0f4742028",
+    "module_uoa": "package",
+    "repo_uid": "9482c22d7601b0df",
+    "repo_uoa": "reproduce-milepost-project",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/lib-mpc-0.9-linux/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/reproduce-milepost-project/tree/master/package/lib-mpc-0.9-linux",
+    "soft_name": "MPC library",
+    "soft_uid": "067e4f40badd4223",
+    "soft_uoa": "lib.mpc",
+    "stags": "lib,mpc,v0.9,v0",
+    "tags": [
+      "lib",
+      "mpc",
+      "v0.9",
+      "v0"
+    ],
+    "target_os": "linux,macos",
+    "template": "",
+    "to_get": "ck pull repo:reproduce-milepost-project"
+  }
+}

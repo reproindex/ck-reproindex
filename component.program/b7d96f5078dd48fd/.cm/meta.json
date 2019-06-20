@@ -1,0 +1,84 @@
+{
+  "dict": {
+    "backup_data_uid": "b7d96f5078dd48fd",
+    "data_name": "mgbc-snap",
+    "no_compile": "yes",
+    "no_target_file": "yes",
+    "print_files_after_run": [
+      "stderr.log",
+      "stdout.log"
+    ],
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "run_cmds": {
+      "default": {
+        "ignore_return_code": "no",
+        "run_time": {
+          "post_process_via_ck": "no",
+          "run_cmd_main": "mpirun -np $<<CK_MPI_PROCESS>>$ $<<CK_ENV_BC_BIN>>$ -f $<<CK_ENV_DATASET_SNAP_FULL_NAME>>$ -p 1x1 -n $<<CK_ENV_DATASET_SNAP_NUM_OF_VERTICES>>$ -N $<<CK_ENV_DATASET_SNAP_NUM_OF_VERTICES>>$ -H 0 -o $<<CK_ENV_DATASET_SNAP_GRAPH_NAME>>$.out",
+          "run_cmd_out1": "stdout.log",
+          "run_cmd_out2": "stderr.log",
+          "run_output_files": [
+            "stdout.log",
+            "stderr.log"
+          ]
+        }
+      },
+      "test": {
+        "ignore_return_code": "no",
+        "run_time": {
+          "post_process_via_ck": "no",
+          "run_cmd_main": "mpirun -np $<<CK_MPI_PROCESS>>$ $<<CK_ENV_BC_BIN>>$ -f $<<CK_ENV_DATASET_SNAP_FULL_NAME>>$ -p 1x1 -n $<<CK_ENV_DATASET_SNAP_NUM_OF_VERTICES>>$ -N $<<CK_NUM_RUNS>>$ -H 0 -o $<<CK_ENV_DATASET_SNAP_GRAPH_NAME>>$.out",
+          "run_cmd_out1": "stdout.log",
+          "run_cmd_out2": "stderr.log",
+          "run_output_files": [
+            "stdout.log",
+            "stderr.log"
+          ]
+        }
+      }
+    },
+    "run_deps": {
+      "dataset-snap": {
+        "local": "yes",
+        "name": "Snap dataset",
+        "sort": 10,
+        "tags": "dataset,graph,snap"
+      },
+      "lib-mgbc": {
+        "local": "yes",
+        "name": "Multi-GPU BC",
+        "sort": 10,
+        "tags": "lib,bc,exact"
+      }
+    },
+    "run_vars": {
+      "CK_MPI_PROCESS": 1,
+      "CK_NUM_RUNS": 1000
+    },
+    "tags": [
+      "graph"
+    ]
+  },
+  "misc": {
+    "data_uid": "b7d96f5078dd48fd",
+    "data_uoa": "mgbc-snap",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "68121412a8ff317c",
+    "repo_uoa": "ck-graph-analytics",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-graph-analytics/tree/master/program/mgbc-snap/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-graph-analytics/tree/master/program/mgbc-snap",
+    "soft_name": "",
+    "stags": "graph",
+    "tags": [
+      "graph"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-graph-analytics",
+    "version": ""
+  }
+}

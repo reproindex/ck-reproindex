@@ -1,0 +1,49 @@
+{
+  "misc": {
+    "artifact_doi_url": "",
+    "artifact_sources": "GitHub",
+    "artifact_sources_url": "https://github.com/pamela-project/slambench",
+    "authors": "Bruno Bodin, Luigi Nardi, M Zeeshan Zia, Harry Wagstaff, Govind Sreekar Shenoy, Murali Emani, John Mawer, Christos Kotselidis, Andy Nisbet, Mikel Lujan, Björn Franke, Paul Kelly and Michael O'Boyle",
+    "badge_acm_artifact_available": "",
+    "badge_acm_artifact_functional": "",
+    "badge_acm_artifact_reusable": "",
+    "badge_acm_results_replicated": "",
+    "badge_acm_results_reproduced": "",
+    "ck_repo_uid": "208c21b837924601",
+    "paper_doi_url": "https://doi.org/10.1145/2967938.2967963",
+    "paper_pdf_url": "",
+    "reproducibility_url": "",
+    "results": "",
+    "results_dashboard_url": "http://cKnowledge.org/repo-beta",
+    "results_url": "",
+    "some_results_replicated": "yes",
+    "tasks": {
+      "4f65440aa4139cce": {
+        "data_uoa": "slambench-1.1-opencl-dragon-board"
+      },
+      "6a7145744fa93c7e": {
+        "data_uoa": "slambench-1.1-opencl"
+      },
+      "a17c72b9a4c4f2fb": {
+        "data_uoa": "slambench-1.1-cpu-openmp"
+      },
+      "bb2ba2811660c147": {
+        "data_uoa": "slambench-1.1-cuda"
+      },
+      "e4495a6270f52615": {
+        "data_uoa": "slambench-1.1-cpu"
+      }
+    },
+    "title": "Integrating algorithmic parameters into benchmarking and design space exploration in dense 3D scene understanding",
+    "unified_artifact_appendix": "",
+    "where": "PACT'16",
+    "where_url": "http://pactconf.org",
+    "workflow": "CK",
+    "workflow_url": "https://github.com/ctuning/reproduce-pamela-project"
+  },
+  "tags": [
+    "papers",
+    "papers-pact",
+    "papers-pact-2016"
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "dict": {
+    "backup_data_uid": "f485ac43a881585b",
+    "ck_to_env": {
+      "CK_WA_SCRIPTS_PATH": "script:39157fb314f399ae"
+    },
+    "clean_dirs": [
+      "wa_output"
+    ],
+    "data_name": "WA workload: video",
+    "deps": {
+      "wa": {
+        "env_key": "WA",
+        "force_target_as_host": "yes",
+        "local": "yes",
+        "name": "ARM Workload Automation",
+        "sort": 10,
+        "tags": "tool,wa"
+      }
+    },
+    "no_compile": "yes",
+    "no_target_file": "yes",
+    "params": {
+      "filename": {
+        "allowed_values": null,
+        "default": null,
+        "desc": "The name of the video file to play. This can be either a path  to the file anywhere on your file system, or it could be just a  name, in which case, the workload will look for it in  ``~/.workloads_automation/dependency/video``  *Note*: either resolution or filename should be specified, but not both!",
+        "mandatory": null,
+        "type": "str"
+      },
+      "force_dependency_push": {
+        "allowed_values": null,
+        "default": false,
+        "desc": "If true, video will always be pushed to device, regardless of whether the file is already on the device.  Default is ``False``.",
+        "mandatory": null,
+        "type": "boolean"
+      },
+      "modules": {
+        "allowed_values": null,
+        "default": null,
+        "desc": "Lists the modules to be loaded by this extension. A module is a plug-in that further extends functionality of an extension.",
+        "mandatory": null,
+        "type": "list"
+      },
+      "play_duration": {
+        "allowed_values": null,
+        "default": 20,
+        "desc": "Playback duration of the video file. This become the duration of the workload.",
+        "mandatory": null,
+        "type": "integer"
+      },
+      "resolution": {
+        "allowed_values": [
+          "480p",
+          "720p",
+          "1080p"
+        ],
+        "default": "720p",
+        "desc": "Specifies which resolution video file to play.",
+        "mandatory": null,
+        "type": "str"
+      }
+    },
+    "print_files_after_run": [
+      "tmp-output2.tmp",
+      "wa_output/status.txt",
+      "wa_output/video_1_1/result.txt"
+    ],
+    "process_in_tmp": "yes",
+    "program": "yes",
+    "required_device_access_type": [
+      "wa_android",
+      "wa_linux"
+    ],
+    "run_cmds": {
+      "default": {
+        "ignore_return_code": "no",
+        "run_time": {
+          "fine_grain_timer_file": "tmp-ck-timer.json",
+          "post_process_cmds": [
+            "python $<<CK_WA_SCRIPTS_PATH>>$$#dir_sep#$postprocess_workload.py"
+          ],
+          "post_process_via_ck": "yes",
+          "pre_process_via_ck": {
+            "data_uoa": "process-wa",
+            "module_uoa": "script",
+            "script_name": "preprocess_workload"
+          },
+          "run_cmd_main": "wa run $<<CK_WA_CMD>>$",
+          "run_cmd_out1": "tmp-output1.tmp",
+          "run_cmd_out2": "tmp-output2.tmp",
+          "run_output_files": []
+        }
+      }
+    },
+    "run_via_third_party": "yes",
+    "tags": [
+      "wa",
+      "workload-automation",
+      "video"
+    ],
+    "wa_alias": "video",
+    "wa_desc": "Plays a video file using the standard android video player for a predetermined duration"
+  },
+  "misc": {
+    "data_uid": "f485ac43a881585b",
+    "data_uoa": "wa-video",
+    "host_os": "any",
+    "module_uid": "b0ac08fe1d3c2615",
+    "module_uoa": "program",
+    "repo_uid": "cca2211feceec6dc",
+    "repo_uoa": "ck-wa-workloads",
+    "repo_url1": "",
+    "repo_url2": "https://github.com/ctuning/ck-wa-workloads/tree/master/program/wa-video/.cm/meta.json",
+    "repo_url3": "https://github.com/ctuning/ck-wa-workloads/tree/master/program/wa-video",
+    "soft_name": "",
+    "stags": "wa,workload-automation,video",
+    "tags": [
+      "wa",
+      "workload-automation",
+      "video"
+    ],
+    "target_os": "any",
+    "template": "",
+    "to_get": "ck pull repo:ck-wa-workloads",
+    "version": ""
+  }
+}
