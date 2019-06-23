@@ -8,7 +8,7 @@ Compatibility: Linux, MacOS, Windows
 
 # Description
 
-This repository contains cross-linked research components and reproducible papers in the [CK format](https://cKnowledge.org).
+This repository contains reusable and cross-linked research components from reproduced papers in the [CK format](https://cKnowledge.org).
 
 # Installation
 
@@ -84,5 +84,13 @@ How to customize URL:
 
 # Feedback
 
-Feel free to provide your [feedback and suggestions](https://github.com/reproindex/ck-reproindex/issues) 
-to help us improve this index and the website, and make it more useful and convenient to researchers! 
+This community project is in very early stage and there is still a lot to be done.
+We need your participation and feedback to improve our open-source technology
+and make it more convenient for researchers and engineers.
+Please submit your issues and request features at https://github.com/reproindex/ck-reproindex/issues .
+
+Feel free to register at the [ReproIndex website](https://reproindex.com/create-account) 
+and sign up to our [twitter](https://twitter.com/ReproIndex) to keep track of the latest news. 
+You are also very welcome to participate in this standardization effort 
+via our [Slack channel](https://bit.ly/ck-slack) and 
+this [public discussion group](https://groups.google.com/forum/#!forum/collective-knowledge). 
