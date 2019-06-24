@@ -1,0 +1,16 @@
+{
+  "backup_data_uid": "4ed880b7a48b78d9",
+  "backup_module_uid": "c528f82d6ee43a79",
+  "backup_module_uoa": "repro.event",
+  "control": {
+    "engine": "CK",
+    "iso_datetime": "2019-06-24T13:24:41.213546",
+    "version": [
+      "1",
+      "9",
+      "8",
+      "1"
+    ]
+  },
+  "data_name": "repro-rtss2016"
+}

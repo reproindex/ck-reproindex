@@ -1,0 +1,16 @@
+{
+  "backup_data_uid": "841bb4565a0ec237",
+  "backup_module_uid": "c528f82d6ee43a79",
+  "backup_module_uoa": "repro.event",
+  "control": {
+    "engine": "CK",
+    "iso_datetime": "2019-06-24T13:32:02.643673",
+    "version": [
+      "1",
+      "9",
+      "8",
+      "1"
+    ]
+  },
+  "data_name": "repro-cgo2015"
+}

@@ -1,0 +1,16 @@
+{
+  "backup_data_uid": "79fe1a942e49eb92",
+  "backup_module_uid": "c528f82d6ee43a79",
+  "backup_module_uoa": "repro.event",
+  "control": {
+    "engine": "CK",
+    "iso_datetime": "2019-06-24T13:23:25.161132",
+    "version": [
+      "1",
+      "9",
+      "8",
+      "1"
+    ]
+  },
+  "data_name": "repro-sc2016"
+}
