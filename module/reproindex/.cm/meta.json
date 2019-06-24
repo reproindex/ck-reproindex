@@ -1,0 +1,12 @@
+{
+  "actions": {
+    "request": {
+      "desc": "request research validation"
+    }
+  },
+  "desc": "ReproIndex main module",
+  "module_deps":{
+    "misc":"cddc5e04b0da610e"
+  },
+  "request_uoa":"request-research-validation"
+}
