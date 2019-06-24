@@ -1,22 +1,10 @@
 {
   "misc": {
-    "dashboard_url": "https://cknowledge.org/dashboard/mlperf.mobilenets",
-    "dashboard_note": " (CK standardization attempt)",
-    "workflows":[
-       {"cid":"4adfaff6d69d41a9:28d34dd08a524be2", "name":"armnn-mlperf"},
-       {"cid":"4adfaff6d69d41a9:1be6d862d67244da", "name":"ck-mlperf"}
-    ],
-    "date": "201909",
-    "date_print": "September 2019",
-    "images": [
-      {
-        "file": "dashboard.png",
-        "url": "https://cknowledge.org/dashboard/mlperf.mobilenets",
-        "width":300
-      }
-    ],
-    "title": "MLPerf inference submissions'19",
-    "url": "https://mlperf.org"
+    "date": "20190906",
+    "date_print": "September 6, 2019",
+    "notes":"",
+    "title": "MLPerf v0.5 inference benchmark submissions",
+    "url": "https://www.mlperf.org/inference-overview"
   },
   "tags": [
     "events",
