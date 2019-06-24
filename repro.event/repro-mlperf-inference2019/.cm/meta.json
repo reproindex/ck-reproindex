@@ -2,7 +2,7 @@
   "misc": {
     "date": "20190906",
     "date_print": "September 6, 2019",
-    "notes":"",
+    "notes":"<a href=\"https://mlperf.org\">MLPerf.org</a> announced the <a href=\"https://www.mlperf.org/press#mlperf-inference-launched\">v0.5 inference benchmark suite</a>. Submissions for two image classification tasks, two object detection tasks, and one machine translation task are due September 6th, 2019!",
     "title": "MLPerf v0.5 inference benchmark submissions",
     "url": "https://www.mlperf.org/inference-overview"
   },
