@@ -1,7 +1,7 @@
 {
   "misc": {
-    "dashboard_note": " (CK standardization attempt)",
-    "dashboard_url": "https://cknowledge.org/dashboard/mlperf.mobilenets",
+    "dashboard_note": " (CK unification and reproducibility)",
+    "dashboard_url": "https://cKnowledge.org/dashboard/mlperf.mobilenets",
     "date": "20190905",
     "date_print": "September, 2019",
     "images": [
@@ -11,9 +11,9 @@
         "width": 300
       }
     ],
-    "notes": "",
-    "title": "Validation of MLPerf benchmarking results",
-    "url": "https://mlperf.org",
+    "notes": "<a href=\"https://mlperf.org\">MLPerf.org</a> announced the <a href=\"https://www.mlperf.org/press#mlperf-inference-launched\">v0.5 inference benchmark suite</a>. Submissions for two image classification tasks, two object detection tasks, and one machine translation task are due September 6th, 2019! Other resources: <a href=\"https://insidehpc.com/2019/06/new-mlperf-benchmark-measures-machine-learning-inference-performance\">InsideHPC</a>, <a href=\"https://github.com/mlperf\">GitHub</a>.",
+    "title": "Validation of MLPerf inference benchmark results",
+    "url": "https://www.mlperf.org/inference-overview",
     "workflows": [
       {
         "cid": "4adfaff6d69d41a9:28d34dd08a524be2",
