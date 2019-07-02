@@ -220,7 +220,8 @@ def html(i):
        x=deadline_p
        if x=='': x=deadline
        if x!='':
-          h+='<b>Deadline:</b> <span style="color:#7f0000";>'+x+'</span><br>\n'
+#          h+='<b>Deadline:</b> <span style="color:#7f0000";>'+x+'</span><br>\n'
+          h+='<b>Deadline:</b> '+x+'<br>\n'
 
 #       x=llm.get('tags',[])
 #       if len(x)!='':
