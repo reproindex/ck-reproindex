@@ -1,7 +1,7 @@
 {
   "index": [
     {"name":"Repositories", "id":"repo", "uid":"4adfaff6d69d41a9", "orig_module_uid":"befd7892b0d469e9"},
-    {"name":"Modules", "id":"module", "uid":"4700aece50b4de77", "orig_module_uid":"032630d041b4fd8a"},
+    {"name":"Actions & modules", "id":"module", "uid":"4700aece50b4de77", "orig_module_uid":"032630d041b4fd8a"},
     {"name":"Tasks (program workflows)", "id":"program", "uid":"37b8fd897f14d213", "orig_module_uid":"b0ac08fe1d3c2615"},
     {"name":"Software detection plugins", "id":"soft", "uid":"c4746e18ba0d23fe", "orig_module_uid":"5e1100048ab875d7"},
     {"name":"Packages (code, data, models)", "id":"package", "uid":"5bd40c8c212063a3", "orig_module_uid":"1dc07ee0f4742028"}
