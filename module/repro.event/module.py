@@ -198,7 +198,7 @@ def html(i):
 
        h+='<div id="ck_entries_space4"></div>\n'
 
-       h+='<div style="background-color:#efefef;margin:5px;padding:5px;">\n'
+       h+='<div style="background-color:#ffffff;margin:5px;padding:5px;">\n'
 
        event_url=llmisc.get('url','')
        if event_url=='':
