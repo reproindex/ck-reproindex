@@ -1,7 +1,9 @@
 {
-  "skip":"yes",
   "misc": {
-    "date": "TBA",
+    "date": "20200302",
+    "date_print": "March 2, 2020",
+    "deadline": "20200110",
+    "deadline_print": "January 10, 2020",
     "title": "Reproducibility initiative at SysML'20",
     "use_self_url": "yes"
   },
