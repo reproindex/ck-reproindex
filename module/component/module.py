@@ -392,7 +392,15 @@ def get(i):
 
        h+=h1
 
-    return {'return':0, 'len':llst, 'html':h, 'html_c':hc}
+    r={'return':0, 'len':llst, 'html':h, 'html_c':hc}
+
+    if llst==1:
+       r['data_uoa']=lst[0]['data_uoa']
+       r['data_uid']=lst[0]['data_uid']
+       r['module_uoa']=lst[0]['module_uoa']
+       r['module_uid']=lst[0]['module_uid']
+
+    return r
 
 ##############################################################################
 # index components
