@@ -1,6 +1,6 @@
 {
   "misc": {
-    "artifact_doi_url": "https://dl.acm.org/citation.cfm?doid=3068854",
+    "artifact_doi_url": "https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F2807591.2807619&file=artifact.zip&download=true",
     "artifact_sources": "",
     "artifact_sources_url": "",
     "authors": "Patrick Flick, Patrick Flick, Tony Pan, Srinivas Aluru",
@@ -22,7 +22,7 @@
     "where": "SC'15",
     "where_url": "http://sc15.supercomputing.org",
     "workflow": "CK",
-    "workflow_url": "https://dl.acm.org/citation.cfm?doid=3068854"
+    "workflow_url": "https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F2807591.2807619&file=artifact.zip&download=true"
   },
   "tags": [
     "papers",
